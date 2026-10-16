@@ -1,0 +1,273 @@
+{
+  "conclusion": "The sharp cyclic minimum for a full-valid eight-point set is248.",
+  "boundary": "Complete computer-assisted proof argument; separate same-assistant checks; not external/formal certification.",
+  "files": [
+    {
+      "path": "proof_frontier.md",
+      "bytes": 2562,
+      "sha256": "1d349557ba5dff7bad477a88b312266fb73badc56e7a70eaff2d8d6d6ff0ef40"
+    },
+    {
+      "path": "stage60_large_forest_proof.md",
+      "bytes": 10471,
+      "sha256": "7cf36d16e36ddddf20480cd87a1a3aec3503f387399db751e7ae7e0cc6cafc60"
+    },
+    {
+      "path": "stage60_certificate_check.py",
+      "bytes": 12363,
+      "sha256": "c70a9309deb896345b2c93b4b5b00389e3dc256eab81d631eb547dcc2b13e9e1"
+    },
+    {
+      "path": "stage60_forest_certificates.json.gz",
+      "bytes": 4775014,
+      "sha256": "292630fd2b93571598eb4f894f791b168888c27939952ad59dad80edd704101b"
+    },
+    {
+      "path": "stage60_check_results.json",
+      "bytes": 1116,
+      "sha256": "4f2e058f1aa19c89b98da0f0b98042460a871bfdf8a55a304ad9b17ef0d18b02"
+    },
+    {
+      "path": "stage61_interaction_proof.md",
+      "bytes": 4604,
+      "sha256": "5ef71bdb943c6b7c397c6e73db6fb6df8dbb715c4aef04dc08caad700ca79855"
+    },
+    {
+      "path": "stage61_certificate_check.py",
+      "bytes": 6578,
+      "sha256": "ac33e0bb84b325aac08072868ff73f932a8c9f8a0fbe764068e005d8232e8e17"
+    },
+    {
+      "path": "stage61_interaction_certificates.json.gz",
+      "bytes": 5573892,
+      "sha256": "333c4cbd58bf769ae7d9e2f2ffc7f3cc8fbc6115a0da9ac7662eec694dc6d753"
+    },
+    {
+      "path": "stage61_check_results.json",
+      "bytes": 807,
+      "sha256": "6732cbc3a8b51d7caa90b950b9e8fb197d8aae5dfaa3551442215f7ef79f748a"
+    },
+    {
+      "path": "stage62_two_triangle_proof.md",
+      "bytes": 2954,
+      "sha256": "b9b6eaffaf1d683c53213a2e06e29279ff2e33eac812de60303bf32938216068"
+    },
+    {
+      "path": "stage62_single_class_split_proof.md",
+      "bytes": 2373,
+      "sha256": "594987910cba379307fab9a7573f776e07fbfedf28b4db12efb1a68ca315a4bd"
+    },
+    {
+      "path": "stage62_open_credit_proof.md",
+      "bytes": 8284,
+      "sha256": "0442b81065ab8347775d865ff84b9718851d0f83626e038fbd4b2c7c91c5ea07"
+    },
+    {
+      "path": "stage62_certificate_check.py",
+      "bytes": 11066,
+      "sha256": "0fbf88eb44163f105614d6a33c63488073a41b6713a117812694d4a2ffaf9d6e"
+    },
+    {
+      "path": "stage62_single_class_certificates.json.gz",
+      "bytes": 16251751,
+      "sha256": "868ddf0fff6d4059039b177c8fa0f237336d6f843966da765e77127a955a0108"
+    },
+    {
+      "path": "stage62_check_results.json",
+      "bytes": 595,
+      "sha256": "0fba5c34d6457b961b208d145cad3e94f00b8d23b228682f1663d703602a2471"
+    },
+    {
+      "path": "stage63_full_bound_proof.md",
+      "bytes": 6688,
+      "sha256": "5cdafa4ca4e3660c53ee680eb1269e436c4035969f21304b09a33340643b61e3"
+    },
+    {
+      "path": "stage63_finishing_check.py",
+      "bytes": 2747,
+      "sha256": "1245a73ba77a7c5d4c00ed1fb91219603b3162c44833b1e7c922be223557ae5b"
+    },
+    {
+      "path": "stage63_finishing_results.json",
+      "bytes": 673,
+      "sha256": "068e0600330291c0c1b5bb0837468a44ac947669719675d8088e9d06f34b2ef5"
+    },
+    {
+      "path": "stage63_findings.md",
+      "bytes": 2394,
+      "sha256": "28c0bcabee5c02b599fecd69bfdae912f8d5db8370e3d71b6a2d098567a1fec3"
+    },
+    {
+      "path": "stage63_dependency_check.py",
+      "bytes": 1794,
+      "sha256": "966811e48f626f3e46e52ed9d54bc2eba5530e21a6ff096770e6df5e0d982ea3"
+    },
+    {
+      "path": "stage42_certificate_check.py",
+      "bytes": 4249,
+      "sha256": "0dc66364bf87ee89fbf45e97c88f5c9f805277b9d5e3ba8b5acc34c7a63f32fd"
+    },
+    {
+      "path": "stage32_even_independent.py",
+      "bytes": 7266,
+      "sha256": "729dcd2359d388289e1bcbba227c3b5d1bb4a32d6168f9b3d65d16a58e7eefeb"
+    },
+    {
+      "path": "stage34_seven_sum_independent.py",
+      "bytes": 4184,
+      "sha256": "e800418ec800b08643eb0af57172031f0f5a27e4f4f098a683b921eb91cfee52"
+    },
+    {
+      "path": "stage64_verifier_hardening_check.py",
+      "bytes": 4881,
+      "sha256": "8fc7263473323e3d861ab4d060e9bcd18e0e3be397d50734027e1e38d50452da"
+    },
+    {
+      "path": "stage64_verifier_hardening_results.json",
+      "bytes": 1061,
+      "sha256": "bdd70679716dfc93dc6b8de777bf83e94fc3cc8450df067fcedeac124b0a8ade"
+    },
+    {
+      "path": "stage64_merge_hardening.md",
+      "bytes": 1945,
+      "sha256": "e6ce37240ca7611d825079d825cc6684fb5b16e0f56eaa97b1efb39d29f7e771"
+    },
+    {
+      "path": "proof_audit_pr28.md",
+      "bytes": 34819,
+      "sha256": "66d176588f9f9913bdeb5c289e837a9735dbc312b46e8025d79fc16326a7020e"
+    }
+  ],
+  "archive_checks": [
+    [
+      "stage60_forest_certificates.json.gz",
+      "stage60_check_results.json"
+    ],
+    [
+      "stage61_interaction_certificates.json.gz",
+      "stage61_check_results.json"
+    ],
+    [
+      "stage62_single_class_certificates.json.gz",
+      "stage62_check_results.json"
+    ]
+  ],
+  "earlier_chain": "Proved parity/counting/source/cap/ordinary-pair theorems in the Stage59 parent tree. Incomplete discovery statuses are not premises.",
+  "archive_parts": {
+    "stage60_forest_certificates.json.gz": [
+      {
+        "path": "stage60_forest_certificates.json.gz.part000",
+        "bytes": 524288,
+        "sha256": "ee760806e7d39b3162120740baebcd99f94539bbb5491266ae37e6b79f4e76ef"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part001",
+        "bytes": 524288,
+        "sha256": "a05e989617340429966baba41a337fa46bfe71ac6bd53ac65992ead42cbe2241"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part002",
+        "bytes": 524288,
+        "sha256": "ecf8b2ac276a1dc896806eb96b45179fe432f933f3b057c45b26a118b677f96a"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part003",
+        "bytes": 524288,
+        "sha256": "d2b15be406cf682e3a13b23c409e679c06ab8f96feb4ba809e715a89e6d6b611"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part004",
+        "bytes": 524288,
+        "sha256": "fc014e3dd7da04a9148ac204a294ea2fadd46b691bacc9e72fa913254201f24c"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part005",
+        "bytes": 524288,
+        "sha256": "c7c6d6bd6132e194eb62e863055832cff7a080330c55b146e9684d2fb7ecb29e"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part006",
+        "bytes": 524288,
+        "sha256": "f8d7ee27f809b655871d59a565e5f1230f351dcdf2eabac9d1ab4f0bd1257b73"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part007",
+        "bytes": 524288,
+        "sha256": "ffb68969892fc547985ce705715c46d02272b18c0259e2077d938c455998014a"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part008",
+        "bytes": 524288,
+        "sha256": "03f3e584cc69355bff5601b348284588b28a453a9a13ea45b8c36c442ee62192"
+      },
+      {
+        "path": "stage60_forest_certificates.json.gz.part009",
+        "bytes": 56422,
+        "sha256": "bd4fa2b786063c12303c178f4f2ea61eae8bee9462186d74a9b55f23f5112acd"
+      }
+    ],
+    "stage61_interaction_certificates.json.gz": [
+      {
+        "path": "stage61_interaction_certificates.json.gz.part000",
+        "bytes": 524288,
+        "sha256": "169e6da624df758f86c2bbdd1a727ae079a3d3171efef303fb3d6601dc27db41"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part001",
+        "bytes": 524288,
+        "sha256": "a950af06477d7587cb740a03796c76ee17ec25fa2ca3957f463771b85d4fe1a1"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part002",
+        "bytes": 524288,
+        "sha256": "1cb939dd42bd00a493167ed94e029aa8027fcf6150d1e46d1ed2436720eacaa3"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part003",
+        "bytes": 524288,
+        "sha256": "54409560bc50de7bd1c7866667697228c2a2b9faeaf80b9b3bf6cd0336fbc349"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part004",
+        "bytes": 524288,
+        "sha256": "10b1585654082c5f3e19232242ade8c9d918e01156437af59cd6942fe1b58518"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part005",
+        "bytes": 524288,
+        "sha256": "45690d7bb476ae0de79f64bf572a18fae10ffe965964ae05d02794ef411c71c1"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part006",
+        "bytes": 524288,
+        "sha256": "d2f4a306d81e85ae93140fe837e92d69c98dd11c1d8a92d629b9d32684f939fd"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part007",
+        "bytes": 524288,
+        "sha256": "0b323b1fddff18721bbc8fa585f718dc3dcc660fa5b6b49da91fc4f5b7c2cb32"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part008",
+        "bytes": 524288,
+        "sha256": "5ed49580e4fa658148e9fa9a3ecf301608a0aeab9e5574b9d1b258cd4b3bcefd"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part009",
+        "bytes": 524288,
+        "sha256": "7fac4966edabdf4ca04ad3cefc17a9ed4af5c8b7df09bd299eff6e305d4b3c74"
+      },
+      {
+        "path": "stage61_interaction_certificates.json.gz.part010",
+        "bytes": 331012,
+        "sha256": "4f427702077f9d9e15352f5a9e16c5d96f6929041a69ab6d59965a578680bf12"
+      }
+    ]
+  },
+  "hardening": {
+    "math_certificates_changed": false,
+    "stage42_min_quartic_values": 89,
+    "incomplete_parity_exit": 2,
+    "regression": "stage64_verifier_hardening_check.py"
+  }
+}

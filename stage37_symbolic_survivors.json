@@ -1,0 +1,64 @@
+{
+  "unexcluded_odd_orders": [
+    207,
+    209,
+    211,
+    213,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    227,
+    229,
+    231,
+    233,
+    235,
+    237,
+    239,
+    241,
+    243,
+    245,
+    247
+  ],
+  "discovery_only_completed_orders": [
+    207,
+    209,
+    211,
+    213,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    227
+  ],
+  "discovery_interrupted_order": 229,
+  "independent_interrupted_order": 207,
+  "no_actual_valid_eight_set_survivor_found": true,
+  "family": {
+    "B": "Primitive valid five-set; canonical normalized unit pair or all unitless divisor roots",
+    "C": "c+{0,u,v}, 0<u<v, 0<=c<N-v, B and C disjoint",
+    "G": "sum(B)-complement(5B)",
+    "opposing_shapes": [
+      "u",
+      "-u",
+      "v",
+      "-v",
+      "v-u",
+      "u-v",
+      "-u-v",
+      "2u-v",
+      "2v-u"
+    ],
+    "constraints": "All nine deviations in G; q6/q7/q8 holes as Stage33; whole-set Sidon and remaining q0..4",
+    "structural_requirements": [
+      "h>0 by Stage26",
+      "doubling overlap<=5 by Stage29",
+      "4A aperiodic by new Stage37 elementary proof"
+    ]
+  },
+  "status": "Symbolic necessary families, not counterexamples or complete exclusions"
+}

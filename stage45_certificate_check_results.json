@@ -1,0 +1,59 @@
+{
+  "symbolic_assignments_checked": 1296,
+  "safe_rivals_checked": 714,
+  "unexcluded_symbolic_assignments": 582,
+  "five_full_word_checks": 126,
+  "binary_five_full_word_checks": 126,
+  "eight_full_word_checks": 6435,
+  "mixed311_fiber_80": [
+    [
+      0,
+      1,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      3,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_cap_three_refuted": true,
+  "existing_multiplicity_caps_satisfied": true,
+  "counterexample_T4": 229,
+  "family_T4_positive_bound": 92,
+  "growth_pair_witnesses_checked": 4186,
+  "complete_mixed_pattern_excluded": true,
+  "symmetry_equivalent_patterns_closed": 24,
+  "still_unexcluded_symbolic_assignments": 558,
+  "boundary": "Large-odd counterexample to a local mixed-fiber lemma; one complete mixed collision pattern excluded below248 by integer coverage and quartic growth. Global N>=248 remains open; other residual patterns are not excluded."
+}

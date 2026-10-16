@@ -1,0 +1,98 @@
+{
+  "scope": "Three fixed positive cyclic controls,52 symbolic companion assignments and positive pair-lift arithmetic.",
+  "controls": [
+    {
+      "name": "path",
+      "full_valid": true,
+      "T3_T4_T5": [
+        62,
+        244,
+        664
+      ],
+      "ordinary_caps": [
+        2,
+        3,
+        3
+      ],
+      "quartic_triangle_cores": 0,
+      "ordinary_pair_counts": {
+        "3": 2,
+        "4": 9,
+        "5": 14
+      },
+      "disjoint_tail_pair_counts": {
+        "3": 2,
+        "4": 1,
+        "5": 0
+      }
+    },
+    {
+      "name": "split",
+      "full_valid": true,
+      "T3_T4_T5": [
+        63,
+        250,
+        685
+      ],
+      "ordinary_caps": [
+        2,
+        2,
+        3
+      ],
+      "quartic_triangle_cores": 0,
+      "ordinary_pair_counts": {
+        "3": 1,
+        "4": 6,
+        "5": 10
+      },
+      "disjoint_tail_pair_counts": {
+        "3": 1,
+        "4": 2,
+        "5": 0
+      }
+    },
+    {
+      "name": "star_avoiding",
+      "full_valid": true,
+      "T3_T4_T5": [
+        60,
+        228,
+        592
+      ],
+      "ordinary_caps": [
+        2,
+        3,
+        3
+      ],
+      "quartic_triangle_cores": 1,
+      "ordinary_pair_counts": {
+        "3": 4,
+        "4": 17,
+        "5": 26
+      },
+      "disjoint_tail_pair_counts": {
+        "3": 4,
+        "4": 1,
+        "5": 0
+      }
+    }
+  ],
+  "star_inventory_audit": {
+    "assignments": 52,
+    "positive_rivals_checked": 6,
+    "hand_221_excluded_assignments": 6,
+    "positive_star_pair_identities_checked": 726,
+    "corruption_controls_rejected": 4,
+    "same_v_parity_hand_cases_checked": 699,
+    "hand_positive_parity_rivals": 507,
+    "fixed_parity_impossible_equalities": 192,
+    "absence_boundary": "No universal group exclusion follows for models without an identical formal rival."
+  },
+  "restricted_matching_slice_audit": {
+    "fixed_assignments_independently_rebuilt": 8000,
+    "positive_signed_sum_rivals": 2340,
+    "restricted_formula_failures": 5660,
+    "boundary": "Formula failures are neither valid sets nor unclosed full group models."
+  },
+  "boundary": "All controls have T4>88; none resolves an odd order below248."
+}

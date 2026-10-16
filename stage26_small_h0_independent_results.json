@@ -1,0 +1,3809 @@
+{
+  "completion": "COMPLETE",
+  "seconds_limit": 10,
+  "elapsed_seconds": 0.031000000002677552,
+  "surviving_orders": [
+    195,
+    215,
+    217,
+    221,
+    225
+  ],
+  "records": [
+    {
+      "H": 187,
+      "orbit_count": 5,
+      "eligible_orbits": 3,
+      "subsets_examined": 8,
+      "necessary_unions": []
+    },
+    {
+      "H": 189,
+      "orbit_count": 11,
+      "eligible_orbits": 10,
+      "subsets_examined": 1024,
+      "necessary_unions": []
+    },
+    {
+      "H": 191,
+      "orbit_count": 1,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 193,
+      "orbit_count": 2,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 195,
+      "orbit_count": 13,
+      "eligible_orbits": 12,
+      "subsets_examined": 4096,
+      "necessary_unions": [
+        {
+          "representatives": [
+            1,
+            5,
+            13
+          ],
+          "block_sizes": [
+            24,
+            24,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            7,
+            13
+          ],
+          "block_sizes": [
+            24,
+            24,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            7,
+            13
+          ],
+          "block_sizes": [
+            24,
+            24,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            3,
+            9,
+            13
+          ],
+          "block_sizes": [
+            24,
+            12,
+            12,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            5,
+            9,
+            13
+          ],
+          "block_sizes": [
+            12,
+            24,
+            12,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            7,
+            9,
+            13
+          ],
+          "block_sizes": [
+            12,
+            24,
+            12,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            11,
+            13
+          ],
+          "block_sizes": [
+            24,
+            24,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            11,
+            13
+          ],
+          "block_sizes": [
+            24,
+            24,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            11,
+            13
+          ],
+          "block_sizes": [
+            24,
+            24,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            9,
+            11,
+            13
+          ],
+          "block_sizes": [
+            12,
+            12,
+            24,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            3,
+            13,
+            15
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            5,
+            13,
+            15
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            7,
+            13,
+            15
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            9,
+            13,
+            15
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            9,
+            13,
+            15
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            9,
+            13,
+            15
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            11,
+            13,
+            15
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            11,
+            13,
+            15
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            13,
+            17
+          ],
+          "block_sizes": [
+            24,
+            8,
+            24
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            13,
+            17
+          ],
+          "block_sizes": [
+            24,
+            8,
+            24
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            13,
+            17
+          ],
+          "block_sizes": [
+            24,
+            8,
+            24
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            9,
+            13,
+            17
+          ],
+          "block_sizes": [
+            12,
+            12,
+            8,
+            24
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            11,
+            13,
+            17
+          ],
+          "block_sizes": [
+            24,
+            8,
+            24
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            13,
+            15,
+            17
+          ],
+          "block_sizes": [
+            12,
+            8,
+            12,
+            24
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            13,
+            15,
+            17
+          ],
+          "block_sizes": [
+            12,
+            8,
+            12,
+            24
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            3,
+            13,
+            21
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            5,
+            13,
+            21
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            7,
+            13,
+            21
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            9,
+            13,
+            21
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            9,
+            13,
+            21
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            9,
+            13,
+            21
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            11,
+            13,
+            21
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            11,
+            13,
+            21
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            13,
+            15,
+            21
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            13,
+            15,
+            21
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            13,
+            15,
+            21
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            9,
+            13,
+            15,
+            21
+          ],
+          "block_sizes": [
+            12,
+            12,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            11,
+            13,
+            15,
+            21
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            13,
+            17,
+            21
+          ],
+          "block_sizes": [
+            12,
+            8,
+            24,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            13,
+            17,
+            21
+          ],
+          "block_sizes": [
+            12,
+            8,
+            24,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            13,
+            15,
+            17,
+            21
+          ],
+          "block_sizes": [
+            8,
+            12,
+            24,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            3,
+            13,
+            33
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            5,
+            13,
+            33
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            7,
+            13,
+            33
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            9,
+            13,
+            33
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            9,
+            13,
+            33
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            9,
+            13,
+            33
+          ],
+          "block_sizes": [
+            24,
+            12,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            11,
+            13,
+            33
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            11,
+            13,
+            33
+          ],
+          "block_sizes": [
+            12,
+            24,
+            8,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            13,
+            15,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            13,
+            15,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            13,
+            15,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            9,
+            13,
+            15,
+            33
+          ],
+          "block_sizes": [
+            12,
+            12,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            11,
+            13,
+            15,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            13,
+            17,
+            33
+          ],
+          "block_sizes": [
+            12,
+            8,
+            24,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            13,
+            17,
+            33
+          ],
+          "block_sizes": [
+            12,
+            8,
+            24,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            13,
+            15,
+            17,
+            33
+          ],
+          "block_sizes": [
+            8,
+            12,
+            24,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            13,
+            21,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            13,
+            21,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            13,
+            21,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            9,
+            13,
+            21,
+            33
+          ],
+          "block_sizes": [
+            12,
+            12,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            11,
+            13,
+            21,
+            33
+          ],
+          "block_sizes": [
+            24,
+            8,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            13,
+            15,
+            21,
+            33
+          ],
+          "block_sizes": [
+            12,
+            8,
+            12,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            13,
+            15,
+            21,
+            33
+          ],
+          "block_sizes": [
+            12,
+            8,
+            12,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            13,
+            17,
+            21,
+            33
+          ],
+          "block_sizes": [
+            8,
+            24,
+            12,
+            12
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "H": 197,
+      "orbit_count": 1,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 199,
+      "orbit_count": 1,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 201,
+      "orbit_count": 4,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 203,
+      "orbit_count": 3,
+      "eligible_orbits": 2,
+      "subsets_examined": 4,
+      "necessary_unions": []
+    },
+    {
+      "H": 205,
+      "orbit_count": 11,
+      "eligible_orbits": 11,
+      "subsets_examined": 2048,
+      "necessary_unions": []
+    },
+    {
+      "H": 207,
+      "orbit_count": 5,
+      "eligible_orbits": 3,
+      "subsets_examined": 8,
+      "necessary_unions": []
+    },
+    {
+      "H": 209,
+      "orbit_count": 4,
+      "eligible_orbits": 2,
+      "subsets_examined": 4,
+      "necessary_unions": []
+    },
+    {
+      "H": 211,
+      "orbit_count": 1,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 213,
+      "orbit_count": 3,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 215,
+      "orbit_count": 7,
+      "eligible_orbits": 7,
+      "subsets_examined": 128,
+      "necessary_unions": [
+        {
+          "representatives": [
+            1
+          ],
+          "block_sizes": [
+            56
+          ]
+        },
+        {
+          "representatives": [
+            3
+          ],
+          "block_sizes": [
+            56
+          ]
+        },
+        {
+          "representatives": [
+            7
+          ],
+          "block_sizes": [
+            56
+          ]
+        }
+      ]
+    },
+    {
+      "H": 217,
+      "orbit_count": 10,
+      "eligible_orbits": 10,
+      "subsets_examined": 1024,
+      "necessary_unions": [
+        {
+          "representatives": [
+            1,
+            7,
+            21,
+            31
+          ],
+          "block_sizes": [
+            30,
+            10,
+            10,
+            6
+          ],
+          "projected_difference_weights": [
+            6,
+            3,
+            3,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            7,
+            21,
+            31
+          ],
+          "block_sizes": [
+            30,
+            10,
+            10,
+            6
+          ],
+          "projected_difference_weights": [
+            6,
+            0,
+            0,
+            4,
+            0,
+            1,
+            4,
+            4,
+            0,
+            1,
+            1,
+            1,
+            4,
+            1,
+            4,
+            0,
+            0,
+            4,
+            1,
+            4,
+            1,
+            1,
+            1,
+            0,
+            4,
+            4,
+            1,
+            0,
+            4,
+            0,
+            0
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            7,
+            21,
+            31
+          ],
+          "block_sizes": [
+            30,
+            10,
+            10,
+            6
+          ],
+          "projected_difference_weights": [
+            6,
+            0,
+            0,
+            1,
+            0,
+            4,
+            1,
+            1,
+            0,
+            4,
+            4,
+            4,
+            1,
+            4,
+            1,
+            0,
+            0,
+            1,
+            4,
+            1,
+            4,
+            4,
+            4,
+            0,
+            1,
+            1,
+            4,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            9,
+            21,
+            31
+          ],
+          "block_sizes": [
+            10,
+            30,
+            10,
+            6
+          ],
+          "projected_difference_weights": [
+            6,
+            0,
+            0,
+            1,
+            0,
+            4,
+            1,
+            1,
+            0,
+            4,
+            4,
+            4,
+            1,
+            4,
+            1,
+            0,
+            0,
+            1,
+            4,
+            1,
+            4,
+            4,
+            4,
+            0,
+            1,
+            1,
+            4,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            15,
+            21,
+            31
+          ],
+          "block_sizes": [
+            10,
+            30,
+            10,
+            6
+          ],
+          "projected_difference_weights": [
+            6,
+            3,
+            3,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            19,
+            21,
+            31
+          ],
+          "block_sizes": [
+            10,
+            30,
+            10,
+            6
+          ],
+          "projected_difference_weights": [
+            6,
+            0,
+            0,
+            4,
+            0,
+            1,
+            4,
+            4,
+            0,
+            1,
+            1,
+            1,
+            4,
+            1,
+            4,
+            0,
+            0,
+            4,
+            1,
+            4,
+            1,
+            1,
+            1,
+            0,
+            4,
+            4,
+            1,
+            0,
+            4,
+            0,
+            0
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            7,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            4,
+            4,
+            1,
+            4,
+            0,
+            1,
+            1,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            4,
+            4,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            4,
+            1,
+            1,
+            0,
+            4,
+            1,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            7,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            4,
+            1,
+            0,
+            4,
+            4,
+            1,
+            0,
+            0,
+            0,
+            4,
+            0,
+            4,
+            1,
+            1,
+            4,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            4,
+            4,
+            0,
+            1,
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            7,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            3,
+            3,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            3,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            9,
+            31,
+            35
+          ],
+          "block_sizes": [
+            10,
+            30,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            3,
+            3,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            3,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            15,
+            31,
+            35
+          ],
+          "block_sizes": [
+            10,
+            30,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            4,
+            4,
+            1,
+            4,
+            0,
+            1,
+            1,
+            4,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            4,
+            4,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            4,
+            1,
+            1,
+            0,
+            4,
+            1,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            7,
+            19,
+            31,
+            35
+          ],
+          "block_sizes": [
+            10,
+            30,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            4,
+            1,
+            0,
+            4,
+            4,
+            1,
+            0,
+            0,
+            0,
+            4,
+            0,
+            4,
+            1,
+            1,
+            4,
+            0,
+            4,
+            0,
+            0,
+            0,
+            1,
+            4,
+            4,
+            0,
+            1,
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            21,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            4,
+            4,
+            0,
+            4,
+            1,
+            0,
+            0,
+            4,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            4,
+            4,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            0,
+            0,
+            1,
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            21,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            3,
+            1,
+            1,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            1,
+            1,
+            3,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            1,
+            1,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            21,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            0,
+            1,
+            4,
+            0,
+            0,
+            1,
+            4,
+            4,
+            4,
+            0,
+            4,
+            0,
+            1,
+            1,
+            0,
+            4,
+            0,
+            4,
+            4,
+            4,
+            1,
+            0,
+            0,
+            4,
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            21,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            0,
+            1,
+            4,
+            0,
+            0,
+            1,
+            4,
+            4,
+            4,
+            0,
+            4,
+            0,
+            1,
+            1,
+            0,
+            4,
+            0,
+            4,
+            4,
+            4,
+            1,
+            0,
+            0,
+            4,
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "representatives": [
+            15,
+            21,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            4,
+            4,
+            0,
+            4,
+            1,
+            0,
+            0,
+            4,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            4,
+            4,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            4,
+            0,
+            0,
+            1,
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            19,
+            21,
+            31,
+            35
+          ],
+          "block_sizes": [
+            30,
+            10,
+            6,
+            10
+          ],
+          "projected_difference_weights": [
+            6,
+            1,
+            1,
+            3,
+            1,
+            1,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            1,
+            1,
+            3,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            1,
+            1,
+            3,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "H": 219,
+      "orbit_count": 9,
+      "eligible_orbits": 8,
+      "subsets_examined": 256,
+      "necessary_unions": []
+    },
+    {
+      "H": 221,
+      "orbit_count": 7,
+      "eligible_orbits": 7,
+      "subsets_examined": 128,
+      "necessary_unions": [
+        {
+          "representatives": [
+            1,
+            13
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            13
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            13
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            13
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            1,
+            39
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            3,
+            39
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            5,
+            39
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "representatives": [
+            9,
+            39
+          ],
+          "block_sizes": [
+            48,
+            8
+          ],
+          "projected_difference_weights": [
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "H": 223,
+      "orbit_count": 3,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 225,
+      "orbit_count": 8,
+      "eligible_orbits": 6,
+      "subsets_examined": 64,
+      "necessary_unions": [
+        {
+          "representatives": [
+            5,
+            9,
+            15,
+            45
+          ],
+          "block_sizes": [
+            24,
+            20,
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "H": 227,
+      "orbit_count": 1,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 229,
+      "orbit_count": 3,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 231,
+      "orbit_count": 9,
+      "eligible_orbits": 5,
+      "subsets_examined": 32,
+      "necessary_unions": []
+    },
+    {
+      "H": 233,
+      "orbit_count": 4,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 235,
+      "orbit_count": 3,
+      "eligible_orbits": 2,
+      "subsets_examined": 4,
+      "necessary_unions": []
+    },
+    {
+      "H": 237,
+      "orbit_count": 3,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 239,
+      "orbit_count": 1,
+      "eligible_orbits": 0,
+      "subsets_examined": 1,
+      "necessary_unions": []
+    },
+    {
+      "H": 241,
+      "orbit_count": 10,
+      "eligible_orbits": 10,
+      "subsets_examined": 1024,
+      "necessary_unions": []
+    },
+    {
+      "H": 243,
+      "orbit_count": 5,
+      "eligible_orbits": 3,
+      "subsets_examined": 8,
+      "necessary_unions": []
+    },
+    {
+      "H": 245,
+      "orbit_count": 5,
+      "eligible_orbits": 4,
+      "subsets_examined": 16,
+      "necessary_unions": []
+    },
+    {
+      "H": 247,
+      "orbit_count": 5,
+      "eligible_orbits": 2,
+      "subsets_examined": 4,
+      "necessary_unions": []
+    }
+  ],
+  "four_subsets_checked": 715,
+  "perfect_difference_sets": [
+    {
+      "set": [
+        0,
+        1,
+        3,
+        9
+      ],
+      "centroid": 0
+    },
+    {
+      "set": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "centroid": 6
+    },
+    {
+      "set": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "centroid": 1
+    },
+    {
+      "set": [
+        0,
+        1,
+        8,
+        10
+      ],
+      "centroid": 8
+    },
+    {
+      "set": [
+        0,
+        2,
+        3,
+        7
+      ],
+      "centroid": 3
+    },
+    {
+      "set": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "centroid": 0
+    },
+    {
+      "set": [
+        0,
+        2,
+        8,
+        12
+      ],
+      "centroid": 12
+    },
+    {
+      "set": [
+        0,
+        2,
+        9,
+        10
+      ],
+      "centroid": 2
+    },
+    {
+      "set": [
+        0,
+        3,
+        4,
+        11
+      ],
+      "centroid": 11
+    },
+    {
+      "set": [
+        0,
+        3,
+        5,
+        12
+      ],
+      "centroid": 5
+    },
+    {
+      "set": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "centroid": 4
+    },
+    {
+      "set": [
+        0,
+        4,
+        10,
+        12
+      ],
+      "centroid": 0
+    },
+    {
+      "set": [
+        0,
+        6,
+        8,
+        9
+      ],
+      "centroid": 9
+    },
+    {
+      "set": [
+        0,
+        6,
+        10,
+        11
+      ],
+      "centroid": 10
+    },
+    {
+      "set": [
+        0,
+        7,
+        8,
+        11
+      ],
+      "centroid": 0
+    },
+    {
+      "set": [
+        0,
+        7,
+        9,
+        12
+      ],
+      "centroid": 7
+    },
+    {
+      "set": [
+        1,
+        2,
+        4,
+        10
+      ],
+      "centroid": 1
+    },
+    {
+      "set": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "centroid": 7
+    },
+    {
+      "set": [
+        1,
+        2,
+        6,
+        12
+      ],
+      "centroid": 2
+    },
+    {
+      "set": [
+        1,
+        2,
+        9,
+        11
+      ],
+      "centroid": 9
+    },
+    {
+      "set": [
+        1,
+        3,
+        4,
+        8
+      ],
+      "centroid": 4
+    },
+    {
+      "set": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "centroid": 1
+    },
+    {
+      "set": [
+        1,
+        3,
+        10,
+        11
+      ],
+      "centroid": 3
+    },
+    {
+      "set": [
+        1,
+        4,
+        5,
+        12
+      ],
+      "centroid": 12
+    },
+    {
+      "set": [
+        1,
+        5,
+        6,
+        8
+      ],
+      "centroid": 5
+    },
+    {
+      "set": [
+        1,
+        7,
+        9,
+        10
+      ],
+      "centroid": 10
+    },
+    {
+      "set": [
+        1,
+        7,
+        11,
+        12
+      ],
+      "centroid": 11
+    },
+    {
+      "set": [
+        1,
+        8,
+        9,
+        12
+      ],
+      "centroid": 1
+    },
+    {
+      "set": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "centroid": 2
+    },
+    {
+      "set": [
+        2,
+        3,
+        6,
+        8
+      ],
+      "centroid": 8
+    },
+    {
+      "set": [
+        2,
+        3,
+        10,
+        12
+      ],
+      "centroid": 10
+    },
+    {
+      "set": [
+        2,
+        4,
+        5,
+        9
+      ],
+      "centroid": 5
+    },
+    {
+      "set": [
+        2,
+        4,
+        7,
+        8
+      ],
+      "centroid": 2
+    },
+    {
+      "set": [
+        2,
+        4,
+        11,
+        12
+      ],
+      "centroid": 4
+    },
+    {
+      "set": [
+        2,
+        6,
+        7,
+        9
+      ],
+      "centroid": 6
+    },
+    {
+      "set": [
+        2,
+        8,
+        10,
+        11
+      ],
+      "centroid": 11
+    },
+    {
+      "set": [
+        3,
+        4,
+        6,
+        12
+      ],
+      "centroid": 3
+    },
+    {
+      "set": [
+        3,
+        4,
+        7,
+        9
+      ],
+      "centroid": 9
+    },
+    {
+      "set": [
+        3,
+        5,
+        6,
+        10
+      ],
+      "centroid": 6
+    },
+    {
+      "set": [
+        3,
+        5,
+        8,
+        9
+      ],
+      "centroid": 3
+    },
+    {
+      "set": [
+        3,
+        7,
+        8,
+        10
+      ],
+      "centroid": 7
+    },
+    {
+      "set": [
+        3,
+        9,
+        11,
+        12
+      ],
+      "centroid": 12
+    },
+    {
+      "set": [
+        4,
+        5,
+        8,
+        10
+      ],
+      "centroid": 10
+    },
+    {
+      "set": [
+        4,
+        6,
+        7,
+        11
+      ],
+      "centroid": 7
+    },
+    {
+      "set": [
+        4,
+        6,
+        9,
+        10
+      ],
+      "centroid": 4
+    },
+    {
+      "set": [
+        4,
+        8,
+        9,
+        11
+      ],
+      "centroid": 8
+    },
+    {
+      "set": [
+        5,
+        6,
+        9,
+        11
+      ],
+      "centroid": 11
+    },
+    {
+      "set": [
+        5,
+        7,
+        8,
+        12
+      ],
+      "centroid": 8
+    },
+    {
+      "set": [
+        5,
+        7,
+        10,
+        11
+      ],
+      "centroid": 5
+    },
+    {
+      "set": [
+        5,
+        9,
+        10,
+        12
+      ],
+      "centroid": 9
+    },
+    {
+      "set": [
+        6,
+        7,
+        10,
+        12
+      ],
+      "centroid": 12
+    },
+    {
+      "set": [
+        6,
+        8,
+        11,
+        12
+      ],
+      "centroid": 6
+    }
+  ],
+  "normalized_perfect_sets": [
+    {
+      "set": [
+        0,
+        1,
+        3,
+        9
+      ],
+      "centroid": 0
+    },
+    {
+      "set": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "centroid": 6
+    },
+    {
+      "set": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "centroid": 1
+    },
+    {
+      "set": [
+        0,
+        1,
+        8,
+        10
+      ],
+      "centroid": 8
+    }
+  ],
+  "mod17_replacement_witnesses": {
+    "0": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "4": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "12": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "2": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "10": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "6": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "14": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "1": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "5": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "13": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "3": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "11": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "7": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "15": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "16": [
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "scope": "Independent necessary orbit unions and finite projection/replacement arithmetic; not set validity enumeration."
+}

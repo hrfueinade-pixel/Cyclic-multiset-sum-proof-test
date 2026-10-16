@@ -1,0 +1,272 @@
+{
+  "direct_kernel_audit": {
+    "integer_vectors_checked": 48728,
+    "matrices": [
+      {
+        "matrix": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "unit_orbits": 3,
+        "group_orders": [
+          3,
+          5,
+          15
+        ]
+      },
+      {
+        "matrix": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "unit_orbits": 4,
+        "group_orders": [
+          3
+        ]
+      },
+      {
+        "matrix": [
+          [
+            9,
+            3
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        "unit_orbits": 10,
+        "group_orders": [
+          3,
+          9,
+          27
+        ]
+      },
+      {
+        "matrix": [
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "unit_orbits": 1,
+        "group_orders": [
+          11
+        ]
+      },
+      {
+        "matrix": [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            2,
+            0,
+            5
+          ]
+        ],
+        "unit_orbits": 3,
+        "group_orders": [
+          3,
+          9,
+          27
+        ]
+      },
+      {
+        "matrix": [
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ],
+        "unit_orbits": 13,
+        "group_orders": [
+          3
+        ]
+      }
+    ]
+  },
+  "prime_certificate": {
+    "P": 15790321,
+    "F": 65793,
+    "base": 3,
+    "modular_residues": {
+      "3": 14592969,
+      "7": 15790305,
+      "13": 13946016,
+      "241": 2286503
+    },
+    "factorization_verified": true
+  },
+  "one_point_overlap_check": {
+    "N": 31,
+    "set_size": 5,
+    "normalization": "contains 0,1",
+    "candidate_sets": 3654,
+    "sidon_sets": 364,
+    "homometric_pairs": 182,
+    "overlap_histogram": {
+      "2": 182
+    },
+    "scope": "One fixed modulus; no global computational claim."
+  },
+  "star_control": {
+    "seconds_limit": 12,
+    "elapsed_seconds": 0.6880000000001019,
+    "complete_template_family": true,
+    "counts": {
+      "label_permutations": 5040,
+      "admissible_templates": 2119,
+      "quotient_maps": 1104,
+      "sidon_h0_outputs": 18,
+      "invalid_h0_outputs": 9,
+      "valid_h0_outputs": 9
+    },
+    "valid_examples": [
+      {
+        "N": 255,
+        "A": [
+          0,
+          253,
+          4,
+          12,
+          28,
+          60,
+          124,
+          252
+        ]
+      },
+      {
+        "N": 255,
+        "A": [
+          0,
+          37,
+          181,
+          33,
+          247,
+          165,
+          183,
+          1
+        ]
+      },
+      {
+        "N": 255,
+        "A": [
+          0,
+          247,
+          16,
+          48,
+          112,
+          243,
+          241,
+          240
+        ]
+      }
+    ],
+    "invalid_examples": [
+      {
+        "N": 217,
+        "A": [
+          0,
+          186,
+          62,
+          64,
+          190,
+          8,
+          78,
+          1
+        ],
+        "rival": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          186,
+          186
+        ]
+      },
+      {
+        "N": 217,
+        "A": [
+          0,
+          140,
+          154,
+          28,
+          210,
+          156,
+          32,
+          1
+        ],
+        "rival": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          140,
+          154,
+          210
+        ]
+      },
+      {
+        "N": 217,
+        "A": [
+          0,
+          175,
+          84,
+          154,
+          9,
+          102,
+          71,
+          35
+        ],
+        "rival": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          175,
+          84,
+          154
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "model": "r07",
+      "direction": [
+        -5,
+        0,
+        1,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 5,
+      "units": [
+        2
+      ],
+      "formal_values": 507,
+      "positive_bound": 143,
+      "pair_records": 10153,
+      "target": 156,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 25088,
+      "elapsed_seconds": 2.3440000000118744,
+      "certificate": "stage43_r07_degree5_units2_certificate.json.gz"
+    }
+  ],
+  "boundary": "Positive model certificates only; fixed symbolic inventory, no parameter or modulus sweep."
+}

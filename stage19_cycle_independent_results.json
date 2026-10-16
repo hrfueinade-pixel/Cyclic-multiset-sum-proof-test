@@ -1,0 +1,16 @@
+{
+  "completion": "COMPLETE",
+  "seconds_limit": 30,
+  "elapsed_seconds": 0.031000000002677552,
+  "coverage_reconstructed": 538,
+  "identities_verified": 538,
+  "corruptions_rejected": 1076,
+  "per_word": {
+    "QOOO": 4,
+    "QPOO": 2,
+    "PPOOO": 256,
+    "POPOO": 256,
+    "QPOOP": 4,
+    "QPOOO": 16
+  }
+}

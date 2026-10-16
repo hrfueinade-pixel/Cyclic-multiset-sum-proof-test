@@ -1,0 +1,74 @@
+[
+  {
+    "N": 315,
+    "status": "COMPLETE",
+    "seconds_limit": 15,
+    "elapsed_seconds": 6.32799999999952,
+    "all_orbit_union_masks": 450,
+    "normalized_masks_started": 210,
+    "normalized_masks_completed": 210,
+    "valid_prefix_counts": [
+      0,
+      153,
+      8625,
+      60190,
+      144791,
+      37550,
+      0,
+      0,
+      0
+    ],
+    "accepted_affine_classes": 0,
+    "accepted": [],
+    "active_difference_mask": 63898798846599530607763190904282853820016217302598890456262493548792526668032317520238975455582,
+    "scope": "valid non-antipodal eight-sets with h=0 at this N only",
+    "plan": {
+      "N": 315,
+      "orbit_sizes": {
+        "24": 10,
+        "12": 4,
+        "8": 1,
+        "6": 2,
+        "4": 1,
+        "2": 1
+      },
+      "planned_size56_masks": 450
+    }
+  },
+  {
+    "N": 585,
+    "status": "COMPLETE",
+    "seconds_limit": 15,
+    "elapsed_seconds": 7.859000000000378,
+    "all_orbit_union_masks": 965,
+    "normalized_masks_started": 382,
+    "normalized_masks_completed": 382,
+    "valid_prefix_counts": [
+      0,
+      317,
+      17817,
+      79288,
+      117561,
+      8004,
+      0,
+      0,
+      0
+    ],
+    "accepted_affine_classes": 0,
+    "accepted": [],
+    "active_difference_mask": 121224752868406593757115832526291231051968593447851391032831855569552483039119118372550975936236875596686275585089959209750378928325573564924923285024373585172751621863329829214,
+    "scope": "valid non-antipodal eight-sets with h=0 at this N only",
+    "plan": {
+      "N": 585,
+      "orbit_sizes": {
+        "24": 21,
+        "12": 5,
+        "8": 1,
+        "6": 1,
+        "4": 1,
+        "2": 1
+      },
+      "planned_size56_masks": 965
+    }
+  }
+]

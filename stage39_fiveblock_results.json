@@ -1,0 +1,1923 @@
+{
+  "status": "COMPLETE_SAVED_COHORT",
+  "cohort_size": 12,
+  "rows": [
+    {
+      "N": 239,
+      "A": [
+        0,
+        9,
+        70,
+        89,
+        144,
+        149,
+        180,
+        206
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 3,
+      "sumset3": 107,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 54,
+      "eight_term_rival_count": 20,
+      "rival_support_histogram": {
+        "3": 3,
+        "4": 17
+      },
+      "first_rival": [
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 54,
+      "split_pass_counts": {
+        "q5": 2,
+        "q6": 0,
+        "q7": 1,
+        "q8": 9,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 22
+    },
+    {
+      "N": 239,
+      "A": [
+        0,
+        60,
+        62,
+        87,
+        132,
+        186,
+        195,
+        208
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 5,
+      "sumset3": 106,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 55,
+      "eight_term_rival_count": 27,
+      "rival_support_histogram": {
+        "3": 7,
+        "4": 19,
+        "2": 1
+      },
+      "first_rival": [
+        5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 53,
+      "split_pass_counts": {
+        "q5": 1,
+        "q6": 0,
+        "q7": 0,
+        "q8": 2,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 28
+    },
+    {
+      "N": 239,
+      "A": [
+        0,
+        60,
+        80,
+        196,
+        199,
+        221,
+        232,
+        233
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 3,
+      "sumset3": 107,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 54,
+      "eight_term_rival_count": 20,
+      "rival_support_histogram": {
+        "4": 17,
+        "3": 3
+      },
+      "first_rival": [
+        4,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 54,
+      "split_pass_counts": {
+        "q5": 2,
+        "q6": 0,
+        "q7": 1,
+        "q8": 9,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 22
+    },
+    {
+      "N": 239,
+      "A": [
+        0,
+        67,
+        76,
+        112,
+        119,
+        198,
+        199,
+        216
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 4,
+      "sumset3": 107,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 55,
+      "eight_term_rival_count": 23,
+      "rival_support_histogram": {
+        "4": 18,
+        "3": 4,
+        "2": 1
+      },
+      "first_rival": [
+        5,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 53,
+      "split_pass_counts": {
+        "q5": 1,
+        "q6": 0,
+        "q7": 0,
+        "q8": 6,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 22
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        5,
+        62,
+        72,
+        95,
+        140,
+        199,
+        206
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 5,
+      "sumset3": 107,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 54,
+      "eight_term_rival_count": 28,
+      "rival_support_histogram": {
+        "3": 6,
+        "2": 1,
+        "4": 21
+      },
+      "first_rival": [
+        5,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 55,
+      "split_pass_counts": {
+        "q5": 0,
+        "q6": 0,
+        "q7": 2,
+        "q8": 2,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 23
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        11,
+        34,
+        78,
+        102,
+        124,
+        196,
+        222
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 4,
+      "sumset3": 106,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 56,
+      "eight_term_rival_count": 23,
+      "rival_support_histogram": {
+        "4": 18,
+        "3": 4,
+        "2": 1
+      },
+      "first_rival": [
+        5,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 53,
+      "split_pass_counts": {
+        "q5": 2,
+        "q6": 0,
+        "q7": 0,
+        "q8": 3,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 25
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        15,
+        26,
+        53,
+        55,
+        152,
+        171,
+        204
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 4,
+      "sumset3": 108,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 54,
+      "eight_term_rival_count": 25,
+      "rival_support_histogram": {
+        "3": 7,
+        "4": 17,
+        "2": 1
+      },
+      "first_rival": [
+        5,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 53,
+      "split_pass_counts": {
+        "q5": 2,
+        "q6": 0,
+        "q7": 1,
+        "q8": 2,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 25
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        26,
+        73,
+        87,
+        100,
+        137,
+        215,
+        240
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 4,
+      "sumset3": 106,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 56,
+      "eight_term_rival_count": 23,
+      "rival_support_histogram": {
+        "2": 1,
+        "4": 18,
+        "3": 4
+      },
+      "first_rival": [
+        7,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 53,
+      "split_pass_counts": {
+        "q5": 2,
+        "q6": 0,
+        "q7": 0,
+        "q8": 3,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 25
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        30,
+        36,
+        48,
+        79,
+        94,
+        197,
+        236
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 3,
+      "sumset3": 111,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 51,
+      "eight_term_rival_count": 24,
+      "rival_support_histogram": {
+        "3": 5,
+        "4": 19
+      },
+      "first_rival": [
+        5,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 53,
+      "split_pass_counts": {
+        "q5": 1,
+        "q6": 0,
+        "q7": 0,
+        "q8": 3,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 32
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        33,
+        56,
+        82,
+        155,
+        156,
+        202,
+        217
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 4,
+      "sumset3": 106,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 56,
+      "eight_term_rival_count": 23,
+      "rival_support_histogram": {
+        "4": 18,
+        "3": 4,
+        "2": 1
+      },
+      "first_rival": [
+        4,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 53,
+      "split_pass_counts": {
+        "q5": 2,
+        "q6": 0,
+        "q7": 0,
+        "q8": 3,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 25
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        46,
+        71,
+        102,
+        108,
+        168,
+        169,
+        244
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 4,
+      "sumset3": 107,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 54,
+      "eight_term_rival_count": 23,
+      "rival_support_histogram": {
+        "4": 18,
+        "3": 4,
+        "2": 1
+      },
+      "first_rival": [
+        4,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 54,
+      "split_pass_counts": {
+        "q5": 1,
+        "q6": 0,
+        "q7": 3,
+        "q8": 5,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 17
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        60,
+        72,
+        140,
+        170,
+        176,
+        177,
+        192
+      ],
+      "cubic_protected": true,
+      "maximum_dilation_overlap": 3,
+      "sumset3": 108,
+      "squarefree4_distinct": 69,
+      "protected_quartics": 54,
+      "eight_term_rival_count": 22,
+      "rival_support_histogram": {
+        "4": 18,
+        "3": 4
+      },
+      "first_rival": [
+        5,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "all_splits": 56,
+      "primitive_valid5_splits": 54,
+      "split_pass_counts": {
+        "q5": 0,
+        "q6": 0,
+        "q7": 0,
+        "q8": 5,
+        "joint": 0
+      },
+      "joint_pass_splits": [],
+      "minimum_hole_shadow_deficit": 24
+    }
+  ],
+  "valid255_control": {
+    "N": 255,
+    "A": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127
+    ],
+    "cubic_protected": true,
+    "maximum_dilation_overlap": 8,
+    "sumset3": 92,
+    "squarefree4_distinct": 70,
+    "protected_quartics": 70,
+    "eight_term_rival_count": 0,
+    "rival_support_histogram": {},
+    "first_rival": null,
+    "all_splits": 56,
+    "primitive_valid5_splits": 56,
+    "split_pass_counts": {
+      "q5": 56,
+      "q6": 56,
+      "q7": 56,
+      "q8": 56,
+      "joint": 56
+    },
+    "joint_pass_splits": [
+      {
+        "B": [
+          0,
+          1,
+          3,
+          7,
+          15
+        ],
+        "C": [
+          31,
+          63,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          7,
+          31
+        ],
+        "C": [
+          15,
+          63,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          7,
+          63
+        ],
+        "C": [
+          15,
+          31,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          7,
+          127
+        ],
+        "C": [
+          15,
+          31,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          15,
+          31
+        ],
+        "C": [
+          7,
+          63,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          15,
+          63
+        ],
+        "C": [
+          7,
+          31,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          15,
+          127
+        ],
+        "C": [
+          7,
+          31,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          31,
+          63
+        ],
+        "C": [
+          7,
+          15,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          31,
+          127
+        ],
+        "C": [
+          7,
+          15,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          3,
+          63,
+          127
+        ],
+        "C": [
+          7,
+          15,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          7,
+          15,
+          31
+        ],
+        "C": [
+          3,
+          63,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          7,
+          15,
+          63
+        ],
+        "C": [
+          3,
+          31,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          7,
+          15,
+          127
+        ],
+        "C": [
+          3,
+          31,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          7,
+          31,
+          63
+        ],
+        "C": [
+          3,
+          15,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          7,
+          31,
+          127
+        ],
+        "C": [
+          3,
+          15,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          7,
+          63,
+          127
+        ],
+        "C": [
+          3,
+          15,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          15,
+          31,
+          63
+        ],
+        "C": [
+          3,
+          7,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          15,
+          31,
+          127
+        ],
+        "C": [
+          3,
+          7,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          15,
+          63,
+          127
+        ],
+        "C": [
+          3,
+          7,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          1,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          3,
+          7,
+          15
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          7,
+          15,
+          31
+        ],
+        "C": [
+          1,
+          63,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          7,
+          15,
+          63
+        ],
+        "C": [
+          1,
+          31,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          7,
+          15,
+          127
+        ],
+        "C": [
+          1,
+          31,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          7,
+          31,
+          63
+        ],
+        "C": [
+          1,
+          15,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          7,
+          31,
+          127
+        ],
+        "C": [
+          1,
+          15,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          7,
+          63,
+          127
+        ],
+        "C": [
+          1,
+          15,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          15,
+          31,
+          63
+        ],
+        "C": [
+          1,
+          7,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          15,
+          31,
+          127
+        ],
+        "C": [
+          1,
+          7,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          15,
+          63,
+          127
+        ],
+        "C": [
+          1,
+          7,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          3,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          1,
+          7,
+          15
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          7,
+          15,
+          31,
+          63
+        ],
+        "C": [
+          1,
+          3,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          7,
+          15,
+          31,
+          127
+        ],
+        "C": [
+          1,
+          3,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          7,
+          15,
+          63,
+          127
+        ],
+        "C": [
+          1,
+          3,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          7,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          1,
+          3,
+          15
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          0,
+          15,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          1,
+          3,
+          7
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          7,
+          15,
+          31
+        ],
+        "C": [
+          0,
+          63,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          7,
+          15,
+          63
+        ],
+        "C": [
+          0,
+          31,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          7,
+          15,
+          127
+        ],
+        "C": [
+          0,
+          31,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          7,
+          31,
+          63
+        ],
+        "C": [
+          0,
+          15,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          7,
+          31,
+          127
+        ],
+        "C": [
+          0,
+          15,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          7,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          15,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          15,
+          31,
+          63
+        ],
+        "C": [
+          0,
+          7,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          15,
+          31,
+          127
+        ],
+        "C": [
+          0,
+          7,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          15,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          7,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          3,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          7,
+          15
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          7,
+          15,
+          31,
+          63
+        ],
+        "C": [
+          0,
+          3,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          7,
+          15,
+          31,
+          127
+        ],
+        "C": [
+          0,
+          3,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          7,
+          15,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          3,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 108,
+        "holes5": 147,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          7,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          3,
+          15
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 105,
+        "holes5": 150,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          1,
+          15,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          3,
+          7
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          3,
+          7,
+          15,
+          31,
+          63
+        ],
+        "C": [
+          0,
+          1,
+          127
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          3,
+          7,
+          15,
+          31,
+          127
+        ],
+        "C": [
+          0,
+          1,
+          63
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          3,
+          7,
+          15,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          1,
+          31
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          3,
+          7,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          1,
+          15
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 86,
+        "holes5": 169,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          3,
+          15,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          1,
+          7
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 85,
+        "holes5": 170,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      },
+      {
+        "B": [
+          7,
+          15,
+          31,
+          63,
+          127
+        ],
+        "C": [
+          0,
+          1,
+          3
+        ],
+        "primitive": true,
+        "valid5": true,
+        "sumset5": 59,
+        "holes5": 196,
+        "intersection_5B_s_minus_3A": 1,
+        "q5": true,
+        "q6": true,
+        "q7": true,
+        "q8": true,
+        "joint": true
+      }
+    ],
+    "minimum_hole_shadow_deficit": 0
+  },
+  "primitive_valid5_joint_witnesses": 0,
+  "Q70_low_overlap_witnesses": 0,
+  "new_modulus_exclusion": false,
+  "general_hole_lemma_proved": false
+}

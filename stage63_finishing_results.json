@@ -1,0 +1,28 @@
+{
+  "distinct_pair_sum_rival_identities": 224,
+  "forests": {
+    "22211": {
+      "triangles": 1,
+      "open_paired_edges": 3,
+      "twice_N_lower": 497
+    },
+    "4211": {
+      "triangles": 1,
+      "open_paired_edges": 2,
+      "twice_N_lower": 495
+    },
+    "3221": {
+      "triangles": 2,
+      "open_paired_edges": 3,
+      "twice_N_lower": 492
+    }
+  },
+  "sharp_construction_coin_minima": [
+    8,
+    9,
+    11,
+    12
+  ],
+  "finishing_inequality": "2N>=495 contradicts N<=247",
+  "full_proof_boundary": "Elementary finish plus the previously checked parity, counting and symbolic exclusion chain; not external/formal review."
+}

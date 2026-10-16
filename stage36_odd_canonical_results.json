@@ -1,0 +1,521 @@
+{
+  "completion": "TIMEOUT/incomplete",
+  "cap_seconds": 600,
+  "elapsed_seconds": 600.0,
+  "completed_orders": [
+    189,
+    191,
+    193,
+    195,
+    197,
+    199,
+    201,
+    203,
+    205,
+    207,
+    209,
+    211,
+    213,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    227
+  ],
+  "reports": [
+    {
+      "N": 189,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 55698,
+        "C_shapes": 338955,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        184,
+        15670,
+        637838
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 191,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 33002,
+        "C_shapes": 194649,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        186,
+        16020,
+        660024
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 193,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 34267,
+        "C_shapes": 232422,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        188,
+        16380,
+        685340
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 195,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 76064,
+        "C_shapes": 814350,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        7,
+        534,
+        22980,
+        735524
+      ],
+      "roots": [
+        1,
+        3,
+        5,
+        13,
+        15,
+        39,
+        65
+      ]
+    },
+    {
+      "N": 197,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 36895,
+        "C_shapes": 325026,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        192,
+        17112,
+        737900
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 199,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 38258,
+        "C_shapes": 383733,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        194,
+        17484,
+        765160
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 201,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 60641,
+        "C_shapes": 784233,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        196,
+        17866,
+        795784
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 203,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 49430,
+        "C_shapes": 650613,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        198,
+        18240,
+        821670
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 205,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 54351,
+        "C_shapes": 846147,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        200,
+        18622,
+        851262
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 207,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 69076,
+        "C_shapes": 1277406,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        202,
+        19018,
+        883730
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 209,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 52709,
+        "C_shapes": 959445,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        204,
+        19404,
+        911598
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 211,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 47148,
+        "C_shapes": 960897,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        206,
+        19800,
+        942944
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 213,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 74393,
+        "C_shapes": 1909284,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        208,
+        20206,
+        977920
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 215,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 64303,
+        "C_shapes": 1725978,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        210,
+        20602,
+        1008142
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 217,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 62520,
+        "C_shapes": 1788315,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        212,
+        21012,
+        1041328
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 219,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 81988,
+        "C_shapes": 2869227,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        214,
+        21430,
+        1078600
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 221,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 63674,
+        "C_shapes": 2213823,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        216,
+        21840,
+        1110626
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 223,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 57318,
+        "C_shapes": 2178804,
+        "bases_6_7_8": 3,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        218,
+        22260,
+        1146360
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 225,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 110774,
+        "C_shapes": 5457726,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        220,
+        22688,
+        1186292
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 227,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 61008,
+        "C_shapes": 2808006,
+        "bases_6_7_8": 1,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        222,
+        23112,
+        1220160
+      ],
+      "roots": [
+        1
+      ]
+    }
+  ],
+  "partial_order": {
+    "N": 229,
+    "completion": "RUNNING",
+    "counts": {
+      "primitive_B": 62904,
+      "C_shapes": 3174561,
+      "bases_6_7_8": 9,
+      "sidon_eight": 0,
+      "rivals": 0,
+      "valid_survivors": 0
+    },
+    "prefixes": [
+      0,
+      0,
+      1,
+      28,
+      5440,
+      415076
+    ],
+    "roots": [
+      1
+    ]
+  },
+  "survivors": [],
+  "identity_count": 0,
+  "identity_file": "stage36_rivals.json.gz"
+}

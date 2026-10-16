@@ -1,0 +1,855 @@
+{
+  "completion": "COMPLETE",
+  "cap_seconds": 60,
+  "elapsed_seconds": 58.687000000005355,
+  "completed_orders": [
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
+  ],
+  "interrupted_order": null,
+  "total_nodes": 6316572,
+  "scope": "Primitive hereditary-valid non-antipodal six-point B;8B not full",
+  "reports": [
+    {
+      "M": 94,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        47
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        88,
+        3242,
+        35150,
+        109
+      ],
+      "pruning": {
+        "sidon": 34026,
+        "validity": 29088,
+        "full8": 35259
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 95,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        5,
+        19
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        90,
+        3442,
+        39938,
+        55
+      ],
+      "pruning": {
+        "sidon": 32394,
+        "validity": 31755,
+        "full8": 40027
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 96,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        90,
+        3408,
+        39732,
+        381
+      ],
+      "pruning": {
+        "sidon": 37620,
+        "validity": 32055,
+        "full8": 39947
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 97,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        97
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        92,
+        3612,
+        43932,
+        99
+      ],
+      "pruning": {
+        "sidon": 34643,
+        "validity": 34555,
+        "full8": 44003
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 98,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        7
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        92,
+        3572,
+        42582,
+        274
+      ],
+      "pruning": {
+        "sidon": 38643,
+        "validity": 33818,
+        "full8": 42764
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 99,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        11
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        94,
+        3790,
+        49387,
+        251
+      ],
+      "pruning": {
+        "sidon": 37068,
+        "validity": 36504,
+        "full8": 49532
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 100,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        5
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        94,
+        3744,
+        47503,
+        403
+      ],
+      "pruning": {
+        "sidon": 43325,
+        "validity": 38510,
+        "full8": 47574
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 101,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        101
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        96,
+        3960,
+        52904,
+        219
+      ],
+      "pruning": {
+        "sidon": 38792,
+        "validity": 39485,
+        "full8": 53011
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 102,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        17
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        17,
+        34
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        572,
+        23292,
+        322120,
+        25458
+      ],
+      "pruning": {
+        "sidon": 385489,
+        "validity": 297570,
+        "full8": 336898
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 103,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        103
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        98,
+        4140,
+        58120,
+        346
+      ],
+      "pruning": {
+        "sidon": 42290,
+        "validity": 43666,
+        "full8": 58218
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 104,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        13
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        98,
+        4098,
+        56453,
+        737
+      ],
+      "pruning": {
+        "sidon": 48211,
+        "validity": 44121,
+        "full8": 56760
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 105,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        5,
+        7
+      ],
+      "roots": [
+        1,
+        3,
+        5,
+        7,
+        15,
+        21,
+        35
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        7,
+        702,
+        30624,
+        466836,
+        22416
+      ],
+      "pruning": {
+        "sidon": 493180,
+        "validity": 501375,
+        "full8": 471750
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 106,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        53
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        100,
+        4280,
+        61396,
+        1361
+      ],
+      "pruning": {
+        "sidon": 54189,
+        "validity": 49956,
+        "full8": 62037
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 107,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        107
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        102,
+        4512,
+        68720,
+        1068
+      ],
+      "pruning": {
+        "sidon": 51485,
+        "validity": 54760,
+        "full8": 69048
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 108,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        102,
+        4472,
+        67786,
+        3390
+      ],
+      "pruning": {
+        "sidon": 75272,
+        "validity": 68627,
+        "full8": 68926
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 109,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        109
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        104,
+        4704,
+        74380,
+        1461
+      ],
+      "pruning": {
+        "sidon": 55819,
+        "validity": 60111,
+        "full8": 74921
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 110,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        5,
+        11
+      ],
+      "roots": [
+        1,
+        2,
+        5,
+        10,
+        11,
+        22
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        618,
+        27384,
+        428268,
+        41940
+      ],
+      "pruning": {
+        "sidon": 525520,
+        "validity": 452514,
+        "full8": 452172
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 111,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        37
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        106,
+        4906,
+        81516,
+        3166
+      ],
+      "pruning": {
+        "sidon": 67734,
+        "validity": 73299,
+        "full8": 82844
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 112,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        7
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        106,
+        4854,
+        78236,
+        4128
+      ],
+      "pruning": {
+        "sidon": 81334,
+        "validity": 78122,
+        "full8": 80036
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 113,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        113
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        108,
+        5100,
+        86620,
+        3205
+      ],
+      "pruning": {
+        "sidon": 71612,
+        "validity": 80115,
+        "full8": 87885
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 114,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        19
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        19,
+        38
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        644,
+        30060,
+        519220,
+        116765
+      ],
+      "pruning": {
+        "sidon": 942421,
+        "validity": 817278,
+        "full8": 589745
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 115,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        5,
+        23
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        110,
+        5302,
+        93346,
+        4823
+      ],
+      "pruning": {
+        "sidon": 87048,
+        "validity": 98627,
+        "full8": 95117
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 116,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        29
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        110,
+        5258,
+        90914,
+        7846
+      ],
+      "pruning": {
+        "sidon": 114508,
+        "validity": 112551,
+        "full8": 94282
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 117,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        13
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        112,
+        5518,
+        101458,
+        10231
+      ],
+      "pruning": {
+        "sidon": 121490,
+        "validity": 137953,
+        "full8": 105959
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 118,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        59
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        112,
+        5462,
+        97352,
+        8918
+      ],
+      "pruning": {
+        "sidon": 116263,
+        "validity": 116606,
+        "full8": 101866
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 119,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        7,
+        17
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        114,
+        5724,
+        107398,
+        9505
+      ],
+      "pruning": {
+        "sidon": 116227,
+        "validity": 136786,
+        "full8": 111841
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 120,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        5
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        24,
+        30,
+        40
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        14,
+        1580,
+        78328,
+        1503988,
+        619751
+      ],
+      "pruning": {
+        "sidon": 4082707,
+        "validity": 3886395,
+        "full8": 1877247
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 121,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        11
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        116,
+        5940,
+        115018,
+        11385
+      ],
+      "pruning": {
+        "sidon": 129119,
+        "validity": 153407,
+        "full8": 120509
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 122,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        61
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        116,
+        5888,
+        111908,
+        16214
+      ],
+      "pruning": {
+        "sidon": 162878,
+        "validity": 169310,
+        "full8": 120570
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 123,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        41
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        118,
+        6166,
+        124360,
+        22596
+      ],
+      "pruning": {
+        "sidon": 191880,
+        "validity": 230504,
+        "full8": 136072
+      },
+      "survivor_count": 0
+    }
+  ],
+  "survivors": []
+}

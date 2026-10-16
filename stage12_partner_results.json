@@ -1,0 +1,7041 @@
+{
+  "scope": "formal partner choices, not moduli or valid sets",
+  "runtime_cap_seconds": 5.0,
+  "completion_status": "complete",
+  "elapsed_seconds": 0.10900000000401633,
+  "partner_pairs_checked": 588,
+  "partner_pairs_rejected_by_certificate": 195,
+  "triple_patterns_checked": 2744,
+  "first_rejection_counts": {
+    "S_role_at_three_centers": 2,
+    "free_double_at_three_centers": 2,
+    "short_balanced_certificate": 1914,
+    "stage11_all_B_selection": 10
+  },
+  "surviving_selected_patterns": 816,
+  "survivor_type_counts": {
+    "DDD": 18,
+    "DDM": 2,
+    "DDS": 16,
+    "DDU": 40,
+    "DDV": 28,
+    "DMD": 2,
+    "DMS": 2,
+    "DMU": 4,
+    "DMV": 4,
+    "DSD": 16,
+    "DSM": 2,
+    "DSS": 12,
+    "DSU": 16,
+    "DSV": 6,
+    "DUD": 40,
+    "DUM": 4,
+    "DUS": 16,
+    "DUU": 24,
+    "DUV": 8,
+    "DVD": 28,
+    "DVM": 4,
+    "DVS": 6,
+    "DVU": 8,
+    "DVV": 10,
+    "MDD": 2,
+    "MDS": 2,
+    "MDU": 4,
+    "MDV": 4,
+    "MSD": 2,
+    "MSS": 2,
+    "MSU": 4,
+    "MSV": 2,
+    "MUD": 4,
+    "MUS": 4,
+    "MUU": 8,
+    "MUV": 4,
+    "MVD": 4,
+    "MVS": 2,
+    "MVU": 4,
+    "MVV": 6,
+    "SDD": 16,
+    "SDM": 2,
+    "SDS": 12,
+    "SDU": 16,
+    "SDV": 6,
+    "SMD": 2,
+    "SMS": 2,
+    "SMU": 4,
+    "SMV": 2,
+    "SSD": 12,
+    "SSM": 2,
+    "SSS": 6,
+    "SSU": 8,
+    "SUD": 16,
+    "SUM": 4,
+    "SUS": 8,
+    "SUU": 8,
+    "SVD": 6,
+    "SVM": 2,
+    "UDD": 40,
+    "UDM": 4,
+    "UDS": 16,
+    "UDU": 24,
+    "UDV": 8,
+    "UMD": 4,
+    "UMS": 4,
+    "UMU": 8,
+    "UMV": 4,
+    "USD": 16,
+    "USM": 4,
+    "USS": 8,
+    "USU": 8,
+    "UUD": 24,
+    "UUM": 8,
+    "UUS": 8,
+    "UVD": 8,
+    "UVM": 4,
+    "VDD": 28,
+    "VDM": 4,
+    "VDS": 6,
+    "VDU": 8,
+    "VDV": 10,
+    "VMD": 4,
+    "VMS": 2,
+    "VMU": 4,
+    "VMV": 6,
+    "VSD": 6,
+    "VSM": 2,
+    "VUD": 8,
+    "VUM": 4,
+    "VVD": 10,
+    "VVM": 6
+  },
+  "example": [
+    {
+      "center": "c0",
+      "type": "D",
+      "doubled": "x",
+      "singleton": "b0"
+    },
+    {
+      "center": "c1",
+      "type": "D",
+      "doubled": "x",
+      "singleton": "b1"
+    },
+    {
+      "center": "c2",
+      "type": "S",
+      "doubled": "b2",
+      "singleton": "x"
+    }
+  ],
+  "example_tree_edges": {
+    "c0": [
+      [
+        "c0",
+        "x",
+        "b0"
+      ]
+    ],
+    "c1": [
+      [
+        "c1",
+        "x",
+        "b1"
+      ]
+    ],
+    "c2": [
+      [
+        "c2",
+        "b2",
+        "x"
+      ]
+    ],
+    "b0": [
+      [
+        "c0",
+        "c1",
+        "b1"
+      ],
+      [
+        "c0",
+        "c2",
+        "b2"
+      ],
+      [
+        "x",
+        "c0",
+        "c0"
+      ]
+    ],
+    "b1": [
+      [
+        "c1",
+        "c0",
+        "b0"
+      ],
+      [
+        "c1",
+        "c2",
+        "b2"
+      ],
+      [
+        "x",
+        "c1",
+        "c1"
+      ]
+    ],
+    "b2": [
+      [
+        "c2",
+        "c0",
+        "b0"
+      ],
+      [
+        "c2",
+        "c1",
+        "b1"
+      ]
+    ],
+    "x": [
+      [
+        "b2",
+        "c2",
+        "c2"
+      ]
+    ],
+    "y": []
+  },
+  "pair_certificates": [
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        0,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        1,
+        0
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        1,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        1,
+        2
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        1,
+        4
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        1,
+        5
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        1,
+        9
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        1,
+        10
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        2
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        2,
+        1
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        4,
+        1
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        4,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        4,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        3,
+        -1,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        4,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        4,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        3,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        4,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        5,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        5,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        5,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        6,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        6,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        6,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        6,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        6,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        6,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        6,
+        13
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        7,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        3,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        7,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        7,
+        6
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        7,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        7,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        7,
+        13
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        3,
+        0,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        6
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        -1,
+        0,
+        1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        -1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        8,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        9,
+        1
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        9,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        9,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        3,
+        -1,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        4,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        9,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        3,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        4,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        10,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        10,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        10,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        11,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        2
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        11,
+        8
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        11,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        11,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        11,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        11,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        11,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        12,
+        8
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        12,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        3,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        4,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        12,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        12,
+        11
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        12,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        12,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        1
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        3,
+        0,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        11
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        1
+      ],
+      "option_indices": [
+        13,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        0,
+        1
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        2,
+        0,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        2,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        3,
+        0
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        3,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        3,
+        2
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        3,
+        4
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        3,
+        5
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        3,
+        9
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        3,
+        10
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        -1,
+        0,
+        2
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        4,
+        1
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        4,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        4,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        3,
+        -1,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        4,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        4,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        3,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        4,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        5,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        5,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        5,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        6,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        3,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        6,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        6,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        6,
+        7
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        2,
+        0,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        6,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        6,
+        13
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        7,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        7,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        7,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        7,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        7,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        7,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        7,
+        13
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        3,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        -1,
+        0,
+        1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        7
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        -1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        8,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        9,
+        1
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        9,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        9,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        3,
+        -1,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        4,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        9,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        3,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        4,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        10,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        10,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        10,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        2,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        11,
+        8
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        11,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        3,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        11,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        11,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        11,
+        12
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        2,
+        0,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        11,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        12,
+        1
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        2
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        12,
+        8
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        12,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        12,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        12,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        12,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        12,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        -1,
+        1
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        3,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        12
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        0,
+        2
+      ],
+      "option_indices": [
+        13,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        -1,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        0,
+        3
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        2,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        2,
+        3
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        3,
+        0
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        3,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        3,
+        2
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        3,
+        3
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        3,
+        4
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        3,
+        6
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        3,
+        9
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        3,
+        11
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        0,
+        2
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        4,
+        3
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        4,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        3,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        4,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        4,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        4,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        3,
+        -1,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        4,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        5,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        3,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        5,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        5,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        5,
+        7
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        2,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        5,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        2,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        5,
+        13
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        6,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        3,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        6,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        6,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        7,
+        3
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        2,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        7,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        7,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        7,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        7,
+        7
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        7,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        7,
+        13
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        4
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        3,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        7
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        8,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        9,
+        3
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        9,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        3,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        4,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        9,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        9,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        3,
+        -1,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        4,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        10,
+        8
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        10,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        3,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        10,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        10,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        10,
+        12
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        2,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        10,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        11,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        3,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        11,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        11,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        2,
+        -1,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        12,
+        3
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        2
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        12,
+        8
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        0,
+        2,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        12,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        0,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        12,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        12,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        12,
+        12
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        12,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        5
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        6
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        8
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        9
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        3,
+        -1,
+        -1
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        10
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        11
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        12
+      ],
+      "coefficients": [
+        1,
+        -1,
+        1
+      ],
+      "relation": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        0
+      ],
+      "rival_counts": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "centers": [
+        1,
+        2
+      ],
+      "option_indices": [
+        13,
+        13
+      ],
+      "coefficients": [
+        -1,
+        1,
+        -1
+      ],
+      "relation": [
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ],
+      "rival_counts": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "limitations": [
+    "Only coefficients -1,0,1 of two partner rows and one core row are checked.",
+    "Known partial edges of all eight trees are checked, not simultaneous completion.",
+    "One partner is selected per pure cubic; uniqueness is never assumed.",
+    "Unspecified extra partners, full doubling closure and validity are not certified.",
+    "Survivors are not group configurations or counterexamples."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "symbolic_patterns_checked": 2880,
+  "tail_rival_witnesses_checked": 2860,
+  "identical_fibers": 4,
+  "formal_star_lifts": 1,
+  "residual_cases_closed": 15,
+  "residual_direct_rivals": 2,
+  "residual_growth_cases": 13,
+  "quartic_positive_bounds": [
+    95,
+    95,
+    113,
+    95,
+    95,
+    95,
+    95,
+    121,
+    116,
+    121,
+    121,
+    114,
+    121
+  ],
+  "growth_pair_records_checked": 75269,
+  "shared_center_rigidity_verified": true,
+  "fixed_valid_controls": [
+    {
+      "name": "star",
+      "N": 670481,
+      "A": [
+        0,
+        2,
+        34,
+        578,
+        9826,
+        83522,
+        83538,
+        83810
+      ],
+      "eight_term_multisets_checked": 6435,
+      "cubic_triples": 0,
+      "quartic_triangle_triples": 1,
+      "quintic_triangle_triples": 0,
+      "quintic_star_triples": 2,
+      "quintic_path_triples": 0,
+      "quintic_split_triples": 0
+    },
+    {
+      "name": "triangle",
+      "N": 670481,
+      "A": [
+        0,
+        2,
+        34,
+        578,
+        9826,
+        83522,
+        83538,
+        83539
+      ],
+      "eight_term_multisets_checked": 6435,
+      "cubic_triples": 1,
+      "quartic_triangle_triples": 0,
+      "quintic_triangle_triples": 1,
+      "quintic_star_triples": 0,
+      "quintic_path_triples": 0,
+      "quintic_split_triples": 0
+    }
+  ],
+  "boundary": "Complete computer-assisted shared-center rigidity only; full N>=248 remains open. Same-author separate implementation."
+}

@@ -1,0 +1,23 @@
+{
+  "family": "rooted double stars with marked leaf, R3=0",
+  "rooted_shape_representatives": 19,
+  "seconds_limit": 30,
+  "elapsed_seconds": 6.75,
+  "complete_template_family": true,
+  "counts": {
+    "label_permutations": 95760,
+    "admissible_templates": 40261,
+    "small_determinant": 6939,
+    "integer_decomposition_audits": 330,
+    "cyclic_quotient_maps_up_to_units": 30310,
+    "distinct_eight_point_outputs": 8608,
+    "sidon_outputs": 6796,
+    "doubling_closure_failure": 6796,
+    "duplicate_outputs": 21382,
+    "pair_sum_failure": 1812,
+    "repeated_point": 320
+  },
+  "valid_retained": [],
+  "invalid_h0_examples": [],
+  "scope": "Not all trees; not R3>0; not all h0 sets or moduli."
+}

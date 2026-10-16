@@ -1,0 +1,51 @@
+{
+  "quartic_threshold_controls": [
+    {
+      "values": 87,
+      "accepted": false,
+      "bound": 245
+    },
+    {
+      "values": 88,
+      "accepted": false,
+      "bound": 247
+    },
+    {
+      "values": 89,
+      "accepted": true,
+      "bound": 249
+    },
+    {
+      "values": 94,
+      "accepted": true,
+      "bound": 259
+    }
+  ],
+  "parity_exit_controls": [
+    {
+      "stage": 32,
+      "synthetic_control": "complete",
+      "exit_code": 0,
+      "completion": "COMPLETE"
+    },
+    {
+      "stage": 32,
+      "synthetic_control": "timeout",
+      "exit_code": 2,
+      "completion": "TIMEOUT/incomplete"
+    },
+    {
+      "stage": 34,
+      "synthetic_control": "complete",
+      "exit_code": 0,
+      "completion": "COMPLETE"
+    },
+    {
+      "stage": 34,
+      "synthetic_control": "timeout",
+      "exit_code": 2,
+      "completion": "TIMEOUT/incomplete"
+    }
+  ],
+  "scope": "Genuine positive quartic certificates; synthetic parity exit-path controls, not new parity exclusions."
+}

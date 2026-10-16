@@ -1,0 +1,365 @@
+{
+  "completion": "COMPLETE_FIXED_FAMILY",
+  "seconds_limit": 45,
+  "elapsed_seconds": 2.8289999999979045,
+  "planned_presentations": 13065,
+  "counters": {
+    "presentations": 13065,
+    "Sidon": 4694,
+    "not_Sidon": 7228,
+    "not_distinct": 537,
+    "duplicates": 606,
+    "Sidon_cubic": 1,
+    "Sidon_cubic_Q70": 1,
+    "quartic_protected": 1,
+    "intersection_only": 1,
+    "valid_by_quartic_split": 1
+  },
+  "best": {
+    "Sidon": {
+      "N": 207,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 36,
+      "sumset3": 94,
+      "sumset4": 160,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": false,
+      "quartic_protected": false,
+      "quartics_protected_count": 50,
+      "intersection_size": 113,
+      "intersection_exact_Q": false,
+      "h": 6,
+      "maximum_dilation_overlap": 7,
+      "family": "single",
+      "parameters": [
+        0,
+        0
+      ],
+      "periods4": [
+        0
+      ],
+      "valid8": false,
+      "eight_multisets_checked": 6435,
+      "rival_count": 19,
+      "rival": [
+        4,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_quartic_failure": {
+        "squarefree": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "opponent": [
+          0,
+          0,
+          7,
+          7
+        ],
+        "residue": 47
+      }
+    },
+    "Sidon_cubic": {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 36,
+      "sumset3": 92,
+      "sumset4": 162,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": true,
+      "quartic_protected": true,
+      "quartics_protected_count": 70,
+      "intersection_size": 70,
+      "intersection_exact_Q": true,
+      "h": 0,
+      "maximum_dilation_overlap": 8,
+      "family": "single",
+      "parameters": [
+        0,
+        0
+      ],
+      "periods4": [
+        0
+      ],
+      "valid8": true,
+      "eight_multisets_checked": 6435,
+      "rival_count": 0,
+      "rival": null,
+      "first_quartic_failure": null
+    },
+    "Sidon_cubic_Q70": {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 36,
+      "sumset3": 92,
+      "sumset4": 162,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": true,
+      "quartic_protected": true,
+      "quartics_protected_count": 70,
+      "intersection_size": 70,
+      "intersection_exact_Q": true,
+      "h": 0,
+      "maximum_dilation_overlap": 8,
+      "family": "single",
+      "parameters": [
+        0,
+        0
+      ],
+      "periods4": [
+        0
+      ],
+      "valid8": true,
+      "eight_multisets_checked": 6435,
+      "rival_count": 0,
+      "rival": null,
+      "first_quartic_failure": null
+    },
+    "quartic_protected": {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 36,
+      "sumset3": 92,
+      "sumset4": 162,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": true,
+      "quartic_protected": true,
+      "quartics_protected_count": 70,
+      "intersection_size": 70,
+      "intersection_exact_Q": true,
+      "h": 0,
+      "maximum_dilation_overlap": 8,
+      "family": "single",
+      "parameters": [
+        0,
+        0
+      ],
+      "periods4": [
+        0
+      ],
+      "valid8": true,
+      "eight_multisets_checked": 6435,
+      "rival_count": 0,
+      "rival": null,
+      "first_quartic_failure": null
+    },
+    "intersection_only": {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 36,
+      "sumset3": 92,
+      "sumset4": 162,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": true,
+      "quartic_protected": true,
+      "quartics_protected_count": 70,
+      "intersection_size": 70,
+      "intersection_exact_Q": true,
+      "h": 0,
+      "maximum_dilation_overlap": 8,
+      "family": "single",
+      "parameters": [
+        0,
+        0
+      ],
+      "periods4": [
+        0
+      ],
+      "valid8": true,
+      "eight_multisets_checked": 6435,
+      "rival_count": 0,
+      "rival": null,
+      "first_quartic_failure": null
+    },
+    "valid_by_quartic_split": {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 36,
+      "sumset3": 92,
+      "sumset4": 162,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": true,
+      "quartic_protected": true,
+      "quartics_protected_count": 70,
+      "intersection_size": 70,
+      "intersection_exact_Q": true,
+      "h": 0,
+      "maximum_dilation_overlap": 8,
+      "family": "single",
+      "parameters": [
+        0,
+        0
+      ],
+      "periods4": [
+        0
+      ],
+      "valid8": true,
+      "eight_multisets_checked": 6435,
+      "rival_count": 0,
+      "rival": null,
+      "first_quartic_failure": null
+    }
+  },
+  "controls": [
+    {
+      "N": 251,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 35,
+      "sumset3": 90,
+      "sumset4": 159,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": false,
+      "quartic_protected": false,
+      "quartics_protected_count": 55,
+      "intersection_size": 70,
+      "intersection_exact_Q": true,
+      "h": 4,
+      "maximum_dilation_overlap": 7,
+      "periods4": [
+        0
+      ],
+      "valid8": false,
+      "eight_multisets_checked": 6435,
+      "rival_count": 1,
+      "rival": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "first_quartic_failure": {
+        "squarefree": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "opponent": [
+          1,
+          3,
+          7,
+          7
+        ],
+        "residue": 11
+      }
+    },
+    {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "sumset2": 36,
+      "sumset3": 92,
+      "sumset4": 162,
+      "squarefree3_distinct": 56,
+      "squarefree4_distinct": 70,
+      "cubic_protected": true,
+      "quartic_protected": true,
+      "quartics_protected_count": 70,
+      "intersection_size": 70,
+      "intersection_exact_Q": true,
+      "h": 0,
+      "maximum_dilation_overlap": 8,
+      "periods4": [
+        0
+      ],
+      "valid8": true,
+      "eight_multisets_checked": 6435,
+      "rival_count": 0,
+      "rival": null,
+      "first_quartic_failure": null
+    }
+  ],
+  "covers_all_sets": false,
+  "new_modulus_exclusion": false,
+  "universal_growth_proved": false
+}

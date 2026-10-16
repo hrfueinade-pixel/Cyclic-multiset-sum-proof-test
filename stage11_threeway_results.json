@@ -1,0 +1,63 @@
+{
+  "complete_fixed_checks": true,
+  "arrow_type_patterns": 64,
+  "graph_counts": {
+    "two_cycle_UU_tail_U": 6,
+    "two_cycle_UU_tail_V": 6,
+    "two_cycle_UV": 24,
+    "two_cycle_VV": 12,
+    "three_cycle_3U": 2,
+    "three_cycle_2U": 6,
+    "three_cycle_1U": 6,
+    "three_cycle_0U": 2
+  },
+  "fixed_order_orbit_sizes": {
+    "5": 4,
+    "7": 6,
+    "15": 8,
+    "25": 20,
+    "35": 24,
+    "75": 40,
+    "105": 24,
+    "87": 56,
+    "29": 28,
+    "69": 44,
+    "23": 22,
+    "117": 24,
+    "39": 24
+  },
+  "fixture_candidates": 1,
+  "valid_fixtures": 1,
+  "fixture": {
+    "N": 8000625,
+    "integer_lifts": [
+      0,
+      3,
+      41,
+      4,
+      -2,
+      -78,
+      1000,
+      1000000
+    ],
+    "h": 23,
+    "validity_multisets_checked": 6435,
+    "threeway_fibers": {
+      "4": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    }
+  },
+  "scope": "Proof arithmetic and one non-h0 control; no three-way exclusion."
+}

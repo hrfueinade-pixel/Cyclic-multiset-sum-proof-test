@@ -1,0 +1,70 @@
+{
+  "certificates": [
+    {
+      "file": "stage42_chain3_degree4_certificate.json.gz",
+      "model": "chain3",
+      "degree": 4,
+      "distinct_repeated_values": 92,
+      "pair_witnesses_checked": 4186,
+      "corruptions_rejected": 11
+    },
+    {
+      "file": "stage42_doubling4_degree3_certificate.json.gz",
+      "model": "doubling4",
+      "degree": 3,
+      "distinct_repeated_values": 30,
+      "pair_witnesses_checked": 435,
+      "corruptions_rejected": 11
+    },
+    {
+      "file": "stage42_doubling4_degree4_certificate.json.gz",
+      "model": "doubling4",
+      "degree": 4,
+      "distinct_repeated_values": 78,
+      "pair_witnesses_checked": 3003,
+      "corruptions_rejected": 11
+    },
+    {
+      "file": "stage42_doubling4_degree5_certificate.json.gz",
+      "model": "doubling4",
+      "degree": 5,
+      "distinct_repeated_values": 135,
+      "pair_witnesses_checked": 9045,
+      "corruptions_rejected": 11
+    },
+    {
+      "file": "stage42_exception3_degree4_certificate.json.gz",
+      "model": "exception3",
+      "degree": 4,
+      "distinct_repeated_values": 94,
+      "pair_witnesses_checked": 4371,
+      "corruptions_rejected": 11
+    },
+    {
+      "file": "stage42_pairchain_degree4_certificate.json.gz",
+      "model": "pairchain",
+      "degree": 4,
+      "distinct_repeated_values": 85,
+      "pair_witnesses_checked": 3570,
+      "corruptions_rejected": 11
+    },
+    {
+      "file": "stage42_pairchain_degree5_certificate.json.gz",
+      "model": "pairchain",
+      "degree": 5,
+      "distinct_repeated_values": 142,
+      "pair_witnesses_checked": 10011,
+      "corruptions_rejected": 11
+    },
+    {
+      "file": "stage42_twochains_degree4_certificate.json.gz",
+      "model": "twochains",
+      "degree": 4,
+      "distinct_repeated_values": 89,
+      "pair_witnesses_checked": 3916,
+      "corruptions_rejected": 11
+    }
+  ],
+  "total_pair_witnesses": 38537,
+  "boundary": "Separate arithmetic implementation by the same author, not independent human or formal review. Only positive model bounds are certified; no arbitrary modulus exclusion."
+}

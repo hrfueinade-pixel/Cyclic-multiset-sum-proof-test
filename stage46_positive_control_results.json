@@ -1,0 +1,75 @@
+{
+  "set": [
+    14741,
+    14773,
+    15317,
+    19652,
+    0,
+    14433,
+    14449,
+    14721
+  ],
+  "raw_set": [
+    2,
+    34,
+    578,
+    4913,
+    -14739,
+    -306,
+    -290,
+    -18
+  ],
+  "modulus": 157217,
+  "target": 108086,
+  "checked_degree_eight_words": 6435,
+  "target_representations": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "quartic_value": 58956,
+  "quartic_fiber": [
+    [
+      0,
+      1,
+      7,
+      7
+    ],
+    [
+      0,
+      2,
+      6,
+      6
+    ],
+    [
+      1,
+      2,
+      5,
+      5
+    ],
+    [
+      3,
+      3,
+      3,
+      4
+    ]
+  ],
+  "predecessor_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "scope": "Positive full-valid large-order counterexample to an unrestricted predecessor cap seven."
+}

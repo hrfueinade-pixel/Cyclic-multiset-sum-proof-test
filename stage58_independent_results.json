@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "split_source_presentations": 720,
+  "proof_models": 190,
+  "proof_types": {
+    "direct_exclusion": 184,
+    "quartic_growth89": 6
+  },
+  "positive_quartic_pair_identities": 23496,
+  "sha256": "4bccc6e3be75bf6d8e8df89b804346595d3b04959a27455046635542a5ca74b7",
+  "proof_boundary": "Every paired triangle edge is excluded as a genuine split source; general q<=h-o and P3ordinary>=9 follow with the written packing/forest argument. Full N>=248 remains open."
+}

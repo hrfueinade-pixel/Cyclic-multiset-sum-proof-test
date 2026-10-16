@@ -1,0 +1,470 @@
+{
+  "controls": [
+    {
+      "name": "binary",
+      "N": 255,
+      "A": [
+        1,
+        4,
+        16,
+        64,
+        2,
+        8,
+        32,
+        128
+      ],
+      "full_validity": true,
+      "eight_term_words_checked": 6435,
+      "repeated_value_counts": {
+        "3": 36,
+        "4": 92,
+        "5": 162
+      },
+      "h": 0,
+      "R3": 0,
+      "max_ordinary_representations": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "max_total_repeated_cubic_representations": 2,
+      "cubic_plus_quintic": 198,
+      "quartic_protection": true,
+      "private_center_check": true,
+      "reused_output": {
+        "quintic_value": 170,
+        "ordinary_words": [
+          [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "six_distinct_cubic_fibers_same_output": [
+          {
+            "cubic_value": 10,
+            "pair_value": 160,
+            "cubic_words": [
+              [
+                2,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            ],
+            "pair_word": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "cubic_value": 34,
+            "pair_value": 136,
+            "cubic_words": [
+              [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            ],
+            "pair_word": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "cubic_value": 130,
+            "pair_value": 40,
+            "cubic_words": [
+              [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                1,
+                0,
+                0,
+                0
+              ]
+            ],
+            "pair_word": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "cubic_value": 40,
+            "pair_value": 130,
+            "cubic_words": [
+              [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0,
+                0,
+                1,
+                0,
+                0
+              ]
+            ],
+            "pair_word": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "cubic_value": 136,
+            "pair_value": 34,
+            "cubic_words": [
+              [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                1,
+                0,
+                0
+              ]
+            ],
+            "pair_word": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "cubic_value": 160,
+            "pair_value": 10,
+            "cubic_words": [
+              [
+                0,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                1,
+                0
+              ]
+            ],
+            "pair_word": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "doubling4",
+      "N": 1000003,
+      "A": [
+        1,
+        17,
+        289,
+        4913,
+        2,
+        34,
+        578,
+        9826
+      ],
+      "full_validity": true,
+      "eight_term_words_checked": 6435,
+      "repeated_value_counts": {
+        "3": 58,
+        "4": 216,
+        "5": 555
+      },
+      "h": 22,
+      "R3": 0,
+      "max_ordinary_representations": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "max_total_repeated_cubic_representations": 2,
+      "cubic_plus_quintic": 613,
+      "quartic_protection": true,
+      "private_center_check": true
+    },
+    {
+      "name": "pairchain",
+      "N": 1000003,
+      "A": [
+        1,
+        4,
+        289,
+        4913,
+        2,
+        8,
+        578,
+        9826
+      ],
+      "full_validity": true,
+      "eight_term_words_checked": 6435,
+      "repeated_value_counts": {
+        "3": 54,
+        "4": 190,
+        "5": 461
+      },
+      "h": 18,
+      "R3": 0,
+      "max_ordinary_representations": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "max_total_repeated_cubic_representations": 2,
+      "cubic_plus_quintic": 515,
+      "quartic_protection": true,
+      "private_center_check": true
+    },
+    {
+      "name": "twochains",
+      "N": 1000003,
+      "A": [
+        1,
+        4,
+        289,
+        1156,
+        2,
+        8,
+        578,
+        2312
+      ],
+      "full_validity": true,
+      "eight_term_words_checked": 6435,
+      "repeated_value_counts": {
+        "3": 49,
+        "4": 160,
+        "5": 361
+      },
+      "h": 13,
+      "R3": 0,
+      "max_ordinary_representations": {
+        "3": 2,
+        "4": 3,
+        "5": 4
+      },
+      "max_total_repeated_cubic_representations": 2,
+      "cubic_plus_quintic": 410,
+      "quartic_protection": true,
+      "private_center_check": true
+    },
+    {
+      "name": "exception",
+      "N": 300009,
+      "A": [
+        0,
+        100003,
+        1,
+        300007,
+        17,
+        299975,
+        289,
+        4913
+      ],
+      "full_validity": true,
+      "eight_term_words_checked": 6435,
+      "repeated_value_counts": {
+        "3": 61,
+        "4": 236,
+        "5": 628
+      },
+      "h": 22,
+      "R3": 3,
+      "max_ordinary_representations": {
+        "3": 2,
+        "4": 2,
+        "5": 2
+      },
+      "max_total_repeated_cubic_representations": 4,
+      "cubic_plus_quintic": 689,
+      "quartic_protection": true,
+      "private_center_check": true,
+      "exceptional_cubic_words": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "boundary": "Only five declared controls; no parameter or residue-set search. Full validity outside the target interval does not refute the conditional sub-248 theorem."
+}

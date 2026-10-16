@@ -1,0 +1,171 @@
+{
+  "completion": "COMPLETE",
+  "cap_seconds": 30,
+  "elapsed_seconds": 1.2970000000059372,
+  "parameters_checked": 71512,
+  "identities_checked": 30204,
+  "coverage": [
+    {
+      "n": 185,
+      "parameters": 2052,
+      "sidon_sets": 733
+    },
+    {
+      "n": 187,
+      "parameters": 2132,
+      "sidon_sets": 768
+    },
+    {
+      "n": 189,
+      "parameters": 3780,
+      "sidon_sets": 1340
+    },
+    {
+      "n": 191,
+      "parameters": 764,
+      "sidon_sets": 285
+    },
+    {
+      "n": 193,
+      "parameters": 772,
+      "sidon_sets": 291
+    },
+    {
+      "n": 195,
+      "parameters": 4116,
+      "sidon_sets": 1343
+    },
+    {
+      "n": 197,
+      "parameters": 788,
+      "sidon_sets": 305
+    },
+    {
+      "n": 199,
+      "parameters": 796,
+      "sidon_sets": 312
+    },
+    {
+      "n": 201,
+      "parameters": 2132,
+      "sidon_sets": 780
+    },
+    {
+      "n": 203,
+      "parameters": 2292,
+      "sidon_sets": 901
+    },
+    {
+      "n": 205,
+      "parameters": 2276,
+      "sidon_sets": 964
+    },
+    {
+      "n": 207,
+      "parameters": 3252,
+      "sidon_sets": 1239
+    },
+    {
+      "n": 209,
+      "parameters": 2388,
+      "sidon_sets": 1053
+    },
+    {
+      "n": 211,
+      "parameters": 844,
+      "sidon_sets": 363
+    },
+    {
+      "n": 213,
+      "parameters": 2260,
+      "sidon_sets": 872
+    },
+    {
+      "n": 215,
+      "parameters": 2388,
+      "sidon_sets": 976
+    },
+    {
+      "n": 217,
+      "parameters": 2452,
+      "sidon_sets": 918
+    },
+    {
+      "n": 219,
+      "parameters": 2324,
+      "sidon_sets": 1140
+    },
+    {
+      "n": 221,
+      "parameters": 2532,
+      "sidon_sets": 1138
+    },
+    {
+      "n": 223,
+      "parameters": 892,
+      "sidon_sets": 416
+    },
+    {
+      "n": 225,
+      "parameters": 4980,
+      "sidon_sets": 2174
+    },
+    {
+      "n": 227,
+      "parameters": 908,
+      "sidon_sets": 424
+    },
+    {
+      "n": 229,
+      "parameters": 916,
+      "sidon_sets": 436
+    },
+    {
+      "n": 231,
+      "parameters": 4980,
+      "sidon_sets": 2244
+    },
+    {
+      "n": 233,
+      "parameters": 932,
+      "sidon_sets": 448
+    },
+    {
+      "n": 235,
+      "parameters": 2612,
+      "sidon_sets": 928
+    },
+    {
+      "n": 237,
+      "parameters": 2516,
+      "sidon_sets": 1063
+    },
+    {
+      "n": 239,
+      "parameters": 956,
+      "sidon_sets": 478
+    },
+    {
+      "n": 241,
+      "parameters": 964,
+      "sidon_sets": 485
+    },
+    {
+      "n": 243,
+      "parameters": 3564,
+      "sidon_sets": 1897
+    },
+    {
+      "n": 245,
+      "parameters": 4116,
+      "sidon_sets": 2020
+    },
+    {
+      "n": 247,
+      "parameters": 2836,
+      "sidon_sets": 1470
+    }
+  ],
+  "imports_producer": false,
+  "scope": "Two-path family at odd185..247 only; no general set search"
+}

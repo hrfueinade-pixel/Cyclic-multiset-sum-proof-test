@@ -1,0 +1,91 @@
+{
+  "retained_positive_certificates": [
+    {
+      "source": "stage41_saturated_fiber_closure_results.json",
+      "certificate": "stage41_quartic87_certificate.json.gz",
+      "model": "leaf22",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "positive_clique_size": 87,
+      "search_complete": false,
+      "search_nodes": 73344,
+      "elapsed_seconds": 10.514999999999418,
+      "compressed_bytes": 8162
+    },
+    {
+      "source": "stage41_saturated_fiber_quintic_results.json",
+      "certificate": "stage41_quintic157_certificate.json.gz",
+      "model": "leaf22",
+      "degree": 5,
+      "units": [
+        2,
+        3
+      ],
+      "positive_clique_size": 157,
+      "search_complete": false,
+      "search_nodes": 260,
+      "elapsed_seconds": 2.0460000000020955,
+      "compressed_bytes": 19149
+    },
+    {
+      "source": "stage41_hub22_quartic_results.json",
+      "certificate": "stage41_hub22_quartic90_certificate.json.gz",
+      "model": "hub22",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "positive_clique_size": 90,
+      "search_complete": false,
+      "search_nodes": 90,
+      "elapsed_seconds": 0.46899999999732245,
+      "compressed_bytes": 8207
+    },
+    {
+      "source": "stage41_fourO_quartic_results.json",
+      "certificate": "stage41_fourO_quartic87_certificate.json.gz",
+      "model": "fourO",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "positive_clique_size": 87,
+      "search_complete": false,
+      "search_nodes": 87,
+      "elapsed_seconds": 0.4529999999940628,
+      "compressed_bytes": 7723
+    },
+    {
+      "source": "stage41_fourO_quintic_results.json",
+      "certificate": "stage41_fourO_quintic156_certificate.json.gz",
+      "model": "fourO",
+      "degree": 5,
+      "units": [
+        2,
+        3
+      ],
+      "positive_clique_size": 156,
+      "search_complete": false,
+      "search_nodes": 282,
+      "elapsed_seconds": 2.187999999994645,
+      "compressed_bytes": 20522
+    },
+    {
+      "source": "stage41_purehub_quartic_results.json",
+      "certificate": "stage41_purehub_quartic89_certificate.json.gz",
+      "model": "purehub",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "positive_clique_size": 89,
+      "search_complete": false,
+      "search_nodes": 89,
+      "elapsed_seconds": 0.8280000000086147,
+      "compressed_bytes": 8096
+    }
+  ],
+  "boundary": "Only positive certificates establish lower bounds. Search completion or optimality is unnecessary and is not claimed."
+}

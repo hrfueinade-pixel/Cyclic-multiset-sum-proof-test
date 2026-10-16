@@ -1,0 +1,269 @@
+{
+  "local_order_five_counterexample": {
+    "N": 262445,
+    "A": [
+      0,
+      209956,
+      52490,
+      209957,
+      209965,
+      52570,
+      210685,
+      59050
+    ],
+    "multisets_checked": 6435,
+    "h": 26,
+    "R3": 0,
+    "T3": 62,
+    "T4": 242,
+    "K": 244,
+    "D": 2,
+    "disjoint_vertex_pairs_by_type": {
+      "31/31": 2
+    },
+    "31_collision_with_present_doubled_center_difference": [
+      {
+        "value": 52490,
+        "left": [
+          0,
+          0,
+          0,
+          52490
+        ],
+        "right": [
+          209956,
+          209956,
+          209956,
+          209957
+        ],
+        "degrees": [
+          0,
+          0
+        ],
+        "different_components": true
+      },
+      {
+        "value": 104981,
+        "left": [
+          0,
+          209957,
+          209957,
+          209957
+        ],
+        "right": [
+          209956,
+          52490,
+          52490,
+          52490
+        ],
+        "degrees": [
+          0,
+          0
+        ],
+        "different_components": true
+      }
+    ],
+    "CRT_coordinates": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        81
+      ],
+      [
+        0,
+        729
+      ],
+      [
+        0,
+        6561
+      ]
+    ],
+    "radix": 9,
+    "Q": 52489,
+    "low_block_table": [
+      {
+        "B_terms": 0,
+        "vertices": 5,
+        "fibers": 5,
+        "components": 5
+      },
+      {
+        "B_terms": 1,
+        "vertices": 8,
+        "fibers": 5,
+        "components": 6
+      },
+      {
+        "B_terms": 2,
+        "vertices": 8,
+        "fibers": 4,
+        "components": 4
+      },
+      {
+        "B_terms": 3,
+        "vertices": 8,
+        "fibers": 5,
+        "components": 6
+      },
+      {
+        "B_terms": 4,
+        "vertices": 5,
+        "fibers": 5,
+        "components": 5
+      }
+    ]
+  },
+  "fixed_controls": [
+    {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "multisets_checked": 6435,
+      "h": 0,
+      "R3": 0,
+      "T3": 36,
+      "T4": 92,
+      "K": 92,
+      "D": 0,
+      "disjoint_vertex_pairs_by_type": {
+        "211/31": 8,
+        "211/211": 12
+      },
+      "31_collision_with_present_doubled_center_difference": []
+    },
+    {
+      "N": 256,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "multisets_checked": 6435,
+      "h": 1,
+      "R3": 0,
+      "T3": 37,
+      "T4": 93,
+      "K": 94,
+      "D": 1,
+      "disjoint_vertex_pairs_by_type": {
+        "22/4": 6,
+        "211/4": 4,
+        "211/211": 9,
+        "211/31": 5,
+        "211/22": 10,
+        "22/31": 5,
+        "31/4": 1,
+        "4/4": 1
+      },
+      "31_collision_with_present_doubled_center_difference": []
+    },
+    {
+      "N": 254,
+      "A": [
+        0,
+        1,
+        129,
+        131,
+        135,
+        143,
+        159,
+        191
+      ],
+      "multisets_checked": 6435,
+      "h": 0,
+      "R3": 0,
+      "T3": 36,
+      "T4": 92,
+      "K": 92,
+      "D": 0,
+      "disjoint_vertex_pairs_by_type": {
+        "22/4": 7,
+        "211/22": 14,
+        "211/31": 7,
+        "211/211": 7
+      },
+      "31_collision_with_present_doubled_center_difference": []
+    },
+    {
+      "N": 229753,
+      "A": [
+        0,
+        1,
+        13,
+        169,
+        2043,
+        2197,
+        28561,
+        28719
+      ],
+      "multisets_checked": 6435,
+      "h": 28,
+      "R3": 0,
+      "T3": 64,
+      "T4": 257,
+      "K": 260,
+      "D": 3,
+      "disjoint_vertex_pairs_by_type": {
+        "211/211": 3
+      },
+      "31_collision_with_present_doubled_center_difference": []
+    },
+    {
+      "N": 78337,
+      "A": [
+        0,
+        4609,
+        4610,
+        4626,
+        4898,
+        9248,
+        9522,
+        9792
+      ],
+      "multisets_checked": 6435,
+      "h": 25,
+      "R3": 1,
+      "T3": 62,
+      "T4": 241,
+      "K": 244,
+      "D": 3,
+      "disjoint_vertex_pairs_by_type": {
+        "211/211": 3
+      },
+      "31_collision_with_present_doubled_center_difference": []
+    }
+  ],
+  "scope": "Six fixed valid fixtures; not a global proof from testing."
+}

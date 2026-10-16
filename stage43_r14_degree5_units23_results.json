@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "model": "r14",
+      "direction": [
+        -4,
+        -1,
+        1,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 5,
+      "units": [
+        2,
+        3
+      ],
+      "formal_values": 507,
+      "positive_bound": 144,
+      "pair_records": 10296,
+      "target": 156,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 32768,
+      "elapsed_seconds": 2.3429999999934807,
+      "certificate": "stage43_r14_degree5_units23_certificate.json.gz"
+    }
+  ],
+  "boundary": "Positive model certificates only; fixed symbolic inventory, no parameter or modulus sweep."
+}

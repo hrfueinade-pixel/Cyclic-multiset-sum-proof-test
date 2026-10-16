@@ -1,0 +1,431 @@
+{
+  "models": [
+    {
+      "id": "q3_triangle",
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction": [],
+      "torsion_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "torsion_order": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "parameterization": "Five tails 0,2u,2v,2w,2t; center=z+half the omitted edge sum."
+    },
+    {
+      "id": "q3_star",
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "direction": [],
+      "torsion_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "torsion_order": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "parameterization": "Five tails 0,2u,2v,2w,2t; center=z+half the omitted edge sum."
+    },
+    {
+      "id": "q3_path",
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "direction": [],
+      "torsion_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "torsion_order": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "parameterization": "Five tails 0,2u,2v,2w,2t; center=z+half the omitted edge sum."
+    },
+    {
+      "id": "q3_split",
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "direction": [],
+      "torsion_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "torsion_order": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "parameterization": "Five tails 0,2u,2v,2w,2t; center=z+half the omitted edge sum."
+    }
+  ],
+  "results": [
+    {
+      "model": "q3_triangle",
+      "direction": [],
+      "torsion_order": 1,
+      "degree": 5,
+      "units": [
+        2
+      ],
+      "formal_values": 664,
+      "positive_bound": 121,
+      "pair_records": 7260,
+      "target": 156,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 43264,
+      "elapsed_seconds": 2.5,
+      "certificate": "stage43_q3_triangle_degree5_units2_certificate.json.gz"
+    },
+    {
+      "model": "q3_star",
+      "direction": [],
+      "torsion_order": 1,
+      "degree": 5,
+      "units": [
+        2
+      ],
+      "formal_values": 637,
+      "positive_bound": 119,
+      "pair_records": 7021,
+      "target": 156,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 24320,
+      "elapsed_seconds": 2.5,
+      "certificate": "stage43_q3_star_degree5_units2_certificate.json.gz"
+    },
+    {
+      "model": "q3_path",
+      "direction": [],
+      "torsion_order": 1,
+      "degree": 5,
+      "units": [
+        2
+      ],
+      "formal_values": 664,
+      "positive_bound": 120,
+      "pair_records": 7140,
+      "target": 156,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 31744,
+      "elapsed_seconds": 2.5310000000172295,
+      "certificate": "stage43_q3_path_degree5_units2_certificate.json.gz"
+    },
+    {
+      "model": "q3_split",
+      "direction": [],
+      "torsion_order": 1,
+      "degree": 5,
+      "units": [
+        2
+      ],
+      "formal_values": 685,
+      "positive_bound": 126,
+      "pair_records": 7875,
+      "target": 156,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 28672,
+      "elapsed_seconds": 2.625,
+      "certificate": "stage43_q3_split_degree5_units2_certificate.json.gz"
+    }
+  ],
+  "boundary": "Four fixed quintic-tail graph types. Only retained positive bounds are claimed, not absence from incomplete discovery."
+}

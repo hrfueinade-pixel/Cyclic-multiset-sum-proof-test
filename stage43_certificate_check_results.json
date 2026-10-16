@@ -1,0 +1,16 @@
+{
+  "cubic_formal_values": 58,
+  "cubic_direction_classes": 50,
+  "permitted_classes": 16,
+  "quartic_excluded_single_classes": 13,
+  "remaining_direction_types": 3,
+  "actual_oriented_directions": 48,
+  "joint_raw_pairs": 1128,
+  "joint_orbits_verified": 57,
+  "joint_direct_rivals": 27,
+  "joint_growth_certificates": 30,
+  "new_positive_pair_records": 282437,
+  "inherited_pair_records_rechecked": 19056,
+  "fourpair_exclusion_verified": true,
+  "boundary": "Computer-assisted proof for the four-doubling-pair family only. Same-author independent implementation; general odd N>=248 theorem remains open."
+}

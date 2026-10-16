@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "P3": 20,
+      "degree_sequences": [
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "graphs": 3507
+        }
+      ],
+      "graphs": 3507,
+      "assignments": 0
+    },
+    {
+      "P3": 19,
+      "degree_sequences": [
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4
+          ],
+          "graphs": 2625
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3
+          ],
+          "graphs": 4265
+        }
+      ],
+      "graphs": 6890,
+      "assignments": 0
+    },
+    {
+      "P3": 18,
+      "degree_sequences": [
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            6
+          ],
+          "graphs": 315
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            5
+          ],
+          "graphs": 1365
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4
+          ],
+          "graphs": 2150
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "graphs": 3640
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3
+          ],
+          "graphs": 6057
+        }
+      ],
+      "graphs": 13527,
+      "assignments": 1536
+    }
+  ],
+  "positive_certificates_checked": 1536,
+  "corruptions_rejected": 2,
+  "fixed_control": {
+    "A": [
+      0,
+      136,
+      518,
+      556,
+      640,
+      700,
+      912,
+      944
+    ],
+    "modulus": 7553,
+    "mass_eight_words_checked": 6435,
+    "valid": true,
+    "q": 2,
+    "E": 4,
+    "ordinary_quartic_triples": 0,
+    "T4_repeated": 227,
+    "size_4A": 297,
+    "split_outputs": [
+      {
+        "value": 2724,
+        "centers": [
+          2,
+          3,
+          7
+        ],
+        "source_center_edges": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      {
+        "value": 2892,
+        "centers": [
+          2,
+          3,
+          4
+        ],
+        "source_center_edges": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      }
+    ],
+    "shared_open_source_edges": [
+      [
+        2,
+        3
+      ]
+    ],
+    "cubic_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "runtime_seconds": 78.57800000000861,
+  "boundary": "Separate implementation by the same assistant, not independent human or formal verification."
+}

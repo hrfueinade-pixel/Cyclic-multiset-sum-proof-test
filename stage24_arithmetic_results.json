@@ -1,0 +1,118 @@
+{
+  "completion": "COMPLETE",
+  "seconds_limit": 10,
+  "elapsed_seconds": 0.0,
+  "partitions": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2,
+      1
+    ],
+    [
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      2,
+      1,
+      1
+    ],
+    [
+      3,
+      2,
+      2
+    ],
+    [
+      3,
+      3,
+      1
+    ],
+    [
+      4,
+      1,
+      1,
+      1
+    ],
+    [
+      4,
+      2,
+      1
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      2
+    ]
+  ],
+  "incoming_pair_maximum": 11,
+  "cases": [
+    {
+      "c2": 0,
+      "minimum_C_from_short_paths": 51,
+      "maximum_C_outside_affine_family": 49,
+      "contradiction": true
+    },
+    {
+      "c2": 1,
+      "minimum_C_from_short_paths": 52,
+      "maximum_C_outside_affine_family": 50,
+      "contradiction": true
+    },
+    {
+      "c2": 2,
+      "minimum_C_from_short_paths": 52,
+      "maximum_C_outside_affine_family": 51,
+      "contradiction": true
+    },
+    {
+      "c2": 3,
+      "minimum_C_from_short_paths": 53,
+      "maximum_C_outside_affine_family": 52,
+      "contradiction": true
+    },
+    {
+      "c2": 4,
+      "minimum_C_from_short_paths": 54,
+      "maximum_C_outside_affine_family": 53,
+      "contradiction": true
+    }
+  ],
+  "scope": "Integer arithmetic only; structural premises are proved in the report."
+}

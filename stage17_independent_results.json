@@ -1,0 +1,963 @@
+{
+  "scope": "Initial 16-role cross-check; independent producer certificate, full coverage, rank-forcing, and signed-orbit audit",
+  "completion": "COMPLETE",
+  "elapsed_seconds": 0.719,
+  "coordinate_labels": [
+    "a",
+    "c",
+    "b",
+    "v",
+    "w"
+  ],
+  "point_labels": [
+    "u",
+    "a",
+    "c",
+    "b",
+    "v",
+    "w",
+    "p",
+    "q"
+  ],
+  "point_vectors": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      -2,
+      0,
+      -1,
+      1,
+      1
+    ],
+    [
+      0,
+      -2,
+      -1,
+      1,
+      1
+    ]
+  ],
+  "target": [
+    -1,
+    -1,
+    -1,
+    3,
+    3
+  ],
+  "rivals": 6434,
+  "cases": 16,
+  "certified": 14,
+  "survivors": [
+    {
+      "a_choice": [
+        "p",
+        "v"
+      ],
+      "c_choice": [
+        "q",
+        "w"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          4,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "certificate": null
+    },
+    {
+      "a_choice": [
+        "p",
+        "w"
+      ],
+      "c_choice": [
+        "q",
+        "v"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          0,
+          -1
+        ]
+      ],
+      "certificate": null
+    }
+  ],
+  "negative_tests": {
+    "accepted_good": 14,
+    "rejected_corrupt_coefficient": 14,
+    "rejected_odd_scale": 14,
+    "rejected_all_ones": 14,
+    "rejected_bad_counts": 14
+  },
+  "outcomes": [
+    {
+      "a_choice": [
+        "b",
+        "v"
+      ],
+      "c_choice": [
+        "b",
+        "v"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          1,
+          0
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          0,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        "scale": 2,
+        "coefficients": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "b",
+        "v"
+      ],
+      "c_choice": [
+        "b",
+        "w"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0
+        ],
+        "scale": 1,
+        "coefficients": [
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "b",
+        "v"
+      ],
+      "c_choice": [
+        "q",
+        "v"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          0,
+          -1
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          3
+        ],
+        "scale": 1,
+        "coefficients": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "b",
+        "v"
+      ],
+      "c_choice": [
+        "q",
+        "w"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          0,
+          0,
+          3,
+          0,
+          2,
+          2,
+          0,
+          1
+        ],
+        "scale": 2,
+        "coefficients": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "b",
+        "w"
+      ],
+      "c_choice": [
+        "b",
+        "v"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          -1,
+          1,
+          0
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          2,
+          0,
+          2
+        ],
+        "scale": 1,
+        "coefficients": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "b",
+        "w"
+      ],
+      "c_choice": [
+        "b",
+        "w"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          0,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        "scale": 2,
+        "coefficients": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "b",
+        "w"
+      ],
+      "c_choice": [
+        "q",
+        "v"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          4,
+          1,
+          0,
+          -1
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          0,
+          0,
+          3,
+          0,
+          2,
+          2,
+          0,
+          1
+        ],
+        "scale": 2,
+        "coefficients": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "b",
+        "w"
+      ],
+      "c_choice": [
+        "q",
+        "w"
+      ],
+      "rows": [
+        [
+          2,
+          0,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          4,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          3
+        ],
+        "scale": 1,
+        "coefficients": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "p",
+        "v"
+      ],
+      "c_choice": [
+        "b",
+        "v"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          1,
+          0
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          3,
+          0
+        ],
+        "scale": 1,
+        "coefficients": [
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "p",
+        "v"
+      ],
+      "c_choice": [
+        "b",
+        "w"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          0,
+          1,
+          2,
+          0,
+          2,
+          2,
+          0,
+          1
+        ],
+        "scale": 2,
+        "coefficients": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "p",
+        "v"
+      ],
+      "c_choice": [
+        "q",
+        "v"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          4,
+          1,
+          0,
+          -1
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          0,
+          2,
+          0,
+          3,
+          2,
+          0,
+          0
+        ],
+        "scale": 4,
+        "coefficients": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "p",
+        "v"
+      ],
+      "c_choice": [
+        "q",
+        "w"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          4,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "certificate": null
+    },
+    {
+      "a_choice": [
+        "p",
+        "w"
+      ],
+      "c_choice": [
+        "b",
+        "v"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          1,
+          0
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          0,
+          1,
+          2,
+          0,
+          2,
+          2,
+          0,
+          1
+        ],
+        "scale": 2,
+        "coefficients": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "p",
+        "w"
+      ],
+      "c_choice": [
+        "b",
+        "w"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          3,
+          0
+        ],
+        "scale": 1,
+        "coefficients": [
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "a_choice": [
+        "p",
+        "w"
+      ],
+      "c_choice": [
+        "q",
+        "v"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          0,
+          -1
+        ]
+      ],
+      "certificate": null
+    },
+    {
+      "a_choice": [
+        "p",
+        "w"
+      ],
+      "c_choice": [
+        "q",
+        "w"
+      ],
+      "rows": [
+        [
+          4,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "certificate": {
+        "counts": [
+          1,
+          0,
+          2,
+          0,
+          2,
+          3,
+          0,
+          0
+        ],
+        "scale": 4,
+        "coefficients": [
+          1,
+          3
+        ]
+      }
+    }
+  ],
+  "local_certificate_audit": {
+    "source": "stage17_local_results.json",
+    "completion": "COMPLETE",
+    "independent_integer_certificates": 615,
+    "deliberate_corruption_rejections": 2460,
+    "single_role_coverage": {
+      "double_v_minus_w": 56,
+      "double_b_minus_w": 56
+    },
+    "combined_retained_domain_coverage": 24,
+    "remaining_two_direction_presentations": 9,
+    "rank_forcing_domain_coverage": 504,
+    "rank_forcing_survivors": [
+      {
+        "parent_roles": [
+          [
+            "w",
+            "u"
+          ],
+          [
+            "c",
+            "b"
+          ]
+        ],
+        "partner_role": [
+          "p",
+          "a"
+        ],
+        "determinant": 503
+      },
+      {
+        "parent_roles": [
+          [
+            "w",
+            "u"
+          ],
+          [
+            "c",
+            "b"
+          ]
+        ],
+        "partner_role": [
+          "v",
+          "a"
+        ],
+        "determinant": 489
+      },
+      {
+        "parent_roles": [
+          [
+            "w",
+            "c"
+          ],
+          [
+            "u",
+            "b"
+          ]
+        ],
+        "partner_role": [
+          "p",
+          "a"
+        ],
+        "determinant": 501
+      },
+      {
+        "parent_roles": [
+          [
+            "w",
+            "c"
+          ],
+          [
+            "u",
+            "b"
+          ]
+        ],
+        "partner_role": [
+          "v",
+          "a"
+        ],
+        "determinant": 483
+      },
+      {
+        "parent_roles": [
+          [
+            "w",
+            "c"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "partner_role": [
+          "p",
+          "u"
+        ],
+        "determinant": 549
+      },
+      {
+        "parent_roles": [
+          [
+            "w",
+            "c"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "partner_role": [
+          "v",
+          "u"
+        ],
+        "determinant": 531
+      }
+    ],
+    "determinants": [
+      503,
+      489,
+      501,
+      483,
+      549,
+      531
+    ],
+    "signed_doubling_orbits": {
+      "503": {
+        "doubling_order": 251,
+        "signed_orbit": 502
+      },
+      "163": {
+        "doubling_order": 162,
+        "signed_orbit": 162
+      },
+      "167": {
+        "doubling_order": 83,
+        "signed_orbit": 166
+      },
+      "61": {
+        "doubling_order": 60,
+        "signed_orbit": 60
+      },
+      "59": {
+        "doubling_order": 58,
+        "signed_orbit": 58
+      },
+      "161": {
+        "doubling_order": 33,
+        "signed_orbit": 66
+      }
+    },
+    "verdict": "All saved integer identities and complete necessary role coverage accepted."
+  }
+}

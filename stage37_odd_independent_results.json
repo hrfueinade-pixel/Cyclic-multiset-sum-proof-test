@@ -1,0 +1,284 @@
+{
+  "completion": "TIMEOUT/incomplete",
+  "cap_seconds": 600.0,
+  "elapsed_seconds": 600.0,
+  "completed_orders": [
+    189,
+    191,
+    193,
+    195,
+    197,
+    199,
+    201,
+    203,
+    205
+  ],
+  "reports": [
+    {
+      "N": 189,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 55698,
+        "eight_sum_saturated": 9631,
+        "C_shapes": 311421,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        7,
+        534,
+        22790,
+        667994
+      ],
+      "roots": [
+        1,
+        3,
+        7,
+        9,
+        21,
+        27,
+        63
+      ]
+    },
+    {
+      "N": 191,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 33002,
+        "eight_sum_saturated": 5677,
+        "C_shapes": 177312,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        186,
+        16020,
+        660024
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 193,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 34267,
+        "eight_sum_saturated": 5342,
+        "C_shapes": 213789,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        188,
+        16380,
+        685340
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 195,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 76064,
+        "eight_sum_saturated": 8967,
+        "C_shapes": 776688,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        7,
+        534,
+        22980,
+        735524
+      ],
+      "roots": [
+        1,
+        3,
+        5,
+        13,
+        15,
+        39,
+        65
+      ]
+    },
+    {
+      "N": 197,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 36895,
+        "eight_sum_saturated": 4595,
+        "C_shapes": 303900,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        192,
+        17112,
+        737900
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 199,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 38258,
+        "eight_sum_saturated": 4222,
+        "C_shapes": 361794,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        194,
+        17484,
+        765160
+      ],
+      "roots": [
+        1
+      ]
+    },
+    {
+      "N": 201,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 60641,
+        "eight_sum_saturated": 5344,
+        "C_shapes": 751158,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        3,
+        258,
+        19378,
+        802824
+      ],
+      "roots": [
+        1,
+        3,
+        67
+      ]
+    },
+    {
+      "N": 203,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 49430,
+        "eight_sum_saturated": 4539,
+        "C_shapes": 621435,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        3,
+        224,
+        18384,
+        821670
+      ],
+      "roots": [
+        1,
+        7,
+        29
+      ]
+    },
+    {
+      "N": 205,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 54351,
+        "eight_sum_saturated": 4319,
+        "C_shapes": 812490,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        3,
+        236,
+        19042,
+        851402
+      ],
+      "roots": [
+        1,
+        5,
+        41
+      ]
+    }
+  ],
+  "partial_order": {
+    "N": 207,
+    "completion": "RUNNING",
+    "counts": {
+      "primitive_B": 31050,
+      "eight_sum_saturated": 1071,
+      "C_shapes": 626010,
+      "bases_6_7_8": 0,
+      "sidon_eight": 0,
+      "rivals": 0,
+      "valid_survivors": 0
+    },
+    "prefixes": [
+      0,
+      0,
+      1,
+      3,
+      495,
+      38717
+    ],
+    "roots": [
+      1,
+      3,
+      9,
+      23,
+      69
+    ]
+  },
+  "survivors": [],
+  "imports_producer": false,
+  "symbolic_base_survivors": [],
+  "comparison": "Compared available completed discovery orders; final cross-check required"
+}

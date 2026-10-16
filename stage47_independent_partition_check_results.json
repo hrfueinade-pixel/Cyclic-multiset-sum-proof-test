@@ -1,0 +1,71 @@
+{
+  "fixed_partition_constraints_passed": true,
+  "fiber_count": 141,
+  "ordinary_centers_checked": 1190,
+  "pair_checks": 2258,
+  "simultaneous_equality_witness": {
+    "fiber_indices": [
+      0,
+      1
+    ],
+    "first_equality": [
+      [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    ],
+    "second_equality": [
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    ],
+    "second_relation_sign": -1,
+    "rival": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      0,
+      1
+    ],
+    "identity": "rival-allones=(first_left-first_right)+sign*(second_left-second_right)",
+    "units_canceled": []
+  },
+  "conclusion": "Partition obeys the stated local relaxation but is impossible under full validity in any group.",
+  "boundary": "No search of cyclic sets, no quartic budget certificate, no exclusion of an arbitrary modulus."
+}

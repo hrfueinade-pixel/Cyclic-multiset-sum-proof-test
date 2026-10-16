@@ -1,0 +1,147 @@
+{
+  "scope": "All sorted-degree complement graphs for P3=18,19,20 and every necessary tail assignment.",
+  "records": [
+    {
+      "P3": 20,
+      "degree_sequences": [
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "graphs": 3507
+        }
+      ],
+      "graphs": 3507,
+      "assignments": 0,
+      "index_histogram": {},
+      "status": "COMPLETE",
+      "graph_digest": "6a201b1eca6195e537883aff4edadd3984e6c6fbdfe1f278a33e749c1dd337aa"
+    },
+    {
+      "P3": 19,
+      "degree_sequences": [
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4
+          ],
+          "graphs": 2625
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3
+          ],
+          "graphs": 4265
+        }
+      ],
+      "graphs": 6890,
+      "assignments": 0,
+      "index_histogram": {},
+      "status": "COMPLETE",
+      "graph_digest": "e85a8f0ee20d3dbe6f40efa0a5462cdc51e3378fb601dd08e56fab90c18d0dcf"
+    },
+    {
+      "P3": 18,
+      "degree_sequences": [
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            6
+          ],
+          "graphs": 315
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            5
+          ],
+          "graphs": 1365
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            4
+          ],
+          "graphs": 2150
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "graphs": 3640
+        },
+        {
+          "degrees": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3
+          ],
+          "graphs": 6057
+        }
+      ],
+      "graphs": 13527,
+      "assignments": 1536,
+      "index_histogram": {
+        "1": 1536
+      },
+      "status": "COMPLETE",
+      "graph_digest": "a1a86e9c8862ee832302ca8ecbf3fece7e6e1bc959581cb453eb32fea3a57dc9"
+    }
+  ],
+  "runtime_seconds": 24.953000000008615,
+  "no_modulus_search": true,
+  "all_survivors_have_index_one": true,
+  "certificate_bundle": "stage52_integer_certificates.json.gz",
+  "certificate_count": 1536,
+  "certificate_sha256": "fbc5a615edf44f1d43856e06c5751d9adba914ff023c3ce90ced6e6831eb6674"
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "tail_pair_coordinate_checks": 400,
+  "complement_involution_fixed_points": 20,
+  "midpoint_rival_count_cases": 6000,
+  "diagonal_midpoint_cases": 2640,
+  "near_saturated_cases": [
+    [
+      15,
+      247,
+      140,
+      4
+    ],
+    [
+      14,
+      247,
+      141,
+      3
+    ],
+    [
+      13,
+      245,
+      140,
+      4
+    ],
+    [
+      13,
+      247,
+      142,
+      2
+    ]
+  ],
+  "boundary": "Only universal word identities and packing arithmetic; no assertion that the saturated systems exist or are excluded."
+}

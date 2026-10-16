@@ -1,0 +1,33 @@
+{
+  "completion": "COMPLETE",
+  "seconds_limit": 30,
+  "elapsed_seconds": 0.04700000000593718,
+  "branches_verified": 498,
+  "corruptions_rejected": 996,
+  "word_counts": {
+    "FOOO": 4,
+    "FOOOP": 16,
+    "FOOP": 2,
+    "FOOPO": 64,
+    "FOOPP": 16,
+    "FOPO": 8,
+    "FOPOO": 64,
+    "FOPOP": 16,
+    "FOPP": 4,
+    "FOPPO": 64,
+    "OOOP": 16,
+    "OOOQ": 4,
+    "OOPO": 64,
+    "OOPP": 16,
+    "OOPQ": 2,
+    "OOPQP": 8,
+    "OOQO": 16,
+    "OOQP": 4,
+    "OPOP": 16,
+    "OPPO": 64,
+    "OPQO": 8,
+    "OPQP": 2,
+    "OPQPO": 16,
+    "POOP": 4
+  }
+}

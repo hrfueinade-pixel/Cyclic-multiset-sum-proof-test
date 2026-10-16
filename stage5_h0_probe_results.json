@@ -1,0 +1,82 @@
+[
+  {
+    "N": 273,
+    "status": "COMPLETE",
+    "seconds_limit": 20,
+    "elapsed_seconds": 0.38999999999998636,
+    "all_orbit_union_masks": 55,
+    "normalized_masks_started": 20,
+    "normalized_masks_completed": 20,
+    "valid_prefix_counts": [
+      0,
+      10,
+      570,
+      4712,
+      10350,
+      370,
+      0,
+      0,
+      0
+    ],
+    "accepted_affine_classes": 0,
+    "accepted": [],
+    "active_difference_mask": 14529013306122732095418412063686152627604756968646833766515697376969953615852802398,
+    "scope": "valid non-antipodal eight-sets with h=0 at this N only"
+  },
+  {
+    "N": 255,
+    "status": "COMPLETE",
+    "seconds_limit": 20,
+    "elapsed_seconds": 2.562999999999988,
+    "all_orbit_union_masks": 1183,
+    "normalized_masks_started": 322,
+    "normalized_masks_completed": 322,
+    "valid_prefix_counts": [
+      0,
+      75,
+      4447,
+      33440,
+      60180,
+      8178,
+      12,
+      8,
+      4
+    ],
+    "accepted_affine_classes": 1,
+    "accepted": [
+      {
+        "N": 255,
+        "A": [
+          0,
+          1,
+          9,
+          73,
+          75,
+          91,
+          219,
+          223
+        ],
+        "multisets_checked": 6435,
+        "T3": 36,
+        "T4": 92,
+        "growth_gap": 20,
+        "propagation_components": 92,
+        "new_collision_loss": 0,
+        "missing_doubling_pairs": 0,
+        "R3": 0,
+        "cubic_relation_dimension": 28,
+        "shadow_credit": 56,
+        "internal_ordinary_collision_pairs": 0,
+        "naive_shadow_suffices_if_loss_h": false,
+        "loss_at_most_h": true,
+        "component_growth_17_plus_h": true,
+        "fresh_loss_by_ordinary_count": {},
+        "fresh_fiber_records": [],
+        "local_pair_ranks": [],
+        "max_local_rank": 0
+      }
+    ],
+    "active_difference_mask": 57290958231268177361677739349234141800878477287054092765849010437158390044030,
+    "scope": "valid non-antipodal eight-sets with h=0 at this N only"
+  }
+]

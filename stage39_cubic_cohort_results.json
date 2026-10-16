@@ -1,0 +1,329 @@
+{
+  "completion": "INCOMPLETE_DECLARED_EXPERIMENT",
+  "schedule": [
+    247,
+    239,
+    243
+  ],
+  "restarts_per_order": 64,
+  "steps_per_restart": 400,
+  "seconds_limit": 45,
+  "elapsed_seconds": 45.0,
+  "counters": {
+    "batches": 45384,
+    "distinct_presentations": 10733888,
+    "cubic_protected": 246
+  },
+  "best": {
+    "247": {
+      "score": 0,
+      "cubic_loss": 0,
+      "maximum_overlap": 3,
+      "A": [
+        0,
+        30,
+        36,
+        48,
+        79,
+        94,
+        197,
+        236
+      ],
+      "state": {
+        "N": 247,
+        "restart": 25,
+        "step": 108
+      }
+    },
+    "239": {
+      "score": 0,
+      "cubic_loss": 0,
+      "maximum_overlap": 3,
+      "A": [
+        0,
+        9,
+        70,
+        89,
+        144,
+        149,
+        180,
+        206
+      ],
+      "state": {
+        "N": 239,
+        "restart": 8,
+        "step": 289
+      }
+    }
+  },
+  "witness": {
+    "N": 247,
+    "A": [
+      0,
+      33,
+      56,
+      82,
+      155,
+      156,
+      202,
+      217
+    ],
+    "cubic_loss": 0,
+    "maximum_overlap": 4,
+    "discovery_state": {
+      "N": 247,
+      "restart": 4,
+      "step": 232
+    }
+  },
+  "witness_target": 32,
+  "witnesses": [
+    {
+      "N": 247,
+      "A": [
+        0,
+        33,
+        56,
+        82,
+        155,
+        156,
+        202,
+        217
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 4,
+      "discovery_state": {
+        "N": 247,
+        "restart": 4,
+        "step": 232
+      }
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        30,
+        36,
+        48,
+        79,
+        94,
+        197,
+        236
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 3,
+      "discovery_state": {
+        "N": 247,
+        "restart": 25,
+        "step": 108
+      }
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        60,
+        72,
+        140,
+        170,
+        176,
+        177,
+        192
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 3,
+      "discovery_state": {
+        "N": 247,
+        "restart": 25,
+        "step": 234
+      }
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        5,
+        62,
+        72,
+        95,
+        140,
+        199,
+        206
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 5,
+      "discovery_state": {
+        "N": 247,
+        "restart": 28,
+        "step": 337
+      }
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        15,
+        26,
+        53,
+        55,
+        152,
+        171,
+        204
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 4,
+      "discovery_state": {
+        "N": 247,
+        "restart": 30,
+        "step": 323
+      }
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        11,
+        34,
+        78,
+        102,
+        124,
+        196,
+        222
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 4,
+      "discovery_state": {
+        "N": 247,
+        "restart": 42,
+        "step": 64
+      }
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        26,
+        73,
+        87,
+        100,
+        137,
+        215,
+        240
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 4,
+      "discovery_state": {
+        "N": 247,
+        "restart": 49,
+        "step": 218
+      }
+    },
+    {
+      "N": 247,
+      "A": [
+        0,
+        46,
+        71,
+        102,
+        108,
+        168,
+        169,
+        244
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 4,
+      "discovery_state": {
+        "N": 247,
+        "restart": 61,
+        "step": 227
+      }
+    },
+    {
+      "N": 239,
+      "A": [
+        0,
+        9,
+        70,
+        89,
+        144,
+        149,
+        180,
+        206
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 3,
+      "discovery_state": {
+        "N": 239,
+        "restart": 8,
+        "step": 289
+      }
+    },
+    {
+      "N": 239,
+      "A": [
+        0,
+        60,
+        62,
+        87,
+        132,
+        186,
+        195,
+        208
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 5,
+      "discovery_state": {
+        "N": 239,
+        "restart": 22,
+        "step": 92
+      }
+    },
+    {
+      "N": 239,
+      "A": [
+        0,
+        60,
+        80,
+        196,
+        199,
+        221,
+        232,
+        233
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 3,
+      "discovery_state": {
+        "N": 239,
+        "restart": 34,
+        "step": 262
+      }
+    },
+    {
+      "N": 239,
+      "A": [
+        0,
+        67,
+        76,
+        112,
+        119,
+        198,
+        199,
+        216
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 4,
+      "discovery_state": {
+        "N": 239,
+        "restart": 48,
+        "step": 184
+      }
+    }
+  ],
+  "last_state": {
+    "N": 239,
+    "restart": 49,
+    "step": 184
+  },
+  "modulus_exclusion": false,
+  "absence_is_proof": false
+}

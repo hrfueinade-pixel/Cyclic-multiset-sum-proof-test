@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "cubic_single_patterns": 36,
+  "cubic_residual_patterns": 6,
+  "cubic_pairs_closed": 15,
+  "former_cap_two_inferences_replaced": 56,
+  "cubic_star_replacements": 8,
+  "new_positive_cases_checked": 93,
+  "new_quartic_pair_identities": 184052,
+  "new_integer_identities": 168,
+  "old_general_positive_identities": 23255,
+  "closed_source_growth_pairs": 6670,
+  "bundle_sha256": "c4287f3dc95f873de194c506541ec4367e97c0bf474898f5857eba7c65336454",
+  "proof_boundary": "General q<=h and t=0 exclusion use the written graph/packing argument. Full N>=248 remains open for t>0."
+}

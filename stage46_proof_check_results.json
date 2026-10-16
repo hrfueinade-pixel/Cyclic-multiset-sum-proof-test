@@ -1,0 +1,20 @@
+{
+  "checked_orbits": 22,
+  "covered_assignments": 200,
+  "hand_classes": {
+    "two_X_centers_same_tail": 52,
+    "two_X_centers_distinct_tails": 52,
+    "opposite_edges": 30,
+    "X_U_X_path": 48,
+    "directed_triangle": 6,
+    "final_X_U_U_X_chain": 12
+  },
+  "positive_control_target_hits": 1,
+  "positive_control_quartic_fiber": 4,
+  "rejected_corruptions": [
+    "factor_three",
+    "wrong_mass",
+    "original_word"
+  ],
+  "boundary": "Local elementary theorems checked; global N>=248 remains open."
+}

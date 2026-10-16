@@ -1,0 +1,2450 @@
+{
+  "completion": "COMPLETE",
+  "scope": "All primitive valid non-antipodal six-point B with7B not full at64..123",
+  "reports": [
+    {
+      "M": 64,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        58,
+        1278,
+        4186,
+        0
+      ],
+      "pruning": {
+        "sidon": 10948,
+        "validity": 7223,
+        "full8": 4380
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 65,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        5,
+        13
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        60,
+        1402,
+        5317,
+        0
+      ],
+      "pruning": {
+        "sidon": 10917,
+        "validity": 8549,
+        "full8": 5531
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 66,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        11
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        11,
+        22
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        356,
+        8172,
+        36901,
+        0
+      ],
+      "pruning": {
+        "sidon": 77758,
+        "validity": 46770,
+        "full8": 37421
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 67,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        67
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        62,
+        1512,
+        6425,
+        0
+      ],
+      "pruning": {
+        "sidon": 12318,
+        "validity": 9961,
+        "full8": 6605
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 68,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        17
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        62,
+        1490,
+        6491,
+        0
+      ],
+      "pruning": {
+        "sidon": 14110,
+        "validity": 9809,
+        "full8": 6589
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 69,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        23
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        64,
+        1630,
+        8386,
+        0
+      ],
+      "pruning": {
+        "sidon": 14146,
+        "validity": 11287,
+        "full8": 8486
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 70,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        5,
+        7
+      ],
+      "roots": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        14
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        378,
+        9252,
+        47153,
+        10
+      ],
+      "pruning": {
+        "sidon": 90196,
+        "validity": 59768,
+        "full8": 47571
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 71,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        71
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        66,
+        1740,
+        9332,
+        0
+      ],
+      "pruning": {
+        "sidon": 15441,
+        "validity": 12960,
+        "full8": 9416
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 72,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        66,
+        1716,
+        9574,
+        0
+      ],
+      "pruning": {
+        "sidon": 16985,
+        "validity": 12098,
+        "full8": 9620
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 73,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        73
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        68,
+        1860,
+        11113,
+        0
+      ],
+      "pruning": {
+        "sidon": 17208,
+        "validity": 14711,
+        "full8": 11129
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 74,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        37
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        68,
+        1832,
+        10695,
+        0
+      ],
+      "pruning": {
+        "sidon": 18723,
+        "validity": 13840,
+        "full8": 10711
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 75,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        5
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        70,
+        1988,
+        13501,
+        3
+      ],
+      "pruning": {
+        "sidon": 18690,
+        "validity": 15756,
+        "full8": 13494
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 76,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        19
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        70,
+        1958,
+        12471,
+        4
+      ],
+      "pruning": {
+        "sidon": 20018,
+        "validity": 15157,
+        "full8": 12483
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 77,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        7,
+        11
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        72,
+        2112,
+        14800,
+        0
+      ],
+      "pruning": {
+        "sidon": 20065,
+        "validity": 17749,
+        "full8": 14778
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 78,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        13
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        13,
+        26
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        428,
+        12348,
+        92430,
+        456
+      ],
+      "pruning": {
+        "sidon": 134568,
+        "validity": 91533,
+        "full8": 92324
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 79,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        79
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        74,
+        2244,
+        16920,
+        11
+      ],
+      "pruning": {
+        "sidon": 21286,
+        "validity": 19177,
+        "full8": 16911
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 80,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        5
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        74,
+        2212,
+        16410,
+        40
+      ],
+      "pruning": {
+        "sidon": 25911,
+        "validity": 19869,
+        "full8": 16188
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 81,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        76,
+        2386,
+        19870,
+        16
+      ],
+      "pruning": {
+        "sidon": 27448,
+        "validity": 23471,
+        "full8": 19424
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 82,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        41
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        76,
+        2348,
+        18428,
+        46
+      ],
+      "pruning": {
+        "sidon": 26916,
+        "validity": 21243,
+        "full8": 18266
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 83,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        83
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        78,
+        2520,
+        21600,
+        28
+      ],
+      "pruning": {
+        "sidon": 26157,
+        "validity": 24022,
+        "full8": 21408
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 84,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        7
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        12,
+        14,
+        21,
+        28
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        10,
+        772,
+        24642,
+        226256,
+        6053
+      ],
+      "pruning": {
+        "sidon": 432495,
+        "validity": 288716,
+        "full8": 217865
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 85,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        5,
+        17
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        80,
+        2662,
+        24312,
+        110
+      ],
+      "pruning": {
+        "sidon": 33253,
+        "validity": 29878,
+        "full8": 23718
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 86,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        43
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        80,
+        2630,
+        23336,
+        161
+      ],
+      "pruning": {
+        "sidon": 34682,
+        "validity": 27562,
+        "full8": 22905
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 87,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        29
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        82,
+        2818,
+        27882,
+        311
+      ],
+      "pruning": {
+        "sidon": 43849,
+        "validity": 37712,
+        "full8": 26699
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 88,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        11
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        82,
+        2778,
+        26204,
+        303
+      ],
+      "pruning": {
+        "sidon": 43678,
+        "validity": 34366,
+        "full8": 25319
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 89,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        89
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        84,
+        2964,
+        30140,
+        227
+      ],
+      "pruning": {
+        "sidon": 43721,
+        "validity": 39915,
+        "full8": 29047
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 90,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        5
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        15,
+        18,
+        30
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        10,
+        832,
+        28928,
+        307012,
+        18764
+      ],
+      "pruning": {
+        "sidon": 820512,
+        "validity": 570346,
+        "full8": 285024
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 91,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        7,
+        13
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        86,
+        3120,
+        33424,
+        369
+      ],
+      "pruning": {
+        "sidon": 53326,
+        "validity": 48934,
+        "full8": 31777
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 92,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        23
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        86,
+        3086,
+        32444,
+        860
+      ],
+      "pruning": {
+        "sidon": 65963,
+        "validity": 51485,
+        "full8": 30706
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 93,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        31
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        88,
+        3286,
+        37840,
+        1026
+      ],
+      "pruning": {
+        "sidon": 80841,
+        "validity": 71827,
+        "full8": 34706
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 94,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        47
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        88,
+        3242,
+        35664,
+        1110
+      ],
+      "pruning": {
+        "sidon": 76065,
+        "validity": 60457,
+        "full8": 33526
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 95,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        5,
+        19
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        90,
+        3442,
+        40786,
+        975
+      ],
+      "pruning": {
+        "sidon": 75560,
+        "validity": 71133,
+        "full8": 38115
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 96,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        90,
+        3408,
+        40164,
+        2788
+      ],
+      "pruning": {
+        "sidon": 125180,
+        "validity": 97691,
+        "full8": 36070
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 97,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        97
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        92,
+        3612,
+        44700,
+        1332
+      ],
+      "pruning": {
+        "sidon": 101574,
+        "validity": 95450,
+        "full8": 40512
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 98,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        7
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        92,
+        3572,
+        43268,
+        2629
+      ],
+      "pruning": {
+        "sidon": 116972,
+        "validity": 94928,
+        "full8": 39837
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 99,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        11
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        94,
+        3790,
+        49980,
+        3158
+      ],
+      "pruning": {
+        "sidon": 155102,
+        "validity": 144317,
+        "full8": 43398
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 100,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        5
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        94,
+        3744,
+        47716,
+        4004
+      ],
+      "pruning": {
+        "sidon": 158467,
+        "validity": 130213,
+        "full8": 42708
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 101,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        101
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        96,
+        3960,
+        53484,
+        3193
+      ],
+      "pruning": {
+        "sidon": 151708,
+        "validity": 146685,
+        "full8": 47357
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 102,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        17
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        17,
+        34
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        572,
+        23292,
+        322448,
+        74296
+      ],
+      "pruning": {
+        "sidon": 1662252,
+        "validity": 1304109,
+        "full8": 290722
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 103,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        103
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        98,
+        4140,
+        58280,
+        4634
+      ],
+      "pruning": {
+        "sidon": 187136,
+        "validity": 183944,
+        "full8": 51094
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 104,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        13
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        98,
+        4098,
+        56608,
+        7413
+      ],
+      "pruning": {
+        "sidon": 241374,
+        "validity": 206574,
+        "full8": 49267
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 105,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        5,
+        7
+      ],
+      "roots": [
+        1,
+        3,
+        5,
+        7,
+        15,
+        21,
+        35
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        7,
+        702,
+        30624,
+        466964,
+        97414
+      ],
+      "pruning": {
+        "sidon": 2143248,
+        "validity": 2102293,
+        "full8": 414574
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 106,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        53
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        100,
+        4280,
+        61396,
+        9573
+      ],
+      "pruning": {
+        "sidon": 282395,
+        "validity": 245390,
+        "full8": 53333
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 107,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        107
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        102,
+        4512,
+        68720,
+        8588
+      ],
+      "pruning": {
+        "sidon": 279531,
+        "validity": 285520,
+        "full8": 58448
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 108,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        102,
+        4472,
+        67786,
+        16574
+      ],
+      "pruning": {
+        "sidon": 400236,
+        "validity": 355378,
+        "full8": 58220
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 109,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        109
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        104,
+        4704,
+        74380,
+        12018
+      ],
+      "pruning": {
+        "sidon": 341275,
+        "validity": 353997,
+        "full8": 62958
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 110,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        5,
+        11
+      ],
+      "roots": [
+        1,
+        2,
+        5,
+        10,
+        11,
+        22
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        618,
+        27384,
+        428268,
+        133958
+      ],
+      "pruning": {
+        "sidon": 2549802,
+        "validity": 2261714,
+        "full8": 395006
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 111,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        37
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        106,
+        4906,
+        81544,
+        22277
+      ],
+      "pruning": {
+        "sidon": 475250,
+        "validity": 497029,
+        "full8": 70013
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 112,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        7
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        106,
+        4854,
+        78236,
+        22627
+      ],
+      "pruning": {
+        "sidon": 493787,
+        "validity": 460803,
+        "full8": 68551
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 113,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        113
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        108,
+        5100,
+        86620,
+        20764
+      ],
+      "pruning": {
+        "sidon": 487911,
+        "validity": 525609,
+        "full8": 73144
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 114,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        19
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        19,
+        38
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        6,
+        644,
+        30060,
+        519220,
+        309377
+      ],
+      "pruning": {
+        "sidon": 4438684,
+        "validity": 4032847,
+        "full8": 529653
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 115,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        5,
+        23
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        110,
+        5302,
+        93346,
+        29168
+      ],
+      "pruning": {
+        "sidon": 578732,
+        "validity": 635012,
+        "full8": 81522
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 116,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        29
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        110,
+        5258,
+        90914,
+        35298
+      ],
+      "pruning": {
+        "sidon": 693966,
+        "validity": 676498,
+        "full8": 80018
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 117,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        13
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        112,
+        5518,
+        101458,
+        45914
+      ],
+      "pruning": {
+        "sidon": 743095,
+        "validity": 825616,
+        "full8": 94052
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 118,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        59
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        112,
+        5462,
+        97352,
+        43561
+      ],
+      "pruning": {
+        "sidon": 777950,
+        "validity": 769929,
+        "full8": 89113
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 119,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        7,
+        17
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        114,
+        5724,
+        107398,
+        45176
+      ],
+      "pruning": {
+        "sidon": 785040,
+        "validity": 894519,
+        "full8": 96490
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 120,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        3,
+        5
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        24,
+        30,
+        40
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        14,
+        1580,
+        78328,
+        1503988,
+        1360770
+      ],
+      "pruning": {
+        "sidon": 14962249,
+        "validity": 14696915,
+        "full8": 1838004
+      },
+      "survivor_count": 0
+    },
+    {
+      "M": 121,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        11
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        116,
+        5940,
+        115018,
+        54210
+      ],
+      "pruning": {
+        "sidon": 902496,
+        "validity": 1052053,
+        "full8": 104626
+      },
+      "survivor_count": 30
+    },
+    {
+      "M": 122,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        2,
+        61
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        116,
+        5888,
+        111908,
+        66006
+      ],
+      "pruning": {
+        "sidon": 1028231,
+        "validity": 1061323,
+        "full8": 108892
+      },
+      "survivor_count": 10
+    },
+    {
+      "M": 123,
+      "completion": "COMPLETE",
+      "prime_factors": [
+        3,
+        41
+      ],
+      "roots": [
+        1
+      ],
+      "nodes_by_size": [
+        0,
+        0,
+        1,
+        118,
+        6166,
+        124360,
+        85618
+      ],
+      "pruning": {
+        "sidon": 1101027,
+        "validity": 1295942,
+        "full8": 130394
+      },
+      "survivor_count": 18
+    }
+  ],
+  "survivors": [
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31
+      ],
+      "missing_7B": [
+        120
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        60
+      ],
+      "missing_7B": [
+        117
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        60,
+        90
+      ],
+      "missing_7B": [
+        55
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        60,
+        90,
+        105
+      ],
+      "missing_7B": [
+        24
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        4,
+        20,
+        82,
+        90
+      ],
+      "missing_7B": [
+        39
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        4,
+        65,
+        97,
+        113
+      ],
+      "missing_7B": [
+        32
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        5,
+        20,
+        81,
+        83
+      ],
+      "missing_7B": [
+        39
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        5,
+        81,
+        83,
+        91
+      ],
+      "missing_7B": [
+        40
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        7,
+        9,
+        25,
+        57
+      ],
+      "missing_7B": [
+        120
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        9,
+        25,
+        57,
+        118
+      ],
+      "missing_7B": [
+        96
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        17,
+        32,
+        62,
+        70
+      ],
+      "missing_7B": [
+        59
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        17,
+        32,
+        62,
+        119
+      ],
+      "missing_7B": [
+        104
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        20,
+        30,
+        35,
+        81
+      ],
+      "missing_7B": [
+        8
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        20,
+        30,
+        81,
+        83
+      ],
+      "missing_7B": [
+        99
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        27,
+        40,
+        70,
+        87
+      ],
+      "missing_7B": [
+        51
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        27,
+        68,
+        70,
+        87
+      ],
+      "missing_7B": [
+        94
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        31,
+        39,
+        41,
+        117
+      ],
+      "missing_7B": [
+        88
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        32,
+        40,
+        102,
+        118
+      ],
+      "missing_7B": [
+        89
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        32,
+        62,
+        115,
+        119
+      ],
+      "missing_7B": [
+        73
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        35,
+        39,
+        52,
+        54
+      ],
+      "missing_7B": [
+        69
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        35,
+        52,
+        54,
+        95
+      ],
+      "missing_7B": [
+        34
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        35,
+        52,
+        82,
+        95
+      ],
+      "missing_7B": [
+        77
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        39,
+        41,
+        92,
+        102
+      ],
+      "missing_7B": [
+        29
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        39,
+        41,
+        102,
+        117
+      ],
+      "missing_7B": [
+        89
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        41,
+        87,
+        92,
+        102
+      ],
+      "missing_7B": [
+        120
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        52,
+        60,
+        90,
+        105
+      ],
+      "missing_7B": [
+        69
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        62,
+        107,
+        115,
+        119
+      ],
+      "missing_7B": [
+        11
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        65,
+        97,
+        113,
+        115
+      ],
+      "missing_7B": [
+        8
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        68,
+        70,
+        83,
+        87
+      ],
+      "missing_7B": [
+        59
+      ]
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        91,
+        107,
+        115,
+        119
+      ],
+      "missing_7B": [
+        8
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31
+      ],
+      "missing_7B": [
+        120
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        5,
+        41,
+        43,
+        51
+      ],
+      "missing_7B": [
+        40
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        14,
+        18,
+        86,
+        88
+      ],
+      "missing_7B": [
+        77
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        32,
+        48,
+        56,
+        60
+      ],
+      "missing_7B": [
+        11
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        33,
+        49,
+        57,
+        59
+      ],
+      "missing_7B": [
+        8
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        35,
+        37,
+        105,
+        109
+      ],
+      "missing_7B": [
+        52
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        63,
+        67,
+        75,
+        91
+      ],
+      "missing_7B": [
+        118
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        64,
+        66,
+        74,
+        90
+      ],
+      "missing_7B": [
+        121
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        72,
+        80,
+        82,
+        118
+      ],
+      "missing_7B": [
+        89
+      ]
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        92,
+        108,
+        116,
+        120
+      ],
+      "missing_7B": [
+        9
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31
+      ],
+      "missing_7B": [
+        120
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        61
+      ],
+      "missing_7B": [
+        118
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        30,
+        61
+      ],
+      "missing_7B": [
+        117
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        30,
+        61,
+        76
+      ],
+      "missing_7B": [
+        55
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        4,
+        12,
+        28,
+        60
+      ],
+      "missing_7B": [
+        111
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        18,
+        22,
+        88,
+        90
+      ],
+      "missing_7B": [
+        105
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        18,
+        57,
+        79,
+        88
+      ],
+      "missing_7B": [
+        87
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        18,
+        79,
+        88,
+        90
+      ],
+      "missing_7B": [
+        52
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        25,
+        48,
+        63,
+        94
+      ],
+      "missing_7B": [
+        106
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        30,
+        61,
+        76,
+        99
+      ],
+      "missing_7B": [
+        24
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        34,
+        36,
+        45,
+        106
+      ],
+      "missing_7B": [
+        78
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        34,
+        36,
+        102,
+        106
+      ],
+      "missing_7B": [
+        25
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        36,
+        45,
+        67,
+        106
+      ],
+      "missing_7B": [
+        43
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        48,
+        63,
+        94,
+        121
+      ],
+      "missing_7B": [
+        75
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        63,
+        94,
+        117,
+        121
+      ],
+      "missing_7B": [
+        13
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        63,
+        109,
+        117,
+        121
+      ],
+      "missing_7B": [
+        12
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        64,
+        96,
+        112,
+        120
+      ],
+      "missing_7B": [
+        19
+      ]
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        93,
+        109,
+        117,
+        121
+      ],
+      "missing_7B": [
+        10
+      ]
+    }
+  ],
+  "source_runs": [
+    "stage34_initial_timeout.json",
+    "stage34_upper_orders_results.json"
+  ],
+  "caps_seconds": [
+    120,
+    90
+  ]
+}

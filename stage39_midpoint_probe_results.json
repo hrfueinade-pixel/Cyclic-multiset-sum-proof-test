@@ -1,0 +1,72 @@
+{
+  "completion": "INCOMPLETE_DECLARED_EXPERIMENT",
+  "schedule": [
+    247,
+    239,
+    243
+  ],
+  "restarts_per_order": 64,
+  "steps_per_restart": 400,
+  "seconds_limit": 45,
+  "elapsed_seconds": 45.0,
+  "counters": {
+    "batches": 37340,
+    "distinct_presentations": 8867680,
+    "cubic_protected": 27
+  },
+  "best": {
+    "247": {
+      "score": 1,
+      "cubic_loss": 1,
+      "maximum_overlap": 2,
+      "midpoint_quartic_collision": false,
+      "A": [
+        0,
+        59,
+        82,
+        85,
+        100,
+        176,
+        190,
+        237
+      ],
+      "state": {
+        "N": 247,
+        "restart": 6,
+        "step": 344
+      }
+    },
+    "239": {
+      "score": 1,
+      "cubic_loss": 1,
+      "maximum_overlap": 2,
+      "midpoint_quartic_collision": false,
+      "A": [
+        0,
+        48,
+        49,
+        104,
+        148,
+        178,
+        200,
+        224
+      ],
+      "state": {
+        "N": 239,
+        "restart": 18,
+        "step": 123
+      }
+    }
+  },
+  "witness": null,
+  "witness_target": 1,
+  "witnesses": [],
+  "require_no_midpoint_collision": true,
+  "last_state": {
+    "N": 239,
+    "restart": 29,
+    "step": 140
+  },
+  "modulus_exclusion": false,
+  "absence_is_proof": false
+}

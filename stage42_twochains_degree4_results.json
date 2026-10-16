@@ -1,0 +1,14 @@
+{
+  "model": "twochains",
+  "degree": 4,
+  "symbolic_repeated_values": 160,
+  "target": 89,
+  "positive_clique_size": 89,
+  "pair_witnesses": 3916,
+  "discovery_complete": false,
+  "search_nodes": 240,
+  "discovery_cap_seconds": 10,
+  "elapsed_seconds": 0.10999999998603016,
+  "certificate": "stage42_twochains_degree4_certificate.json.gz",
+  "boundary": "Only the positive certificate proves growth for this model. No arbitrary cyclic sets, moduli, or parameter values were searched."
+}

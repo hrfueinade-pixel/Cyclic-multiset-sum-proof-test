@@ -1,0 +1,68 @@
+{
+  "scope": "Fixed midpoint count-vector identities and exact overlap classification.",
+  "positive_diagonal_models_checked": 90,
+  "units_canceled": [],
+  "midpoint_overlap_presentations": 403200,
+  "diagonal_presentations": 89600,
+  "only_original_exceptions": 560,
+  "exception_class": "offdiagonal midpoint labels equal the two ordinary centers, with disjoint complementary tails",
+  "diagonal_center_injection_presentations": 67200,
+  "diagonal_center_injection_positive_rival_presentations": 16800,
+  "three_edge_classification_checked": {
+    "triangle": 10,
+    "star": 20,
+    "path": 60,
+    "split": 30
+  },
+  "path_lift_correction": "A quintic omitted-edge path has one common tail label, recovering a quartic path.",
+  "unconditional_weighted_lemma_counterexample": {
+    "actual_cyclic_labels": [
+      0,
+      101,
+      303,
+      707,
+      1515,
+      3131,
+      6363,
+      1
+    ],
+    "modulus": 12827,
+    "full_valid": true,
+    "T_counts": {
+      "3": 43,
+      "4": 127,
+      "5": 260
+    },
+    "ordinary_caps": {
+      "3": 2,
+      "4": 3,
+      "5": 3
+    },
+    "h": 7,
+    "R3": 0,
+    "triple_graph_counts": {
+      "4": {
+        "triangle": 7,
+        "star": 0,
+        "path": 0,
+        "split": 0
+      },
+      "5": {
+        "triangle": 0,
+        "star": 14,
+        "path": 0,
+        "split": 0
+      }
+    },
+    "C3ordinary": 0,
+    "S4double": 7,
+    "weighted_left": 35,
+    "weighted_right": 21,
+    "boundary": "Refutes an unconditional weighted lemma; T4=127>88 and large N."
+  },
+  "global_necessary_relation": "3*(N-236-h-R3+n3)>=4+M+delta",
+  "coordinator_global_coupling_accepted_deductively": "2N>=496+2(h+R3)-4n3+3C4+S4",
+  "global_no_triple_consequence": "N>=248+h+R3+3C4/2+S4/2",
+  "refined_global_necessity_accepted_deductively": "5C4triangle+4C5split>=2+2(h+R3)+2C3ordinary+5C4split+S4double under N<=247",
+  "boundary": "Does not establish the full N>=248 theorem; quartic-triangle or genuine quintic-split systems still require closure."
+}

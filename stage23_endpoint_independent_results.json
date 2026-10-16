@@ -1,0 +1,12 @@
+{
+  "completion": "COMPLETE",
+  "seconds_limit": 30,
+  "elapsed_seconds": 0.0,
+  "branches_verified": 88,
+  "corruptions_rejected": 176,
+  "per_shape": {
+    "isolatedO": 8,
+    "FO": 64,
+    "PO": 16
+  }
+}

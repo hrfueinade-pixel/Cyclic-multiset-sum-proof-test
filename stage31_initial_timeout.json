@@ -1,0 +1,35 @@
+{
+  "completion": "TIMEOUT/incomplete",
+  "cap_seconds": 90,
+  "elapsed_seconds": 90.0,
+  "completed_orders": [],
+  "partial_order": {
+    "M": 123,
+    "completion": "RUNNING",
+    "B_prefix_counts": [
+      0,
+      0,
+      2,
+      124,
+      6287,
+      124424
+    ],
+    "counts": {
+      "blocks": 79630,
+      "pair_sum_triples": 8705104,
+      "even_triples": 8705104,
+      "sidon_eight": 1733045,
+      "rival_5odd": 1733045,
+      "rival_3odd": 0,
+      "rival_1odd": 0
+    },
+    "roots": [
+      1,
+      3,
+      41
+    ]
+  },
+  "reports": [],
+  "survivors": [],
+  "scope": "All odd five-blocks and compatible even triples;even3+5 only"
+}

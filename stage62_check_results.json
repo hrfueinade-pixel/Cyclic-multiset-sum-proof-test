@@ -1,0 +1,23 @@
+{
+  "checked_shapes": [
+    "3221"
+  ],
+  "nodes": [
+    13333
+  ],
+  "proof_types": {
+    "forced_ordinary": 31,
+    "direct": 10903,
+    "positive": 2029,
+    "rival": 305,
+    "interaction": 59,
+    "global_credit": 5,
+    "split_guard": 1
+  },
+  "private_directions": 21761,
+  "literal_private_pairs": 25851,
+  "positive_mass8_identities": 7945564,
+  "archive_sha256": "868ddf0fff6d4059039b177c8fa0f237336d6f843966da765e77127a955a0108",
+  "full_triangle_family_closed": false,
+  "checker": "Separate implementation by same assistant; not external or formal review."
+}

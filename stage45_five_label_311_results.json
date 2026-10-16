@@ -1,0 +1,12 @@
+{
+  "patterns": 1296,
+  "explicit_rivals": 714,
+  "unresolved": 582,
+  "residual_ranks": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 582
+  },
+  "boundary": "Only explicit power-of-two rival identities exclude patterns. Residual row spaces need not be realized in any cyclic group."
+}

@@ -1,0 +1,556 @@
+{
+  "four_copy_cube_binary_control": {
+    "N": 255,
+    "A": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127
+    ],
+    "origin_direction_pairs": 56,
+    "maximum_union_size": 224,
+    "pairs": [
+      {
+        "origin": 0,
+        "point": 1,
+        "union_size": 224
+      },
+      {
+        "origin": 0,
+        "point": 3,
+        "union_size": 206
+      },
+      {
+        "origin": 0,
+        "point": 7,
+        "union_size": 201
+      },
+      {
+        "origin": 0,
+        "point": 15,
+        "union_size": 197
+      },
+      {
+        "origin": 0,
+        "point": 31,
+        "union_size": 196
+      },
+      {
+        "origin": 0,
+        "point": 63,
+        "union_size": 208
+      },
+      {
+        "origin": 0,
+        "point": 127,
+        "union_size": 192
+      },
+      {
+        "origin": 1,
+        "point": 0,
+        "union_size": 192
+      },
+      {
+        "origin": 1,
+        "point": 3,
+        "union_size": 224
+      },
+      {
+        "origin": 1,
+        "point": 7,
+        "union_size": 206
+      },
+      {
+        "origin": 1,
+        "point": 15,
+        "union_size": 201
+      },
+      {
+        "origin": 1,
+        "point": 31,
+        "union_size": 197
+      },
+      {
+        "origin": 1,
+        "point": 63,
+        "union_size": 196
+      },
+      {
+        "origin": 1,
+        "point": 127,
+        "union_size": 208
+      },
+      {
+        "origin": 3,
+        "point": 0,
+        "union_size": 208
+      },
+      {
+        "origin": 3,
+        "point": 1,
+        "union_size": 192
+      },
+      {
+        "origin": 3,
+        "point": 7,
+        "union_size": 224
+      },
+      {
+        "origin": 3,
+        "point": 15,
+        "union_size": 206
+      },
+      {
+        "origin": 3,
+        "point": 31,
+        "union_size": 201
+      },
+      {
+        "origin": 3,
+        "point": 63,
+        "union_size": 197
+      },
+      {
+        "origin": 3,
+        "point": 127,
+        "union_size": 196
+      },
+      {
+        "origin": 7,
+        "point": 0,
+        "union_size": 196
+      },
+      {
+        "origin": 7,
+        "point": 1,
+        "union_size": 208
+      },
+      {
+        "origin": 7,
+        "point": 3,
+        "union_size": 192
+      },
+      {
+        "origin": 7,
+        "point": 15,
+        "union_size": 224
+      },
+      {
+        "origin": 7,
+        "point": 31,
+        "union_size": 206
+      },
+      {
+        "origin": 7,
+        "point": 63,
+        "union_size": 201
+      },
+      {
+        "origin": 7,
+        "point": 127,
+        "union_size": 197
+      },
+      {
+        "origin": 15,
+        "point": 0,
+        "union_size": 197
+      },
+      {
+        "origin": 15,
+        "point": 1,
+        "union_size": 196
+      },
+      {
+        "origin": 15,
+        "point": 3,
+        "union_size": 208
+      },
+      {
+        "origin": 15,
+        "point": 7,
+        "union_size": 192
+      },
+      {
+        "origin": 15,
+        "point": 31,
+        "union_size": 224
+      },
+      {
+        "origin": 15,
+        "point": 63,
+        "union_size": 206
+      },
+      {
+        "origin": 15,
+        "point": 127,
+        "union_size": 201
+      },
+      {
+        "origin": 31,
+        "point": 0,
+        "union_size": 201
+      },
+      {
+        "origin": 31,
+        "point": 1,
+        "union_size": 197
+      },
+      {
+        "origin": 31,
+        "point": 3,
+        "union_size": 196
+      },
+      {
+        "origin": 31,
+        "point": 7,
+        "union_size": 208
+      },
+      {
+        "origin": 31,
+        "point": 15,
+        "union_size": 192
+      },
+      {
+        "origin": 31,
+        "point": 63,
+        "union_size": 224
+      },
+      {
+        "origin": 31,
+        "point": 127,
+        "union_size": 206
+      },
+      {
+        "origin": 63,
+        "point": 0,
+        "union_size": 206
+      },
+      {
+        "origin": 63,
+        "point": 1,
+        "union_size": 201
+      },
+      {
+        "origin": 63,
+        "point": 3,
+        "union_size": 197
+      },
+      {
+        "origin": 63,
+        "point": 7,
+        "union_size": 196
+      },
+      {
+        "origin": 63,
+        "point": 15,
+        "union_size": 208
+      },
+      {
+        "origin": 63,
+        "point": 31,
+        "union_size": 192
+      },
+      {
+        "origin": 63,
+        "point": 127,
+        "union_size": 224
+      },
+      {
+        "origin": 127,
+        "point": 0,
+        "union_size": 224
+      },
+      {
+        "origin": 127,
+        "point": 1,
+        "union_size": 206
+      },
+      {
+        "origin": 127,
+        "point": 3,
+        "union_size": 201
+      },
+      {
+        "origin": 127,
+        "point": 7,
+        "union_size": 197
+      },
+      {
+        "origin": 127,
+        "point": 15,
+        "union_size": 196
+      },
+      {
+        "origin": 127,
+        "point": 31,
+        "union_size": 208
+      },
+      {
+        "origin": 127,
+        "point": 63,
+        "union_size": 192
+      }
+    ],
+    "boundary": "Historical valid N=255 control; refutes a universal 248-point packing claim, not the conditional small-order theorem."
+  },
+  "characteristic_two_symmetric_decomposition": {
+    "field": "F4, omega^2=omega+1",
+    "coefficient": 2,
+    "vectors": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "tensor_entries": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          2,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          2,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          2,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          0,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          0,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          1,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          1,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          2,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          0,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          0,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          0,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          1,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          1,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          1,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          2,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          2,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          2,
+          2
+        ],
+        0
+      ]
+    ],
+    "terms": 6,
+    "boundary": "Refutes the proposed general bound symmetric_rank(det_n)>=2^n-1 at n=3. It does not refute an n=8 bound or give a cyclic counterexample."
+  }
+}

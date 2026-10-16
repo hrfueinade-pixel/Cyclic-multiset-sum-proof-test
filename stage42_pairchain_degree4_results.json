@@ -1,0 +1,14 @@
+{
+  "model": "pairchain",
+  "degree": 4,
+  "symbolic_repeated_values": 190,
+  "target": 89,
+  "positive_clique_size": 85,
+  "pair_witnesses": 3570,
+  "discovery_complete": true,
+  "search_nodes": 862,
+  "discovery_cap_seconds": 10,
+  "elapsed_seconds": 0.125,
+  "certificate": "stage42_pairchain_degree4_certificate.json.gz",
+  "boundary": "Only the positive certificate proves growth for this model. No arbitrary cyclic sets, moduli, or parameter values were searched."
+}

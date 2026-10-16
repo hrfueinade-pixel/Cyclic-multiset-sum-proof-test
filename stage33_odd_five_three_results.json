@@ -1,0 +1,59 @@
+{
+  "completion": "TIMEOUT/incomplete",
+  "cap_seconds": 180,
+  "elapsed_seconds": 180.0,
+  "completed_orders": [
+    189
+  ],
+  "reports": [
+    {
+      "N": 189,
+      "completion": "COMPLETE",
+      "counts": {
+        "primitive_B": 637838,
+        "C_shapes": 3795864,
+        "bases_6_7_8": 0,
+        "sidon_eight": 0,
+        "rivals": 0,
+        "valid_survivors": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        1,
+        184,
+        15670,
+        637838
+      ],
+      "roots": [
+        1
+      ]
+    }
+  ],
+  "partial_order": {
+    "N": 191,
+    "completion": "RUNNING",
+    "counts": {
+      "primitive_B": 366325,
+      "C_shapes": 2147982,
+      "bases_6_7_8": 0,
+      "sidon_eight": 0,
+      "rivals": 0,
+      "valid_survivors": 0
+    },
+    "prefixes": [
+      0,
+      0,
+      1,
+      44,
+      6634,
+      366325
+    ],
+    "roots": [
+      1
+    ]
+  },
+  "survivors": [],
+  "identity_count": 0,
+  "identity_file": "stage33_rivals.json.gz"
+}

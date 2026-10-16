@@ -1,0 +1,295 @@
+{
+  "completion": "TIMEOUT/incomplete",
+  "cap_seconds": 180,
+  "elapsed_seconds": 180.01600000000326,
+  "completed_orders": [
+    123,
+    122,
+    121,
+    120,
+    119,
+    118,
+    117,
+    116,
+    115
+  ],
+  "partial_order": {
+    "M": 114,
+    "completion": "RUNNING",
+    "counts": {
+      "B_blocks": 6658,
+      "proper_saturated": 0,
+      "C_triples": 2444450,
+      "C_shapes": 1052,
+      "bases_6_8": 0,
+      "sidon_eight": 0,
+      "rival_2": 0,
+      "rival_0": 0
+    },
+    "prefixes": [
+      0,
+      0,
+      4,
+      204,
+      6702
+    ],
+    "roots": [
+      1,
+      2,
+      3,
+      6,
+      19,
+      38
+    ]
+  },
+  "reports": [
+    {
+      "M": 123,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 6586,
+        "proper_saturated": 0,
+        "C_triples": 3183996,
+        "C_shapes": 824,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        3,
+        154,
+        6586
+      ],
+      "roots": [
+        1,
+        3,
+        41
+      ]
+    },
+    {
+      "M": 122,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 7088,
+        "proper_saturated": 0,
+        "C_triples": 3459126,
+        "C_shapes": 3448,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        2,
+        172,
+        7088
+      ],
+      "roots": [
+        1,
+        2
+      ]
+    },
+    {
+      "M": 121,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 5940,
+        "proper_saturated": 0,
+        "C_triples": 2381550,
+        "C_shapes": 664,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        2,
+        122,
+        5940
+      ],
+      "roots": [
+        1,
+        11
+      ]
+    },
+    {
+      "M": 120,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 19732,
+        "proper_saturated": 126,
+        "C_triples": 11841519,
+        "C_shapes": 35060,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        14,
+        938,
+        21960
+      ],
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        24,
+        30,
+        40
+      ]
+    },
+    {
+      "M": 119,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 5736,
+        "proper_saturated": 12,
+        "C_triples": 2089710,
+        "C_shapes": 712,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        3,
+        128,
+        5736
+      ],
+      "roots": [
+        1,
+        7,
+        17
+      ]
+    },
+    {
+      "M": 118,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 6566,
+        "proper_saturated": 0,
+        "C_triples": 2664108,
+        "C_shapes": 1368,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        2,
+        166,
+        6566
+      ],
+      "roots": [
+        1,
+        2
+      ]
+    },
+    {
+      "M": 117,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 6640,
+        "proper_saturated": 0,
+        "C_triples": 2609205,
+        "C_shapes": 208,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        5,
+        226,
+        6714
+      ],
+      "roots": [
+        1,
+        3,
+        9,
+        13,
+        39
+      ]
+    },
+    {
+      "M": 116,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 7166,
+        "proper_saturated": 0,
+        "C_triples": 2816472,
+        "C_shapes": 1680,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        4,
+        212,
+        7166
+      ],
+      "roots": [
+        1,
+        2,
+        4,
+        29
+      ]
+    },
+    {
+      "M": 115,
+      "completion": "COMPLETE",
+      "counts": {
+        "B_blocks": 5362,
+        "proper_saturated": 24,
+        "C_triples": 1570038,
+        "C_shapes": 160,
+        "bases_6_8": 0,
+        "sidon_eight": 0,
+        "rival_2": 0,
+        "rival_0": 0
+      },
+      "prefixes": [
+        0,
+        0,
+        3,
+        128,
+        5362
+      ],
+      "roots": [
+        1,
+        5,
+        23
+      ]
+    }
+  ],
+  "survivors": [],
+  "symbolic_survivors": [],
+  "scope": "Even4+4 only; all normalized valid non-antipodal four-blocks"
+}

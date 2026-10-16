@@ -1,0 +1,93 @@
+{
+  "completion": "WITNESS_TARGET_REACHED",
+  "schedule": [
+    247,
+    239,
+    243
+  ],
+  "restarts_per_order": 64,
+  "steps_per_restart": 400,
+  "seconds_limit": 45,
+  "elapsed_seconds": 1.9689999999973224,
+  "counters": {
+    "batches": 1833,
+    "distinct_presentations": 439920,
+    "cubic_protected": 3
+  },
+  "best": {
+    "247": {
+      "score": 1,
+      "cubic_loss": 1,
+      "maximum_overlap": 2,
+      "midpoint_quartic_collision": false,
+      "A": [
+        0,
+        26,
+        72,
+        106,
+        137,
+        156,
+        179,
+        207
+      ],
+      "state": {
+        "N": 247,
+        "restart": 2,
+        "step": 254
+      }
+    }
+  },
+  "witness": {
+    "N": 247,
+    "A": [
+      0,
+      33,
+      56,
+      82,
+      155,
+      156,
+      202,
+      217
+    ],
+    "cubic_loss": 0,
+    "maximum_overlap": 4,
+    "midpoint_quartic_collision": true,
+    "discovery_state": {
+      "N": 247,
+      "restart": 4,
+      "step": 232
+    }
+  },
+  "witness_target": 1,
+  "witnesses": [
+    {
+      "N": 247,
+      "A": [
+        0,
+        33,
+        56,
+        82,
+        155,
+        156,
+        202,
+        217
+      ],
+      "cubic_loss": 0,
+      "maximum_overlap": 4,
+      "midpoint_quartic_collision": true,
+      "discovery_state": {
+        "N": 247,
+        "restart": 4,
+        "step": 232
+      }
+    }
+  ],
+  "require_no_midpoint_collision": false,
+  "last_state": {
+    "N": 247,
+    "restart": 4,
+    "step": 232
+  },
+  "modulus_exclusion": false,
+  "absence_is_proof": false
+}

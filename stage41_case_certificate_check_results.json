@@ -1,0 +1,80 @@
+{
+  "positive_certificates": [
+    {
+      "file": "stage41_quartic87_certificate.json.gz",
+      "model": "leaf22",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "forced_distinct_repeated_values": 87,
+      "positive_pair_certificates_checked": 3741,
+      "wrong_mass_rejected": true,
+      "mass_preserving_pure_corruptions_rejected": 8
+    },
+    {
+      "file": "stage41_quintic157_certificate.json.gz",
+      "model": "leaf22",
+      "degree": 5,
+      "units": [
+        2,
+        3
+      ],
+      "forced_distinct_repeated_values": 157,
+      "positive_pair_certificates_checked": 12246,
+      "wrong_mass_rejected": true,
+      "mass_preserving_pure_corruptions_rejected": 8
+    },
+    {
+      "file": "stage41_hub22_quartic90_certificate.json.gz",
+      "model": "hub22",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "forced_distinct_repeated_values": 90,
+      "positive_pair_certificates_checked": 4005,
+      "wrong_mass_rejected": true,
+      "mass_preserving_pure_corruptions_rejected": 8
+    },
+    {
+      "file": "stage41_fourO_quartic87_certificate.json.gz",
+      "model": "fourO",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "forced_distinct_repeated_values": 87,
+      "positive_pair_certificates_checked": 3741,
+      "wrong_mass_rejected": true,
+      "mass_preserving_pure_corruptions_rejected": 8
+    },
+    {
+      "file": "stage41_fourO_quintic156_certificate.json.gz",
+      "model": "fourO",
+      "degree": 5,
+      "units": [
+        2,
+        3
+      ],
+      "forced_distinct_repeated_values": 156,
+      "positive_pair_certificates_checked": 12090,
+      "wrong_mass_rejected": true,
+      "mass_preserving_pure_corruptions_rejected": 8
+    },
+    {
+      "file": "stage41_purehub_quartic89_certificate.json.gz",
+      "model": "purehub",
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "forced_distinct_repeated_values": 89,
+      "positive_pair_certificates_checked": 3916,
+      "wrong_mass_rejected": true,
+      "mass_preserving_pure_corruptions_rejected": 8
+    }
+  ],
+  "case_proof": "leaf22/fourO: quartic87 gives odd N>=245; remaining sub-248 orders 245,247 are coprime to 3; quintic157/156 and cubic>=92 give N>=249/248. hub22/purehub: quartic90/89 give N>=251/249.",
+  "boundary": "Excludes four stated symbolic configurations only. Same-author separate checker; no general interval exclusion or formal verification."
+}

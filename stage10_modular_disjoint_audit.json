@@ -1,0 +1,21 @@
+{
+  "branch": "disjoint",
+  "complete_audit": true,
+  "seconds_limit": 20,
+  "elapsed_seconds": 4.063000000000102,
+  "counts": {
+    "labeled_structural_templates": 81408,
+    "locally_admissible_templates": 38808,
+    "distinct_matrices": 38808,
+    "large_matrices": 19638,
+    "determinant_divisor_orders_checked": 19791,
+    "rank_at_most_two_local_audits": 1059,
+    "cyclic_quotient_maps_up_to_units": 18747,
+    "sidon_maps": 14805,
+    "doubling_closure_failure_maps": 14805,
+    "pair_sum_failure_maps": 3834,
+    "repeated_point_maps": 108
+  },
+  "accepted_h0": [],
+  "scope": "Shared structural generators; independently reconstructed modular kernels and rejections."
+}

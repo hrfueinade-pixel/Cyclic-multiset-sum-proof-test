@@ -1,0 +1,120 @@
+{
+  "N": 187,
+  "independent_template_checks": [
+    {
+      "a": 0,
+      "mask": 0,
+      "vertices": 13,
+      "edges": 0,
+      "verified_coloring_colors": 1,
+      "six_subsets_checked": 1716,
+      "six_cliques": 0
+    },
+    {
+      "a": 0,
+      "mask": 1,
+      "vertices": 11,
+      "edges": 6,
+      "verified_coloring_colors": 2,
+      "six_subsets_checked": 462,
+      "six_cliques": 0
+    },
+    {
+      "a": 0,
+      "mask": 2,
+      "vertices": 11,
+      "edges": 0,
+      "verified_coloring_colors": 1,
+      "six_subsets_checked": 462,
+      "six_cliques": 0
+    },
+    {
+      "a": 0,
+      "mask": 3,
+      "vertices": 13,
+      "edges": 12,
+      "verified_coloring_colors": 3,
+      "six_subsets_checked": 1716,
+      "six_cliques": 0
+    },
+    {
+      "a": 1,
+      "mask": 0,
+      "vertices": 17,
+      "edges": 71,
+      "verified_coloring_colors": 5,
+      "six_subsets_checked": 12376,
+      "six_cliques": 0
+    },
+    {
+      "a": 1,
+      "mask": 1,
+      "vertices": 17,
+      "edges": 42,
+      "verified_coloring_colors": 4,
+      "six_subsets_checked": 12376,
+      "six_cliques": 0
+    },
+    {
+      "a": 1,
+      "mask": 2,
+      "vertices": 17,
+      "edges": 79,
+      "verified_coloring_colors": null,
+      "six_subsets_checked": 12376,
+      "six_cliques": 0
+    },
+    {
+      "a": 1,
+      "mask": 3,
+      "vertices": 15,
+      "edges": 44,
+      "verified_coloring_colors": 4,
+      "six_subsets_checked": 5005,
+      "six_cliques": 0
+    }
+  ],
+  "total_six_subsets_checked": 46489,
+  "verified_coloring_certificates": 7,
+  "all_templates_excluded_by_direct_six_subset_check": true,
+  "observed_completed_search_records": [
+    {
+      "N": 187,
+      "observed_status": "COMPLETE",
+      "elapsed_seconds": 44.21899999999994,
+      "visited_prefixes_by_size": [
+        0,
+        0,
+        1,
+        178,
+        14801,
+        589958,
+        3493404,
+        1124,
+        0
+      ],
+      "finished_third_coordinate_branches": 178,
+      "accepted_sets": 0,
+      "search_was_independently_rerun": false
+    },
+    {
+      "N": 188,
+      "observed_status": "COMPLETE",
+      "elapsed_seconds": 68.82800000000009,
+      "visited_prefixes_by_size": [
+        0,
+        0,
+        1,
+        180,
+        15153,
+        616625,
+        4127034,
+        20542,
+        0
+      ],
+      "finished_third_coordinate_branches": 180,
+      "accepted_sets": 0,
+      "search_was_independently_rerun": false
+    }
+  ]
+}

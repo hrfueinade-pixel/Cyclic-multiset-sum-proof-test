@@ -1,0 +1,52 @@
+{
+  "excluded_shapes": [
+    "53",
+    "71",
+    "332",
+    "521",
+    "431",
+    "611"
+  ],
+  "remaining_shapes": [
+    "22211",
+    "4211",
+    "3221"
+  ],
+  "archive_sha256": "292630fd2b93571598eb4f894f791b168888c27939952ad59dad80edd704101b",
+  "proof_nodes": 2666,
+  "node_types": {
+    "direct": 2190,
+    "growth89": 424,
+    "rival": 49,
+    "forced_ordinary": 3
+  },
+  "long_path_types": {
+    "root_order": 64,
+    "direct": 176,
+    "growth89": 15,
+    "rival": 6
+  },
+  "coverage_cases": 4904,
+  "literal_private_cases": 6658,
+  "positive_mass8_pair_identities": 1723040,
+  "first_forest_coverage": {
+    "332": {
+      "private_cases": 832,
+      "directions": 701
+    },
+    "521": {
+      "private_cases": 833,
+      "directions": 701
+    },
+    "431": {
+      "private_cases": 833,
+      "directions": 701
+    },
+    "611": {
+      "private_cases": 834,
+      "directions": 701
+    }
+  },
+  "full_N_ge_248": "OPEN",
+  "boundary": "Same-assistant separate implementation; depends on published caps, cycle theorem, source theorem and P>=9 theorem."
+}

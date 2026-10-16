@@ -1,0 +1,1726 @@
+{
+  "family": "cyclic mixed radix",
+  "base_patterns": 36,
+  "rotation_representatives_not_affine_class_census": true,
+  "minimum_growth_gap": 20,
+  "plus17_failures": [],
+  "results": [
+    {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "antipodal": 0,
+      "T3": 36,
+      "T4": 92,
+      "growth_gap_T4_minus_2T3": 20,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 224,
+      "components_after_cubic_propagation": 120,
+      "components_after_type22_doublemarkings": 92,
+      "further_quartic_component_identifications": 0,
+      "cross_component_disjoint_tail_collision_pairs": 0,
+      "first_disjoint_tail_new_collision": null,
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "N": 383,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "antipodal": 0,
+      "T3": 43,
+      "T4": 121,
+      "growth_gap_T4_minus_2T3": 35,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 168,
+      "components_after_cubic_propagation": 155,
+      "components_after_type22_doublemarkings": 127,
+      "further_quartic_component_identifications": 6,
+      "cross_component_disjoint_tail_collision_pairs": 6,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          127,
+          3,
+          127
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 575,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        191
+      ],
+      "antipodal": 0,
+      "T3": 49,
+      "T4": 149,
+      "growth_gap_T4_minus_2T3": 51,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 120,
+      "components_after_cubic_propagation": 188,
+      "components_after_type22_doublemarkings": 160,
+      "further_quartic_component_identifications": 11,
+      "cross_component_disjoint_tail_collision_pairs": 11,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          191,
+          3,
+          191
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 575,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        95,
+        191
+      ],
+      "antipodal": 0,
+      "T3": 49,
+      "T4": 151,
+      "growth_gap_T4_minus_2T3": 53,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 120,
+      "components_after_cubic_propagation": 188,
+      "components_after_type22_doublemarkings": 160,
+      "further_quartic_component_identifications": 9,
+      "cross_component_disjoint_tail_collision_pairs": 9,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          191,
+          3,
+          191
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 863,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        95,
+        287
+      ],
+      "antipodal": 0,
+      "T3": 54,
+      "T4": 175,
+      "growth_gap_T4_minus_2T3": 67,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 80,
+      "components_after_cubic_propagation": 218,
+      "components_after_type22_doublemarkings": 190,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          287,
+          3,
+          287
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 575,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        47,
+        95,
+        191
+      ],
+      "antipodal": 0,
+      "T3": 49,
+      "T4": 151,
+      "growth_gap_T4_minus_2T3": 53,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 120,
+      "components_after_cubic_propagation": 188,
+      "components_after_type22_doublemarkings": 160,
+      "further_quartic_component_identifications": 9,
+      "cross_component_disjoint_tail_collision_pairs": 9,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          191,
+          3,
+          191
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 863,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        47,
+        95,
+        287
+      ],
+      "antipodal": 0,
+      "T3": 54,
+      "T4": 178,
+      "growth_gap_T4_minus_2T3": 70,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 80,
+      "components_after_cubic_propagation": 218,
+      "components_after_type22_doublemarkings": 190,
+      "further_quartic_component_identifications": 12,
+      "cross_component_disjoint_tail_collision_pairs": 12,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          287,
+          3,
+          287
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 863,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        47,
+        143,
+        287
+      ],
+      "antipodal": 0,
+      "T3": 54,
+      "T4": 178,
+      "growth_gap_T4_minus_2T3": 70,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 80,
+      "components_after_cubic_propagation": 218,
+      "components_after_type22_doublemarkings": 190,
+      "further_quartic_component_identifications": 12,
+      "cross_component_disjoint_tail_collision_pairs": 12,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          287,
+          3,
+          287
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        47,
+        143,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 198,
+      "growth_gap_T4_minus_2T3": 82,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 18,
+      "cross_component_disjoint_tail_collision_pairs": 18,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 575,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        47,
+        95,
+        191
+      ],
+      "antipodal": 0,
+      "T3": 49,
+      "T4": 151,
+      "growth_gap_T4_minus_2T3": 53,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 120,
+      "components_after_cubic_propagation": 188,
+      "components_after_type22_doublemarkings": 160,
+      "further_quartic_component_identifications": 9,
+      "cross_component_disjoint_tail_collision_pairs": 9,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          191,
+          3,
+          191
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 863,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        47,
+        95,
+        287
+      ],
+      "antipodal": 0,
+      "T3": 54,
+      "T4": 178,
+      "growth_gap_T4_minus_2T3": 70,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 80,
+      "components_after_cubic_propagation": 218,
+      "components_after_type22_doublemarkings": 190,
+      "further_quartic_component_identifications": 12,
+      "cross_component_disjoint_tail_collision_pairs": 12,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          287,
+          3,
+          287
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 863,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        47,
+        143,
+        287
+      ],
+      "antipodal": 0,
+      "T3": 54,
+      "T4": 181,
+      "growth_gap_T4_minus_2T3": 73,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 80,
+      "components_after_cubic_propagation": 218,
+      "components_after_type22_doublemarkings": 190,
+      "further_quartic_component_identifications": 9,
+      "cross_component_disjoint_tail_collision_pairs": 9,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          287,
+          3,
+          287
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        47,
+        143,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 202,
+      "growth_gap_T4_minus_2T3": 86,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 14,
+      "cross_component_disjoint_tail_collision_pairs": 14,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 863,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        71,
+        143,
+        287
+      ],
+      "antipodal": 0,
+      "T3": 54,
+      "T4": 178,
+      "growth_gap_T4_minus_2T3": 70,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 80,
+      "components_after_cubic_propagation": 218,
+      "components_after_type22_doublemarkings": 190,
+      "further_quartic_component_identifications": 12,
+      "cross_component_disjoint_tail_collision_pairs": 12,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          287,
+          3,
+          287
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        71,
+        143,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 202,
+      "growth_gap_T4_minus_2T3": 86,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 14,
+      "cross_component_disjoint_tail_collision_pairs": 14,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        71,
+        215,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 202,
+      "growth_gap_T4_minus_2T3": 86,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 14,
+      "cross_component_disjoint_tail_collision_pairs": 14,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1943,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        23,
+        71,
+        215,
+        647
+      ],
+      "antipodal": 0,
+      "T3": 61,
+      "T4": 217,
+      "growth_gap_T4_minus_2T3": 95,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 24,
+      "components_after_cubic_propagation": 265,
+      "components_after_type22_doublemarkings": 237,
+      "further_quartic_component_identifications": 20,
+      "cross_component_disjoint_tail_collision_pairs": 20,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          647,
+          3,
+          647
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 863,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        23,
+        47,
+        143,
+        287
+      ],
+      "antipodal": 0,
+      "T3": 54,
+      "T4": 181,
+      "growth_gap_T4_minus_2T3": 73,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 80,
+      "components_after_cubic_propagation": 218,
+      "components_after_type22_doublemarkings": 190,
+      "further_quartic_component_identifications": 9,
+      "cross_component_disjoint_tail_collision_pairs": 9,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          287,
+          3,
+          287
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        23,
+        47,
+        143,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 202,
+      "growth_gap_T4_minus_2T3": 86,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 14,
+      "cross_component_disjoint_tail_collision_pairs": 14,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        23,
+        71,
+        143,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 206,
+      "growth_gap_T4_minus_2T3": 90,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 10,
+      "cross_component_disjoint_tail_collision_pairs": 10,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        23,
+        71,
+        215,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 206,
+      "growth_gap_T4_minus_2T3": 90,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 10,
+      "cross_component_disjoint_tail_collision_pairs": 10,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1943,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        23,
+        71,
+        215,
+        647
+      ],
+      "antipodal": 0,
+      "T3": 61,
+      "T4": 222,
+      "growth_gap_T4_minus_2T3": 100,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 24,
+      "components_after_cubic_propagation": 265,
+      "components_after_type22_doublemarkings": 237,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          647,
+          3,
+          647
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        35,
+        71,
+        143,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 202,
+      "growth_gap_T4_minus_2T3": 86,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 14,
+      "cross_component_disjoint_tail_collision_pairs": 14,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        35,
+        71,
+        215,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 206,
+      "growth_gap_T4_minus_2T3": 90,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 10,
+      "cross_component_disjoint_tail_collision_pairs": 10,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          3,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1943,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        35,
+        71,
+        215,
+        647
+      ],
+      "antipodal": 0,
+      "T3": 61,
+      "T4": 222,
+      "growth_gap_T4_minus_2T3": 100,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 24,
+      "components_after_cubic_propagation": 265,
+      "components_after_type22_doublemarkings": 237,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          647,
+          3,
+          647
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1943,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        35,
+        107,
+        215,
+        647
+      ],
+      "antipodal": 0,
+      "T3": 61,
+      "T4": 222,
+      "growth_gap_T4_minus_2T3": 100,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 24,
+      "components_after_cubic_propagation": 265,
+      "components_after_type22_doublemarkings": 237,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          647,
+          3,
+          647
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1943,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        35,
+        107,
+        323,
+        647
+      ],
+      "antipodal": 0,
+      "T3": 61,
+      "T4": 222,
+      "growth_gap_T4_minus_2T3": 100,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 24,
+      "components_after_cubic_propagation": 265,
+      "components_after_type22_doublemarkings": 237,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          647,
+          3,
+          647
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 2915,
+      "A": [
+        0,
+        1,
+        3,
+        11,
+        35,
+        107,
+        323,
+        971
+      ],
+      "antipodal": 0,
+      "T3": 63,
+      "T4": 231,
+      "growth_gap_T4_minus_2T3": 105,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 8,
+      "components_after_cubic_propagation": 280,
+      "components_after_type22_doublemarkings": 252,
+      "further_quartic_component_identifications": 21,
+      "cross_component_disjoint_tail_collision_pairs": 21,
+      "first_disjoint_tail_new_collision": {
+        "value": 1,
+        "left": [
+          0,
+          0,
+          1
+        ],
+        "right": [
+          971,
+          3,
+          971
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1295,
+      "A": [
+        0,
+        1,
+        5,
+        11,
+        35,
+        71,
+        215,
+        431
+      ],
+      "antipodal": 0,
+      "T3": 58,
+      "T4": 210,
+      "growth_gap_T4_minus_2T3": 94,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 48,
+      "components_after_cubic_propagation": 244,
+      "components_after_type22_doublemarkings": 216,
+      "further_quartic_component_identifications": 6,
+      "cross_component_disjoint_tail_collision_pairs": 6,
+      "first_disjoint_tail_new_collision": {
+        "value": 3,
+        "left": [
+          1,
+          0,
+          1
+        ],
+        "right": [
+          431,
+          5,
+          431
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "N": 1943,
+      "A": [
+        0,
+        1,
+        5,
+        11,
+        35,
+        71,
+        215,
+        647
+      ],
+      "antipodal": 0,
+      "T3": 61,
+      "T4": 227,
+      "growth_gap_T4_minus_2T3": 105,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 24,
+      "components_after_cubic_propagation": 265,
+      "components_after_type22_doublemarkings": 237,
+      "further_quartic_component_identifications": 10,
+      "cross_component_disjoint_tail_collision_pairs": 10,
+      "first_disjoint_tail_new_collision": {
+        "value": 3,
+        "left": [
+          1,
+          0,
+          1
+        ],
+        "right": [
+          647,
+          5,
+          647
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 1943,
+      "A": [
+        0,
+        1,
+        5,
+        11,
+        35,
+        107,
+        215,
+        647
+      ],
+      "antipodal": 0,
+      "T3": 61,
+      "T4": 227,
+      "growth_gap_T4_minus_2T3": 105,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 24,
+      "components_after_cubic_propagation": 265,
+      "components_after_type22_doublemarkings": 237,
+      "further_quartic_component_identifications": 10,
+      "cross_component_disjoint_tail_collision_pairs": 10,
+      "first_disjoint_tail_new_collision": {
+        "value": 3,
+        "left": [
+          1,
+          0,
+          1
+        ],
+        "right": [
+          647,
+          5,
+          647
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 2915,
+      "A": [
+        0,
+        1,
+        5,
+        11,
+        35,
+        107,
+        323,
+        971
+      ],
+      "antipodal": 0,
+      "T3": 63,
+      "T4": 237,
+      "growth_gap_T4_minus_2T3": 111,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 8,
+      "components_after_cubic_propagation": 280,
+      "components_after_type22_doublemarkings": 252,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 3,
+        "left": [
+          1,
+          0,
+          1
+        ],
+        "right": [
+          971,
+          5,
+          971
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 2915,
+      "A": [
+        0,
+        1,
+        5,
+        17,
+        35,
+        107,
+        323,
+        971
+      ],
+      "antipodal": 0,
+      "T3": 63,
+      "T4": 237,
+      "growth_gap_T4_minus_2T3": 111,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 8,
+      "components_after_cubic_propagation": 280,
+      "components_after_type22_doublemarkings": 252,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 3,
+        "left": [
+          1,
+          0,
+          1
+        ],
+        "right": [
+          971,
+          5,
+          971
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 2915,
+      "A": [
+        0,
+        1,
+        5,
+        17,
+        53,
+        107,
+        323,
+        971
+      ],
+      "antipodal": 0,
+      "T3": 63,
+      "T4": 237,
+      "growth_gap_T4_minus_2T3": 111,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 8,
+      "components_after_cubic_propagation": 280,
+      "components_after_type22_doublemarkings": 252,
+      "further_quartic_component_identifications": 15,
+      "cross_component_disjoint_tail_collision_pairs": 15,
+      "first_disjoint_tail_new_collision": {
+        "value": 3,
+        "left": [
+          1,
+          0,
+          1
+        ],
+        "right": [
+          971,
+          5,
+          971
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 4373,
+      "A": [
+        0,
+        1,
+        5,
+        17,
+        53,
+        161,
+        485,
+        1457
+      ],
+      "antipodal": 0,
+      "T3": 64,
+      "T4": 239,
+      "growth_gap_T4_minus_2T3": 111,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 0,
+      "components_after_cubic_propagation": 288,
+      "components_after_type22_doublemarkings": 260,
+      "further_quartic_component_identifications": 21,
+      "cross_component_disjoint_tail_collision_pairs": 21,
+      "first_disjoint_tail_new_collision": {
+        "value": 3,
+        "left": [
+          1,
+          0,
+          1
+        ],
+        "right": [
+          1457,
+          5,
+          1457
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "N": 6560,
+      "A": [
+        0,
+        2,
+        8,
+        26,
+        80,
+        242,
+        728,
+        2186
+      ],
+      "antipodal": 0,
+      "T3": 64,
+      "T4": 232,
+      "growth_gap_T4_minus_2T3": 104,
+      "candidate_plus17_passes": true,
+      "candidate_plus20_passes": true,
+      "propagation_edges": 0,
+      "components_after_cubic_propagation": 288,
+      "components_after_type22_doublemarkings": 260,
+      "further_quartic_component_identifications": 28,
+      "cross_component_disjoint_tail_collision_pairs": 28,
+      "first_disjoint_tail_new_collision": {
+        "value": 0,
+        "left": [
+          0,
+          0,
+          0
+        ],
+        "right": [
+          2186,
+          2,
+          2186
+        ]
+      },
+      "multisets_enumerated": 6435,
+      "bases": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "universal_growth_bound_proved": false
+}

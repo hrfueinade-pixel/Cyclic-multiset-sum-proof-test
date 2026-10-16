@@ -1,0 +1,739 @@
+{
+  "sixteen_exact_algebra_certificates": [
+    {
+      "R_case": 1,
+      "S_case": 1,
+      "R_row": [
+        -5,
+        2,
+        2
+      ],
+      "S_row": [
+        -1,
+        4,
+        2
+      ],
+      "left": [
+        "r"
+      ],
+      "right": [
+        "w"
+      ],
+      "difference": [
+        -2,
+        -1,
+        0
+      ],
+      "row_coefficients": [
+        "1/2",
+        "-1/2"
+      ]
+    },
+    {
+      "R_case": 1,
+      "S_case": 2,
+      "R_row": [
+        -5,
+        2,
+        2
+      ],
+      "S_row": [
+        3,
+        2,
+        2
+      ],
+      "left": [
+        "b"
+      ],
+      "right": [
+        "u"
+      ],
+      "difference": [
+        1,
+        0,
+        0
+      ],
+      "row_coefficients": [
+        "-1/8",
+        "1/8"
+      ]
+    },
+    {
+      "R_case": 1,
+      "S_case": 3,
+      "R_row": [
+        -5,
+        2,
+        2
+      ],
+      "S_row": [
+        -3,
+        4,
+        4
+      ],
+      "left": [
+        "w",
+        "w"
+      ],
+      "right": [
+        "u",
+        "b"
+      ],
+      "difference": [
+        7,
+        0,
+        0
+      ],
+      "row_coefficients": [
+        "-2",
+        "1"
+      ]
+    },
+    {
+      "R_case": 1,
+      "S_case": 4,
+      "R_row": [
+        -5,
+        2,
+        2
+      ],
+      "S_row": [
+        1,
+        2,
+        4
+      ],
+      "left": [
+        "p",
+        "w"
+      ],
+      "right": [
+        "b",
+        "u"
+      ],
+      "difference": [
+        3,
+        0,
+        1
+      ],
+      "row_coefficients": [
+        "-1/2",
+        "1/2"
+      ]
+    },
+    {
+      "R_case": 2,
+      "S_case": 1,
+      "R_row": [
+        -5,
+        4,
+        2
+      ],
+      "S_row": [
+        -1,
+        4,
+        2
+      ],
+      "left": [
+        "b"
+      ],
+      "right": [
+        "u"
+      ],
+      "difference": [
+        1,
+        0,
+        0
+      ],
+      "row_coefficients": [
+        "-1/4",
+        "1/4"
+      ]
+    },
+    {
+      "R_case": 2,
+      "S_case": 2,
+      "R_row": [
+        -5,
+        4,
+        2
+      ],
+      "S_row": [
+        3,
+        2,
+        2
+      ],
+      "left": [
+        "b",
+        "b"
+      ],
+      "right": [
+        "r",
+        "w"
+      ],
+      "difference": [
+        -4,
+        1,
+        0
+      ],
+      "row_coefficients": [
+        "1/2",
+        "-1/2"
+      ]
+    },
+    {
+      "R_case": 2,
+      "S_case": 3,
+      "R_row": [
+        -5,
+        4,
+        2
+      ],
+      "S_row": [
+        -3,
+        4,
+        4
+      ],
+      "left": [
+        "p",
+        "b"
+      ],
+      "right": [
+        "u",
+        "u"
+      ],
+      "difference": [
+        1,
+        0,
+        1
+      ],
+      "row_coefficients": [
+        "-1/2",
+        "1/2"
+      ]
+    },
+    {
+      "R_case": 2,
+      "S_case": 4,
+      "R_row": [
+        -5,
+        4,
+        2
+      ],
+      "S_row": [
+        1,
+        2,
+        4
+      ],
+      "left": [
+        "r",
+        "p",
+        "b"
+      ],
+      "right": [
+        "u",
+        "u",
+        "u"
+      ],
+      "difference": [
+        3,
+        -1,
+        1
+      ],
+      "row_coefficients": [
+        "-1/2",
+        "1/2"
+      ]
+    },
+    {
+      "R_case": 3,
+      "S_case": 1,
+      "R_row": [
+        -7,
+        2,
+        4
+      ],
+      "S_row": [
+        -1,
+        4,
+        2
+      ],
+      "left": [
+        "b",
+        "w"
+      ],
+      "right": [
+        "p",
+        "r"
+      ],
+      "difference": [
+        3,
+        1,
+        -1
+      ],
+      "row_coefficients": [
+        "-1/2",
+        "1/2"
+      ]
+    },
+    {
+      "R_case": 3,
+      "S_case": 2,
+      "R_row": [
+        -7,
+        2,
+        4
+      ],
+      "S_row": [
+        3,
+        2,
+        2
+      ],
+      "left": [
+        "p",
+        "u"
+      ],
+      "right": [
+        "b",
+        "w"
+      ],
+      "difference": [
+        -5,
+        0,
+        1
+      ],
+      "row_coefficients": [
+        "1/2",
+        "-1/2"
+      ]
+    },
+    {
+      "R_case": 3,
+      "S_case": 3,
+      "R_row": [
+        -7,
+        2,
+        4
+      ],
+      "S_row": [
+        -3,
+        4,
+        4
+      ],
+      "left": [
+        "r"
+      ],
+      "right": [
+        "w"
+      ],
+      "difference": [
+        -2,
+        -1,
+        0
+      ],
+      "row_coefficients": [
+        "1/2",
+        "-1/2"
+      ]
+    },
+    {
+      "R_case": 3,
+      "S_case": 4,
+      "R_row": [
+        -7,
+        2,
+        4
+      ],
+      "S_row": [
+        1,
+        2,
+        4
+      ],
+      "left": [
+        "b"
+      ],
+      "right": [
+        "u"
+      ],
+      "difference": [
+        1,
+        0,
+        0
+      ],
+      "row_coefficients": [
+        "-1/8",
+        "1/8"
+      ]
+    },
+    {
+      "R_case": 4,
+      "S_case": 1,
+      "R_row": [
+        -7,
+        4,
+        4
+      ],
+      "S_row": [
+        -1,
+        4,
+        2
+      ],
+      "left": [
+        "p",
+        "b"
+      ],
+      "right": [
+        "u",
+        "w"
+      ],
+      "difference": [
+        -3,
+        0,
+        1
+      ],
+      "row_coefficients": [
+        "1/2",
+        "-1/2"
+      ]
+    },
+    {
+      "R_case": 4,
+      "S_case": 2,
+      "R_row": [
+        -7,
+        4,
+        4
+      ],
+      "S_row": [
+        3,
+        2,
+        2
+      ],
+      "left": [
+        "r",
+        "w"
+      ],
+      "right": [
+        "p",
+        "b"
+      ],
+      "difference": [
+        5,
+        -1,
+        -1
+      ],
+      "row_coefficients": [
+        "-1/2",
+        "1/2"
+      ]
+    },
+    {
+      "R_case": 4,
+      "S_case": 3,
+      "R_row": [
+        -7,
+        4,
+        4
+      ],
+      "S_row": [
+        -3,
+        4,
+        4
+      ],
+      "left": [
+        "b"
+      ],
+      "right": [
+        "u"
+      ],
+      "difference": [
+        1,
+        0,
+        0
+      ],
+      "row_coefficients": [
+        "-1/4",
+        "1/4"
+      ]
+    },
+    {
+      "R_case": 4,
+      "S_case": 4,
+      "R_row": [
+        -7,
+        4,
+        4
+      ],
+      "S_row": [
+        1,
+        2,
+        4
+      ],
+      "left": [
+        "b",
+        "b"
+      ],
+      "right": [
+        "r",
+        "w"
+      ],
+      "difference": [
+        -4,
+        1,
+        0
+      ],
+      "row_coefficients": [
+        "1/2",
+        "-1/2"
+      ]
+    }
+  ],
+  "pure_chain_exact_certificates": {
+    "identities_checked": 3,
+    "conclusions": [
+      "E+b+c=2z+a",
+      "E=b implies 2z=2a",
+      "E=c implies c+z=2a"
+    ]
+  },
+  "one_ordinary_component_patterns": {
+    "counts": {
+      "masks_examined": 4164,
+      "four-point triangle": 3,
+      "five-point adjacent-31 path": 8,
+      "five-point four-cycle": 8,
+      "five-point disjoint-31 path": 2
+    },
+    "representative_patterns": {
+      "four-point triangle": [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          2,
+          3
+        ]
+      ],
+      "five-point adjacent-31 path": [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          4
+        ],
+        [
+          3,
+          3,
+          3,
+          4
+        ]
+      ],
+      "five-point four-cycle": [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3,
+          4
+        ]
+      ],
+      "five-point disjoint-31 path": [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          3,
+          3
+        ],
+        [
+          1,
+          4,
+          4,
+          4
+        ]
+      ]
+    },
+    "scope": "Support incidence only, not realizable cyclic sets or affine classes."
+  },
+  "fixed_valid_fixtures": [
+    {
+      "N": 255,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "valid_multisets_checked": 6435,
+      "h": 0,
+      "R3": 0,
+      "D": 0,
+      "ordinary_fresh_fibers": 0,
+      "pure_overlapping_31_local_controls": 0,
+      "regular_odd_hypotheses": true
+    },
+    {
+      "N": 256,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127
+      ],
+      "valid_multisets_checked": 6435,
+      "h": 1,
+      "R3": 0,
+      "D": 1,
+      "ordinary_fresh_fibers": 0,
+      "pure_overlapping_31_local_controls": 0,
+      "regular_odd_hypotheses": false
+    },
+    {
+      "N": 254,
+      "A": [
+        0,
+        1,
+        129,
+        131,
+        135,
+        143,
+        159,
+        191
+      ],
+      "valid_multisets_checked": 6435,
+      "h": 0,
+      "R3": 0,
+      "D": 0,
+      "ordinary_fresh_fibers": 0,
+      "pure_overlapping_31_local_controls": 0,
+      "regular_odd_hypotheses": false
+    },
+    {
+      "N": 229753,
+      "A": [
+        0,
+        1,
+        13,
+        169,
+        2043,
+        2197,
+        28561,
+        28719
+      ],
+      "valid_multisets_checked": 6435,
+      "h": 28,
+      "R3": 0,
+      "D": 3,
+      "ordinary_fresh_fibers": 3,
+      "pure_overlapping_31_local_controls": 0,
+      "regular_odd_hypotheses": false
+    },
+    {
+      "N": 78337,
+      "A": [
+        0,
+        4609,
+        4610,
+        4626,
+        4898,
+        9248,
+        9522,
+        9792
+      ],
+      "valid_multisets_checked": 6435,
+      "h": 25,
+      "R3": 1,
+      "D": 3,
+      "ordinary_fresh_fibers": 3,
+      "pure_overlapping_31_local_controls": 0,
+      "regular_odd_hypotheses": false
+    },
+    {
+      "N": 262445,
+      "A": [
+        0,
+        209956,
+        52490,
+        209957,
+        209965,
+        52570,
+        210685,
+        59050
+      ],
+      "valid_multisets_checked": 6435,
+      "h": 26,
+      "R3": 0,
+      "D": 2,
+      "ordinary_fresh_fibers": 0,
+      "pure_overlapping_31_local_controls": 0,
+      "regular_odd_hypotheses": false
+    },
+    {
+      "N": 28462107,
+      "A": [
+        0,
+        9487369,
+        18974739,
+        18974742,
+        33,
+        1089,
+        35937,
+        1185921
+      ],
+      "valid_multisets_checked": 6435,
+      "h": 27,
+      "R3": 0,
+      "D": 1,
+      "ordinary_fresh_fibers": 0,
+      "pure_overlapping_31_local_controls": 1,
+      "regular_odd_hypotheses": false
+    }
+  ],
+  "scope": "Proof bookkeeping; six reused fixtures and one non-h0 CRT control; no search."
+}

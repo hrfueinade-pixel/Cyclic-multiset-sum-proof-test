@@ -1,0 +1,22 @@
+{
+  "family": "rooted paths with marked endpoint, R3=0",
+  "seconds_limit": 35,
+  "elapsed_seconds": 2.905999999999949,
+  "complete_template_family": true,
+  "counts": {
+    "label_permutations": 35280,
+    "admissible_templates": 14833,
+    "small_determinant": 2994,
+    "integer_decomposition_audits": 123,
+    "cyclic_quotient_maps_up_to_units": 15380,
+    "distinct_eight_point_outputs": 14109,
+    "pair_sum_failure": 3594,
+    "sidon_outputs": 10515,
+    "doubling_closure_failure": 10515,
+    "repeated_point": 1270,
+    "duplicate_outputs": 1
+  },
+  "valid_retained": [],
+  "invalid_h0_examples": [],
+  "scope": "Not all spanning trees; not all h0 sets; not all moduli."
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Only singleton-cone III; full-rank closure matrices and their derived odd divisor orders 188..2187",
+  "runtime_cap_seconds": 30.0,
+  "elapsed_seconds": 6.343000000000757,
+  "completion_status": "complete",
+  "complete_singleton_presentation_exclusion": true,
+  "family": {
+    "family": "III",
+    "completion_status": "complete",
+    "elapsed_since_global_start": 6.311999999998079,
+    "counts": {
+      "derived_divisor_orders": 41859,
+      "distinct_full_rank_matrices": 154788,
+      "distinct_quotient_images": 36999,
+      "doubling_closure_failure_images": 14706,
+      "duplicate_quotient_images": 3167,
+      "low_rank_local_kernel_calls": 1934,
+      "pair_sum_failure_images": 21695,
+      "quotient_maps_up_to_units": 40166,
+      "rank_0_extensions": 55,
+      "rank_0_nodes": 1,
+      "rank_1_extensions": 2970,
+      "rank_1_nodes": 55,
+      "rank_2_extensions": 154788,
+      "rank_2_nodes": 2970,
+      "rank_3_nodes": 154788,
+      "repeated_point_images": 598,
+      "sidon_images": 14706,
+      "small_odd_determinants": 114417
+    },
+    "matrix_prefix_sha256": "e89b96e4f654864b3afabfe341c136041c7cc44b6e948c617a03deca19c3adae",
+    "closure_survivors": [],
+    "valid_survivors": []
+  },
+  "dependencies": [
+    "Stage12 fresh singleton core-five/ordinary-three residual and R3>=2",
+    "Stage13 elementary reduction to singleton presentation III",
+    "Elementary cubic packing H>=188 and tree determinant H<=2187",
+    "Stage13 max-functional closure generator and Stage10 prime-power kernel implementation"
+  ],
+  "limitations": [
+    "Any timeout is an incomplete prefix, not a shape exclusion.",
+    "Deadline is cooperative; individual factor/kernel calls are not preempted; serialization is outside it.",
+    "Fresh quartic fibers coning no cubic triple are not covered.",
+    "No novelty claim or elementary replacement for the finite calculation is asserted."
+  ]
+}

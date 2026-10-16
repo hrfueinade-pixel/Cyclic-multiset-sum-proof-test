@@ -1,0 +1,14 @@
+{
+  "model": "chain3",
+  "degree": 4,
+  "symbolic_repeated_values": 127,
+  "target": 89,
+  "positive_clique_size": 92,
+  "pair_witnesses": 4186,
+  "discovery_complete": false,
+  "search_nodes": 92,
+  "discovery_cap_seconds": 10,
+  "elapsed_seconds": 0.15599999998812564,
+  "certificate": "stage42_chain3_degree4_certificate.json.gz",
+  "boundary": "Only the positive certificate proves growth for this model. No arbitrary cyclic sets, moduli, or parameter values were searched."
+}

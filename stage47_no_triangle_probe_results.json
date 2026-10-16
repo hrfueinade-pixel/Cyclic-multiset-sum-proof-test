@@ -1,0 +1,403 @@
+{
+  "scope": "Two fixed symbolic controls; no parameter or modulus sweep.",
+  "controls": [
+    {
+      "name": "path",
+      "coefficient_rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "declared_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "formal_full_validity": true,
+      "formal_T_counts": {
+        "3": 62,
+        "4": 244,
+        "5": 664
+      },
+      "formal_ordinary_quartic_triples": [
+        [
+          [
+            2,
+            2,
+            2,
+            0,
+            2
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          ]
+        ]
+      ],
+      "formal_ordinary_quintic_triples": [
+        {
+          "value": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "centers": [
+            5,
+            6,
+            7
+          ],
+          "words": [
+            [
+              0,
+              0,
+              1,
+              1,
+              1,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              2
+            ]
+          ]
+        }
+      ],
+      "formal_ordinary_quartic_triangle_cores": [],
+      "ordinary_pair_counts": {
+        "3": {
+          "pairs": 2,
+          "by_tail_intersection": {
+            "0": 2
+          },
+          "triple_fibers": 0
+        },
+        "4": {
+          "pairs": 9,
+          "by_tail_intersection": {
+            "1": 8,
+            "0": 1
+          },
+          "triple_fibers": 1
+        },
+        "5": {
+          "pairs": 14,
+          "by_tail_intersection": {
+            "2": 12,
+            "1": 2
+          },
+          "triple_fibers": 1
+        }
+      },
+      "ordinary_quintic_output_values": 267,
+      "mixed_only_quintic_output_values": 397,
+      "formal_caps": {
+        "cubic": 2,
+        "ordinary_quartic": 3,
+        "ordinary_quintic": 3
+      },
+      "fixed_cyclic_control": {
+        "labels": [
+          0,
+          2,
+          34,
+          578,
+          9826,
+          83522,
+          83539,
+          83827
+        ],
+        "modulus": 670617,
+        "checked_mass_eight_words": 6435,
+        "rivals": []
+      }
+    },
+    {
+      "name": "split",
+      "coefficient_rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "declared_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "formal_full_validity": true,
+      "formal_T_counts": {
+        "3": 63,
+        "4": 250,
+        "5": 685
+      },
+      "formal_ordinary_quartic_triples": [],
+      "formal_ordinary_quintic_triples": [
+        {
+          "value": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "centers": [
+            5,
+            6,
+            7
+          ],
+          "words": [
+            [
+              0,
+              0,
+              1,
+              1,
+              1,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          ]
+        }
+      ],
+      "formal_ordinary_quartic_triangle_cores": [],
+      "ordinary_pair_counts": {
+        "3": {
+          "pairs": 1,
+          "by_tail_intersection": {
+            "0": 1
+          },
+          "triple_fibers": 0
+        },
+        "4": {
+          "pairs": 6,
+          "by_tail_intersection": {
+            "0": 2,
+            "1": 4
+          },
+          "triple_fibers": 0
+        },
+        "5": {
+          "pairs": 10,
+          "by_tail_intersection": {
+            "1": 4,
+            "2": 6
+          },
+          "triple_fibers": 1
+        }
+      },
+      "ordinary_quintic_output_values": 271,
+      "mixed_only_quintic_output_values": 414,
+      "formal_caps": {
+        "cubic": 2,
+        "ordinary_quartic": 2,
+        "ordinary_quintic": 3
+      },
+      "fixed_cyclic_control": {
+        "labels": [
+          0,
+          2,
+          34,
+          578,
+          9826,
+          83522,
+          83539,
+          88723
+        ],
+        "modulus": 709785,
+        "checked_mass_eight_words": 6435,
+        "rivals": []
+      }
+    }
+  ]
+}

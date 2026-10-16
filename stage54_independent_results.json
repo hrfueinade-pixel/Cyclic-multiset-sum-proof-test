@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "first_directions": 901,
+  "first_growth_models": 327,
+  "second_directions": 4339,
+  "second_growth_models": 1053,
+  "positive_quartic_pair_identities_reconstructed": 5407996,
+  "direct_integer_identities_checked": 3860,
+  "odd_torsion_orders_retained": [
+    1,
+    3,
+    5,
+    7,
+    9
+  ],
+  "bundle_sha256": "45a4af4b662fb167119952d2cc8be4134498d699691c40f5bef7b9d22c9e3eb8",
+  "proof_boundary": "General E>=2q follows only with the written source and global-count lemmas; full N>=248 remains open. Same-assistant separate implementation, not human or formal certification."
+}

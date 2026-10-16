@@ -1,0 +1,587 @@
+{
+  "completion": "COMPLETE",
+  "cap_seconds": 120,
+  "elapsed_seconds": 70.01599999998871,
+  "coverage": "Unit-difference normalization plus unitless normalized roots",
+  "completed_orders": [
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
+  ],
+  "interrupted_order": null,
+  "reports": [
+    {
+      "M": 94,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        88,
+        3242,
+        35150,
+        109
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 95,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        90,
+        3442,
+        39938,
+        55
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 96,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        90,
+        3408,
+        39732,
+        381
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 97,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        92,
+        3612,
+        43932,
+        99
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 98,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        92,
+        3572,
+        42582,
+        274
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 99,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        94,
+        3790,
+        49387,
+        251
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 100,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        94,
+        3744,
+        47503,
+        403
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 101,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        96,
+        3960,
+        52904,
+        219
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 102,
+      "completion": "COMPLETE",
+      "roots": [
+        1,
+        34,
+        17,
+        6,
+        3,
+        2
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        6,
+        316,
+        7060,
+        58473,
+        1248
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 103,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        98,
+        4140,
+        58120,
+        346
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 104,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        98,
+        4098,
+        56453,
+        737
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 105,
+      "completion": "COMPLETE",
+      "roots": [
+        1,
+        35,
+        21,
+        15,
+        7,
+        5,
+        3
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        7,
+        294,
+        5670,
+        65106,
+        1575
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 106,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        100,
+        4280,
+        61396,
+        1361
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 107,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        102,
+        4512,
+        68720,
+        1068
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 108,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        102,
+        4472,
+        67786,
+        3390
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 109,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        104,
+        4704,
+        74380,
+        1461
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 110,
+      "completion": "COMPLETE",
+      "roots": [
+        1,
+        22,
+        11,
+        10,
+        5,
+        2
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        6,
+        314,
+        7746,
+        79114,
+        2840
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 111,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        106,
+        4906,
+        81516,
+        3166
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 112,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        106,
+        4854,
+        78236,
+        4128
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 113,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        108,
+        5100,
+        86620,
+        3205
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 114,
+      "completion": "COMPLETE",
+      "roots": [
+        1,
+        38,
+        19,
+        6,
+        3,
+        2
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        6,
+        356,
+        9208,
+        96992,
+        8382
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 115,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        110,
+        5302,
+        93346,
+        4823
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 116,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        110,
+        5258,
+        90914,
+        7846
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 117,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        112,
+        5518,
+        101458,
+        10231
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 118,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        112,
+        5462,
+        97352,
+        8918
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 119,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        114,
+        5724,
+        107398,
+        9505
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 120,
+      "completion": "COMPLETE",
+      "roots": [
+        1,
+        40,
+        30,
+        24,
+        20,
+        15,
+        12,
+        10,
+        8,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        14,
+        938,
+        21960,
+        169302,
+        30369
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 121,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        116,
+        5940,
+        115018,
+        11385
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 122,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        116,
+        5888,
+        111908,
+        16214
+      ],
+      "survivors": 0
+    },
+    {
+      "M": 123,
+      "completion": "COMPLETE",
+      "roots": [
+        1
+      ],
+      "prefix_counts": [
+        0,
+        0,
+        1,
+        118,
+        6166,
+        124360,
+        22596
+      ],
+      "survivors": 0
+    }
+  ],
+  "survivors": [],
+  "imports_producer": false
+}

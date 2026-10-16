@@ -1,0 +1,373 @@
+{
+  "results": [
+    {
+      "model": "r00",
+      "direction": [
+        -6,
+        0,
+        0,
+        3
+      ],
+      "torsion_order": 3,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 208,
+      "positive_bound": 102,
+      "pair_records": 5151,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 102,
+      "elapsed_seconds": 0.15700000000651926,
+      "certificate": "stage43_r00_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r01",
+      "direction": [
+        -6,
+        0,
+        0,
+        5
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 207,
+      "positive_bound": 92,
+      "pair_records": 4186,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 275,
+      "elapsed_seconds": 0.14000000001396984,
+      "certificate": "stage43_r01_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r02",
+      "direction": [
+        -6,
+        0,
+        1,
+        2
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 208,
+      "positive_bound": 92,
+      "pair_records": 4186,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 175,
+      "elapsed_seconds": 0.125,
+      "certificate": "stage43_r02_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r03",
+      "direction": [
+        -6,
+        0,
+        1,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 207,
+      "positive_bound": 91,
+      "pair_records": 4095,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 539,
+      "elapsed_seconds": 0.17199999999138527,
+      "certificate": "stage43_r03_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r04",
+      "direction": [
+        -5,
+        0,
+        0,
+        2
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 205,
+      "positive_bound": 94,
+      "pair_records": 4371,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 94,
+      "elapsed_seconds": 0.15599999998812564,
+      "certificate": "stage43_r04_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r05",
+      "direction": [
+        -5,
+        0,
+        0,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 200,
+      "positive_bound": 89,
+      "pair_records": 3916,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 597,
+      "elapsed_seconds": 0.14100000000325963,
+      "certificate": "stage43_r05_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r06",
+      "direction": [
+        -5,
+        0,
+        0,
+        5
+      ],
+      "torsion_order": 5,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 206,
+      "positive_bound": 90,
+      "pair_records": 4005,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 765,
+      "elapsed_seconds": 0.14100000000325963,
+      "certificate": "stage43_r06_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r07",
+      "direction": [
+        -5,
+        0,
+        1,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 206,
+      "positive_bound": 85,
+      "pair_records": 3570,
+      "target": 89,
+      "discovery_complete": true,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 5165,
+      "elapsed_seconds": 0.34299999999348074,
+      "certificate": "stage43_r07_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r08",
+      "direction": [
+        -5,
+        0,
+        2,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 207,
+      "positive_bound": 89,
+      "pair_records": 3916,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 1082,
+      "elapsed_seconds": 0.1720000000204891,
+      "certificate": "stage43_r08_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r09",
+      "direction": [
+        -4,
+        -2,
+        0,
+        3
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 208,
+      "positive_bound": 95,
+      "pair_records": 4465,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 95,
+      "elapsed_seconds": 0.15599999998812564,
+      "certificate": "stage43_r09_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r10",
+      "direction": [
+        -4,
+        -2,
+        1,
+        2
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 208,
+      "positive_bound": 93,
+      "pair_records": 4278,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 93,
+      "elapsed_seconds": 0.14100000000325963,
+      "certificate": "stage43_r10_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r11",
+      "direction": [
+        -4,
+        -2,
+        1,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 207,
+      "positive_bound": 89,
+      "pair_records": 3916,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 5398,
+      "elapsed_seconds": 0.32800000000861473,
+      "certificate": "stage43_r11_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r12",
+      "direction": [
+        -4,
+        -1,
+        0,
+        2
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 205,
+      "positive_bound": 95,
+      "pair_records": 4465,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 95,
+      "elapsed_seconds": 0.1409999999741558,
+      "certificate": "stage43_r12_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r13",
+      "direction": [
+        -4,
+        -1,
+        0,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 200,
+      "positive_bound": 89,
+      "pair_records": 3916,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 396,
+      "elapsed_seconds": 0.14000000001396984,
+      "certificate": "stage43_r13_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r14",
+      "direction": [
+        -4,
+        -1,
+        1,
+        4
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 206,
+      "positive_bound": 87,
+      "pair_records": 3741,
+      "target": 89,
+      "discovery_complete": false,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 48256,
+      "elapsed_seconds": 2.1410000000032596,
+      "certificate": "stage43_r14_degree4_units2_certificate.json.gz"
+    },
+    {
+      "model": "r15",
+      "direction": [
+        -4,
+        0,
+        0,
+        1
+      ],
+      "torsion_order": 1,
+      "degree": 4,
+      "units": [
+        2
+      ],
+      "formal_values": 190,
+      "positive_bound": 85,
+      "pair_records": 3570,
+      "target": 89,
+      "discovery_complete": true,
+      "discovery_cap_seconds": 2,
+      "discovery_nodes": 185,
+      "elapsed_seconds": 0.125,
+      "certificate": "stage43_r15_degree4_units2_certificate.json.gz"
+    }
+  ],
+  "boundary": "Positive model certificates only; fixed symbolic inventory, no parameter or modulus sweep."
+}

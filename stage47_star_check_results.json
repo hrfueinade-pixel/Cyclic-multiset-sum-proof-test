@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "positive_rival_pair_records": 726,
+  "positive_clique_cover_bound": 2,
+  "short_hand_rival_pairs": 588,
+  "fixed_parity_pairs": 204,
+  "inventory_assignments": 52,
+  "surviving_assignments_diagnostic": 46,
+  "fixed_control": {
+    "set": [
+      10304,
+      10504,
+      30704,
+      10312,
+      9704,
+      0,
+      100,
+      10200
+    ],
+    "raw_set": [
+      2,
+      202,
+      20402,
+      10,
+      -598,
+      -10302,
+      -10202,
+      -102
+    ],
+    "modulus": 245633,
+    "T": {
+      "3": 60,
+      "4": 228,
+      "5": 592
+    },
+    "h": 24,
+    "R3": 0,
+    "caps": {
+      "3": {
+        "total": 2,
+        "ordinary": 2
+      },
+      "4": {
+        "total": 4,
+        "ordinary": 3
+      },
+      "5": {
+        "total": 5,
+        "ordinary": 3
+      }
+    },
+    "fibers": {
+      "quartic": [
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "star_u": [
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "eight_term_words_checked": 6435,
+    "full_valid": true
+  },
+  "boundary": "Counterexample to unrestricted avoidance cap one, outside sub-248 target."
+}

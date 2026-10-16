@@ -1,0 +1,108 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "N": 192,
+      "closed_sets": 420,
+      "Sidon_nonordinary_sets": 0,
+      "determinant_passing": 0,
+      "completions": 0,
+      "Sidon_completions": 0,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 196,
+      "closed_sets": 435,
+      "Sidon_nonordinary_sets": 40,
+      "determinant_passing": 0,
+      "completions": 0,
+      "Sidon_completions": 0,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 200,
+      "closed_sets": 222,
+      "Sidon_nonordinary_sets": 8,
+      "determinant_passing": 0,
+      "completions": 0,
+      "Sidon_completions": 0,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 208,
+      "closed_sets": 212,
+      "Sidon_nonordinary_sets": 0,
+      "determinant_passing": 0,
+      "completions": 0,
+      "Sidon_completions": 0,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 210,
+      "closed_sets": 674,
+      "Sidon_nonordinary_sets": 60,
+      "determinant_passing": 0,
+      "completions": 0,
+      "Sidon_completions": 0,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 216,
+      "closed_sets": 990,
+      "Sidon_nonordinary_sets": 264,
+      "determinant_passing": 216,
+      "completions": 106992,
+      "Sidon_completions": 6336,
+      "cube_passing": 507,
+      "valid": 0
+    },
+    {
+      "N": 224,
+      "closed_sets": 588,
+      "Sidon_nonordinary_sets": 40,
+      "determinant_passing": 40,
+      "completions": 13904,
+      "Sidon_completions": 0,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 234,
+      "closed_sets": 528,
+      "Sidon_nonordinary_sets": 0,
+      "determinant_passing": 0,
+      "completions": 0,
+      "Sidon_completions": 0,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 240,
+      "closed_sets": 3652,
+      "Sidon_nonordinary_sets": 840,
+      "determinant_passing": 768,
+      "completions": 64320,
+      "Sidon_completions": 4864,
+      "cube_passing": 0,
+      "valid": 0
+    },
+    {
+      "N": 244,
+      "closed_sets": 723,
+      "Sidon_nonordinary_sets": 432,
+      "determinant_passing": 432,
+      "completions": 65520,
+      "Sidon_completions": 7200,
+      "cube_passing": 0,
+      "valid": 0
+    }
+  ],
+  "seconds_limit": 90,
+  "elapsed_seconds": 6.468999999999141,
+  "scope": "full non-type22 fiber configurations only"
+}

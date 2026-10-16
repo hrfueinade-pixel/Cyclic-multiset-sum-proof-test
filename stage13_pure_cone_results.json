@@ -1,0 +1,75 @@
+{
+  "scope": "Two fixed rank-three pure-cone closure presentations; determinant-divisor quotients only",
+  "runtime_cap_seconds": 30.0,
+  "elapsed_seconds": 15.889999999999418,
+  "completion_status": "complete",
+  "complete_two_family_exclusion": true,
+  "families": [
+    {
+      "family": "I",
+      "completion_status": "complete",
+      "elapsed_since_global_start": 9.405999999995402,
+      "counts": {
+        "derived_divisor_orders": 80668,
+        "distinct_full_rank_matrices": 160424,
+        "distinct_quotient_images": 65451,
+        "doubling_closure_failure_images": 22217,
+        "duplicate_quotient_images": 9921,
+        "low_rank_local_kernel_calls": 7274,
+        "pair_sum_failure_images": 41615,
+        "quotient_maps_up_to_units": 75372,
+        "rank_0_extensions": 55,
+        "rank_0_nodes": 1,
+        "rank_1_extensions": 2970,
+        "rank_1_nodes": 55,
+        "rank_2_extensions": 160424,
+        "rank_2_nodes": 2970,
+        "rank_3_nodes": 160424,
+        "repeated_point_images": 1619,
+        "sidon_images": 22217,
+        "small_odd_determinants": 87306
+      },
+      "matrix_prefix_sha256": "653aa24b66d8d2ba303e8e74ba82bace6d5861adff87189d7ccf28fe9ba7d6d4",
+      "closure_survivors": [],
+      "valid_survivors": []
+    },
+    {
+      "family": "II",
+      "completion_status": "complete",
+      "elapsed_since_global_start": 15.85899999999674,
+      "counts": {
+        "derived_divisor_orders": 42148,
+        "distinct_full_rank_matrices": 157834,
+        "distinct_quotient_images": 37393,
+        "doubling_closure_failure_images": 13873,
+        "duplicate_quotient_images": 3166,
+        "low_rank_local_kernel_calls": 1787,
+        "pair_sum_failure_images": 22970,
+        "quotient_maps_up_to_units": 40559,
+        "rank_0_extensions": 55,
+        "rank_0_nodes": 1,
+        "rank_1_extensions": 2974,
+        "rank_1_nodes": 55,
+        "rank_2_extensions": 157834,
+        "rank_2_nodes": 2974,
+        "rank_3_nodes": 157834,
+        "repeated_point_images": 550,
+        "sidon_images": 13873,
+        "small_odd_determinants": 117013
+      },
+      "matrix_prefix_sha256": "876157d1a776f7767324614f65caa4acac44da62e9cae9562f9dc3a6105afe13",
+      "closure_survivors": [],
+      "valid_survivors": []
+    }
+  ],
+  "dependencies": [
+    "Stage12 elementary reduction to two pure-cone families",
+    "Stage5 elementary H<=2187; elementary cubic packing H>=188 here",
+    "Stage10 modular kernel routines reused, not historical searches"
+  ],
+  "limitations": [
+    "Any timeout excludes only the processed prefix, not the shape.",
+    "Other four core cones and quartic fibers coning no triple are not covered.",
+    "This is a finite computation, not an elementary exclusion or novelty claim."
+  ]
+}

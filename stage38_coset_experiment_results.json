@@ -1,0 +1,153 @@
+{
+  "completion": "INCOMPLETE_FIXED_COSET_FAMILY",
+  "seconds_limit": 30,
+  "elapsed_seconds": 30.0,
+  "counters": {
+    "prefixes": 15768,
+    "six_sets_35": 50,
+    "eight_candidates": 55388,
+    "Sidon_overlap5": 55388,
+    "six_sets_45": 2560,
+    "six_sets_49": 4152
+  },
+  "partial_state": {
+    "kernel_order": 49,
+    "prefix": [
+      0,
+      1,
+      12,
+      27,
+      45
+    ]
+  },
+  "best": {
+    "Sidon_overlap5": {
+      "N": 245,
+      "A": [
+        0,
+        1,
+        7,
+        21,
+        49,
+        84,
+        99,
+        140
+      ],
+      "sumset2": 36,
+      "sumset3": 86,
+      "sumset4": 130,
+      "squarefree3_distinct": 52,
+      "squarefree4_distinct": 61,
+      "cubic_protected": false,
+      "quartic_protected": false,
+      "quartics_protected_count": 4,
+      "intersection_size": 103,
+      "intersection_exact_Q": false,
+      "h": 13,
+      "maximum_dilation_overlap": 3,
+      "kernel_six": [
+        0,
+        1,
+        3,
+        7,
+        12,
+        20
+      ],
+      "kernel_order": 35,
+      "quotient_order": 7,
+      "missing_step": 14,
+      "periods4": [
+        0
+      ],
+      "valid8": false,
+      "eight_multisets_checked": 6435,
+      "rival_count": 38,
+      "rival": [
+        4,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "first_quartic_failure": {
+        "squarefree": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "opponent": [
+          1,
+          4,
+          5,
+          7
+        ],
+        "residue": 29
+      }
+    }
+  },
+  "covers_all_sets": false,
+  "new_modulus_exclusion": false,
+  "universal_growth_proved": false,
+  "controls": [
+    {
+      "N": 245,
+      "A": [
+        0,
+        1,
+        7,
+        21,
+        49,
+        84,
+        99,
+        140
+      ],
+      "sumset2": 36,
+      "sumset3": 86,
+      "sumset4": 130,
+      "squarefree3_distinct": 52,
+      "squarefree4_distinct": 61,
+      "cubic_protected": false,
+      "quartic_protected": false,
+      "quartics_protected_count": 4,
+      "intersection_size": 103,
+      "intersection_exact_Q": false,
+      "h": 13,
+      "maximum_dilation_overlap": 3,
+      "periods4": [
+        0
+      ],
+      "valid8": false,
+      "eight_multisets_checked": 6435,
+      "rival_count": 38,
+      "rival": [
+        4,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "first_quartic_failure": {
+        "squarefree": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "opponent": [
+          1,
+          4,
+          5,
+          7
+        ],
+        "residue": 29
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "model": "doubling4",
+  "degree": 5,
+  "symbolic_repeated_values": 555,
+  "target": 156,
+  "positive_clique_size": 135,
+  "pair_witnesses": 9045,
+  "discovery_complete": false,
+  "search_nodes": 118400,
+  "discovery_cap_seconds": 10,
+  "elapsed_seconds": 10.35999999998603,
+  "certificate": "stage42_doubling4_degree5_certificate.json.gz",
+  "boundary": "Only the positive certificate proves growth for this model. No arbitrary cyclic sets, moduli, or parameter values were searched."
+}

@@ -1,0 +1,89 @@
+{
+  "completion": "COMPLETE",
+  "cap_seconds": 5,
+  "elapsed_seconds": 0.014999999999417923,
+  "independently_excluded_odd_orders": [
+    189,
+    191,
+    193,
+    195,
+    197,
+    199,
+    201,
+    203,
+    205
+  ],
+  "rows": [
+    {
+      "N": 189,
+      "primitive_blocks": 55698,
+      "discovery_triple_shapes": 338955,
+      "independent_triple_shapes_after_safe_saturation_prune": 311421,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 191,
+      "primitive_blocks": 33002,
+      "discovery_triple_shapes": 194649,
+      "independent_triple_shapes_after_safe_saturation_prune": 177312,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 193,
+      "primitive_blocks": 34267,
+      "discovery_triple_shapes": 232422,
+      "independent_triple_shapes_after_safe_saturation_prune": 213789,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 195,
+      "primitive_blocks": 76064,
+      "discovery_triple_shapes": 814350,
+      "independent_triple_shapes_after_safe_saturation_prune": 776688,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 197,
+      "primitive_blocks": 36895,
+      "discovery_triple_shapes": 325026,
+      "independent_triple_shapes_after_safe_saturation_prune": 303900,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 199,
+      "primitive_blocks": 38258,
+      "discovery_triple_shapes": 383733,
+      "independent_triple_shapes_after_safe_saturation_prune": 361794,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 201,
+      "primitive_blocks": 60641,
+      "discovery_triple_shapes": 784233,
+      "independent_triple_shapes_after_safe_saturation_prune": 751158,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 203,
+      "primitive_blocks": 49430,
+      "discovery_triple_shapes": 650613,
+      "independent_triple_shapes_after_safe_saturation_prune": 621435,
+      "necessary_base_survivors": 0
+    },
+    {
+      "N": 205,
+      "primitive_blocks": 54351,
+      "discovery_triple_shapes": 846147,
+      "independent_triple_shapes_after_safe_saturation_prune": 812490,
+      "necessary_base_survivors": 0
+    }
+  ],
+  "new_general_lower_bound": 207,
+  "dependencies": [
+    "Audited elementary eight-point N>=187",
+    "Stage3 independent187 exclusion",
+    "Stages30-35 all even N<248 excluded"
+  ],
+  "universal_248": "OPEN",
+  "aperiodicity": "Elementary Stage37 theorem; no computation"
+}

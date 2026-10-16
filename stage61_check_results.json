@@ -1,0 +1,24 @@
+{
+  "scope": "At most one quartic-triangle alignment class in a hypothetical odd N<248 counterexample.",
+  "archive_sha256": "333c4cbd58bf769ae7d9e2f2ffc7f3cc8fbc6115a0da9ac7662eec694dc6d753",
+  "checked_nodes": [
+    803,
+    2857
+  ],
+  "proof_types": {
+    "forced_ordinary": 8,
+    "direct": 3115,
+    "rival": 131,
+    "positive89": 401,
+    "distinct_class": 2756,
+    "same_class_forced": 603,
+    "same_class_formal": 1,
+    "affine_target": 5
+  },
+  "second_triangle_presentations": 3360,
+  "private_direction_cases": 5605,
+  "literal_private_cases": 6667,
+  "positive_mass8_pair_identities": 1570316,
+  "full_N_ge_248": "OPEN",
+  "boundary": "Separate implementation using the existing Stage60 checker helpers and its four-edge theorem; no producer/elimination imports."
+}

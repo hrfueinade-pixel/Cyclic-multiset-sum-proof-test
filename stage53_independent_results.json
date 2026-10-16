@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "new_integer_identities_checked": 23367,
+  "coverage": {
+    "marked_edge": {
+      "half_presentations": 2880,
+      "half_positive_exclusions": 2870,
+      "residual_pairs_closed": 100
+    },
+    "marked_path": {
+      "all_extensions_closed": 7190
+    },
+    "degree_three": {
+      "pair_presentations": 719,
+      "pair_exclusions": 685,
+      "survivor_pairs_closed": 962,
+      "parallel_edges_excluded": true
+    },
+    "two_marks": {
+      "all_presentations_closed": 11504
+    }
+  },
+  "closed_split_growth_pair_identities": 6670,
+  "corruption_controls": "nonunit and changed multiplier rejected",
+  "bundle_sha256": "0cf8d7ed3f6e515a02161417ec11c11085e8a72130c5c1fbad8b7643ffd1a220",
+  "proof_boundary": "Computer-assisted local identities plus the written global graph proof; C4=0 branch only. No independent human or formal verification."
+}

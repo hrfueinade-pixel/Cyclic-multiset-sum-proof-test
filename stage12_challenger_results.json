@@ -1,0 +1,81 @@
+{
+  "scope": "One fixed selected-constraint fixture, not a modulus search",
+  "runtime_cap_seconds": 2.0,
+  "complete": true,
+  "elapsed_seconds": 0.0,
+  "candidate_count": 1,
+  "group": "Z/3 x Z/1009 (cyclic order 3027)",
+  "points_in_C_B_F_order": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      51
+    ],
+    [
+      0,
+      119
+    ],
+    [
+      0,
+      117
+    ],
+    [
+      0,
+      17
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      -1
+    ]
+  ],
+  "pair_sum_count": 36,
+  "ordered_difference_count": 56,
+  "missing_doubled_differences": 42,
+  "order_three_difference_count": 0,
+  "multisets_checked": 6435,
+  "rivals": [
+    [
+      0,
+      0,
+      2,
+      4,
+      4,
+      5,
+      6,
+      6
+    ],
+    [
+      1,
+      1,
+      2,
+      3,
+      3,
+      5,
+      7,
+      7
+    ],
+    [
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6
+    ]
+  ],
+  "valid_set_count": 0,
+  "status": "invalid diagnostic, not a counterexample"
+}

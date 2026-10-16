@@ -1,0 +1,847 @@
+{
+  "summary": {
+    "assignments": 200,
+    "orbits": 22,
+    "positive_rival_orbits": 22,
+    "unexcluded_orbits": 0,
+    "boundary": "Unexcluded means no saved dyadic rival, not feasibility."
+  },
+  "records": [
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "orbit_size": 2,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          3,
+          0,
+          0,
+          1,
+          1,
+          3,
+          0,
+          0
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          -1,
+          2,
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          3
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          2,
+          1,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          7,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "unit_factor": 4,
+        "multipliers": [
+          -2,
+          -2,
+          11,
+          0,
+          -5
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          0,
+          -1,
+          3,
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          0,
+          3,
+          1,
+          -2
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          3
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          2,
+          1,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          3
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          2,
+          1,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          3,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          3
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          2,
+          1,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          7,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "unit_factor": 4,
+        "multipliers": [
+          -2,
+          -2,
+          11,
+          0,
+          -5
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          0,
+          3,
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          0,
+          -1,
+          3,
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          3,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          0,
+          1,
+          1,
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          7,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "unit_factor": 4,
+        "multipliers": [
+          -2,
+          -2,
+          11,
+          -5,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          7,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "unit_factor": 4,
+        "multipliers": [
+          -2,
+          -2,
+          11,
+          -5,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          7,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "unit_factor": 4,
+        "multipliers": [
+          -2,
+          -2,
+          11,
+          -5,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          0,
+          3,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          0,
+          3,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          0,
+          3,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          0,
+          3,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          5,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          -1,
+          -1,
+          3,
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "orbit_size": 12,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          2,
+          1,
+          1,
+          0,
+          2,
+          1,
+          1,
+          0
+        ],
+        "unit_factor": 2,
+        "multipliers": [
+          0,
+          -1,
+          1,
+          -1,
+          1
+        ]
+      }
+    },
+    {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "orbit_size": 6,
+      "rational_rank": 5,
+      "rival": {
+        "rival": [
+          6,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unit_factor": 4,
+        "multipliers": [
+          -2,
+          -2,
+          8,
+          -1,
+          -1
+        ]
+      }
+    }
+  ]
+}

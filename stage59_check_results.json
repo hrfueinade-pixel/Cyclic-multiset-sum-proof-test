@@ -1,0 +1,159 @@
+{
+  "scope": "One split per triangle and all nine ordinary-collision-exhausted forest families.",
+  "archive_sha256": "2f10f531380a470f3b73d586610b4a2136dcc32fecd087c1576814ca5b6798a2",
+  "local_cases": {
+    "protected": 4,
+    "label": 2,
+    "rival": 2,
+    "growth89": 2,
+    "residual": 2
+  },
+  "positive_quartic_values": 89,
+  "positive_mass8_identities": 3916,
+  "residual_pairs": {
+    "label": 3,
+    "protected_pair": 6,
+    "mass8_rival": 6
+  },
+  "forest_table": [
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "ordinary_pairs": 10,
+      "pure_pairs": 5,
+      "triangles": 4,
+      "triangle_incident_pairs": 9,
+      "split_upper": 8,
+      "N_lower": 252,
+      "external_deficit_rhs": 5,
+      "minimum_external_ordinary_pairs": 1
+    },
+    {
+      "shape": [
+        6,
+        1,
+        1
+      ],
+      "ordinary_pairs": 6,
+      "pure_pairs": 4,
+      "triangles": 1,
+      "triangle_incident_pairs": 3,
+      "split_upper": 13,
+      "N_lower": 261,
+      "external_deficit_rhs": 14,
+      "minimum_external_ordinary_pairs": 3
+    },
+    {
+      "shape": [
+        5,
+        3
+      ],
+      "ordinary_pairs": 11,
+      "pure_pairs": 4,
+      "triangles": 6,
+      "triangle_incident_pairs": 11,
+      "split_upper": 6,
+      "N_lower": 248,
+      "external_deficit_rhs": 1,
+      "minimum_external_ordinary_pairs": 1
+    },
+    {
+      "shape": [
+        5,
+        2,
+        1
+      ],
+      "ordinary_pairs": 7,
+      "pure_pairs": 3,
+      "triangles": 3,
+      "triangle_incident_pairs": 7,
+      "split_upper": 3,
+      "N_lower": 265,
+      "external_deficit_rhs": 18,
+      "minimum_external_ordinary_pairs": 3
+    },
+    {
+      "shape": [
+        4,
+        3,
+        1
+      ],
+      "ordinary_pairs": 7,
+      "pure_pairs": 3,
+      "triangles": 2,
+      "triangle_incident_pairs": 5,
+      "split_upper": 10,
+      "N_lower": 260,
+      "external_deficit_rhs": 13,
+      "minimum_external_ordinary_pairs": 3
+    },
+    {
+      "shape": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "ordinary_pairs": 4,
+      "pure_pairs": 2,
+      "triangles": 1,
+      "triangle_incident_pairs": 3,
+      "split_upper": 5,
+      "N_lower": 273,
+      "external_deficit_rhs": 26,
+      "minimum_external_ordinary_pairs": 5
+    },
+    {
+      "shape": [
+        3,
+        3,
+        2
+      ],
+      "ordinary_pairs": 8,
+      "pure_pairs": 2,
+      "triangles": 4,
+      "triangle_incident_pairs": 8,
+      "split_upper": 4,
+      "N_lower": 260,
+      "external_deficit_rhs": 13,
+      "minimum_external_ordinary_pairs": 3
+    },
+    {
+      "shape": [
+        3,
+        2,
+        2,
+        1
+      ],
+      "ordinary_pairs": 5,
+      "pure_pairs": 1,
+      "triangles": 2,
+      "triangle_incident_pairs": 5,
+      "split_upper": 2,
+      "N_lower": 272,
+      "external_deficit_rhs": 25,
+      "minimum_external_ordinary_pairs": 5
+    },
+    {
+      "shape": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "ordinary_pairs": 3,
+      "pure_pairs": 0,
+      "triangles": 1,
+      "triangle_incident_pairs": 3,
+      "split_upper": 1,
+      "N_lower": 279,
+      "external_deficit_rhs": 32,
+      "minimum_external_ordinary_pairs": 6
+    }
+  ],
+  "full_N_ge_248": "OPEN",
+  "certification": "Separate implementation by the same assistant; not formal or external review."
+}

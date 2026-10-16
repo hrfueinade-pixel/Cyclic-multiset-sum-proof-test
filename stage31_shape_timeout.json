@@ -1,0 +1,131 @@
+{
+  "completion": "TIMEOUT/incomplete",
+  "cap_seconds": 90,
+  "elapsed_seconds": 90.0,
+  "completed_orders": [
+    123,
+    122,
+    121
+  ],
+  "partial_order": {
+    "M": 120,
+    "completion": "RUNNING",
+    "B_prefix_counts": [
+      0,
+      0,
+      6,
+      378,
+      10833,
+      126300
+    ],
+    "counts": {
+      "blocks": 83329,
+      "proper_saturated": 2209,
+      "shapes_checked": 24010560,
+      "shapes_5odd_surviving": 1758,
+      "even_triples": 0,
+      "sidon_eight": 0,
+      "rival_3odd": 0,
+      "rival_1odd": 0
+    },
+    "roots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      15,
+      20,
+      24,
+      30,
+      40
+    ]
+  },
+  "reports": [
+    {
+      "M": 123,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        3,
+        154,
+        6586,
+        124500
+      ],
+      "counts": {
+        "blocks": 79706,
+        "proper_saturated": 140,
+        "shapes_checked": 11038188,
+        "shapes_5odd_surviving": 1038,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        3,
+        41
+      ]
+    },
+    {
+      "M": 122,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        2,
+        172,
+        7088,
+        115952
+      ],
+      "counts": {
+        "blocks": 73056,
+        "proper_saturated": 960,
+        "shapes_checked": 14519568,
+        "shapes_5odd_surviving": 1104,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2
+      ]
+    },
+    {
+      "M": 121,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        2,
+        122,
+        5940,
+        115018
+      ],
+      "counts": {
+        "blocks": 64572,
+        "proper_saturated": 0,
+        "shapes_checked": 8044998,
+        "shapes_5odd_surviving": 240,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        11
+      ]
+    }
+  ],
+  "survivors": [],
+  "scope": "All odd five-blocks and compatible even triples;even3+5 only"
+}

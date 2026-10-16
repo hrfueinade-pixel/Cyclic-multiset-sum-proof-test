@@ -1,0 +1,206 @@
+{
+  "completion": "COMPLETE",
+  "seconds_limit": 30,
+  "elapsed_seconds": 0.0,
+  "coverage": 64,
+  "certificates_verified": 59,
+  "altered_multipliers_rejected": 59,
+  "uncertified_presentations": [
+    {
+      "shape": "FOO",
+      "roles": [
+        2,
+        1
+      ],
+      "rows": [
+        [
+          -3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -4,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          -2,
+          3,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "shape": "FOO",
+      "roles": [
+        3,
+        1
+      ],
+      "rows": [
+        [
+          -3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -4,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          -2,
+          3,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "shape": "FOO",
+      "roles": [
+        5,
+        1
+      ],
+      "rows": [
+        [
+          -3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -4,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          -2,
+          3,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "shape": "FOO",
+      "roles": [
+        6,
+        1
+      ],
+      "rows": [
+        [
+          -3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -4,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          -2,
+          3,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "shape": "FOO",
+      "roles": [
+        7,
+        1
+      ],
+      "rows": [
+        [
+          -3,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -4,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          -2,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      ]
+    }
+  ],
+  "limit": "Only saved exclusions audited. Survivor realizability and absence of other certificates are not asserted."
+}

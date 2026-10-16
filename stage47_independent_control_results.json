@@ -1,0 +1,92 @@
+{
+  "scope": "one fixed actual cyclic positive control, not a modulus search",
+  "modulus": 7890481,
+  "signed_labels": [
+    2,
+    -3,
+    106,
+    -159,
+    5618,
+    -8427,
+    297754,
+    -446631
+  ],
+  "residue_labels": [
+    2,
+    7890478,
+    106,
+    7890322,
+    5618,
+    7882054,
+    297754,
+    7443850
+  ],
+  "mass_eight_words_checked": 6435,
+  "full_valid": true,
+  "repeated_value_counts": {
+    "3": 64,
+    "4": 260,
+    "5": 733
+  },
+  "ordinary_multiplicity_caps": {
+    "3": 1,
+    "4": 1,
+    "5": 1
+  },
+  "h": 28,
+  "R3": 0,
+  "zero_quintic_fiber": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "repeated_quartic_predecessor_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "quartic_triangles": 0,
+  "boundary": "T4=260>88 and large N; no sub-248 exclusion or counterexample"
+}
