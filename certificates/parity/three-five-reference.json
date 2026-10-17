@@ -1,0 +1,891 @@
+{
+  "completion": "COMPLETE",
+  "cap_seconds": 180,
+  "elapsed_seconds": 114.73399999999674,
+  "completed_orders": [
+    123,
+    122,
+    121,
+    120,
+    119,
+    118,
+    117,
+    116,
+    115,
+    114,
+    113,
+    112,
+    111,
+    110,
+    109,
+    108,
+    107,
+    106,
+    105,
+    104,
+    103,
+    102,
+    101,
+    100,
+    99,
+    98,
+    97,
+    96,
+    95,
+    94
+  ],
+  "partial_order": null,
+  "reports": [
+    {
+      "M": 123,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        3,
+        154,
+        6586,
+        124500
+      ],
+      "counts": {
+        "blocks": 79706,
+        "proper_saturated": 140,
+        "shapes_checked": 11038188,
+        "shapes_5odd_surviving": 1038,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        3,
+        41
+      ]
+    },
+    {
+      "M": 122,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        2,
+        172,
+        7088,
+        115952
+      ],
+      "counts": {
+        "blocks": 73056,
+        "proper_saturated": 960,
+        "shapes_checked": 14519568,
+        "shapes_5odd_surviving": 1104,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2
+      ]
+    },
+    {
+      "M": 121,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        2,
+        122,
+        5940,
+        115018
+      ],
+      "counts": {
+        "blocks": 64572,
+        "proper_saturated": 0,
+        "shapes_checked": 8044998,
+        "shapes_5odd_surviving": 240,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        11
+      ]
+    },
+    {
+      "M": 120,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        14,
+        938,
+        21960,
+        169302
+      ],
+      "counts": {
+        "blocks": 113591,
+        "proper_saturated": 6205,
+        "shapes_checked": 53830565,
+        "shapes_5odd_surviving": 3306,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        24,
+        30,
+        40
+      ]
+    },
+    {
+      "M": 119,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        3,
+        128,
+        5736,
+        107398
+      ],
+      "counts": {
+        "blocks": 56084,
+        "proper_saturated": 0,
+        "shapes_checked": 6718374,
+        "shapes_5odd_surviving": 198,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        7,
+        17
+      ]
+    },
+    {
+      "M": 118,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        2,
+        166,
+        6566,
+        100632
+      ],
+      "counts": {
+        "blocks": 55080,
+        "proper_saturated": 1120,
+        "shapes_checked": 9467308,
+        "shapes_5odd_surviving": 600,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2
+      ]
+    },
+    {
+      "M": 117,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        5,
+        226,
+        6714,
+        101904
+      ],
+      "counts": {
+        "blocks": 53719,
+        "proper_saturated": 399,
+        "shapes_checked": 5881032,
+        "shapes_5odd_surviving": 198,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        3,
+        9,
+        13,
+        39
+      ]
+    },
+    {
+      "M": 116,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        4,
+        212,
+        7166,
+        96274
+      ],
+      "counts": {
+        "blocks": 51554,
+        "proper_saturated": 1460,
+        "shapes_checked": 11095732,
+        "shapes_5odd_surviving": 540,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        4,
+        29
+      ]
+    },
+    {
+      "M": 115,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        3,
+        128,
+        5362,
+        93346
+      ],
+      "counts": {
+        "blocks": 40992,
+        "proper_saturated": 0,
+        "shapes_checked": 4344246,
+        "shapes_5odd_surviving": 156,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        5,
+        23
+      ]
+    },
+    {
+      "M": 114,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        6,
+        356,
+        9208,
+        96992
+      ],
+      "counts": {
+        "blocks": 53290,
+        "proper_saturated": 3332,
+        "shapes_checked": 13970017,
+        "shapes_5odd_surviving": 114,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        19,
+        38
+      ]
+    },
+    {
+      "M": 113,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        1,
+        108,
+        5100,
+        86620
+      ],
+      "counts": {
+        "blocks": 34240,
+        "proper_saturated": 0,
+        "shapes_checked": 3216420,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1
+      ]
+    },
+    {
+      "M": 112,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        8,
+        424,
+        10140,
+        92090
+      ],
+      "counts": {
+        "blocks": 44632,
+        "proper_saturated": 4246,
+        "shapes_checked": 15475612,
+        "shapes_5odd_surviving": 150,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        14,
+        16,
+        28
+      ]
+    },
+    {
+      "M": 111,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        3,
+        138,
+        5218,
+        81584
+      ],
+      "counts": {
+        "blocks": 33848,
+        "proper_saturated": 40,
+        "shapes_checked": 2898040,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        3,
+        37
+      ]
+    },
+    {
+      "M": 110,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        6,
+        314,
+        7746,
+        79114
+      ],
+      "counts": {
+        "blocks": 32950,
+        "proper_saturated": 3751,
+        "shapes_checked": 5349688,
+        "shapes_5odd_surviving": 48,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        5,
+        10,
+        11,
+        22
+      ]
+    },
+    {
+      "M": 109,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        1,
+        104,
+        4704,
+        74380
+      ],
+      "counts": {
+        "blocks": 23440,
+        "proper_saturated": 0,
+        "shapes_checked": 1919020,
+        "shapes_5odd_surviving": 60,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1
+      ]
+    },
+    {
+      "M": 108,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        10,
+        546,
+        11194,
+        80060
+      ],
+      "counts": {
+        "blocks": 36698,
+        "proper_saturated": 4162,
+        "shapes_checked": 11092664,
+        "shapes_5odd_surviving": 108,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        9,
+        12,
+        18,
+        27,
+        36
+      ]
+    },
+    {
+      "M": 107,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        1,
+        102,
+        4512,
+        68720
+      ],
+      "counts": {
+        "blocks": 18860,
+        "proper_saturated": 0,
+        "shapes_checked": 1465040,
+        "shapes_5odd_surviving": 60,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1
+      ]
+    },
+    {
+      "M": 106,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        2,
+        148,
+        5120,
+        62976
+      ],
+      "counts": {
+        "blocks": 19216,
+        "proper_saturated": 1080,
+        "shapes_checked": 1962660,
+        "shapes_5odd_surviving": 48,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2
+      ]
+    },
+    {
+      "M": 105,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        7,
+        294,
+        5670,
+        65106
+      ],
+      "counts": {
+        "blocks": 18402,
+        "proper_saturated": 36,
+        "shapes_checked": 1485436,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        3,
+        5,
+        7,
+        15,
+        21,
+        35
+      ]
+    },
+    {
+      "M": 104,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        6,
+        284,
+        7056,
+        61630
+      ],
+      "counts": {
+        "blocks": 19505,
+        "proper_saturated": 3038,
+        "shapes_checked": 3250610,
+        "shapes_5odd_surviving": 18,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        4,
+        8,
+        13,
+        26
+      ]
+    },
+    {
+      "M": 103,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        1,
+        98,
+        4140,
+        58280
+      ],
+      "counts": {
+        "blocks": 11820,
+        "proper_saturated": 0,
+        "shapes_checked": 792480,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1
+      ]
+    },
+    {
+      "M": 102,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        6,
+        316,
+        7060,
+        58600
+      ],
+      "counts": {
+        "blocks": 18784,
+        "proper_saturated": 3137,
+        "shapes_checked": 2578442,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        3,
+        6,
+        17,
+        34
+      ]
+    },
+    {
+      "M": 101,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        1,
+        96,
+        3960,
+        53484
+      ],
+      "counts": {
+        "blocks": 9320,
+        "proper_saturated": 0,
+        "shapes_checked": 589700,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1
+      ]
+    },
+    {
+      "M": 100,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        7,
+        314,
+        6372,
+        51516
+      ],
+      "counts": {
+        "blocks": 12561,
+        "proper_saturated": 2848,
+        "shapes_checked": 1400299,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        20,
+        25
+      ]
+    },
+    {
+      "M": 99,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        5,
+        190,
+        4536,
+        49980
+      ],
+      "counts": {
+        "blocks": 9740,
+        "proper_saturated": 0,
+        "shapes_checked": 490100,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        3,
+        9,
+        11,
+        33
+      ]
+    },
+    {
+      "M": 98,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        4,
+        192,
+        4932,
+        45072
+      ],
+      "counts": {
+        "blocks": 7803,
+        "proper_saturated": 1468,
+        "shapes_checked": 689268,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        7,
+        14
+      ]
+    },
+    {
+      "M": 97,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        1,
+        92,
+        3612,
+        44700
+      ],
+      "counts": {
+        "blocks": 5520,
+        "proper_saturated": 0,
+        "shapes_checked": 292500,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1
+      ]
+    },
+    {
+      "M": 96,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        10,
+        490,
+        8812,
+        47284
+      ],
+      "counts": {
+        "blocks": 12548,
+        "proper_saturated": 4401,
+        "shapes_checked": 1748622,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        16,
+        24,
+        32
+      ]
+    },
+    {
+      "M": 95,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        3,
+        104,
+        3466,
+        40786
+      ],
+      "counts": {
+        "blocks": 3646,
+        "proper_saturated": 0,
+        "shapes_checked": 238946,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        5,
+        19
+      ]
+    },
+    {
+      "M": 94,
+      "completion": "COMPLETE",
+      "B_prefix_counts": [
+        0,
+        0,
+        2,
+        130,
+        3854,
+        36284
+      ],
+      "counts": {
+        "blocks": 3868,
+        "proper_saturated": 560,
+        "shapes_checked": 235964,
+        "shapes_5odd_surviving": 0,
+        "even_triples": 0,
+        "sidon_eight": 0,
+        "rival_3odd": 0,
+        "rival_1odd": 0
+      },
+      "roots": [
+        1,
+        2
+      ]
+    }
+  ],
+  "survivors": [],
+  "scope": "All odd five-blocks and compatible even triples;even3+5 only"
+}

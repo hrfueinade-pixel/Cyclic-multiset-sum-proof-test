@@ -1,0 +1,351 @@
+{
+  "format": 1,
+  "scope": "Release integrity only; mathematical verification is separate.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 52,
+      "sha256": "9de09468c90d2585faa9eaa207d690bf3ba5979a346df034ba64054ad79391c9"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 691,
+      "sha256": "91ecbb89fb6855f21f23fc54848dd1bbd8a495f113c3596c125336809c40ecc6"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 57,
+      "sha256": "3f211e09432a25e581681567f40be04aeabcc969bc42d959a143eac53fb3f112"
+    },
+    {
+      "path": "certificates/assignment/base-coverage.json.gz",
+      "bytes": 268603,
+      "sha256": "0cf8d7ed3f6e515a02161417ec11c11085e8a72130c5c1fbad8b7643ffd1a220"
+    },
+    {
+      "path": "certificates/assignment/general-assignment.json.gz",
+      "bytes": 8258,
+      "sha256": "c4287f3dc95f873de194c506541ec4367e97c0bf474898f5857eba7c65336454"
+    },
+    {
+      "path": "certificates/assignment/split-sources.json.gz",
+      "bytes": 204081,
+      "sha256": "45a4af4b662fb167119952d2cc8be4134498d699691c40f5bef7b9d22c9e3eb8"
+    },
+    {
+      "path": "certificates/dependencies.json",
+      "bytes": 6513,
+      "sha256": "fb80a18aef709a9898bd93912622ffc504e75ca1fced962f87743f7d4d0133c7"
+    },
+    {
+      "path": "certificates/multiplicity/cap-cubic-exception-quartic.json.gz",
+      "bytes": 13527,
+      "sha256": "4167dc046a0e7a4af4c1b90703623cb32f160e7f2084cb7ebf6decbec673d0a1"
+    },
+    {
+      "path": "certificates/multiplicity/cap-four-pairs-quintic.json.gz",
+      "bytes": 25915,
+      "sha256": "10216b20c6a741a46d63185528fad4617f3c6cec65d2b667902798bab61de23c"
+    },
+    {
+      "path": "certificates/multiplicity/cap-single-chain-quintic.json.gz",
+      "bytes": 29194,
+      "sha256": "51d46666f2ea2e58fefe79990d60dbdf4f5a1a9fc629b305aefefc73bb02462e"
+    },
+    {
+      "path": "certificates/multiplicity/four-ordinary-quartic.json.gz",
+      "bytes": 7723,
+      "sha256": "bfabc9795f0f8eb36907d7a5ab71b15188b612c203d1b7fc2954d4a8a788fb26"
+    },
+    {
+      "path": "certificates/multiplicity/four-ordinary-quintic.json.gz",
+      "bytes": 20522,
+      "sha256": "07892a1201275c7929f526b2caf710a188c70a6953b0e41c1e6044b20aef69a3"
+    },
+    {
+      "path": "certificates/multiplicity/four-pair-inventory.json",
+      "bytes": 25637,
+      "sha256": "91d56fceaeeffd73f78359c9ca395923b2b0ca6bdb22f8e4629d3fe9a297bb46"
+    },
+    {
+      "path": "certificates/multiplicity/hub-quartic.json.gz",
+      "bytes": 8207,
+      "sha256": "a177b0993a65d74d7ac9c17e6ca7401d40fd5b8254b9943a35128e3d346c292b"
+    },
+    {
+      "path": "certificates/multiplicity/joint-cubic-relations.json",
+      "bytes": 138991,
+      "sha256": "d6b92210fdddabaa2b3b69946a25c1ab3344615499c9d52c22aa1f41551a73fe"
+    },
+    {
+      "path": "certificates/multiplicity/pure-hub-quartic.json.gz",
+      "bytes": 8096,
+      "sha256": "87b053b70ecfe43e097fb42bb764eeafe739e3b0298e80951df3f02c9f7f56aa"
+    },
+    {
+      "path": "certificates/multiplicity/quintic-cap.json.gz",
+      "bytes": 864544,
+      "sha256": "ab793bae4ab276f5379e5fa8fec186d29085e96a9b653827059e6088bbb7cb10"
+    },
+    {
+      "path": "certificates/parity/antipodal-lifts.json",
+      "bytes": 164571,
+      "sha256": "66fca716c21900db55668f77381a7e5277b1a34e0f3ed5fb64907ec4da2145e8"
+    },
+    {
+      "path": "certificates/parity/four-four-reference.json",
+      "bytes": 14043,
+      "sha256": "2ce0003fdf84b936c70bf42a70cf4765e813a65a87d97bdc56516f1dea4b84b6"
+    },
+    {
+      "path": "certificates/parity/seven-point-extensions.json",
+      "bytes": 26909,
+      "sha256": "2841280cd268c1826517b6741878587e61742c7291338381d4883ab0dfd199da"
+    },
+    {
+      "path": "certificates/parity/seven-point-reference.json",
+      "bytes": 27007,
+      "sha256": "b37b3b593e575f07b8799ae55865114284794038c38e79da988ee7e3ca1438a5"
+    },
+    {
+      "path": "certificates/parity/seven-point-survivors.json",
+      "bytes": 36984,
+      "sha256": "eb0c21ab05d3439d9049d062f493359754e581d7a6637b28abbb979f9345820c"
+    },
+    {
+      "path": "certificates/parity/three-five-reference.json",
+      "bytes": 16489,
+      "sha256": "402a7a1dddc9cf577ab07a291bb18309cdb7b8923b59cf853ed2263c5ecba3bc"
+    },
+    {
+      "path": "certificates/triangles/edge-ownership.json.gz",
+      "bytes": 96051,
+      "sha256": "4bccc6e3be75bf6d8e8df89b804346595d3b04959a27455046635542a5ca74b7"
+    },
+    {
+      "path": "certificates/triangles/interactions.json.gz",
+      "bytes": 5573892,
+      "sha256": "333c4cbd58bf769ae7d9e2f2ffc7f3cc8fbc6115a0da9ac7662eec694dc6d753"
+    },
+    {
+      "path": "certificates/triangles/large-forests.json.gz",
+      "bytes": 4775014,
+      "sha256": "292630fd2b93571598eb4f894f791b168888c27939952ad59dad80edd704101b"
+    },
+    {
+      "path": "certificates/triangles/one-split-per-triangle.json.gz",
+      "bytes": 10260,
+      "sha256": "2f10f531380a470f3b73d586610b4a2136dcc32fecd087c1576814ca5b6798a2"
+    },
+    {
+      "path": "certificates/triangles/two-triangle-class.json.gz",
+      "bytes": 16251751,
+      "sha256": "868ddf0fff6d4059039b177c8fa0f237336d6f843966da765e77127a955a0108"
+    },
+    {
+      "path": "docs/privacy.md",
+      "bytes": 997,
+      "sha256": "f6d8903d8be62c248ce8ccbf74a20f64464381e83f15b38fdcddc3c7f8f85b7d"
+    },
+    {
+      "path": "docs/provenance.md",
+      "bytes": 2268,
+      "sha256": "5a9e2404094679fad31025dd2e4cdfe8ee51a421bc667a537f772e7b5571eee6"
+    },
+    {
+      "path": "docs/review-status.md",
+      "bytes": 2048,
+      "sha256": "33c88f3588f1e28d8caadd16a2dbff5a9988a30826eae0b89e1b15d63c164a0f"
+    },
+    {
+      "path": "docs/source-map.json",
+      "bytes": 18012,
+      "sha256": "5894582837f81db581b342dcaa20a933744a499e6208c856eecbb3ec587a8a24"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 2733,
+      "sha256": "613dd74c12ddaf26911e07bd802ba157446590eafa920ca7eb0069f9519d974f"
+    },
+    {
+      "path": "privacy_check.py",
+      "bytes": 4119,
+      "sha256": "d33c0ad6b857189f9907c5678931d4f78e68027e07e3a48e814c7f0d0bea313a"
+    },
+    {
+      "path": "proof/alignment.md",
+      "bytes": 44964,
+      "sha256": "97170e9037ad93d76ddeb3cd50cfb620b9573a55b0ccf7f40c46dfa6ec01de99"
+    },
+    {
+      "path": "proof/assignment.md",
+      "bytes": 27050,
+      "sha256": "305db51b4398345c2714f1a570d8efaca6d647004dc7f3891112956313c7fac5"
+    },
+    {
+      "path": "proof/closing.md",
+      "bytes": 4824,
+      "sha256": "e4efd497a754450aa6899d95773fb3411308fbb74f1eaebbb045395252ec7156"
+    },
+    {
+      "path": "proof/counting.md",
+      "bytes": 7269,
+      "sha256": "f64740912e8f23f92f59cd67a87d8e19369024d5ade1dab875055f4057a24f83"
+    },
+    {
+      "path": "proof/multiplicity.md",
+      "bytes": 19012,
+      "sha256": "0563c860f9cc11b8e42696156974575fcf4500edd98d9aabd03e04b42d5e1a2a"
+    },
+    {
+      "path": "proof/parity.md",
+      "bytes": 21699,
+      "sha256": "6e5ca20cee013baf9aec10addf733808dd6c223f559043a95a5456c89ae84398"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 9035,
+      "sha256": "e521a99be37bec6bc0db3cdbdfc0ff023c31cbaa1e74e093e72cf79aa24aaccc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2508,
+      "sha256": "4e86cfb3fc274a6da47d538922011b071dce1550d6521aedf4b15ed09ca67693"
+    },
+    {
+      "path": "tests/test_privacy.py",
+      "bytes": 1863,
+      "sha256": "e19bece5d36e4b1c96078bc9ff0c80347e0fb5952eb2aa089361f6712b1f2c57"
+    },
+    {
+      "path": "tests/test_verification.py",
+      "bytes": 7298,
+      "sha256": "c7fe01a0aa71a713e16b1f22fe2890446bc2636315f9ab388ffeba5f5206446e"
+    },
+    {
+      "path": "verification/__init__.py",
+      "bytes": 72,
+      "sha256": "5331f81bfb325e7e2ac28e41219aaa517192b69e7924f353d798a9f62035205b"
+    },
+    {
+      "path": "verification/checks/alignment_forests.py",
+      "bytes": 15092,
+      "sha256": "b4b841d7dfad3153fd57926cb511448dc120056644114a7e812e62dc87bc47ab"
+    },
+    {
+      "path": "verification/checks/antipodal_lifts.py",
+      "bytes": 4826,
+      "sha256": "0966de8d77fb9363dcaa18379370fb0d4c475fe5f9d98d29eeea4de15763bcb4"
+    },
+    {
+      "path": "verification/checks/assignment_base.py",
+      "bytes": 15021,
+      "sha256": "3c155e6648fbf3db38273d95b114c734bfa6fcaf9a387e1432ea5cd7a6404000"
+    },
+    {
+      "path": "verification/checks/cubic_exception.py",
+      "bytes": 4377,
+      "sha256": "24915978aafe1cbb49881a79378ffda6fcc27de04d23263ebe6c599291140c9f"
+    },
+    {
+      "path": "verification/checks/elementary_identities.py",
+      "bytes": 2507,
+      "sha256": "b7f8d21751c44ec122f4298523a0ff80208f35c8fc7d05fdc4f2ffe5aa1ba289"
+    },
+    {
+      "path": "verification/checks/finishing.py",
+      "bytes": 3177,
+      "sha256": "1de631ff595017e40c893fc811a5e668473d7b33b111583b9b96c594083c1ad7"
+    },
+    {
+      "path": "verification/checks/multiplicity_models.py",
+      "bytes": 4059,
+      "sha256": "4695fffc9ec603bd70f4151ba54283afeb0d5d400ae8096736983db574e33d53"
+    },
+    {
+      "path": "verification/checks/parity_four_four.py",
+      "bytes": 7247,
+      "sha256": "e70e26a01b32bdf31cdd997e814835dd0633c9a955cdd9b81b6aba1dabccf27d"
+    },
+    {
+      "path": "verification/checks/parity_three_five.py",
+      "bytes": 4714,
+      "sha256": "ccee1c5d1113e44a44ba5e9f1bb0a5bcec0844b457cb780fe12584a068a47e61"
+    },
+    {
+      "path": "verification/checks/parity_two_six.py",
+      "bytes": 2998,
+      "sha256": "92e546bf42f70db09f4f505cc3baa78544de8c3dfd94c7ee9002f2f770f56f4c"
+    },
+    {
+      "path": "verification/checks/quintic_cap.py",
+      "bytes": 14227,
+      "sha256": "607f785735a0ee8b3050099327268a71e05c63411f7543c8c223c65fbbc427d2"
+    },
+    {
+      "path": "verification/checks/seven_point_extensions.py",
+      "bytes": 2521,
+      "sha256": "58260d11307716358bf51d8f4f76841432a0a5bf797c039fbd23b1ac037fbf45"
+    },
+    {
+      "path": "verification/checks/seven_point_survivors.py",
+      "bytes": 3005,
+      "sha256": "d063ee46f2f512cf81cf48be8d379ff89d3fe67b26feba9c14a8e6ba1e9f0a42"
+    },
+    {
+      "path": "verification/checks/split_assignment.py",
+      "bytes": 14076,
+      "sha256": "0c522b245997faa707bdbc9b6182c62d87b2c09ea31cec2b24cd3ebe98060995"
+    },
+    {
+      "path": "verification/checks/split_sources.py",
+      "bytes": 13723,
+      "sha256": "726c0f65b025b95e9a473f14df9f1bb0f83daa251a028f37dca89cdd7712b6fc"
+    },
+    {
+      "path": "verification/checks/triangle_interactions.py",
+      "bytes": 9013,
+      "sha256": "58e9e5e58c6b8d7bdec20c8baa44b15534e416f773953ec1e8d896c3d92b5cca"
+    },
+    {
+      "path": "verification/checks/triangle_ownership.py",
+      "bytes": 8657,
+      "sha256": "1d42e63ed713009be5e4a7c9198baa20741ee036e4f44ac2f0adb82d8681448e"
+    },
+    {
+      "path": "verification/checks/triangle_splits.py",
+      "bytes": 8434,
+      "sha256": "30154045e7d8a8b809ea8972184e05b674604d42141fff040aa275eef0a3ba76"
+    },
+    {
+      "path": "verification/checks/two_triangle_exclusion.py",
+      "bytes": 15768,
+      "sha256": "5b9b58cc1eb95eb429462452ab7e9b87b0a4e9a6d4d1cf58573cb09c33222710"
+    },
+    {
+      "path": "verification/core.py",
+      "bytes": 7081,
+      "sha256": "3067702e862524d761120e24b8fe9786ecb29ee959c70c2939ec6fdefbfa3623"
+    },
+    {
+      "path": "verification/runner.py",
+      "bytes": 12660,
+      "sha256": "3a28d5d32ca19e8852c53ac7b52c2aa3643b10afd3b59a80ebcb42cd82df20e0"
+    },
+    {
+      "path": "verification/seal.py",
+      "bytes": 1435,
+      "sha256": "f93227969a7f08723859d064566699863aa7e022e21046cd9db002533b08f96c"
+    },
+    {
+      "path": "verification/worker.py",
+      "bytes": 2289,
+      "sha256": "76058e61fb3dde7d4cd01208f27476bf99e81e3473ce595996a546a94968801d"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 167,
+      "sha256": "ec3b9386c6f646a3c3942b210d08e390c9479bfca4c1ef82c2f15529326a05be"
+    }
+  ]
+}
