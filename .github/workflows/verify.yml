@@ -24,4 +24,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: Run all proof obligations with fresh enumeration
-        run: python verify.py
+        run: python verify.py --seconds-per-order 300

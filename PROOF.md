@@ -2,7 +2,7 @@
 
 ## Statement
 
-Let $A=\{a_0,\ldots,a_7\}\subset\mathbb Z/N\mathbb Z$ have eight
+Let $A=\lbrace a_0,\ldots,a_7\rbrace\subset\mathbb Z/N\mathbb Z$ have eight
 distinct elements. Call it **valid** if the only nonnegative integers
 $m_0,\ldots,m_7$ satisfying
 
@@ -12,7 +12,7 @@ $$
 
 are $m_i=1$ for all $i$. Equality in a cyclic group is always modulo its
 order. The theorem is that a valid set requires $N\ge248$, and that
-$\{0,1,3,7,15,31,63,127\}$ is valid at order 248.
+$\lbrace 0,1,3,7,15,31,63,127\rbrace$ is valid at order 248.
 
 The argument below is a proof with finite computational lemmas. Each such
 lemma is identified at its point of use. Its mathematical reduction is in a
@@ -29,7 +29,7 @@ different word of the same degree: append its squarefree complement to get
 a rival. In particular, every subset of a valid set is valid for its own
 degree. Translation and multiplication by a unit preserve validity.
 
-Write $dA$ for all degree-$d$ values, $Q_d$ for the squarefree
+Write $dA$ for all degree d values, $Q_d$ for the squarefree
 values, and $T_d$ for the repeated values. We use $T_d$ for their
 **number** in scalar formulas. Protection makes the two parts disjoint.
 For eight points, $|Q_3|=|Q_5|=56$ and $|Q_4|=70$.
@@ -76,7 +76,7 @@ All even orders below 248 are therefore excluded.
 
 ## The odd-order ledger
 
-Assume now that $N<248$ is odd. An **ordinary degree-$d$ word** has
+Assume now that $N<248$ is odd. An **ordinary degree d word** has
 one doubled point, its **center**, and $d-2$ distinct other points, its
 **tails**. A **fiber** consists of all words with one value. A center of an
 ordinary word cannot occur in another word of its fiber: canceling it
@@ -88,7 +88,7 @@ and quintic multiplicity are all at most three. These are statements
 under the present small-order hypothesis.
 
 Let $\Delta$ be the 56 ordered nonzero differences of distinct points.
-An unordered center edge $\{u,v\}$ is **open** when
+An unordered center edge $\lbrace u,v\rbrace$ is **open** when
 $2(u-v)\notin\Delta$. Let $h$ count these edges. Put
 $R_3=\sum_y\binom{m_y-1}{2}$, where $m_y$ is the number of the
 64 repeated cubic words at $y$. Pair uniqueness gives
@@ -201,10 +201,11 @@ contradicting $N<248$. Together with the even case this proves the bound.
 
 Put $a_i=2^i-1$. A degree-eight word at the original target modulo 248
 would have $S=\sum_i m_i2^i\equiv255\pmod{248}$, with
-$8\le S\le1024$. Thus $S\in\{255,503,751,999\}$.
+$8\le S\le1024$. Thus $S\in\lbrace 255,503,751,999\rbrace$.
 For coins $1,2,\ldots,128$, the minimum coin count at $S$ is
-$\lfloor S/128\rfloor+\operatorname{popcount}(S\bmod128)$: carry every
-pair of smaller equal coins upward. The four minima are 8, 9, 11, 12.
+$\lfloor S/128\rfloor+b(S\bmod128)$, where b(r) is the number of 1-bits
+in r. To obtain this formula, carry every pair of smaller equal coins
+upward. The four minima are 8, 9, 11, 12.
 Only 255 can use eight coins, and its unique minimal representation uses
 every denomination once. This proves the stated equality example.
 

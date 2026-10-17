@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 667,
-      "sha256": "f639a755f931917a58fda737d64be278a7f69ed5f674550af4f1d1cb94fb4a05"
+      "bytes": 691,
+      "sha256": "91ecbb89fb6855f21f23fc54848dd1bbd8a495f113c3596c125336809c40ecc6"
     },
     {
       "path": ".gitignore",
@@ -164,8 +164,8 @@
     },
     {
       "path": "docs/verification.md",
-      "bytes": 2579,
-      "sha256": "a8ae984e8133e5e19be178ace4449477bc8fac3df39cddb981b1d852699d75fc"
+      "bytes": 2733,
+      "sha256": "613dd74c12ddaf26911e07bd802ba157446590eafa920ca7eb0069f9519d974f"
     },
     {
       "path": "privacy_check.py",
@@ -204,13 +204,13 @@
     },
     {
       "path": "PROOF.md",
-      "bytes": 8952,
-      "sha256": "79a3023329826abb730a0de9f9cd6d7a433f89ddd2f375460ed009dc83130680"
+      "bytes": 9035,
+      "sha256": "e521a99be37bec6bc0db3cdbdfc0ff023c31cbaa1e74e093e72cf79aa24aaccc"
     },
     {
       "path": "README.md",
-      "bytes": 2197,
-      "sha256": "b37562d816d5e4db0c57c0c4d3d9ae02bb258ba185ef558bb58956c345f6cba2"
+      "bytes": 2208,
+      "sha256": "b1a06aebc3756100ec28f1f63ea71eb09e54ac9d84ee88d80ac1963cc93906a6"
     },
     {
       "path": "tests/test_privacy.py",

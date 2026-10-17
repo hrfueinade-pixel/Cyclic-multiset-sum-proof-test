@@ -5,7 +5,7 @@ unique eight-term multiset representation require a cyclic group of order
 at least **248**. The bound is attained by
 
 $$
-\{0,1,3,7,15,31,63,127\}\subset\mathbb Z/248\mathbb Z.
+\lbrace 0,1,3,7,15,31,63,127\rbrace\subset\mathbb Z/248\mathbb Z.
 $$
 
 Start with the [proof](PROOF.md). It defines the problem, explains the

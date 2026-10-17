@@ -25,6 +25,9 @@ slower computer, increase it explicitly:
 python verify.py --seconds-per-order 300
 ```
 
+CI uses this longer per-order deadline to allow for shared-runner speed.
+Every order must still complete; a larger deadline never accepts a partial run.
+
 To continue a previous local run, use `python verify.py --resume`.
 Only completed records with the same enumeration-code fingerprint are reused;
 coverage is checked again and the reused count is reported. Local cache files
