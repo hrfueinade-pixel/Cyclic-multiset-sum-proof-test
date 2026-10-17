@@ -1,142 +1,138 @@
-# The weighted counting inequality
+# Lemma 6. The weighted counting inequality
 
-This chapter derives equation (4) of [the proof](../PROOF.md).
-Its only inherited inputs are squarefree protection, the packing bounds,
-and the multiplicity caps proved in [Multiplicity](multiplicity.md).
-Here P3 always counts ordinary pairs; repeated-cubic totals include pure
-cubes only when explicitly stated.
+Assume a valid eight-set in odd order $N<248$. The dependencies are [protection and
+packing](../PROOF.md#lemma-2-complementary-packing-elementary) and [Lemma
+5](multiplicity.md): total cubic multiplicity and ordinary quartic/quintic
+multiplicity are at most three. The proof here is elementary. Write $T_d=|\mathcal
+T_d|$ for repeated **values**, not words.
 
-## Hypotheses and counts
+## Cubic collisions and the open-edge count
 
-Full validity means allones is the unique nonnegative mass-eight word at
-s=sum(A). Adding the complement of a squarefree word proves its protection
-against EVERY different same-degree multiset. Use this full protection
-throughout, never a weaker protected-set condition.
+The 64 repeated cubic words are $2a+b$, including $3a$ when $a=b$. The 56 nonzero
+ordered differences have unique ordered representations. For a fixed unordered
+center pair $\{u,v\}$, a collision $2u+a=2v+b$ exists exactly when
+$2(u-v)=b-a\in\Delta$; if it exists, the tails are uniquely recovered. Let $h$ count
+center pairs without such a collision. If $m_y$ is total repeated cubic word
+multiplicity, then
 
-Suppose for contradiction that N is odd and below248. The inherited results
-give ordinary cubic, quartic and quintic multiplicity at most three, total
-cubic multiplicity at most three, and
+$$
+\sum_y\binom{m_y}{2}=28-h,\qquad
+R_3=\sum_{y:m_y\ge1}\binom{m_y-1}{2},\qquad
+T_3=64-(28-h)+R_3=36+h+R_3.
+$$
 
-    N>=56+T3+T5,     N>=71+2T4,     T4<=88,
-    T3=36+k,        k=h+R3>=0.
+The last identity follows fiber by fiber from $1=m-\binom m2+\binom{m-1}2$ for
+$m\ge1$. Pure cubes are included. Set $k=h+R_3$.
 
-Here Tj means |T_j|. Let n1,n2,n3 count quintic outputs with one,two,three
-ordinary words; M counts repeated quintic outputs with no ordinary word.
-Let C4 count ALL three-ordinary quartic outputs, not just triangles. Let Pj
-count unordered pairs of different ordinary degree-j words at equal values.
-Let Sj count such pairs whose tails are disjoint. The ordinary word counts
-at degrees3,4,5 are56,168,280 respectively. Thus exactly
+## Ordinary pairs and outputs
 
-    P5=n2+3n3=140-n1/2+3n3/2,
-    T5=140+(n1-n3)/2+M,
-    O4=168-P4+C4<=T4<=88,
-    delta=N-56-T3-T5>=0,
-    N=232+k+(n1-n3)/2+M+delta.
+An ordinary word of degree $d$ has one doubled center and $d-2$ distinct tails. Its
+center is absent from every other word of its fiber, by cancellation and squarefree
+protection. There are 56, 168, and 280 ordinary words in degrees 3, 4, and 5.
 
-O4 counts ordinary quartic VALUE outputs. The formulas count pairs and
-outputs separately; mixed words at an ordinary output do not make a new value.
+Let $P_d$ count unordered equal-value ordinary **word pairs**, and $S_d$ those pairs
+with disjoint tails. Let $C_4$ count three-ordinary quartic **outputs**. Let $n_i$
+count quintic outputs with exactly $i$ ordinary words, and $M$ repeated quintic
+outputs with none. Mixed words at an ordinary output do not produce another value.
+Exact fiber counting gives
 
-## The universal midpoint rival supplies the missing placement constraint
+$$
+\begin{aligned}
+P_5&=n_2+3n_3=140-\tfrac 12n_1+\tfrac 32n_3,\\
+T_5&=140+\tfrac 12(n_1-n_3)+M,\\
+O_4&=168-P_4+C_4\le T_4\le88,\\
+\delta&=N-56-T_3-T_5\ge0,\\
+N&=232+k+\tfrac 12(n_1-n_3)+M+\delta.
+\end{aligned}
+$$
 
-For each unordered label pair c,d, allowing repetition, put
-q=(s+c+d)/2. Its reflection (s-c-d)/2 cannot be a cubic multiset value:
-a degree-three word W there would give the nonnegative mass-eight rival
-2W+e_c+e_d at s. This word has at most two odd coordinates, so cannot
-be allones. The 36 midpoint values are distinct: full protected pair sums
-handle squarefree pairs and collisions with repeated pairs, while oddness
-makes 2c=2d imply c=d.
+## The 36 midpoint values
 
-Suppose q has two ordinary quintic words O,O'. Their doubled centers are
-private in the whole fiber, so coordinatewise O+O'<=2. Then
+For unordered label pairs $c,d$, allowing $c=d$, set $z=(s+c+d)/2$. The reflected
+value $s-z=(s-c-d)/2$ is outside $3A$: a cubic word $W$ there would give the
+nonnegative mass-eight rival $2W+e_c+e_d$ at $s$. It has at most two odd
+coordinates, so differs from all-ones. These 36 midpoint values are distinct.
+Squarefree pair protection handles every comparison involving a squarefree pair;
+oddness makes doubles distinct.
 
-    r=2*allones+e_c+e_d-O-O'
+If $z$ has two ordinary quintic words $V,V'$, private centers imply $V+V'\le2\mathbf
+1$ coordinatewise. Thus $2\mathbf 1+e_c+e_d-V-V'$ is a nonnegative mass-eight word
+of value $s$. Validity forces
 
-is integer, nonnegative, has mass eight and value s. Validity forces
-O+O'=allones+e_c+e_d. If c=d this is impossible: its c coordinate is
-three. If c!=d it forces the centers to be precisely c,d and the six
-tail labels to occur once each. This is exactly an S5 pair. No third
-ordinary word can occur: every other label already appears in those two
-words and therefore cannot be a third private doubled center.
+$$V+V'=\mathbf 1+e_c+e_d.$$
 
-Consequently EVERY one of the 36 midpoints is either an S5 output, a
-single-ordinary output, a mixed-only output, or outside T5. The disjoint
-sets 3A and s-T5 leave exactly delta group elements uncovered. Since
-every reflected midpoint is outside3A, at most delta midpoint values are
-outside T5. Recovering the center pair from an S5 output proves uniqueness,
-including when different pairs reuse labels. Therefore
+This is impossible for $c=d$. Otherwise its doubled coordinates identify
+the centers as $c,d$, and each other label occurs in exactly one tail.
+It is an $S_5$ pair. A third ordinary center is impossible because every
+label is already present. The pair recovers its midpoint uniquely.
 
-    36<=S5+n1+M+delta.                            (A)
+The disjoint sets $3A$ and $s-\mathcal T_5$ leave exactly $\delta$ residues
+uncovered. Hence at most $\delta$ reflected midpoints are outside
+$s-\mathcal T_5$. The remaining midpoints are disjoint-tail double outputs,
+single-ordinary outputs, or mixed-only outputs. Therefore
 
-This is the new structural coverage step. It is not inferred from local
-caps or a chosen allocation of distinct witnesses. Nonnegativity in the
-rival is explicit; no factor three is canceled.
+$$36\le S_5+n_1+M+\delta. \tag{6.1}$$
 
-## Quartic compression and midpoint coverage close the no-triple branch
+## Recoverable pair lifts
 
-Ordinary pairs have private centers. Removing their common tail labels
-gives a recoverable inverse. At degree four, a pair either has one shared
-tail label and descends to a cubic pair, or has disjoint tails. A cubic
-pair uses four labels, leaving exactly four one-label lifts. At degree
-five, intersection size2,1,0 gives respectively a cubic pair with six
-two-label lifts, a disjoint-tail quartic pair with two one-label lifts,
-or an S5 pair. Hence the exact inherited pair identities are
+Delete all common tails from an ordinary word pair. At degree four, a pair either
+has one common tail and descends to a cubic pair, or has disjoint tails. A cubic
+pair uses four physical labels, leaving four possible lifts. At degree five,
+common-tail sizes 2, 1, and 0 give respectively a cubic pair with $\binom 42=6$
+lifts, a disjoint-tail quartic pair with two lifts, or an $S_5$ pair. Deleting the
+common tails is the inverse, so
 
-    P4=4P3+S4,
-    P5=6P3+2S4+S5=(3/2)P4+(1/2)S4+S5.           (B)
+$$
+P_4=4P_3+S_4,\qquad
+P_5=6P_3+2S_4+S_5=\tfrac 32P_4+\tfrac 12S_4+S_5. \tag{6.2}
+$$
 
-Pairs in a triple fiber are counted separately; no pair is lost and no
-distinct output is inferred from a lift. Since O4<=88, P4>=80+C4.
-Combining (A),(B) with the exact output counts gives
+These are word-pair identities, including all three pairs in a triple fiber. They
+make no assertion that arbitrary lifted pairs have different outputs.
 
-    n1/2+3n3/2+M+delta>=16+3C4/2+S4/2,
-    2N>=496+2k-4n3+3C4+S4.                       (G)
+Since $P_4\ge80+C_4$, substitution of (6.2) into (6.1) gives
 
-If n3=0, every term on the right after496 is nonnegative, contradicting
-N<=247. **Thus the entire no-three-ordinary-quintic branch is closed.**
-This handles systems with no useful triangle core, including mixed-only
-outputs, without assuming that a mixed-only output must exist.
+$$\tfrac 12n_1+\tfrac 32n_3+M+\delta
+\ge16+\tfrac 32C_4+\tfrac 12S_4.$$
 
-## Paths cancel; the surviving weighted obstruction is precise
+Subtract $2n_3$ and use the exact formula for $N$ to obtain
 
-Classify a three-ordinary quartic fiber by its three tail edges on the
-five noncenter labels. Classify a quintic fiber by its three omitted
-edges there. The exhaustive graph types are triangle,star,path,split.
-Write c=C3ordinary, t=C4triangle, p=C4path, w=C4split, q=C5split, and
-E=S4double, the number of two-ordinary quartic fibers with disjoint tails.
-Recoverable common-tail removal and unused-label addition prove
+$$2N\ge496+2k-4n_3+3C_4+S_4. \tag{6.3}$$
 
-    n3=c+2t+p+q,     C4=t+2c+p+w,
-    S4=p+2w+E.                                    (C)
+Thus the branch $n_3=0$ is already impossible.
 
-Here are the four bijections, including their inverses. Centers are private,
-so the labels mentioned in each removal are distinct from the centers.
-The multiplicity caps ensure that a lifted fiber has exactly three ordinary
-words. Distinct added labels give distinct output values.
+## Triple correspondences and the coefficients
 
-| Target fibers | Construction and inverse |
+For a quartic triple, its three tails are distinct edges on the five noncenter
+labels. For a quintic triple, use the three omitted edges on those labels. The only
+three-edge graph types are triangle, star, path, and split (a two-edge path and a
+disjoint edge).
+
+Write $c$ for ordinary cubic triple outputs; $t,p,w$ for quartic triangle, path, and
+split outputs; $q$ for quintic split outputs; and $E$ for quartic outputs with
+exactly two ordinary words and disjoint tails.
+
+| Target | Recoverable construction |
 | --- | --- |
-| Quintic triangles: C5triangle=c | Omitted triangle edges ab,bc,ca give tails cde,ade,bde. Remove the two common labels d,e to obtain an ordinary cubic triple. A cubic triple uses six labels, so adding its two unused labels is the unique inverse. |
-| Quintic stars: C5star=2t | Omitted star edges ha,hb,hc give tails bcd,acd,abd. Removing the common label d gives a quartic triangle. A quartic triangle uses six labels and has two distinct one-label lifts, giving the factor two. |
-| Quartic stars: C4star=2c | Remove the common hub from tails ha,hb,hc to obtain a cubic triple. Conversely add either of the two unused labels to the three cubic words. |
-| Quintic paths: C5path=p | Omitted path edges 01,12,23 leave label 4 common to all tails. Remove it to get quartic tail edges 23,03,01, also a path. A quartic path uses seven labels, leaving exactly one inverse lift. |
+| Quintic triangles: $c$ | Omitted edges $ab,bc,ca$ give tails $cde,ade,bde$. Delete the two common tails $d,e$; the cubic triple has precisely those two unused labels. |
+| Quintic stars: $2t$ | Omitted edges $ha,hb,hc$ give tails $bcd,acd,abd$. Delete the unique common tail $d$; a quartic triangle has two unused labels for the inverse lift. |
+| Quartic stars: $2c$ | Delete the common hub of tails $ha,hb,hc$. A cubic triple has two unused labels for the inverse lift. |
+| Quintic paths: $p$ | Omitted edges $01,12,23$ have common tail 4. Delete it, leaving quartic path edges $23,03,01$. That path uses seven labels and has exactly one unused label. |
 
-This last correspondence corrects the historical assertion that both
-quintic paths and splits have no common tail. A quintic split has none;
-a quintic path has exactly the common tail described above.
+Private centers justify each removal. The cap of three ensures the lifted triple is
+the whole ordinary fiber. Within one source, different added labels give different
+values; across sources, the recoverable inverse prevents overcounting. A quintic
+split has no common tail.
 
-For S4, a quartic path has one disjoint pair of tail edges, a quartic split
-has two, and a triangle or star has none. Two-word fibers contribute
-exactly E. This proves the third identity in (C) as well as the first two.
+A quartic path contains one disjoint edge pair, a split two, and a triangle or star
+none. Consequently the exact output identities are
 
-Substitution of (C) into (G) yields
+$$n_3=c+2t+p+q,\qquad C_4=t+2c+p+w,\qquad S_4=p+2w+E.$$
 
-    2N>=496+2k+2c-5t+5w-4q+E.
+Substituting in (6.3), the coefficients of $(c,t,p,w,q,E)$ are
+$(2,-5,0,5,-4,1)$. This proves
 
-In particular every remaining N<=247 counterexample requires
+$$\boxed{2N\ge496+2(h+R_3+c)-5t+5w-4q+E.} \tag{6.4}$$
 
-    5t+4q>=2+2k+2c+5w+E.                         (J)
-
-If t=q=0 there is an immediate contradiction. Thus a remaining system
-with NO quartic triangle must have genuine SPLIT quintic triples; path
-triples cannot supply its compression deficit. Mixed-only fibers are
-already included in (A) and in the exact packing slack, not omitted.
+No fresh output is assumed. Ordinary and total multiplicities, pairs and outputs,
+and mixed-only fibers have separate roles throughout.

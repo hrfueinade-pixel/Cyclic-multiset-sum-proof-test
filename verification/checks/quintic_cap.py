@@ -103,7 +103,14 @@ def check_certificate(data):
         "pairs": len(pairs),
         "bound": len(selected),
         "corruptions_rejected": rejected,
+        "requires_units": data["units"],
     }
+
+
+def require_quartic_contradiction(data, result):
+    if result["kind"] != "direct_rival":
+        assert data["degree"] == 4 and data["units"] == [2]
+        assert result["bound"] >= 89
 
 
 def normal(v):
@@ -133,6 +140,7 @@ def pair_class(a, b):
 
 
 def det3(m):
+    assert all(type(x) is int for row in m for x in row), "Matrix must be integral"
     return (
         m[0][0] * (m[1][1] * m[2][2] - m[1][2] * m[2][1])
         - m[0][1] * (m[1][0] * m[2][2] - m[1][2] * m[2][0])
@@ -261,6 +269,7 @@ def main():
             rival = tuple(row["direct_rival"]["rival"])
             assert (
                 len(rival) == 8
+                and all(type(x) is int for x in rival)
                 and min(rival) >= 0
                 and (sum(rival) == 8)
                 and (rival != (1,) * 8)
@@ -281,6 +290,7 @@ def main():
         if model["id"].startswith("r"):
             check_single_model(model)
             if data.get("degree") == 4:
+                assert data["units"] == [2]
                 singles[tuple(model["direction"])] = data
         elif model["id"].startswith("j"):
             check_joint_model(model)
@@ -339,7 +349,7 @@ def main():
         filename = f"stage43_{model['id']}_degree4_units2_certificate.json.gz"
         assert certificates[filename]["model"] == model
         result = checks[filename]
-        assert result["kind"] == "direct_rival" or result["bound"] >= 89
+        require_quartic_contradiction(certificates[filename], result)
     graph_types = set()
     edges = list(itertools.combinations(range(5), 2))
     for triple in itertools.combinations(edges, 3):

@@ -9,6 +9,14 @@ from math import gcd
 from time import monotonic
 import json
 
+from verification.parity import (
+    extend_sumsets,
+    normalized_roots,
+    rotate,
+    sumsets,
+    valid_extension,
+)
+
 start = monotonic()
 cap = 240
 reports = []
@@ -30,8 +38,7 @@ def run(m):
             raise TimeoutError()
 
     def shift(bits, x):
-        x %= m
-        return (bits << x | bits >> m - x) & full
+        return rotate(bits, x, m)
 
     def inspect(points, levels):
         b = tuple(sorted(points))
@@ -104,29 +111,15 @@ def run(m):
             differences = [(a - b) % m for a in extended for b in extended if a != b]
             if len(set(differences)) != degree * (degree - 1):
                 continue
-            if any(
-                (
-                    levels[degree - q] >> (target + (1 - q) * new) % m & 1
-                    for q in range(degree + 1)
-                    if q != 1
-                )
-            ):
+            if not valid_extension(points, levels, new, m):
                 continue
-            updated = []
-            for terms in range(8):
-                reached = 0
-                for copies in range(terms + 1):
-                    reached |= shift(levels[terms - copies], copies * new)
-                updated.append(reached)
+            updated = extend_sumsets(levels, new, m)
             walk(extended, updated, new + 1, unitless)
 
-    roots = sorted((m // order for order in range(3, m + 1) if m % order == 0))
+    roots = normalized_roots(m)
     active["roots"] = roots
     for first in roots:
-        levels = [
-            sum((1 << r for r in {k * first % m for k in range(terms + 1)}))
-            for terms in range(8)
-        ]
+        levels = sumsets([0, first], 7, m)
         walk([0, first], levels, 1, first != 1)
     active["completion"] = "COMPLETE"
     return active

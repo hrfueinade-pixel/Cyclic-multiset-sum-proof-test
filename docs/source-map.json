@@ -1,5 +1,5 @@
 {
-  "scope": "Mapping to the separately preserved research archive; no original Git history is imported by this reorganization.",
+  "scope": "Historical source map at the pinned archive commit. Later review edits are documented in review-status.md; historical checker hashes describe their pre-curation sources.",
   "retained_files": [
     {
       "path": "certificates/multiplicity/hub-quartic.json.gz",
@@ -494,5 +494,7 @@
       "start": "## Reduction and opposing shapes",
       "stop": "## Completed runs"
     }
-  ]
+  ],
+  "archive_commit": "83892af4a9fa3aea516eb17af01bbb8b9c8467ba",
+  "archive_url": "https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/tree/83892af4a9fa3aea516eb17af01bbb8b9c8467ba"
 }

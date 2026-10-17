@@ -8,19 +8,18 @@ from time import monotonic
 from math import gcd
 import json
 
+from verification.parity import (
+    extend_sumsets,
+    normalized_roots,
+    rotate,
+    sumsets,
+    valid_extension,
+)
+
 start = monotonic()
 cap = 180
 results = []
 survivors = []
-
-
-def prime_count(n):
-    return sum(
-        (
-            all((p % d for d in range(2, int(p**0.5) + 1))) and n % p == 0
-            for p in range(2, n + 1)
-        )
-    )
 
 
 def run(m):
@@ -28,13 +27,10 @@ def run(m):
     nodes = [0] * 7
     found = []
     examined = set()
-    roots = [1]
-    if prime_count(m) >= 3:
-        roots += [m // order for order in range(3, m) if m % order == 0]
+    roots = normalized_roots(m, primitive=True)
 
     def shift(bits, x):
-        x %= m
-        return (bits << x | bits >> m - x) & full
+        return rotate(bits, x, m)
 
     def recurse(prefix, levels, next_value, unitless):
         if monotonic() - start > cap:
@@ -67,28 +63,15 @@ def run(m):
             differences = [(a - b) % m for a in candidate for b in candidate if a != b]
             if len(set(differences)) != terms * (terms - 1):
                 continue
-            if any(
-                (
-                    levels[terms - copies] >> (original + (1 - copies) * value) % m & 1
-                    for copies in range(terms + 1)
-                    if copies != 1
-                )
-            ):
+            if not valid_extension(prefix, levels, value, m):
                 continue
-            following = []
-            for size in range(9):
-                residue_set = 0
-                for copies in range(size + 1):
-                    residue_set |= shift(levels[size - copies], copies * value)
-                following.append(residue_set)
+            following = extend_sumsets(levels, value, m)
             recurse(candidate, following, value + 1, unitless)
 
     for first in roots:
         if 2 * first == m:
             continue
-        levels = []
-        for k in range(9):
-            levels.append(sum((1 << r for r in {first * j % m for j in range(k + 1)})))
+        levels = sumsets([0, first], 8, m)
         recurse([0, first], levels, 1, first != 1)
     return {
         "M": m,

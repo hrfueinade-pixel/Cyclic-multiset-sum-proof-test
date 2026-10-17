@@ -104,6 +104,24 @@ class ArithmeticControls(unittest.TestCase):
 
 
 class CoverageControls(unittest.TestCase):
+    def test_process_timeout_preserves_partial_log(self):
+        from verification.runner import invoke
+
+        with self.assertRaisesRegex(VerificationError, "incomplete"):
+            invoke(
+                [
+                    sys.executable,
+                    "-c",
+                    "import time; print('partial evidence', flush=True); time.sleep(2)",
+                ],
+                ROOT,
+                "timeout-control",
+                timeout=0.5,
+            )
+        log = (ROOT / ".verification/logs/timeout-control.log").read_text()
+        self.assertIn("partial evidence", log)
+        self.assertIn("PROCESS_TIMEOUT", log)
+
     def test_circular_or_missing_mathematical_premises_are_rejected(self):
         from verification.core import check_dependencies
 

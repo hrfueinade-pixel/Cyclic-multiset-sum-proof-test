@@ -9,6 +9,15 @@ from math import gcd
 from time import monotonic
 import json, gzip
 
+from verification.parity import (
+    affine_preimages,
+    extend_sumsets,
+    normalized_roots,
+    rotate,
+    sumsets,
+    valid_extension,
+)
+
 start = monotonic()
 cap = 480
 reports = []
@@ -43,23 +52,13 @@ def run(m):
             raise TimeoutError()
 
     def shift(bits, x):
-        x %= m
-        return (bits << x | bits >> m - x) & full
+        return rotate(bits, x, m)
 
     def members(bits):
         while bits:
             p = bits & -bits
             yield (p.bit_length() - 1)
             bits ^= p
-
-    def sumsets(d):
-        levels = [1]
-        for degree in range(1, 9):
-            reached = 0
-            for x in d:
-                reached |= shift(levels[-1], x)
-            levels.append(reached)
-        return levels
 
     def examine(points, levels):
         b = tuple(sorted(points))
@@ -77,23 +76,7 @@ def run(m):
         target = sum(b) % m
         g = {(target - r) % m for r in range(m) if not levels[4] >> r & 1}
         adjacency = sum((1 << r for r in g if -r % m in g))
-        transforms = {}
-        for a in (-1, 1, 2, 3):
-            divisor = gcd(a, m)
-            inv = pow(a // divisor, -1, m // divisor)
-            if divisor == 1:
-                masks = [sum((1 << inv * r % m for r in g))]
-            else:
-                masks = [
-                    sum((1 << x for x in range(m) if (a * x - r) % m in g))
-                    for r in range(divisor)
-                ]
-            transforms[a] = (divisor, inv, masks)
-
-        def constraint(a, constant):
-            divisor, inv, masks = transforms[a]
-            q, r = divmod(-constant % m, divisor)
-            return shift(masks[r], inv * q)
+        constraint = affine_preimages(sum(1 << r for r in g), m)
 
         for u in members(adjacency):
             tick()
@@ -119,7 +102,7 @@ def run(m):
                     for c in vectors:
                         assert sum(((ci - 1) * di for ci, di in zip(c, d))) % m in g
                     counts["C_shapes"] += 1
-                    ds = sumsets(d)
+                    ds = sumsets(d, 8, m)
                     pair_sums = [
                         sum(p) % m for p in combinations_with_replacement(d, 2)
                     ]
@@ -177,29 +160,15 @@ def run(m):
                 degree - 1
             ):
                 continue
-            if any(
-                (
-                    levels[degree - q] >> (target + (1 - q) * x) % m & 1
-                    for q in range(degree + 1)
-                    if q != 1
-                )
-            ):
+            if not valid_extension(points, levels, x, m):
                 continue
-            updated = []
-            for k in range(9):
-                reached = 0
-                for j in range(k + 1):
-                    reached |= shift(levels[k - j], j * x)
-                updated.append(reached)
+            updated = extend_sumsets(levels, x, m)
             visit(p, updated, x + 1, unitless)
 
-    roots = sorted((m // order for order in range(3, m + 1) if m % order == 0))
+    roots = normalized_roots(m)
     active["roots"] = roots
     for root in roots:
-        levels = [
-            sum((1 << r for r in {j * root % m for j in range(k + 1)}))
-            for k in range(9)
-        ]
+        levels = sumsets([0, root], 8, m)
         visit([0, root], levels, 1, root != 1)
     active["completion"] = "COMPLETE"
     return active
