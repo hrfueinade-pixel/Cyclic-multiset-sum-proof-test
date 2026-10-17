@@ -23,10 +23,7 @@ $$
 Its two disjoint-tail quartic sources are
 
 $$
-\begin{gathered}
-2x+d+e = 2z+a+b, \\
-2y+d+e = 2z+b+c.
-\end{gathered}
+2x+d+e=2z+a+b,\qquad 2y+d+e=2z+b+c.
 $$
 
 Deleting the unique common tail recovers each source word pair. Their injection into
@@ -109,10 +106,9 @@ where z,b,d,e are precisely the other four physical labels. Let their sum be R.
 Since d+e=R-z-b, the second source relation gives
 
 $$
-\begin{gathered}
-2x+R-z-b = 2z+a+b, \\
-3z+2b = 2x+R-a.
-\end{gathered}
+2x+R-z-b=2z+a+b
+\quad\Longleftrightarrow\quad
+3z+2b=2x+R-a.
 $$
 
 For each possible third center z, the last equality determines at most one b,
@@ -141,10 +137,10 @@ In the inherited small-order setting, the number O4 of ordinary quartic values i
 168-P4+C4 <=88. Thus
 
 $$
-\begin{gathered}
-P_4 \ge 80+C_4,       S_4=P_4-4P_3^{\mathrm{ord}}, \\
-C_4=t+2c+p+w,      S_4=p+2w+E.
-\end{gathered}
+\begin{aligned}
+P_4&\ge80+C_4,&\qquad S_4&=P_4-4P_3^{\mathrm{ord}},\\
+C_4&=t+2c+p+w,& S_4&=p+2w+E.
+\end{aligned}
 $$
 
 Therefore
@@ -539,20 +535,13 @@ and checks all identities by integer multiplication.
 One instructive degree-three residual has the three cubic descents
 
 $$
-\begin{gathered}
-2x+c=2y+a, \\
-2x+y=2d+e, \\
-2x+d=2c+e,
-\end{gathered}
+2x+c=2y+a,\qquad2x+y=2d+e,\qquad2x+d=2c+e,
 $$
 
 and two quartic source equations
 
 $$
-\begin{gathered}
-2x+a+c=2z+e+b, \\
-2x+y+a=2z+e+b.
-\end{gathered}
+2x+a+c=2z+e+b,\qquad2x+y+a=2z+e+b.
 $$
 
 Subtracting the last two directly gives c=y. No cancellation of three, rational-rank
@@ -603,7 +592,9 @@ splits or triangles elsewhere.
 
 By Lemma 6 and E>=2q, the case t=0 gives
 
-$$2N\ge496+2(h-q+R_3+c)+5w+(E-2q)\ge496.$$
+$$
+2N\ge496+2(h-q+R_3+c)+5w+(E-2q)\ge496.
+$$
 
 It is impossible for N<=247. Every remaining counterexample has a quartic
 triangle. See [Alignment](alignment.md) for its normalized family.

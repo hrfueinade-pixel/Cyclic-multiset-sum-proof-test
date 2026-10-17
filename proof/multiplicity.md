@@ -198,7 +198,7 @@ words, each record supplies c!=allones with nonnegative counts of mass eight, a
 nonzero signed integer k, and r=2^j such that
 
 $$
-r\cdot (M(c)-M(\mathbf 1)) = k\cdot D
+r\cdot (M(c)-M(\mathbf{1})) = k\cdot D
 $$
 
 in the four integer coordinates and modulo three in the torsion coordinate. If the
@@ -248,10 +248,7 @@ Full validity gives protected squarefree sums and exact complementary packing. I
 odd N<248,
 
 $$
-\begin{gathered}
-T_4\le 88, \\
-T_3+T_5\le 191.
-\end{gathered}
+T_4\le88,\qquad T_3+T_5\le191.
 $$
 
 These follow respectively from N>=71+2T4 and N>=56+T3+T5. They do not use a
@@ -298,13 +295,11 @@ $$
 Only r07,r14,r15 survive this quartic argument. Up to pair permutation and sign,
 their equations are precisely
 
-$$
-\begin{gathered}
-I:   4c_a=c_b,                 a\ne b; \\
-II:  5c_a=c_b+4c_c,            \quad a,b,c\text{ distinct}; \\
-III: 4c_a+c_b=c_c+4c_d,         \quad a,b,c,d\text{ distinct}.
-\end{gathered}
-$$
+| Type | Relation | Index condition |
+| --- | --- | --- |
+| I | $4c_a=c_b$ | $a\ne b$ |
+| II | $5c_a=c_b+4c_c$ | $a,b,c$ distinct |
+| III | $4c_a+c_b=c_c+4c_d$ | $a,b,c,d$ distinct |
 
 The other 13 are genuinely excluded by positive growth witnesses; these three are
 not inferred impossible from small discovered cliques.
@@ -318,13 +313,11 @@ powers are units.
 
 Three types need special handling:
 
-$$
-\begin{gathered}
-3(c_3-2c_0)=0: c_3=2c_0+\delta, 3\delta=0; \\
-5(c_3-c_0)=0:  c_3=c_0+\delta, 5\delta=0; \\
-5c_3=6c_0:    t=c_3-c_0\implies c_0=5t\quad c_3=6t.
-\end{gathered}
-$$
+| Relation | Full parameterization |
+| --- | --- |
+| $3(c_3-2c_0)=0$ | $c_3=2c_0+\delta$, with $3\delta=0$ |
+| $5(c_3-c_0)=0$ | $c_3=c_0+\delta$, with $5\delta=0$ |
+| $5c_3=6c_0$ | $t=c_3-c_0$ gives $c_0=5t$, $c_3=6t$ |
 
 The first two retain an explicit torsion coordinate; they do not cancel three or
 five. The last uses the two displayed integer identities, with no division by five

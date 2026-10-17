@@ -123,13 +123,14 @@ deliberately avoided. The producer uses exact hereditary validity and normalized
 unit-pair or all unitless divisor roots. It finds 22 normalized rows in six affine
 classes:
 
-$$
-\begin{gathered}
-\mathbb Z/28: \{0,1,3,7,15\}; \\
-\mathbb Z/30: \{0,1,3,7,15\}, \{0,1,3,15,25\}, \{0,1,4,6,16\}, \\
-\{0,1,4,16,24\}, \{0,1,9,15,19\}.
-\end{gathered}
-$$
+| Order | Affine representative |
+| --- | --- |
+| 28 | $\{0,1,3,7,15\}$ |
+| 30 | $\{0,1,3,7,15\}$ |
+| 30 | $\{0,1,3,15,25\}$ |
+| 30 | $\{0,1,4,6,16\}$ |
+| 30 | $\{0,1,4,16,24\}$ |
+| 30 | $\{0,1,9,15,19\}$ |
 
 For every quotient representative, duplicate each possible fiber in turn and choose
 either lift of every other point. This exhausts all antipodal lifts: $5\cdot16=80$
@@ -274,14 +275,12 @@ M in 94..123. Translate so the five points are odd and write A=(2B+1) union 2C w
 Let s=sum B and t=sum C modulo M. The target is 2(s+t)+5. Rivals with q odd points,
 q=1,3,5,7, require respectively
 
-$$
-\begin{gathered}
-s+t+2 \in  B+7C, \\
-s+t+1 \in 3B+5C, \\
-s+t   \in 5B+3C, \\
-s+t-1 \in 7B+C.
-\end{gathered}
-$$
+| Odd terms $q$ | Necessary quotient condition |
+| --- | --- |
+| 1 | $s+t+2\in B+7C$ |
+| 3 | $s+t+1\in3B+5C$ |
+| 5 | $s+t\in5B+3C$ |
+| 7 | $s+t-1\in7B+C$ |
 
 For q=5, the unique permitted factor sums are s in 5B and t in 3C. Any other
 three-term C multiset with sum z must satisfy s+t-z not in 5B. Thus all nine repeated
@@ -295,10 +294,7 @@ Write C=c0+{0,u,v}, 0<u<v and c0+v<M, using the least ordinary residue of C as c
 Its six differences and three pure-cube deviations must all belong to G:
 
 $$
-\begin{gathered}
-+u,-u,+v,-v,+(v-u),-(v-u), \\
--u-v, 2u-v, 2v-u.
-\end{gathered}
+\{\pm u,\pm v,\pm(v-u),-u-v,2u-v,2v-u\}\subseteq G.
 $$
 
 These exactly enumerate its nine repeated cubic multisets. They also ensure validity
@@ -373,12 +369,13 @@ elementary N>=187 bound restricts M to 94..123. Both blocks are hereditary valid
 non-antipodal if A is non-antipodal. Put s=sum B and t=sum C. The original target
 is 2(s+t)+4. For q=0,2,4,6,8 odd terms, the relevant quotient sums respectively are
 
-$$
-\begin{gathered}
-s+t+2 \in 8C; s+t+1 \in 2B+6C; s+t \in 4B+4C; \\
-s+t-1 \in 6B+2C; s+t-2 \in 8B.
-\end{gathered}
-$$
+| Odd terms $q$ | Relevant quotient condition |
+| --- | --- |
+| 0 | $s+t+2\in8C$ |
+| 2 | $s+t+1\in2B+6C$ |
+| 4 | $s+t\in4B+4C$ |
+| 6 | $s+t-1\in6B+2C$ |
+| 8 | $s+t-2\in8B$ |
 
 Define G={s-r:r not in 4B}. Write C=c+D where D={0,u,v,w}, 0<u<v<w and c+w<M. Every
 NON-original quartic multiset from D must have deviation sum(multiset)-sum D in G.
@@ -389,15 +386,13 @@ The triple {0,u,v} must have all nine repeated cubic deviations in G: the six
 differences and -u-v,2u-v,2v-u. For the fourth point w, the multisets classified by
 its multiplicity q impose:
 
-$$
-\begin{gathered}
-q=0: w \in 4\{0,u,v\}-u-v-G; \\
-q=1:\quad\text{the nine triple conditions already checked}; \\
-q=2: w \in  G+u+v-2\{0,u,v\}; \\
-q=3: 2w \in  G+u+v-d, \quad\text{for each }d \in \{0,u,v\}; \\
-q=4: 3w \in  G+u+v.
-\end{gathered}
-$$
+| Multiplicity $q$ of $w$ | Required condition |
+| --- | --- |
+| 0 | $w\in4\{0,u,v\}-u-v-G$ |
+| 1 | The nine triple conditions already checked |
+| 2 | $w\in G+u+v-2\{0,u,v\}$ |
+| 3 | $2w\in G+u+v-d$ for each $d\in\{0,u,v\}$ |
+| 4 | $3w\in G+u+v$ |
 
 Every residue preimage is retained when multiplication by 2 or3 is not invertible. No
 division assuming odd M or coprimality is used. The independent checker instead
@@ -407,10 +402,10 @@ constraints.
 Let K_j be the complement of jB. Necessary q=6 and q=8 conditions are
 
 $$
-\begin{gathered}
-2c\in\bigcap_{r\in 2D}(K_6-s-\sum D+1+r), \\
-4c\in K_8-s-\sum D+2.
-\end{gathered}
+\begin{aligned}
+2c&\in\bigcap_{r\in2D}(K_6-s-\sum D+1+r),\\
+4c&\in K_8-s-\sum D+2.
+\end{aligned}
 $$
 
 The completed independent check finds no c satisfying these two conditions for any

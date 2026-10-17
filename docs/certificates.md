@@ -12,15 +12,19 @@ when a leaf invokes them. The parity computations have their own domains.
 
 In the cubic-exception model the labels, in order, are
 
-$$A=(0,\delta,c,-2c,e,-2e,g,h),\qquad3\delta=0.$$
+$$
+A=(0,\delta,c,-2c,e,-2e,g,h),\qquad3\delta=0.
+$$
 
 The first quartic word `00001201` has value $-3e+h$ and `00201001` has
 value $2c+e+h$. The saved rival is `41001011`, namely
 $4[0]+[\delta]+[e]+[g]+[h]$, with eight nonnegative terms. Since
 $s=\delta-c-e+g+h$, its value differs from $s$ by $c+2e$. The record gives
 
-$$2(\operatorname{val}(R)-s)
-=-\bigl(\operatorname{val}(W)-\operatorname{val}(W')\bigr).$$
+$$
+2(\operatorname{val}(R)-s)
+=-\bigl(\operatorname{val}(W)-\operatorname{val}(W')\bigr).
+$$
 
 If the two quartic values coincided, oddness would force
 $\operatorname{val}(R)=s$. The rival differs from all-ones, contradicting

@@ -159,8 +159,8 @@
     },
     {
       "path": "docs/certificates.md",
-      "bytes": 9204,
-      "sha256": "0437be67433f795a1ad72d60e7a05cb1a0f443e72c7949bd079da8d05cb6850a"
+      "bytes": 9208,
+      "sha256": "0282716bd1b879e0df4a9f75851be7533d48e9b91719dec9bfa12c014ca5db93"
     },
     {
       "path": "docs/privacy.md",
@@ -179,8 +179,8 @@
     },
     {
       "path": "docs/review-status.md",
-      "bytes": 9429,
-      "sha256": "4b4651becf55cd48461c4212fd9266c6fb425312d17cf5243102931f3792b52f"
+      "bytes": 10318,
+      "sha256": "f1487c0507088de5e705dffba0c145a7545f191c4eaa00ff4071468cf6726d1e"
     },
     {
       "path": "docs/source-map.json",
@@ -199,33 +199,33 @@
     },
     {
       "path": "proof/alignment.md",
-      "bytes": 35847,
-      "sha256": "eed91831339481ad5fac06f88ebfd1046b9417be51130c8e6a3868ce83d10ed3"
+      "bytes": 35850,
+      "sha256": "7bf5f0225b753d86d29092dde5b78b46e3d5f6a47b679d224f0c27d270ae8386"
     },
     {
       "path": "proof/assignment.md",
-      "bytes": 24921,
-      "sha256": "dc4c9882de128984c6617dff379f1fc0ef9dd763f4efa4306e1704e2b7d3e96c"
+      "bytes": 24818,
+      "sha256": "f0be4bba174a297ac60363a22cf76ccc4cb824c34eda596b4c6ef0fdca634dcb"
     },
     {
       "path": "proof/closing.md",
-      "bytes": 2677,
-      "sha256": "343a2a80599a4c8f17624475cd6f867d790c8387430a5985af74953f04358fc2"
+      "bytes": 2662,
+      "sha256": "b6abf6c3391134bbdfa3c4fa0654c6f8f205123a9a7b7105a0ed7489b1a620ff"
     },
     {
       "path": "proof/counting.md",
-      "bytes": 6205,
-      "sha256": "60895f18dfe0849ae6887718d03cb8c3d7be1c18585fb046fb58990256a78303"
+      "bytes": 6368,
+      "sha256": "1911ff9901e3adf6709ce167c3d0bc2c006b22ac4894ff78dc8ce3da472fc397"
     },
     {
       "path": "proof/multiplicity.md",
-      "bytes": 17621,
-      "sha256": "23488ec0fa2f4c22bcf490dad1e397d041cfc5f53d6a9a57f53fdc27cdb1778f"
+      "bytes": 17607,
+      "sha256": "1591fdd895cfe5bef6d1d17600904aec2afa55dd411237ed85cc1d98174003df"
     },
     {
       "path": "proof/parity.md",
-      "bytes": 22317,
-      "sha256": "fcfc827f626a41051343f18a75922ca120fc80154fa02409b2c6d08633e76ca4"
+      "bytes": 22420,
+      "sha256": "2d19d273ae72af10eaf29c409f24a86fa34d6e354b3ef903c23a90b564dfe637"
     },
     {
       "path": "tests/test_mathematics.py",

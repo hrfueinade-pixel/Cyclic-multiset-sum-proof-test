@@ -3,8 +3,7 @@
 Assume a valid eight-set in odd order $N<248$. The dependencies are [protection and
 packing](../PROOF.md#lemma-2-complementary-packing-elementary) and [Lemma
 5](multiplicity.md): total cubic multiplicity and ordinary quartic/quintic
-multiplicity are at most three. The proof here is elementary. Write $T_d=|\mathcal
-T_d|$ for repeated **values**, not words.
+multiplicity are at most three. The proof here is elementary. Write $T_d=|\mathcal T_d|$ for repeated **values**, not words.
 
 ## Cubic collisions and the open-edge count
 
@@ -16,12 +15,17 @@ center pairs without such a collision. If $m_y$ is total repeated cubic word
 multiplicity, then
 
 $$
-\sum_y\binom{m_y}{2}=28-h,\qquad
-R_3=\sum_{y:m_y\ge1}\binom{m_y-1}{2},\qquad
+\sum_y\binom{m_y}{2}=28-h,
+\qquad R_3=\sum_{y:m_y\ge1}\binom{m_y-1}{2}.
+$$
+
+Consequently,
+
+$$
 T_3=64-(28-h)+R_3=36+h+R_3.
 $$
 
-The last identity follows fiber by fiber from $1=m-\binom m2+\binom{m-1}2$ for
+The last identity follows fiber by fiber from $1=m-\binom{m}{2}+\binom{m-1}2$ for
 $m\ge1$. Pure cubes are included. Set $k=h+R_3$.
 
 ## Ordinary pairs and outputs
@@ -37,13 +41,20 @@ outputs with none. Mixed words at an ordinary output do not produce another valu
 Exact fiber counting gives
 
 $$
-\begin{aligned}
-P_5&=n_2+3n_3=140-\tfrac 12n_1+\tfrac 32n_3,\\
-T_5&=140+\tfrac 12(n_1-n_3)+M,\\
-O_4&=168-P_4+C_4\le T_4\le88,\\
-\delta&=N-56-T_3-T_5\ge0,\\
-N&=232+k+\tfrac 12(n_1-n_3)+M+\delta.
-\end{aligned}
+P_5=n_2+3n_3=140-\tfrac{1}{2}n_1+\tfrac{3}{2}n_3,
+\qquad T_5=140+\tfrac{1}{2}(n_1-n_3)+M.
+$$
+
+The ordinary quartic output count satisfies
+
+$$
+O_4=168-P_4+C_4\le T_4\le88.
+$$
+
+Let $\delta=N-56-T_3-T_5\ge0$ be the unused packing space. Then
+
+$$
+N=232+k+\tfrac{1}{2}(n_1-n_3)+M+\delta.
 $$
 
 ## The 36 midpoint values
@@ -55,11 +66,12 @@ coordinates, so differs from all-ones. These 36 midpoint values are distinct.
 Squarefree pair protection handles every comparison involving a squarefree pair;
 oddness makes doubles distinct.
 
-If $z$ has two ordinary quintic words $V,V'$, private centers imply $V+V'\le2\mathbf
-1$ coordinatewise. Thus $2\mathbf 1+e_c+e_d-V-V'$ is a nonnegative mass-eight word
+If $z$ has two ordinary quintic words $V,V'$, private centers imply $V+V'\le2\mathbf{1}$ coordinatewise. Thus $2\mathbf{1}+e_c+e_d-V-V'$ is a nonnegative mass-eight word
 of value $s$. Validity forces
 
-$$V+V'=\mathbf 1+e_c+e_d.$$
+$$
+V+V'=\mathbf{1}+e_c+e_d.
+$$
 
 This is impossible for $c=d$. Otherwise its doubled coordinates identify
 the centers as $c,d$, and each other label occurs in exactly one tail.
@@ -71,20 +83,25 @@ uncovered. Hence at most $\delta$ reflected midpoints are outside
 $s-\mathcal T_5$. The remaining midpoints are disjoint-tail double outputs,
 single-ordinary outputs, or mixed-only outputs. Therefore
 
-$$36\le S_5+n_1+M+\delta. \tag{6.1}$$
+$$
+36\le S_5+n_1+M+\delta. \tag{6.1}
+$$
 
 ## Recoverable pair lifts
 
 Delete all common tails from an ordinary word pair. At degree four, a pair either
 has one common tail and descends to a cubic pair, or has disjoint tails. A cubic
 pair uses four physical labels, leaving four possible lifts. At degree five,
-common-tail sizes 2, 1, and 0 give respectively a cubic pair with $\binom 42=6$
+common-tail sizes 2, 1, and 0 give respectively a cubic pair with $\binom{4}{2}=6$
 lifts, a disjoint-tail quartic pair with two lifts, or an $S_5$ pair. Deleting the
 common tails is the inverse, so
 
 $$
-P_4=4P_3+S_4,\qquad
-P_5=6P_3+2S_4+S_5=\tfrac 32P_4+\tfrac 12S_4+S_5. \tag{6.2}
+\begin{aligned}
+P_4&=4P_3+S_4,\\
+P_5&=6P_3+2S_4+S_5
+    =\tfrac{3}{2}P_4+\tfrac{1}{2}S_4+S_5.
+\end{aligned}\tag{6.2}
 $$
 
 These are word-pair identities, including all three pairs in a triple fiber. They
@@ -92,12 +109,16 @@ make no assertion that arbitrary lifted pairs have different outputs.
 
 Since $P_4\ge80+C_4$, substitution of (6.2) into (6.1) gives
 
-$$\tfrac 12n_1+\tfrac 32n_3+M+\delta
-\ge16+\tfrac 32C_4+\tfrac 12S_4.$$
+$$
+\tfrac{1}{2}n_1+\tfrac{3}{2}n_3+M+\delta
+\ge16+\tfrac{3}{2}C_4+\tfrac{1}{2}S_4.
+$$
 
 Subtract $2n_3$ and use the exact formula for $N$ to obtain
 
-$$2N\ge496+2k-4n_3+3C_4+S_4. \tag{6.3}$$
+$$
+2N\ge496+2k-4n_3+3C_4+S_4. \tag{6.3}
+$$
 
 Thus the branch $n_3=0$ is already impossible.
 
@@ -127,12 +148,16 @@ split has no common tail.
 A quartic path contains one disjoint edge pair, a split two, and a triangle or star
 none. Consequently the exact output identities are
 
-$$n_3=c+2t+p+q,\qquad C_4=t+2c+p+w,\qquad S_4=p+2w+E.$$
+$$
+n_3=c+2t+p+q,\qquad C_4=t+2c+p+w,\qquad S_4=p+2w+E.
+$$
 
 Substituting in (6.3), the coefficients of $(c,t,p,w,q,E)$ are
 $(2,-5,0,5,-4,1)$. This proves
 
-$$\boxed{2N\ge496+2(h+R_3+c)-5t+5w-4q+E.} \tag{6.4}$$
+$$
+\boxed{2N\ge496+2(h+R_3+c)-5t+5w-4q+E.} \tag{6.4}
+$$
 
 No fresh output is assumed. Ordinary and total multiplicities, pairs and outputs,
 and mixed-only fibers have separate roles throughout.

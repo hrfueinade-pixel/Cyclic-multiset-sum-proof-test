@@ -12,11 +12,14 @@ Assume a valid eight-set in odd order $N\le247$. Use the notation of [Lemma
 statements are
 
 $$
-\begin{gathered}
-2N\ge496+2(h+R_3+c)-5t+5w-4q+E,\\
+2N\ge496+2(h+R_3+c)-5t+5w-4q+E,
+$$
+
+with
+
+$$
 E-2q\ge0\quad\text{(Lemma 7)},\qquad
 q\le h-o\quad\text{(Lemmas 8–9)}.
-\end{gathered}
 $$
 
 If $t=0$, these already imply $2N\ge496$. Therefore there is a triangle. Lemmas 11
@@ -32,7 +35,9 @@ two are terminal, giving $o=2$. No no-new-equality hypothesis is imposed.
 
 Set $U=E-2q$. The four final inputs are therefore
 
-$$\boxed{U\ge0,\qquad q\le h-o,\qquad t=1,\qquad o\ge2.}$$
+$$
+\boxed{U\ge0,\qquad q\le h-o,\qquad t=1,\qquad o\ge2.}
+$$
 
 Substitution, retaining the other nonnegative terms, gives
 
@@ -48,12 +53,16 @@ below 248, completing the proposed lower bound.
 Let $a_i=2^i-1$ for $0\le i<8$. A nonnegative degree-eight word at the
 original target modulo 248 would have
 
-$$S=\sum_i m_i2^i\equiv 255\pmod{248},\qquad 8\le S\le1024.$$
+$$
+S=\sum_i m_i2^i\equiv 255\pmod{248},\qquad 8\le S\le1024.
+$$
 
 Thus $S$ is 255, 503, 751, or 999. For coins $1,2,\ldots,128$, the minimum number
 needed to represent $S$ is
 
-$$\left\lfloor S/128\right\rfloor+\operatorname{popcount}(S\bmod 128).$$
+$$
+\left\lfloor S/128\right\rfloor+\operatorname{popcount}(S\bmod 128).
+$$
 
 Carry pairs of equal smaller coins upward. Each carry reduces the count;
 the unique carry-free representation has the displayed count. The four

@@ -529,11 +529,11 @@ because their total value would then be less than seven.
 - For d=121,123,125, seven-coin totals 127+d are respectively
 
 $$
-\begin{gathered}
-3\cdot 64+32+16+2\cdot 4=248, \\
-3\cdot 64+32+16+8+2=250, \\
-3\cdot 64+32+16+8+4=252.
-\end{gathered}
+\begin{aligned}
+3\cdot64+32+16+2\cdot4&=248,\\
+3\cdot64+32+16+8+2&=250,\\
+3\cdot64+32+16+8+4&=252.
+\end{aligned}
 $$
 
   Again these are explicit seven-term block rivals.
@@ -597,11 +597,7 @@ For (5,2,1), exactly three first relation modules remain after those positive
 exclusions:
 
 $$
-\begin{gathered}
-5w=2p+r, \\
-u+2r=5w, \\
-u+2p=w+2r,
-\end{gathered}
+5w=2p+r,\qquad\text{or}\qquad u+2r=5w,\qquad\text{or}\qquad u+2p=w+2r.
 $$
 
 always with v=4u and p=16u. Each formal ordinary cubic partition has P=8. Lemma 12 already proves $P\ge9$ in any counterexample. Thus every
@@ -704,11 +700,15 @@ word or merge with a different ordinary fiber, by Lemma 5. Hence R3>=R0, c>=c0, 
 w>=w0. Lemmas 14–15 give t<=2. The weighted count and assignment imply the necessary
 counterexample bound
 
-$$5t\ge2+2(o+R_3+c)+5w+(E-2q).$$
+$$
+5t\ge2+2(o+R_3+c)+5w+(E-2q).
+$$
 
 It follows that a model is excluded outright if
 
-$$2+2(R_0+c_0)+5w_0>10.$$
+$$
+2+2(R_0+c_0)+5w_0>10.
+$$
 
 The five global-credit leaves all have R0=c0=w0=1, giving 11>10. This conclusion
 allows all refinements. It does not presume that formally different generic values

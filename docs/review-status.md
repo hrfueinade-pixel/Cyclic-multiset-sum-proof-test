@@ -21,6 +21,7 @@ and all source certificate bytes were preserved. Work is on the separate
 | [Baseline bundle](../review/baseline.json.gz) | Personally ran Python 3.12.14, `python verify.py --seconds-per-order 300`, exit 0, 1,009.65 seconds, FULL_CHECKS_PASSED. All 150 required orders completed; no cache reuse. |
 | [Pre-hardening full run](../review/pre-hardening.json.gz) | Personally completed all 150 orders again, exit 0, 1167.30 seconds. This predates the final integer-input guards and is not substituted for the submitted-source run. |
 | [Interrupted runs](../review/editorial-interruption.json.gz) | Two early runs were explicitly stopped for final editorial corrections; exit 143, INCOMPLETE. Their captured logs are retained and supply no exclusion. |
+| [First reviewed-source run](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/6fe9c8c43dae4ec8a45974bf1e41f023c9b89847/review/release.json.gz) | Personally completed all 150 orders, exit 0, 1,108.15 seconds; retained at the first review commit before the equation-layout pass. |
 | [Submitted-source bundle](../review/release.json.gz) | Fresh full run against the submitted source manifest. Contains its exact outcome, console, all checker logs/reports and 150 per-order records. The recorded exit status and completion counts are authoritative. |
 
 Bundles retain complete output, not excerpts. Their source manifest digest
@@ -106,8 +107,17 @@ E-2q>=0, q<=h-o, t=1 and o>=2 imply 2N>=495>494.
   thresholds and conditional-leaf misuse. Timeouts retain partial logs.
 
 Markdown links, equation delimiters, and mathematical notation were inspected.
-A dedicated renderer installation was not completed: automatic approval review
-hit an account usage limit. No rendered-browser check is claimed.
+A subsequent layout pass uses Chromium, Pandoc 3.1.11.1 and MathJax 3.2.2 to
+render the main proof and all six supporting chapters at desktop and narrow
+viewport widths. Long case lists now use labeled tables; related equations
+use compact rows or short aligned derivations. Display delimiters occupy
+separate lines for GitHub Markdown. All seven files render without MathJax
+errors. The recorded metrics and commands are retained as
+`logs/equation-layout.log` in the submitted-source evidence bundle.
+
+The earlier optional renderer installation was blocked by an approval-review
+usage-limit error. The subsequent environment supplied the browser and Pandoc,
+so that earlier limitation no longer prevents a rendered local preview.
 
 ## Limits and further simplification
 
