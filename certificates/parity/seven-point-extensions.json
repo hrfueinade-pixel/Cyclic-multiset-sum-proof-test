@@ -1,0 +1,1865 @@
+{
+  "completion": "COMPLETE",
+  "cap_seconds": 5,
+  "elapsed_seconds": 0.01600000000325963,
+  "six_point_survivors": 58,
+  "extensions": [
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31
+      ],
+      "missing_7B": 120,
+      "seventh_point": 63,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63
+      ],
+      "rival_counts": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        60
+      ],
+      "missing_7B": 117,
+      "seventh_point": 31,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        60
+      ],
+      "rival_counts": [
+        0,
+        2,
+        0,
+        1,
+        1,
+        3,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        60,
+        90
+      ],
+      "missing_7B": 55,
+      "seventh_point": 15,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        60,
+        90
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        3,
+        60,
+        90,
+        105
+      ],
+      "missing_7B": 24,
+      "seventh_point": 7,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        60,
+        90,
+        105
+      ],
+      "rival_counts": [
+        3,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        4,
+        20,
+        82,
+        90
+      ],
+      "missing_7B": 39,
+      "seventh_point": 84,
+      "A": [
+        0,
+        1,
+        4,
+        20,
+        82,
+        84,
+        90
+      ],
+      "rival_counts": [
+        0,
+        3,
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        4,
+        65,
+        97,
+        113
+      ],
+      "missing_7B": 32,
+      "seventh_point": 115,
+      "A": [
+        0,
+        1,
+        4,
+        65,
+        97,
+        113,
+        115
+      ],
+      "rival_counts": [
+        0,
+        3,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        5,
+        20,
+        81,
+        83
+      ],
+      "missing_7B": 39,
+      "seventh_point": 91,
+      "A": [
+        0,
+        1,
+        5,
+        20,
+        81,
+        83,
+        91
+      ],
+      "rival_counts": [
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        5,
+        81,
+        83,
+        91
+      ],
+      "missing_7B": 40,
+      "seventh_point": 21,
+      "A": [
+        0,
+        1,
+        5,
+        21,
+        81,
+        83,
+        91
+      ],
+      "rival_counts": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        7,
+        9,
+        25,
+        57
+      ],
+      "missing_7B": 120,
+      "seventh_point": 21,
+      "A": [
+        0,
+        1,
+        7,
+        9,
+        21,
+        25,
+        57
+      ],
+      "rival_counts": [
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        9,
+        25,
+        57,
+        118
+      ],
+      "missing_7B": 96,
+      "seventh_point": 7,
+      "A": [
+        0,
+        1,
+        7,
+        9,
+        25,
+        57,
+        118
+      ],
+      "rival_counts": [
+        3,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        17,
+        32,
+        62,
+        70
+      ],
+      "missing_7B": 59,
+      "seventh_point": 119,
+      "A": [
+        0,
+        1,
+        17,
+        32,
+        62,
+        70,
+        119
+      ],
+      "rival_counts": [
+        3,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        17,
+        32,
+        62,
+        119
+      ],
+      "missing_7B": 104,
+      "seventh_point": 115,
+      "A": [
+        0,
+        1,
+        17,
+        32,
+        62,
+        115,
+        119
+      ],
+      "rival_counts": [
+        3,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        20,
+        30,
+        35,
+        81
+      ],
+      "missing_7B": 8,
+      "seventh_point": 83,
+      "A": [
+        0,
+        1,
+        20,
+        30,
+        35,
+        81,
+        83
+      ],
+      "rival_counts": [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        20,
+        30,
+        81,
+        83
+      ],
+      "missing_7B": 99,
+      "seventh_point": 5,
+      "A": [
+        0,
+        1,
+        5,
+        20,
+        30,
+        81,
+        83
+      ],
+      "rival_counts": [
+        2,
+        1,
+        3,
+        0,
+        0,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        27,
+        40,
+        70,
+        87
+      ],
+      "missing_7B": 51,
+      "seventh_point": 68,
+      "A": [
+        0,
+        1,
+        27,
+        40,
+        68,
+        70,
+        87
+      ],
+      "rival_counts": [
+        3,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        27,
+        68,
+        70,
+        87
+      ],
+      "missing_7B": 94,
+      "seventh_point": 83,
+      "A": [
+        0,
+        1,
+        27,
+        68,
+        70,
+        83,
+        87
+      ],
+      "rival_counts": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        31,
+        39,
+        41,
+        117
+      ],
+      "missing_7B": 88,
+      "seventh_point": 101,
+      "A": [
+        0,
+        1,
+        31,
+        39,
+        41,
+        101,
+        117
+      ],
+      "rival_counts": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        3,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        32,
+        40,
+        102,
+        118
+      ],
+      "missing_7B": 89,
+      "seventh_point": 38,
+      "A": [
+        0,
+        1,
+        32,
+        38,
+        40,
+        102,
+        118
+      ],
+      "rival_counts": [
+        3,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        32,
+        62,
+        115,
+        119
+      ],
+      "missing_7B": 73,
+      "seventh_point": 107,
+      "A": [
+        0,
+        1,
+        32,
+        62,
+        107,
+        115,
+        119
+      ],
+      "rival_counts": [
+        3,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        35,
+        39,
+        52,
+        54
+      ],
+      "missing_7B": 69,
+      "seventh_point": 9,
+      "A": [
+        0,
+        1,
+        9,
+        35,
+        39,
+        52,
+        54
+      ],
+      "rival_counts": [
+        0,
+        3,
+        3,
+        0,
+        1,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        35,
+        52,
+        54,
+        95
+      ],
+      "missing_7B": 34,
+      "seventh_point": 39,
+      "A": [
+        0,
+        1,
+        35,
+        39,
+        52,
+        54,
+        95
+      ],
+      "rival_counts": [
+        0,
+        3,
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        35,
+        52,
+        82,
+        95
+      ],
+      "missing_7B": 77,
+      "seventh_point": 54,
+      "A": [
+        0,
+        1,
+        35,
+        52,
+        54,
+        82,
+        95
+      ],
+      "rival_counts": [
+        2,
+        1,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        39,
+        41,
+        92,
+        102
+      ],
+      "missing_7B": 29,
+      "seventh_point": 117,
+      "A": [
+        0,
+        1,
+        39,
+        41,
+        92,
+        102,
+        117
+      ],
+      "rival_counts": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        39,
+        41,
+        102,
+        117
+      ],
+      "missing_7B": 89,
+      "seventh_point": 31,
+      "A": [
+        0,
+        1,
+        31,
+        39,
+        41,
+        102,
+        117
+      ],
+      "rival_counts": [
+        3,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        41,
+        87,
+        92,
+        102
+      ],
+      "missing_7B": 120,
+      "seventh_point": 39,
+      "A": [
+        0,
+        1,
+        39,
+        41,
+        87,
+        92,
+        102
+      ],
+      "rival_counts": [
+        3,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        52,
+        60,
+        90,
+        105
+      ],
+      "missing_7B": 69,
+      "seventh_point": 3,
+      "A": [
+        0,
+        1,
+        3,
+        52,
+        60,
+        90,
+        105
+      ],
+      "rival_counts": [
+        3,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        62,
+        107,
+        115,
+        119
+      ],
+      "missing_7B": 11,
+      "seventh_point": 91,
+      "A": [
+        0,
+        1,
+        62,
+        91,
+        107,
+        115,
+        119
+      ],
+      "rival_counts": [
+        2,
+        0,
+        0,
+        3,
+        1,
+        1,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        65,
+        97,
+        113,
+        115
+      ],
+      "missing_7B": 8,
+      "seventh_point": 101,
+      "A": [
+        0,
+        1,
+        65,
+        97,
+        101,
+        113,
+        115
+      ],
+      "rival_counts": [
+        0,
+        3,
+        1,
+        0,
+        3,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        68,
+        70,
+        83,
+        87
+      ],
+      "missing_7B": 59,
+      "seventh_point": 113,
+      "A": [
+        0,
+        1,
+        68,
+        70,
+        83,
+        87,
+        113
+      ],
+      "rival_counts": [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 121,
+      "B": [
+        0,
+        1,
+        91,
+        107,
+        115,
+        119
+      ],
+      "missing_7B": 8,
+      "seventh_point": 59,
+      "A": [
+        0,
+        1,
+        59,
+        91,
+        107,
+        115,
+        119
+      ],
+      "rival_counts": [
+        0,
+        0,
+        3,
+        1,
+        1,
+        0,
+        2
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31
+      ],
+      "missing_7B": 120,
+      "seventh_point": 63,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63
+      ],
+      "rival_counts": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        5,
+        41,
+        43,
+        51
+      ],
+      "missing_7B": 40,
+      "seventh_point": 21,
+      "A": [
+        0,
+        1,
+        5,
+        21,
+        41,
+        43,
+        51
+      ],
+      "rival_counts": [
+        1,
+        0,
+        1,
+        3,
+        0,
+        1,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        14,
+        18,
+        86,
+        88
+      ],
+      "missing_7B": 77,
+      "seventh_point": 114,
+      "A": [
+        0,
+        1,
+        14,
+        18,
+        86,
+        88,
+        114
+      ],
+      "rival_counts": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        32,
+        48,
+        56,
+        60
+      ],
+      "missing_7B": 11,
+      "seventh_point": 58,
+      "A": [
+        0,
+        1,
+        32,
+        48,
+        56,
+        58,
+        60
+      ],
+      "rival_counts": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        3,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        33,
+        49,
+        57,
+        59
+      ],
+      "missing_7B": 8,
+      "seventh_point": 53,
+      "A": [
+        0,
+        1,
+        33,
+        49,
+        53,
+        57,
+        59
+      ],
+      "rival_counts": [
+        1,
+        1,
+        1,
+        0,
+        3,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        35,
+        37,
+        105,
+        109
+      ],
+      "missing_7B": 52,
+      "seventh_point": 9,
+      "A": [
+        0,
+        1,
+        9,
+        35,
+        37,
+        105,
+        109
+      ],
+      "rival_counts": [
+        1,
+        1,
+        3,
+        0,
+        1,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        63,
+        67,
+        75,
+        91
+      ],
+      "missing_7B": 118,
+      "seventh_point": 65,
+      "A": [
+        0,
+        1,
+        63,
+        65,
+        67,
+        75,
+        91
+      ],
+      "rival_counts": [
+        1,
+        1,
+        0,
+        3,
+        0,
+        1,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        64,
+        66,
+        74,
+        90
+      ],
+      "missing_7B": 121,
+      "seventh_point": 70,
+      "A": [
+        0,
+        1,
+        64,
+        66,
+        70,
+        74,
+        90
+      ],
+      "rival_counts": [
+        1,
+        1,
+        1,
+        0,
+        3,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        72,
+        80,
+        82,
+        118
+      ],
+      "missing_7B": 89,
+      "seventh_point": 102,
+      "A": [
+        0,
+        1,
+        72,
+        80,
+        82,
+        102,
+        118
+      ],
+      "rival_counts": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        3,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 122,
+      "B": [
+        0,
+        1,
+        92,
+        108,
+        116,
+        120
+      ],
+      "missing_7B": 9,
+      "seventh_point": 60,
+      "A": [
+        0,
+        1,
+        60,
+        92,
+        108,
+        116,
+        120
+      ],
+      "rival_counts": [
+        0,
+        1,
+        3,
+        1,
+        1,
+        1,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31
+      ],
+      "missing_7B": 120,
+      "seventh_point": 63,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63
+      ],
+      "rival_counts": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        61
+      ],
+      "missing_7B": 118,
+      "seventh_point": 31,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        61
+      ],
+      "rival_counts": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        3,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        7,
+        30,
+        61
+      ],
+      "missing_7B": 117,
+      "seventh_point": 15,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        30,
+        61
+      ],
+      "rival_counts": [
+        0,
+        1,
+        1,
+        1,
+        3,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        3,
+        30,
+        61,
+        76
+      ],
+      "missing_7B": 55,
+      "seventh_point": 7,
+      "A": [
+        0,
+        1,
+        3,
+        7,
+        30,
+        61,
+        76
+      ],
+      "rival_counts": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        0,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        4,
+        12,
+        28,
+        60
+      ],
+      "missing_7B": 111,
+      "seventh_point": 6,
+      "A": [
+        0,
+        1,
+        4,
+        6,
+        12,
+        28,
+        60
+      ],
+      "rival_counts": [
+        0,
+        1,
+        1,
+        3,
+        0,
+        1,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        18,
+        22,
+        88,
+        90
+      ],
+      "missing_7B": 105,
+      "seventh_point": 9,
+      "A": [
+        0,
+        1,
+        9,
+        18,
+        22,
+        88,
+        90
+      ],
+      "rival_counts": [
+        0,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        18,
+        57,
+        79,
+        88
+      ],
+      "missing_7B": 87,
+      "seventh_point": 90,
+      "A": [
+        0,
+        1,
+        18,
+        57,
+        79,
+        88,
+        90
+      ],
+      "rival_counts": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        18,
+        79,
+        88,
+        90
+      ],
+      "missing_7B": 52,
+      "seventh_point": 22,
+      "A": [
+        0,
+        1,
+        18,
+        22,
+        79,
+        88,
+        90
+      ],
+      "rival_counts": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        25,
+        48,
+        63,
+        94
+      ],
+      "missing_7B": 106,
+      "seventh_point": 121,
+      "A": [
+        0,
+        1,
+        25,
+        48,
+        63,
+        94,
+        121
+      ],
+      "rival_counts": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        30,
+        61,
+        76,
+        99
+      ],
+      "missing_7B": 24,
+      "seventh_point": 3,
+      "A": [
+        0,
+        1,
+        3,
+        30,
+        61,
+        76,
+        99
+      ],
+      "rival_counts": [
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        34,
+        36,
+        45,
+        106
+      ],
+      "missing_7B": 78,
+      "seventh_point": 102,
+      "A": [
+        0,
+        1,
+        34,
+        36,
+        45,
+        102,
+        106
+      ],
+      "rival_counts": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        3,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        34,
+        36,
+        102,
+        106
+      ],
+      "missing_7B": 25,
+      "seventh_point": 115,
+      "A": [
+        0,
+        1,
+        34,
+        36,
+        102,
+        106,
+        115
+      ],
+      "rival_counts": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        3
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        36,
+        45,
+        67,
+        106
+      ],
+      "missing_7B": 43,
+      "seventh_point": 34,
+      "A": [
+        0,
+        1,
+        34,
+        36,
+        45,
+        67,
+        106
+      ],
+      "rival_counts": [
+        1,
+        0,
+        3,
+        1,
+        1,
+        0,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        48,
+        63,
+        94,
+        121
+      ],
+      "missing_7B": 75,
+      "seventh_point": 117,
+      "A": [
+        0,
+        1,
+        48,
+        63,
+        94,
+        117,
+        121
+      ],
+      "rival_counts": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        63,
+        94,
+        117,
+        121
+      ],
+      "missing_7B": 13,
+      "seventh_point": 109,
+      "A": [
+        0,
+        1,
+        63,
+        94,
+        109,
+        117,
+        121
+      ],
+      "rival_counts": [
+        1,
+        0,
+        1,
+        0,
+        3,
+        1,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        63,
+        109,
+        117,
+        121
+      ],
+      "missing_7B": 12,
+      "seventh_point": 93,
+      "A": [
+        0,
+        1,
+        63,
+        93,
+        109,
+        117,
+        121
+      ],
+      "rival_counts": [
+        0,
+        1,
+        0,
+        3,
+        1,
+        1,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        64,
+        96,
+        112,
+        120
+      ],
+      "missing_7B": 19,
+      "seventh_point": 118,
+      "A": [
+        0,
+        1,
+        64,
+        96,
+        112,
+        118,
+        120
+      ],
+      "rival_counts": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        3,
+        1
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    },
+    {
+      "M": 123,
+      "B": [
+        0,
+        1,
+        93,
+        109,
+        117,
+        121
+      ],
+      "missing_7B": 10,
+      "seventh_point": 61,
+      "A": [
+        0,
+        1,
+        61,
+        93,
+        109,
+        117,
+        121
+      ],
+      "rival_counts": [
+        1,
+        0,
+        3,
+        1,
+        1,
+        1,
+        0
+      ],
+      "outcome": "EXPLICIT SEVEN-TERM RIVAL"
+    }
+  ],
+  "survivors": []
+}

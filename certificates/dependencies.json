@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "theorem": "finish",
+  "scope": "Reading and computation dependencies. The ledger does not prove its hand claims.",
+  "claims": [
+    {
+      "id": "protection",
+      "kind": "hand",
+      "depends_on": [],
+      "exposition": "PROOF.md",
+      "checks": [],
+      "inputs": [],
+      "scope": ""
+    },
+    {
+      "id": "packing",
+      "kind": "hand",
+      "depends_on": [
+        "protection"
+      ],
+      "exposition": "PROOF.md",
+      "checks": [],
+      "inputs": [],
+      "scope": ""
+    },
+    {
+      "id": "seven-points",
+      "kind": "finite",
+      "depends_on": [
+        "protection"
+      ],
+      "exposition": "proof/parity.md",
+      "checks": [
+        "seven_point_survivors.py",
+        "seven_point_extensions.py",
+        "antipodal_lifts.py"
+      ],
+      "inputs": [
+        "certificates/parity/seven-point-extensions.json",
+        "certificates/parity/seven-point-reference.json",
+        "certificates/parity/seven-point-survivors.json",
+        "certificates/parity/antipodal-lifts.json"
+      ],
+      "scope": "All orders 64..123 plus 58 extensions; all five-point quotient classes and 480/192 lifts."
+    },
+    {
+      "id": "baseline",
+      "kind": "hand",
+      "depends_on": [
+        "protection",
+        "seven-points"
+      ],
+      "exposition": "proof/parity.md",
+      "checks": [],
+      "inputs": [],
+      "scope": ""
+    },
+    {
+      "id": "even-orders",
+      "kind": "finite",
+      "depends_on": [
+        "baseline",
+        "seven-points"
+      ],
+      "exposition": "proof/parity.md",
+      "checks": [
+        "parity_two_six.py",
+        "parity_three_five.py",
+        "parity_four_four.py"
+      ],
+      "inputs": [
+        "certificates/parity/three-five-reference.json",
+        "certificates/parity/four-four-reference.json"
+      ],
+      "scope": "Each quotient order 94..123; references supplement fresh enumeration."
+    },
+    {
+      "id": "multiplicity",
+      "kind": "finite",
+      "depends_on": [
+        "packing"
+      ],
+      "exposition": "proof/multiplicity.md",
+      "checks": [
+        "multiplicity_models.py",
+        "cubic_exception.py",
+        "quintic_cap.py"
+      ],
+      "inputs": [
+        "certificates/multiplicity/cap-cubic-exception-quartic.json.gz",
+        "certificates/multiplicity/cap-four-pairs-quintic.json.gz",
+        "certificates/multiplicity/cap-single-chain-quintic.json.gz",
+        "certificates/multiplicity/four-ordinary-quartic.json.gz",
+        "certificates/multiplicity/four-ordinary-quintic.json.gz",
+        "certificates/multiplicity/four-pair-inventory.json",
+        "certificates/multiplicity/hub-quartic.json.gz",
+        "certificates/multiplicity/joint-cubic-relations.json",
+        "certificates/multiplicity/pure-hub-quartic.json.gz",
+        "certificates/multiplicity/quintic-cap.json.gz"
+      ],
+      "scope": ""
+    },
+    {
+      "id": "weighted-count",
+      "kind": "hand",
+      "depends_on": [
+        "packing",
+        "multiplicity"
+      ],
+      "exposition": "proof/counting.md",
+      "checks": [],
+      "inputs": [],
+      "scope": ""
+    },
+    {
+      "id": "assignment",
+      "kind": "finite",
+      "depends_on": [
+        "weighted-count"
+      ],
+      "exposition": "proof/assignment.md",
+      "checks": [
+        "assignment_base.py",
+        "split_sources.py",
+        "split_assignment.py"
+      ],
+      "inputs": [
+        "certificates/assignment/base-coverage.json.gz",
+        "certificates/assignment/general-assignment.json.gz",
+        "certificates/assignment/split-sources.json.gz"
+      ],
+      "scope": "Base cap-two leaves are replaced by the general cap-three assignment; source forcing needs at least six cubic pairs."
+    },
+    {
+      "id": "triangle-ownership",
+      "kind": "finite",
+      "depends_on": [
+        "assignment",
+        "cycles"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [
+        "triangle_ownership.py"
+      ],
+      "inputs": [
+        "certificates/triangles/edge-ownership.json.gz"
+      ],
+      "scope": ""
+    },
+    {
+      "id": "cycles",
+      "kind": "hand",
+      "depends_on": [
+        "multiplicity"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": ""
+    },
+    {
+      "id": "triangle-splits",
+      "kind": "finite",
+      "depends_on": [
+        "triangle-ownership",
+        "cycles"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [
+        "triangle_splits.py"
+      ],
+      "inputs": [
+        "certificates/triangles/one-split-per-triangle.json.gz"
+      ],
+      "scope": ""
+    },
+    {
+      "id": "large-forests",
+      "kind": "finite",
+      "depends_on": [
+        "triangle-splits"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [
+        "alignment_forests.py"
+      ],
+      "inputs": [
+        "certificates/triangles/large-forests.json.gz"
+      ],
+      "scope": "All six large shapes: 2666 proof nodes; not merely the root model."
+    },
+    {
+      "id": "interactions",
+      "kind": "finite",
+      "depends_on": [
+        "large-forests"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [
+        "triangle_interactions.py"
+      ],
+      "inputs": [
+        "certificates/triangles/interactions.json.gz"
+      ],
+      "scope": "All 3360 second-triangle presentations, including same-alignment rejection."
+    },
+    {
+      "id": "two-triangle-class",
+      "kind": "finite",
+      "depends_on": [
+        "interactions"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [
+        "two_triangle_exclusion.py"
+      ],
+      "inputs": [
+        "certificates/triangles/two-triangle-class.json.gz"
+      ],
+      "scope": "Only shape 3221: 13333 nodes and all refinements required by the proof graph."
+    },
+    {
+      "id": "finish",
+      "kind": "hand",
+      "depends_on": [
+        "even-orders",
+        "two-triangle-class",
+        "weighted-count",
+        "triangle-ownership"
+      ],
+      "exposition": "proof/closing.md",
+      "checks": [
+        "finishing.py",
+        "elementary_identities.py"
+      ],
+      "inputs": [],
+      "scope": "Exact arithmetic controls supplement the quantified hand proofs."
+    }
+  ]
+}
