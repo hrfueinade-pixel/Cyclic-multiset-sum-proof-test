@@ -1,5 +1,10 @@
 # Cyclic multiset sums: the eight-point minimum
 
+This repository organizes an AI-assisted mathematical investigation so that
+interested readers can follow the argument and reproduce its computational
+checks. The repository owner does not claim to have personally developed the
+proof. The argument has not undergone independent mathematical review.
+
 A computer-assisted proof that eight distinct residues whose total has a
 unique eight-term multiset representation require a cyclic group of order
 at least **248**. The bound is attained by

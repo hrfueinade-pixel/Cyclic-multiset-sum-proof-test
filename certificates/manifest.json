@@ -209,8 +209,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2208,
-      "sha256": "b1a06aebc3756100ec28f1f63ea71eb09e54ac9d84ee88d80ac1963cc93906a6"
+      "bytes": 2508,
+      "sha256": "4e86cfb3fc274a6da47d538922011b071dce1550d6521aedf4b15ed09ca67693"
     },
     {
       "path": "tests/test_privacy.py",
