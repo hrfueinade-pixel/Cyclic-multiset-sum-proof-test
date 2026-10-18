@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 5587,
-      "sha256": "0ad509dcdcee00cdc1e3e0fa357a2718b8d440cba52b3d37b791a9e7a370e63d"
+      "bytes": 5613,
+      "sha256": "a6bbbb98d17a7139b4146e61896e21892bb06be1acb7949871a3a5c820a3c285"
     },
     {
       "path": ".gitignore",
@@ -189,8 +189,8 @@
     },
     {
       "path": "docs/publication.md",
-      "bytes": 4045,
-      "sha256": "7328e2e566625021e397e2e9e81fc88be6c45a5a9d601f562ce82392294f013b"
+      "bytes": 4071,
+      "sha256": "39786e2ee2ef980209a8b20a72900c44c9a0065f0f614315dc95c48bdc4e4d98"
     },
     {
       "path": "docs/references.md",
@@ -279,8 +279,8 @@
     },
     {
       "path": "verification/book.py",
-      "bytes": 10654,
-      "sha256": "15191c6cc92bf23824501244645ac2b135c257c17878f69c79e69e79a3f48041"
+      "bytes": 11021,
+      "sha256": "ef14693232ae5d1e870d6e2190467ea3bfc077d36f2de43d04ea6d7cf57ca48e"
     },
     {
       "path": "verification/checks/alignment_forests.py",

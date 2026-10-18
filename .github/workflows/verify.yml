@@ -29,7 +29,7 @@ jobs:
       - name: Install PDF build tools
         run: |
           sudo apt-get update
-          sudo apt-get install --yes --no-install-recommends pandoc texlive-xetex texlive-latex-extra lmodern poppler-utils
+          sudo apt-get install --yes --no-install-recommends pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended lmodern poppler-utils
       - name: Select the versioned review edition
         id: version
         run: |

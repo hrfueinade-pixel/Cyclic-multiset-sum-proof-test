@@ -282,7 +282,15 @@ def main():
     try:
         print(json.dumps(build(args.output, allow_dirty=args.allow_dirty), indent=2))
     except (ValueError, subprocess.CalledProcessError) as error:
-        parser.exit(1, str(error) + "\n")
+        message = str(error) + "\n"
+        if isinstance(error, subprocess.CalledProcessError):
+            log = args.output.with_suffix(".build.log")
+            if log.exists():
+                message += "Build log: " + str(log) + "\n"
+                message += (
+                    "\n".join(log.read_text(errors="replace").splitlines()[-25:]) + "\n"
+                )
+        parser.exit(1, message)
 
 
 if __name__ == "__main__":
