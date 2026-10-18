@@ -151,8 +151,8 @@ The double of each terminal vertex is a distinct hole of S, and cannot be mu, si
 4c=s is a forbidden degree-four word. This excludes M=33. For M=35 the only two
 holes apart from mu form a complementary pair. Two different path exits would give
 2c+2d=s, another forbidden degree-four word. Hence there is one five-vertex path
-C={t,2t,4t,8t,16t}, with s=31t. But 4*(16t)+2t=66t=31t in order 35 is a non-original
-degree-five word. Therefore odd M>=37, and an order-seven block forces N>=7*37=259.
+$C=\{t,2t,4t,8t,16t\}$, with $s=31t$. But $4(16t)+2t=66t=31t$ in order 35 is a non-original
+degree-five word. Therefore odd $M\ge37$, and an order-seven block forces $N\ge7\cdot37=259$.
 
 ## Exclude a two-cycle in a triangle-bearing class
 

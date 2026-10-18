@@ -99,14 +99,43 @@ not certificate verification.
 | General assignment | [stage55_split_exception_probe.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage55_split_exception_probe.py), [stage55_certificate_pack.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage55_certificate_pack.py) |
 | Ownership, triangle splits, forests, interactions, two-triangle closure | Certificate archives and standalone checkers are preserved; complete discovery generators are not present in the pinned archive. |
 
-These names refer to the pinned archive, not missing current files. Several
-packagers need historical discovery outputs that were not retained, and
-some searches use time limits. Therefore **complete discovery regeneration
-is not available from this archive alone**. Do not describe the table as a
-one-command byte-for-byte reproduction recipe. The positive certificate
-bytes are sufficient for the verification instructions above, which do not
-trust the discovery algorithm. Regenerating a different witness selection
-requires checking its mathematical contract and every identity afresh.
+The working recovery and discovery commands are:
+
+```sh
+python -m verification.regeneration recover --programs
+python -m verification.regeneration generate --recipe all
+```
+
+Recovery restores all 24 retained certificate inputs, including the exact
+ordered concatenation of split archives and the union of **completed**
+4+4 reference rows. It checks every resulting hash before writing files.
+`--programs` also restores 29 historical programs, each pinned by SHA-256.
+Generated files go under ignored `.verification/`, never over the proof's
+certificate inputs. A full Git clone containing the archive commit is needed
+for recovery; a shallow checkout is insufficient.
+
+Fresh discovery runs the four Stage 41 recipes and three Stage 42 recipes
+in new isolated directories, then validates each result using the current
+checker, without importing the discovery program. The seven resulting JSON
+payloads reproduce the published witnesses. Gzip container headers may differ
+across platforms; byte identity is reported separately from JSON equality.
+A process failure, timeout or insufficient positive bound returns INCOMPLETE,
+with its complete log retained. It never establishes a mathematical exclusion.
+Use `--recipe NAME` for one of the seven names in [generation.json](generation.json).
+
+The recovered `stage43_fourpair_inventory.py` also regenerates the fixed
+cubic-direction inventory. Its output is not a growth certificate. The
+current quintic-cap checker independently reconstructs all its directions.
+
+Several later packagers need discovery outputs that were not retained, and
+complete later-family discovery programs are absent from all repository
+history. The catalog records these limits per input. Therefore **complete
+proof discovery regeneration remains unavailable**. Archive restoration is
+not fresh discovery; fresh discovery is not certificate verification. The
+positive certificate bytes are sufficient for `verify.py`, which trusts
+neither discovery nor old success reports. The release bundle includes the
+recovered programs for offline execution of the seven complete recipes; see
+[publication instructions](publication.md).
 
 Finite parity evidence is regenerated fully by `python verify.py`; saved
 references supplement that fresh enumeration. `verification/seal.py`

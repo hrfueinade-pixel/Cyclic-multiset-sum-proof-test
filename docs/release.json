@@ -1,0 +1,8 @@
+{
+  "format": 1,
+  "version": "v0.1.0-review.1",
+  "name": "Eight-point cyclic minimum: review edition 1",
+  "prerelease": true,
+  "status": "Computer-assisted proof proposal; no independent external human review or proof-assistant certification.",
+  "notes": "Single typeset manuscript, source and certificates, full verification evidence, and seven reproducible positive-certificate discovery recipes. Later discovery gaps are documented in docs/generation.json."
+}

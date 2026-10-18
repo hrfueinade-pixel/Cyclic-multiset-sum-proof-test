@@ -22,12 +22,13 @@ and all source certificate bytes were preserved. Work is on the separate
 | [Pre-hardening full run](../review/pre-hardening.json.gz) | Personally completed all 150 orders again, exit 0, 1167.30 seconds. This predates the final integer-input guards and is not substituted for the submitted-source run. |
 | [Interrupted runs](../review/editorial-interruption.json.gz) | Two early runs were explicitly stopped for final editorial corrections; exit 143, INCOMPLETE. Their captured logs are retained and supply no exclusion. |
 | [First reviewed-source run](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/6fe9c8c43dae4ec8a45974bf1e41f023c9b89847/review/release.json.gz) | Personally completed all 150 orders, exit 0, 1,108.15 seconds; retained at the first review commit before the equation-layout pass. |
-| [Submitted-source bundle](../review/release.json.gz) | Fresh full run against the submitted source manifest. Contains its exact outcome, console, all checker logs/reports and 150 per-order records. The recorded exit status and completion counts are authoritative. |
+| [Reviewed-proof bundle](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/7df544e588cc375eb10650a466d582a19d6b2f67/review/release.json.gz) | Fresh full run at the equation-layout review commit, before publication tooling was added. Contains its exact outcome, console, all checker logs/reports and 150 per-order records. The recorded exit status and completion counts are authoritative. |
 
 Bundles retain complete output, not excerpts. Their source manifest digest
-binds evidence to the corresponding files. The release manifest and release
-evidence are submitted together; evidence is outside its own source hash
-inventory. See [verification instructions](verification.md). Negative
+binds evidence to the corresponding files. Each historical bundle belongs to
+its pinned source tree; current review-release evidence is built and packaged
+from the release commit. Evidence is outside its own source hash inventory.
+See [verification instructions](verification.md). Negative
 controls deliberately produce incomplete records and reject altered
 certificates; those are tests, not mathematical exclusions. No unsuccessful
 search or historical timeout is used as a proof premise.
@@ -118,6 +119,17 @@ errors. The recorded metrics and commands are retained as
 The earlier optional renderer installation was blocked by an approval-review
 usage-limit error. The subsequent environment supplied the browser and Pandoc,
 so that earlier limitation no longer prevents a rendered local preview.
+
+## Publication and regeneration
+
+The [publication guide](publication.md) builds one PDF directly from the
+maintained proof, with a contents page and internal lemma links. The versioned
+review package pins its commit, source manifest, certificates, PDF and fresh
+verification evidence. The seven early positive-certificate recipes now run
+from hash-checked historical programs and are independently validated. All
+24 historical certificate inputs and 29 programs can be recovered; missing
+later discovery chains remain explicit in [the catalog](generation.json).
+The original proof-review evidence remains available at its pinned commits.
 
 ## Limits and further simplification
 

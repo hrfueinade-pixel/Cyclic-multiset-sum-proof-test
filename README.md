@@ -17,6 +17,11 @@ Start with the [proof](PROOF.md). It defines the problem, explains the
 counting argument, and identifies each finite lemma. The supporting chapters
 contain the detailed reductions and the interpretation of the certificates.
 
+The [versioned review release](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/releases/tag/v0.1.0-review.1)
+provides a [typeset PDF](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/releases/download/v0.1.0-review.1/cyclic-multiset-sums-proof.pdf)
+and a source/certificate bundle with complete verification evidence.
+See [publication instructions](docs/publication.md) to build these locally.
+
 | Read or do | Location |
 | --- | --- |
 | Understand the complete argument | [Proof and notation](PROOF.md) |
@@ -27,6 +32,7 @@ contain the detailed reductions and the interpretation of the certificates.
 | Follow the remaining triangle cases | [Alignment](proof/alignment.md) |
 | Check the final contradiction and equality | [Closing argument](proof/closing.md) |
 | Run or inspect the computations | [Verification guide](docs/verification.md) |
+| Build the PDF or inspect a release | [Publication guide](docs/publication.md) |
 | Review the audit, corrections, and evidence | [Review record](docs/review-status.md) |
 | Understand certificate logic and coverage | [Certificate contracts](docs/certificates.md) |
 | Compare the contribution with existing work | [References](docs/references.md) |
