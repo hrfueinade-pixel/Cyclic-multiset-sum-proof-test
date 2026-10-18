@@ -8,6 +8,14 @@ forced by equality of that pair. Only declared unit factors are canceled.
 import gzip
 import itertools
 import json
+from pathlib import Path
+
+CONTRACTS = {
+    "hub-quartic.json.gz": ("hub22", 4, [2], 90),
+    "four-ordinary-quartic.json.gz": ("fourO", 4, [2], 87),
+    "four-ordinary-quintic.json.gz": ("fourO", 5, [2, 3], 156),
+    "pure-hub-quartic.json.gz": ("purehub", 4, [2], 89),
+}
 
 
 def coordinates(word, model):
@@ -49,9 +57,15 @@ def check_pair(left, right, rival, units, model):
 def check_file(path):
     with gzip.open(path, "rt", encoding="utf-8") as f:
         data = json.load(f)
-    assert data["units"] in ([2], [2, 3])
+    expected_model, degree, units, minimum = CONTRACTS[Path(path).name]
+    assert (data["model"], data["degree"], data["units"]) == (
+        expected_model,
+        degree,
+        units,
+    )
     model = data["model"]
     selected = [decode(w, data["degree"]) for w in data["words"]]
+    assert len(selected) >= minimum
     assert all((max(w) >= 2 for w in selected))
     assert len(set(selected)) == len(selected)
     assert len({coordinates(w, model) for w in selected}) == len(selected)

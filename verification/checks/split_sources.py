@@ -37,6 +37,7 @@ def dot(a, b):
 
 
 def determinant(a):
+    assert all(type(x) is int for row in a for x in row), "Matrix must be integral"
     n = len(a)
     total = 0
     for p in permutations(range(n)):
@@ -59,7 +60,9 @@ def source_rows(tail, center=5):
 
 
 def check_parameterization(rows, parameter):
+    assert all(type(x) is int for row in rows for x in row)
     M = parameter["rows"]
+    assert all(type(x) is int for row in M for x in row)
     free = parameter["free_labels"]
     pivots = parameter["pivots"]
     scale = parameter["scale"]
@@ -117,6 +120,8 @@ def reduction(M, case):
 
 def direct_identity(rows, target, identity):
     global DIRECT_IDENTITIES
+    assert all(type(x) is int for row in rows for x in row)
+    assert all(type(x) is int for x in target)
     factor = identity["factor"]
     combo = identity["multipliers"]
     assert (
@@ -145,12 +150,14 @@ def check_exclusion(rows, certificate):
             and sum(a) == sum(b) == degree
             and (degree in (2, 3, 4))
         )
+        assert all(type(x) is int for x in a + b)
         assert set(a) <= {0, 1} and min(b) >= 0 and (a != b)
         target = sub(a, b)
     elif kind == "mass_eight_rival":
         rival = tuple(certificate["word"])
         assert (
             len(rival) == 8
+            and all(type(x) is int for x in rival)
             and min(rival) >= 0
             and (sum(rival) == 8)
             and (rival != (1,) * 8)

@@ -49,3 +49,76 @@ duplicate, missing, and changed-code enumeration records fail.
 Human review should establish the reductions, completeness of the symbolic
 models, and interpretation of every leaf. The checked counts are controls
 against accidental truncation. They do not replace those arguments.
+
+## Independent controls and evidence
+
+The full command also runs `python -m verification.independent` and the
+small exhaustive oracles in `tests/test_mathematics.py`. See the
+[certificate contracts](certificates.md) for their scope and shared-code
+boundaries. Six- and seven-point examples test general protection and pair
+lifts; they do not rerun the eight-point proof at another n or prove minima
+60 and 124.
+
+The [review record](review-status.md) links complete baseline and release
+logs, reports, and all per-order records. Evidence is JSON compressed with
+gzip in `review/`; extract it with Python's `gzip` and `json` modules. Each
+bundle records its command, exit code, Python version, and the digest of
+`certificates/manifest.json`. The release bundle and source manifest belong
+to the same submitted tree. Evidence is outside the manifest's source
+inventory to avoid a self-referential hash; its recorded source digest must
+match the checkout. The source certificates have not been changed.
+
+A process timeout now retains its partial stdout/stderr log. It is always
+`INCOMPLETE`, including when some earlier obligations passed. Prior CI
+results are separately identified and do not replace a personal fresh run.
+
+## Regeneration and the historical archive
+
+The original research material is preserved in this repository's Git
+history at
+[`83892af4a9fa3aea516eb17af01bbb8b9c8467ba`](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/tree/83892af4a9fa3aea516eb17af01bbb8b9c8467ba).
+Inspect it in a separate checkout:
+
+```sh
+git worktree add --detach ../cyclic-research 83892af4a9fa3aea516eb17af01bbb8b9c8467ba
+```
+
+The [source map](source-map.json) gives the exact original certificate names
+and concatenation order. For example, concatenate `stage60` numbered parts
+in increasing order to reconstruct `large-forests.json.gz`; the resulting
+bytes must match the source map's SHA-256. A hash is an integrity check,
+not certificate verification.
+
+| Published family | Exact historical generator/packager references |
+| --- | --- |
+| Initial multiplicity | [stage41_saturated_fiber_closure.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage41_saturated_fiber_closure.py), [stage41_pack_certificates.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage41_pack_certificates.py) |
+| Cubic exception and four-pair/chain growth | [stage42_symbolic_probe.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage42_symbolic_probe.py) (`--model`, `--degree`, `--target`) |
+| Quintic cap | [stage43_fourpair_inventory.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage43_fourpair_inventory.py), [stage43_joint_relations.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage43_joint_relations.py), [stage43_relation_growth.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage43_relation_growth.py), [stage43_pack_certificates.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage43_pack_certificates.py) |
+| Base assignment | [stage53_connected_split_probe.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage53_connected_split_probe.py), [stage53_certificate_pack.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage53_certificate_pack.py) |
+| Source fibers | [stage54_source_triple_probe.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage54_source_triple_probe.py), [stage54_source_path_cubic_inventory.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage54_source_path_cubic_inventory.py), [stage54_source_path_second_cubic.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage54_source_path_second_cubic.py), [stage54_certificate_pack.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage54_certificate_pack.py) |
+| General assignment | [stage55_split_exception_probe.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage55_split_exception_probe.py), [stage55_certificate_pack.py](https://github.com/hrfueinade-pixel/Cyclic-multiset-sum-proof-test/blob/83892af4a9fa3aea516eb17af01bbb8b9c8467ba/stage55_certificate_pack.py) |
+| Ownership, triangle splits, forests, interactions, two-triangle closure | Certificate archives and standalone checkers are preserved; complete discovery generators are not present in the pinned archive. |
+
+These names refer to the pinned archive, not missing current files. Several
+packagers need historical discovery outputs that were not retained, and
+some searches use time limits. Therefore **complete discovery regeneration
+is not available from this archive alone**. Do not describe the table as a
+one-command byte-for-byte reproduction recipe. The positive certificate
+bytes are sufficient for the verification instructions above, which do not
+trust the discovery algorithm. Regenerating a different witness selection
+requires checking its mathematical contract and every identity afresh.
+
+Finite parity evidence is regenerated fully by `python verify.py`; saved
+references supplement that fresh enumeration. `verification/seal.py`
+regenerates only integrity metadata after intentional edits, never missing
+mathematical evidence.
+
+To export a complete captured run, retain its console and use the exact exit
+code (including a nonzero code for an incomplete run):
+
+```sh
+python -m verification.evidence --console /path/to/console.log --exit-code 0 --output review/release.json.gz
+```
+
+The exporter checks the run's manifest digest before attaching its artifacts.
+It does not turn an incomplete run into a success.

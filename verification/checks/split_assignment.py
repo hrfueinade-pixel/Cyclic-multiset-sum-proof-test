@@ -17,6 +17,7 @@ import split_sources as arithmetic
 HERE = Path(__file__).parent
 REPLACEMENTS = 0
 NEW_CASES = 0
+REPLACEMENT_ROWS = []
 
 
 def read(name):
@@ -35,6 +36,7 @@ def verify_parameter(r):
     rows = r["rows"]
     unit = r["unit"]
     M = unit["rows"]
+    assert all(type(x) is int for row in M for x in row)
     free = unit["free_labels"]
     piv = unit["pivots"]
     selected = unit["selected_rows"]
@@ -231,6 +233,21 @@ def main():
             verify_new(triangles[tkey], rows, models)
         else:
             raise AssertionError("Uncovered former cap-two inference")
+        identifier = f"A-{key[0]}-{key[1]:04d}"
+        if closure is not None:
+            identifier += "-" + "".join(map(str, closure))
+        REPLACEMENT_ROWS.append(
+            {
+                "id": identifier,
+                "former_shape": {
+                    (3, 1, 1, 1): "star",
+                    (2, 2, 1, 1): "path",
+                    (2, 2, 2): "triangle",
+                }[signature],
+                "certificate_key": list(key),
+                "first_closure": list(closure) if closure is not None else None,
+            }
+        )
         REPLACEMENTS += 1
 
     fibers_l, roots_l = old.presentations((0, 2))
@@ -364,6 +381,7 @@ def main():
         and (stars == 8)
         and (REPLACEMENTS == 56)
     )
+    assert len({r["id"] for r in REPLACEMENT_ROWS}) == 56
     old.check_closed(prior["closed_split"])
     result = {
         "complete": True,
@@ -372,6 +390,7 @@ def main():
         "cubic_pairs_closed": 15,
         "former_cap_two_inferences_replaced": REPLACEMENTS,
         "cubic_star_replacements": stars,
+        "replacement_audit": sorted(REPLACEMENT_ROWS, key=lambda r: r["id"]),
         "new_positive_cases_checked": NEW_CASES,
         "new_quartic_pair_identities": arithmetic.PAIR_IDENTITIES,
         "new_integer_identities": arithmetic.DIRECT_IDENTITIES,

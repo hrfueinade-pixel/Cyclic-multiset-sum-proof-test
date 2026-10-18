@@ -112,11 +112,17 @@ def closure_row(c):
 
 
 def ordinary(w, degree):
-    return len(w) == 8 and sorted((v for v in w if v)) == [1] * (degree - 2) + [2]
+    return (
+        len(w) == 8
+        and all(type(v) is int for v in w)
+        and sorted((v for v in w if v)) == [1] * (degree - 2) + [2]
+    )
 
 
 def identity(rows, target, witness):
     global IDENTITIES
+    assert all(type(x) is int for row in rows for x in row)
+    assert all(type(x) is int for x in target)
     factor = witness["factor"]
     multipliers = witness["multipliers"]
     assert isinstance(factor, int) and factor > 0 and (factor & factor - 1 == 0)
@@ -149,12 +155,14 @@ def check_witness(rows, opened, w):
         degree = w["degree"]
         assert len(sf) == len(other) == 8 and degree in (2, 3, 4)
         assert set(sf) <= set((0, 1)) and sum(sf) == sum(other) == degree
+        assert all(type(x) is int for x in sf + other)
         assert min(other) >= 0 and sf != other
         target = subtract(sf, other)
     elif kind == "mass_eight_rival":
         rival = tuple(w["word"])
         assert (
             len(rival) == 8
+            and all(type(x) is int for x in rival)
             and min(rival) >= 0
             and (sum(rival) == 8)
             and (rival != (1,) * 8)
@@ -208,7 +216,14 @@ def check_closed(data):
     words = [tuple(w) for w in data["words"]]
     assert len(words) == len(set(words)) == 116
     assert all(
-        (len(w) == 8 and min(w) >= 0 and (sum(w) == 4) and (max(w) > 1) for w in words)
+        (
+            len(w) == 8
+            and all(type(x) is int for x in w)
+            and min(w) >= 0
+            and (sum(w) == 4)
+            and (max(w) > 1)
+            for w in words
+        )
     )
     values = [val(w) for w in words]
     assert len(set(values)) == 116
@@ -222,6 +237,7 @@ def check_closed(data):
         mult = r["multiplier"]
         assert (
             len(rival) == 8
+            and all(type(x) is int for x in rival)
             and min(rival) >= 0
             and (sum(rival) == 8)
             and (rival != (1,) * 8)

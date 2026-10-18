@@ -27,6 +27,9 @@ contain the detailed reductions and the interpretation of the certificates.
 | Follow the remaining triangle cases | [Alignment](proof/alignment.md) |
 | Check the final contradiction and equality | [Closing argument](proof/closing.md) |
 | Run or inspect the computations | [Verification guide](docs/verification.md) |
+| Review the audit, corrections, and evidence | [Review record](docs/review-status.md) |
+| Understand certificate logic and coverage | [Certificate contracts](docs/certificates.md) |
+| Compare the contribution with existing work | [References](docs/references.md) |
 | Trace the retained research material | [Provenance](docs/provenance.md) |
 
 ## Verify

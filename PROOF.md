@@ -14,12 +14,16 @@ are $m_i=1$ for all $i$. Equality in a cyclic group is always modulo its
 order. The theorem is that a valid set requires $N\ge248$, and that
 $\lbrace 0,1,3,7,15,31,63,127\rbrace$ is valid at order 248.
 
+This is the proposed arbitrary-set lower bound, extending the fixed-binary
+construction result of [Fonollosa](docs/references.md). It has not received
+independent external mathematical review or proof-assistant certification.
+
 The argument below is a proof with finite computational lemmas. Each such
 lemma is identified at its point of use. Its mathematical reduction is in a
 supporting chapter, and its exact input files are listed in the
 [dependency ledger](certificates/dependencies.json).
 
-## Words, protection, and packing
+## Lemma 1. Protection and invariance (elementary)
 
 A **word** is a nonnegative integer count vector; its degree is the sum of
 its counts. It is **squarefree** if every count is zero or one. A word that
@@ -29,9 +33,12 @@ different word of the same degree: append its squarefree complement to get
 a rival. In particular, every subset of a valid set is valid for its own
 degree. Translation and multiplication by a unit preserve validity.
 
-Write $dA$ for all degree d values, $Q_d$ for the squarefree
-values, and $T_d$ for the repeated values. We use $T_d$ for their
-**number** in scalar formulas. Protection makes the two parts disjoint.
+## Lemma 2. Complementary packing (elementary)
+
+Assume validity. Write $dA$ for degree-$d$ values, $Q_d$ for the
+squarefree values, and $\mathcal T_d$ for the values of words with a repeated
+label. Set $T_d=|\mathcal T_d|$. Protection makes $Q_d$ and $\mathcal T_d$
+disjoint. No multiplicity cap is used in this lemma.
 For eight points, $|Q_3|=|Q_5|=56$ and $|Q_4|=70$.
 Complementation gives
 
@@ -42,7 +49,11 @@ $$
 N\ge56+T_3+T_5.                                      \tag{1}
 $$
 
-For odd $N$, the midpoint $s/2$ is outside $4A$: doubling a
+For odd $N$, independently of multiplicity caps, the 64 repeated cubic words form eight
+translates $2a+A$. Each pair of translates intersects at most once, by
+ordered-difference uniqueness. Thus $T_3\ge64-28=36$.
+
+Also $4A\cap(s-4A)=Q_4$. For odd $N$, the midpoint $s/2$ is outside $4A$: doubling a
 four-term representation would give a rival with all counts even. Hence
 
 $$
@@ -53,7 +64,7 @@ Thus a hypothetical odd counterexample has $T_4\le88$ and
 $T_3+T_5\le191$. These two bounds drive the finite symbolic lemmas;
 none requires searching over all cyclic moduli.
 
-## Even orders
+## Lemmas 3–4. Seven points and even orders (computer-assisted)
 
 The [parity chapter](proof/parity.md) proves the seven-point bound 124 first,
 using a complete six-point enumeration and all its surviving extensions,
@@ -74,7 +85,7 @@ $3+5$, and $4+4$. The baseline leaves exactly $94\le M\le123$.
 The three complete finite exclusions in the parity chapter eliminate them.
 All even orders below 248 are therefore excluded.
 
-## The odd-order ledger
+## Lemmas 5–6. Multiplicity and the weighted count
 
 Assume now that $N<248$ is odd. An **ordinary degree d word** has
 one doubled point, its **center**, and $d-2$ distinct other points, its
@@ -87,10 +98,13 @@ certificates, that total repeated cubic multiplicity and ordinary quartic
 and quintic multiplicity are all at most three. These are statements
 under the present small-order hypothesis.
 
-Let $\Delta$ be the 56 ordered nonzero differences of distinct points.
+Let $\Delta$ be the set of nonzero differences of distinct points. It has
+56 elements: an equality of two ordered differences either contradicts
+squarefree pair protection or reverses an antipodal pair; odd order excludes
+the latter.
 An unordered center edge $\lbrace u,v\rbrace$ is **open** when
 $2(u-v)\notin\Delta$. Let $h$ count these edges. Put
-$R_3=\sum_y\binom{m_y-1}{2}$, where $m_y$ is the number of the
+$R_3=\sum_{y:m_y\ge1}\binom{m_y-1}{2}$, where $m_y$ is the number of the
 64 repeated cubic words at $y$. Pair uniqueness gives
 
 $$
@@ -100,6 +114,12 @@ $$
 The three-tail-edge graph of a quartic triple, or the three-omitted-edge
 graph of a quintic triple, has one of four types: triangle, star, path,
 or split (a two-edge path and a disjoint edge).
+
+For a quartic triangle written
+$2x+b+c=2y+a+c=2z+a+b$, its **paired edges** are
+$\{x,a\},\{y,b\},\{z,c\}$. These are six distinct labels, with common
+alignment $2x-a=2y-b=2z-c$. The paired edges differ from pairs of its
+ordinary word centers.
 
 | Symbol | Count |
 | --- | --- |
@@ -122,7 +142,7 @@ quartic budget $T_4\le88$, and coverage of 36 protected midpoint
 values. Path contributions cancel. The common-tail correspondence for
 quintic paths is stated explicitly to correct the historical error.
 
-## Assigning splits to open edges
+## Lemmas 7–9. Sources, assignment, and ownership
 
 Each genuine split has two recoverable quartic sources. The
 [assignment chapter](proof/assignment.md) proves that both are counted
@@ -132,7 +152,7 @@ complete finite local configurations with an elementary argument on paths
 and cycles in an auxiliary graph. The general version replaces every
 inference that had previously assumed ordinary quartic cap two.
 
-The [triangle ownership lemma](proof/alignment.md#triangle-edge-ownership)
+The [triangle ownership lemma](proof/alignment.md#lemma-9-triangle-edge-ownership-computer-assisted)
 excludes paired triangle edges from the source assignment. Thus
 
 $$
@@ -148,7 +168,7 @@ $$
 If $t=0$, its right side is at least 496. Every remaining hypothetical
 counterexample must therefore contain a quartic triangle.
 
-## Reducing the triangle cases
+## Lemmas 11–16. Alignment exclusions
 
 The edges of a triangle have common alignment $\tau=2x-a$. Translate
 all labels by $-\tau$, with no division. Its three disjoint edges then
@@ -172,10 +192,10 @@ The supporting source-count, low-collision, and one-split lemmas used in
 those certificates are included in that chapter. Consequently $t=1$,
 and only the first two forests remain.
 
-## Final contradiction
+## Lemma 10 and the final contradiction
 
-Here is why a terminal paired edge stays open even if other relations
-are added. In a set containing three disjoint doubling pairs, there is
+Lemma 10, proved independently of the forest exclusions, says that a terminal
+paired edge stays open even if other relations are added. In a set containing three disjoint doubling pairs, there is
 no equality $x+y=z$ with distinct physical labels $x,y$. Choose a
 doubling pair $b,2b$ disjoint from them. Replace
 $x,y,b,2b$ by $z,b,b,b$ in the original word. This gives a rival,
@@ -209,7 +229,6 @@ upward. The four minima are 8, 9, 11, 12.
 Only 255 can use eight coins, and its unique minimal representation uses
 every denomination once. This proves the stated equality example.
 
-The [closing chapter](proof/closing.md) records the same elementary finish
-in detail. The verifier also checks all 6,435 degree-eight words of the
+The [closing chapter](proof/closing.md) assembles the hypotheses and final substitution. The verifier also checks all 6,435 degree-eight words of the
 equality example as a consistency control. This direct check supplements
 the coin proof.

@@ -54,6 +54,11 @@ def check_file(path):
     with gzip.open(path, "rt", encoding="utf-8") as stream:
         data = json.load(stream)
     assert data["units"] == [2]
+    assert (data["model"], data["degree"]) == {
+        "cap-cubic-exception-quartic.json.gz": ("exception3", 4),
+        "cap-four-pairs-quintic.json.gz": ("doubling4", 5),
+        "cap-single-chain-quintic.json.gz": ("pairchain", 5),
+    }[path.name]
     assert data["torsion_order"] == (3 if data["model"] == "exception3" else 1)
     selected = [decode(word, data["degree"]) for word in data["words"]]
     assert all((max(word) >= 2 for word in selected))

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "theorem": "finish",
-  "scope": "Reading and computation dependencies. The ledger does not prove its hand claims.",
+  "scope": "Mathematical dependencies and active finite contracts. Hand implications require mathematical review; file coverage is checked separately.",
   "claims": [
     {
       "id": "protection",
@@ -10,7 +10,7 @@
       "exposition": "PROOF.md",
       "checks": [],
       "inputs": [],
-      "scope": ""
+      "scope": "Lemma 1: valid n-set, all protected squarefree degrees; heredity, translation and unit invariance."
     },
     {
       "id": "packing",
@@ -21,7 +21,18 @@
       "exposition": "PROOF.md",
       "checks": [],
       "inputs": [],
-      "scope": ""
+      "scope": "Lemma 2: N>=56+T3+T5; oddness additionally gives N>=71+2T4. No multiplicity caps needed."
+    },
+    {
+      "id": "cubic-pair-count",
+      "kind": "hand",
+      "depends_on": [
+        "protection"
+      ],
+      "exposition": "proof/counting.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "Odd eight-set: 64 marks, at most 28 pair collisions, T3>=36 and the exact open-edge formula. No cap premise."
     },
     {
       "id": "seven-points",
@@ -53,7 +64,7 @@
       "exposition": "proof/parity.md",
       "checks": [],
       "inputs": [],
-      "scope": ""
+      "scope": "Lemma 4, preliminary hand bound: N>=187, using the independent seven-point lemma first."
     },
     {
       "id": "even-orders",
@@ -78,7 +89,8 @@
       "id": "multiplicity",
       "kind": "finite",
       "depends_on": [
-        "packing"
+        "packing",
+        "cubic-pair-count"
       ],
       "exposition": "proof/multiplicity.md",
       "checks": [
@@ -98,7 +110,7 @@
         "certificates/multiplicity/pure-hub-quartic.json.gz",
         "certificates/multiplicity/quintic-cap.json.gz"
       ],
-      "scope": ""
+      "scope": "Lemma 5: total cubic cap three and ordinary quartic/quintic cap three under odd N<248. FourO cancels three only after N is restricted to 245 or 247."
     },
     {
       "id": "weighted-count",
@@ -110,33 +122,85 @@
       "exposition": "proof/counting.md",
       "checks": [],
       "inputs": [],
-      "scope": ""
+      "scope": "Lemma 6: 36 distinct protected midpoints; recoverable pair and triple lifts, with mixed-only fibers. Derives every coefficient of 2N>=496+2(h+R3+c)-5t+5w-4q+E."
+    },
+    {
+      "id": "split-incidence",
+      "kind": "hand",
+      "depends_on": [
+        "weighted-count"
+      ],
+      "exposition": "proof/assignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "Recoverable split descent gives q<=4P3ordinary and 3t<=4P3ordinary. The weighted count forces at least six TOTAL cubic collision pairs; no E or assignment premise."
+    },
+    {
+      "id": "split-source-fibers",
+      "kind": "finite",
+      "depends_on": [
+        "split-incidence",
+        "multiplicity"
+      ],
+      "exposition": "proof/assignment.md",
+      "checks": [
+        "split_sources.py"
+      ],
+      "inputs": [
+        "certificates/assignment/split-sources.json.gz"
+      ],
+      "scope": "Lemma 7: private-center reduction, all ten third-tail cases, surjective source-path model, 901 first and 4339 second TOTAL cubic directions, with odd torsion retained."
+    },
+    {
+      "id": "split-source-injection",
+      "kind": "hand",
+      "depends_on": [
+        "split-source-fibers"
+      ],
+      "exposition": "proof/assignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "Two recoverable sources per genuine split; one pair cannot serve both unused-label lifts. Exactly-two-ordinary fibers make pairs inject into E outputs, so E>=2q."
+    },
+    {
+      "id": "cubic-triple-splits",
+      "kind": "finite",
+      "depends_on": [
+        "split-source-fibers"
+      ],
+      "exposition": "proof/assignment.md",
+      "checks": [
+        "split_assignment.py"
+      ],
+      "inputs": [
+        "certificates/assignment/general-assignment.json.gz"
+      ],
+      "scope": "All 36 candidate fibers and 15 residual pairs prove that an ordinary cubic triple supports at most one genuine split. This supplies eight star replacements."
     },
     {
       "id": "assignment",
       "kind": "finite",
       "depends_on": [
-        "weighted-count"
+        "split-source-injection",
+        "cubic-triple-splits"
       ],
       "exposition": "proof/assignment.md",
       "checks": [
         "assignment_base.py",
-        "split_sources.py",
         "split_assignment.py"
       ],
       "inputs": [
         "certificates/assignment/base-coverage.json.gz",
-        "certificates/assignment/general-assignment.json.gz",
-        "certificates/assignment/split-sources.json.gz"
+        "certificates/assignment/general-assignment.json.gz"
       ],
-      "scope": "Base cap-two leaves are replaced by the general cap-three assignment; source forcing needs at least six cubic pairs."
+      "scope": "Lemma 8: all 56 cap-two triggers replaced under cap three. Distinct split outputs form a simple auxiliary graph with maximum degree two, at most one mark per path, and no marked cycles. Its componentwise injection proves q<=h."
     },
     {
       "id": "triangle-ownership",
       "kind": "finite",
       "depends_on": [
         "assignment",
-        "cycles"
+        "packing"
       ],
       "exposition": "proof/alignment.md",
       "checks": [
@@ -145,7 +209,18 @@
       "inputs": [
         "certificates/triangles/edge-ownership.json.gz"
       ],
-      "scope": ""
+      "scope": "Lemma 9: all 720 source presentations on a paired triangle edge are excluded unconditionally; count the SET of unused open vertices once to prove q<=h-o."
+    },
+    {
+      "id": "terminal-edges",
+      "kind": "hand",
+      "depends_on": [
+        "protection"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "Lemma 10: in any valid odd eight-set with a triangle, distinct physical labels cannot satisfy x+y=z after alignment normalization. A paired edge is open iff terminal, under arbitrary refinements."
     },
     {
       "id": "cycles",
@@ -156,7 +231,21 @@
       "exposition": "proof/alignment.md",
       "checks": [],
       "inputs": [],
-      "scope": ""
+      "scope": "Lemma 11: graded block saturation and explicit rivals exclude cycles >=3; a triangle-bearing class has no two-cycle and matching number exactly three. Enumerate the nine forests."
+    },
+    {
+      "id": "nine-ordinary-pairs",
+      "kind": "hand",
+      "depends_on": [
+        "triangle-ownership",
+        "cycles",
+        "terminal-edges",
+        "weighted-count"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "Lemma 12: incidence and N>=260-P+J+R3+2c+2w-2t+2o exclude P<=8, allowing all pure refinements. Forces additional ORDINARY equalities in finite proof graphs."
     },
     {
       "id": "triangle-splits",
@@ -172,13 +261,29 @@
       "inputs": [
         "certificates/triangles/one-split-per-triangle.json.gz"
       ],
-      "scope": ""
+      "scope": "Lemma 13: every triangle descent has 12 presentations; ten are excluded and all 15 pairs of the six residual presentations are incompatible. At most one split per triangle."
+    },
+    {
+      "id": "forest-compression",
+      "kind": "hand",
+      "depends_on": [
+        "triangle-splits",
+        "cycles",
+        "assignment",
+        "weighted-count"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "A cubic pair feeds at most two triangles. q<=4(P-|D|)+t. All nine ordinary-collision-exhausted forests have N>=248, forcing a new ordinary equality in each root family."
     },
     {
       "id": "large-forests",
       "kind": "finite",
       "depends_on": [
-        "triangle-splits"
+        "forest-compression",
+        "nine-ordinary-pairs",
+        "split-source-fibers"
       ],
       "exposition": "proof/alignment.md",
       "checks": [
@@ -193,7 +298,8 @@
       "id": "interactions",
       "kind": "finite",
       "depends_on": [
-        "large-forests"
+        "large-forests",
+        "nine-ordinary-pairs"
       ],
       "exposition": "proof/alignment.md",
       "checks": [
@@ -205,10 +311,39 @@
       "scope": "All 3360 second-triangle presentations, including same-alignment rejection."
     },
     {
+      "id": "shared-triangle-split",
+      "kind": "hand",
+      "depends_on": [
+        "triangle-splits",
+        "cycles"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "A split descent in two triangles would require the same added-label pair to be both distinct third edges; the only ambiguity is a forbidden two-cycle. Supplies the single split-guard leaf."
+    },
+    {
+      "id": "persistent-credits",
+      "kind": "hand",
+      "depends_on": [
+        "weighted-count",
+        "assignment",
+        "multiplicity",
+        "interactions"
+      ],
+      "exposition": "proof/alignment.md",
+      "checks": [],
+      "inputs": [],
+      "scope": "Formal cubic excess cannot decrease; ordinary cubic triples and quartic split triples persist by cap three. Actual t<=2. Five unconditional leaves have R0=c0=w0=1 and 11>10. No no-new-ordinary premise."
+    },
+    {
       "id": "two-triangle-class",
       "kind": "finite",
       "depends_on": [
-        "interactions"
+        "interactions",
+        "nine-ordinary-pairs",
+        "persistent-credits",
+        "shared-triangle-split"
       ],
       "exposition": "proof/alignment.md",
       "checks": [
@@ -217,7 +352,7 @@
       "inputs": [
         "certificates/triangles/two-triangle-class.json.gz"
       ],
-      "scope": "Only shape 3221: 13333 nodes and all refinements required by the proof graph."
+      "scope": "Lemma 16: all 13333 nodes, 21761 directions and 31 P<=8 forcing nodes. Every forcing node has complete new-private-ordinary coverage. All 2029 separation leaves have degree four and >=89 words; no conditional quintic-credit leaf is accepted."
     },
     {
       "id": "finish",
@@ -226,7 +361,8 @@
         "even-orders",
         "two-triangle-class",
         "weighted-count",
-        "triangle-ownership"
+        "triangle-ownership",
+        "terminal-edges"
       ],
       "exposition": "proof/closing.md",
       "checks": [

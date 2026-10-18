@@ -139,7 +139,12 @@ def parity_fingerprint(case: str, root: Path = ROOT) -> str:
     hasher = hashlib.sha256()
     # Formatting and prose do not invalidate a completed enumeration; changes
     # to the algorithm or worker do. Coverage is checked afresh by the parent.
-    for path in (module, root / "verification/worker.py"):
+    for path in (
+        module,
+        root / "verification/worker.py",
+        root / "verification/parity.py",
+        root / "verification/core.py",
+    ):
         tree = ast.parse(path.read_text(encoding="utf-8"))
         hasher.update(ast.dump(tree, include_attributes=False).encode())
     return hasher.hexdigest()

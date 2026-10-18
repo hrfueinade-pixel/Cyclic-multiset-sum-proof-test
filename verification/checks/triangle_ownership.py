@@ -40,6 +40,7 @@ def mul(a, b):
 
 
 def determinant(a):
+    assert all(type(x) is int for row in a for x in row), "Matrix must be integral"
     n = len(a)
     a = [list(r) for r in a]
     sign = 1
@@ -74,6 +75,7 @@ def reduction(K, r):
     V = r["right"]
     D = r["D"]
     rank = r["rank"]
+    assert all(type(x) is int for matrix in (K, L, V, D) for row in matrix for x in row)
     assert all((len(row) == 5 for row in K))
     assert len(L) == m and all((len(row) == m for row in L))
     assert len(V) == 5 and all((len(row) == 5 for row in V))

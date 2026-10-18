@@ -53,16 +53,30 @@ def invoke(
     env = os.environ.copy()
     env["PYTHONDONTWRITEBYTECODE"] = "1"
     env.pop("PYTHONOPTIMIZE", None)
+    log = ROOT / ".verification/logs" / (name.replace(" ", "-") + ".log")
+    log.parent.mkdir(parents=True, exist_ok=True)
     try:
         result = subprocess.run(
             command, cwd=cwd, env=env, capture_output=True, text=True, timeout=timeout
         )
     except subprocess.TimeoutExpired as error:
+
+        def decoded(value):
+            return (
+                value.decode("utf-8", errors="replace")
+                if isinstance(value, bytes)
+                else value or ""
+            )
+
+        log.write_text(
+            decoded(error.stdout)
+            + decoded(error.stderr)
+            + "\nPROCESS_TIMEOUT: verification is incomplete\n",
+            encoding="utf-8",
+        )
         raise VerificationError(
             name + " exceeded its process limit; verification is incomplete"
         ) from error
-    log = ROOT / ".verification/logs" / (name.replace(" ", "-") + ".log")
-    log.parent.mkdir(parents=True, exist_ok=True)
     log.write_text(result.stdout + result.stderr, encoding="utf-8")
     require(
         result.returncode == 0,
@@ -262,6 +276,7 @@ def main(argv: list[str] | None = None) -> int:
     summary = {"scope": options.only or "full", "status": "INCOMPLETE"}
     try:
         initial_manifest = digest(ROOT / "certificates/manifest.json")
+        summary["manifest_sha256"] = initial_manifest
         summary["integrity"] = check_integrity()
         from verification.core import check_dependencies
 
@@ -284,6 +299,15 @@ def main(argv: list[str] | None = None) -> int:
             )
             summary["finishing"] = read_json(work / "finishing-report.json")
         if options.only is None:
+            print("Checking independent coverage controls...", flush=True)
+            invoke(
+                [sys.executable, "-B", "-m", "verification.independent"],
+                ROOT,
+                "independent coverage",
+            )
+            summary["independent"] = read_json(
+                ROOT / ".verification/independent-report.json"
+            )
             print("Checking failure controls and release privacy...", flush=True)
             invoke(
                 [

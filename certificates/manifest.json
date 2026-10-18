@@ -18,6 +18,16 @@
       "sha256": "3f211e09432a25e581681567f40be04aeabcc969bc42d959a143eac53fb3f112"
     },
     {
+      "path": "PROOF.md",
+      "bytes": 10263,
+      "sha256": "1d00ccf86a8a38064a1d0eca2cb7baa73e7ee415e589768ebcfb6fb3c60e54c1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2774,
+      "sha256": "c4c35984f9b5e2897edd4f1bb0d34cc3c87ca3163a2778e64d426886acfa47c9"
+    },
+    {
       "path": "certificates/assignment/base-coverage.json.gz",
       "bytes": 268603,
       "sha256": "0cf8d7ed3f6e515a02161417ec11c11085e8a72130c5c1fbad8b7643ffd1a220"
@@ -34,8 +44,8 @@
     },
     {
       "path": "certificates/dependencies.json",
-      "bytes": 6513,
-      "sha256": "fb80a18aef709a9898bd93912622ffc504e75ca1fced962f87743f7d4d0133c7"
+      "bytes": 12267,
+      "sha256": "e912a19a49d87bcc21b22e0f3c79ae7c085181f89f742af36e36c4bb7eb1b0f1"
     },
     {
       "path": "certificates/multiplicity/cap-cubic-exception-quartic.json.gz",
@@ -143,29 +153,44 @@
       "sha256": "868ddf0fff6d4059039b177c8fa0f237336d6f843966da765e77127a955a0108"
     },
     {
+      "path": "docs/assignment-replacements.md",
+      "bytes": 4426,
+      "sha256": "04debafdfbbb34186ddda0ae0f59484ddb0155d609019d1f8e218051d525f9e2"
+    },
+    {
+      "path": "docs/certificates.md",
+      "bytes": 9208,
+      "sha256": "0282716bd1b879e0df4a9f75851be7533d48e9b91719dec9bfa12c014ca5db93"
+    },
+    {
       "path": "docs/privacy.md",
       "bytes": 997,
       "sha256": "f6d8903d8be62c248ce8ccbf74a20f64464381e83f15b38fdcddc3c7f8f85b7d"
     },
     {
       "path": "docs/provenance.md",
-      "bytes": 2268,
-      "sha256": "5a9e2404094679fad31025dd2e4cdfe8ee51a421bc667a537f772e7b5571eee6"
+      "bytes": 2634,
+      "sha256": "e2e170cb26afb0ea33b565e85fc59773c6603cb3b35d7081e5efebf994841002"
+    },
+    {
+      "path": "docs/references.md",
+      "bytes": 2020,
+      "sha256": "847ee9ed0a2580f201c838cec0d7d62f2bc92964730c7fac73d9670cea53cc19"
     },
     {
       "path": "docs/review-status.md",
-      "bytes": 2048,
-      "sha256": "33c88f3588f1e28d8caadd16a2dbff5a9988a30826eae0b89e1b15d63c164a0f"
+      "bytes": 10318,
+      "sha256": "f1487c0507088de5e705dffba0c145a7545f191c4eaa00ff4071468cf6726d1e"
     },
     {
       "path": "docs/source-map.json",
-      "bytes": 18012,
-      "sha256": "5894582837f81db581b342dcaa20a933744a499e6208c856eecbb3ec587a8a24"
+      "bytes": 18265,
+      "sha256": "cd2270cb8067d6f5d2e095d3aab0252722ce62929bf74359e1ce4fba125f7b3c"
     },
     {
       "path": "docs/verification.md",
-      "bytes": 2733,
-      "sha256": "613dd74c12ddaf26911e07bd802ba157446590eafa920ca7eb0069f9519d974f"
+      "bytes": 9072,
+      "sha256": "46d52f6e8bacb4922190ebbc4275db8c713461905f0e4c816ee5cd1f30edf1f0"
     },
     {
       "path": "privacy_check.py",
@@ -174,43 +199,38 @@
     },
     {
       "path": "proof/alignment.md",
-      "bytes": 44964,
-      "sha256": "97170e9037ad93d76ddeb3cd50cfb620b9573a55b0ccf7f40c46dfa6ec01de99"
+      "bytes": 35850,
+      "sha256": "7bf5f0225b753d86d29092dde5b78b46e3d5f6a47b679d224f0c27d270ae8386"
     },
     {
       "path": "proof/assignment.md",
-      "bytes": 27050,
-      "sha256": "305db51b4398345c2714f1a570d8efaca6d647004dc7f3891112956313c7fac5"
+      "bytes": 24818,
+      "sha256": "f0be4bba174a297ac60363a22cf76ccc4cb824c34eda596b4c6ef0fdca634dcb"
     },
     {
       "path": "proof/closing.md",
-      "bytes": 4824,
-      "sha256": "e4efd497a754450aa6899d95773fb3411308fbb74f1eaebbb045395252ec7156"
+      "bytes": 2662,
+      "sha256": "b6abf6c3391134bbdfa3c4fa0654c6f8f205123a9a7b7105a0ed7489b1a620ff"
     },
     {
       "path": "proof/counting.md",
-      "bytes": 7269,
-      "sha256": "f64740912e8f23f92f59cd67a87d8e19369024d5ade1dab875055f4057a24f83"
+      "bytes": 6368,
+      "sha256": "1911ff9901e3adf6709ce167c3d0bc2c006b22ac4894ff78dc8ce3da472fc397"
     },
     {
       "path": "proof/multiplicity.md",
-      "bytes": 19012,
-      "sha256": "0563c860f9cc11b8e42696156974575fcf4500edd98d9aabd03e04b42d5e1a2a"
+      "bytes": 17607,
+      "sha256": "1591fdd895cfe5bef6d1d17600904aec2afa55dd411237ed85cc1d98174003df"
     },
     {
       "path": "proof/parity.md",
-      "bytes": 21699,
-      "sha256": "6e5ca20cee013baf9aec10addf733808dd6c223f559043a95a5456c89ae84398"
+      "bytes": 22420,
+      "sha256": "2d19d273ae72af10eaf29c409f24a86fa34d6e354b3ef903c23a90b564dfe637"
     },
     {
-      "path": "PROOF.md",
-      "bytes": 9035,
-      "sha256": "e521a99be37bec6bc0db3cdbdfc0ff023c31cbaa1e74e093e72cf79aa24aaccc"
-    },
-    {
-      "path": "README.md",
-      "bytes": 2508,
-      "sha256": "4e86cfb3fc274a6da47d538922011b071dce1550d6521aedf4b15ed09ca67693"
+      "path": "tests/test_mathematics.py",
+      "bytes": 14219,
+      "sha256": "7328cd7964f6aa3399269b4c46925e0407ce4c74a65fd178cb9c16f1548a26cd"
     },
     {
       "path": "tests/test_privacy.py",
@@ -219,8 +239,8 @@
     },
     {
       "path": "tests/test_verification.py",
-      "bytes": 7298,
-      "sha256": "c7fe01a0aa71a713e16b1f22fe2890446bc2636315f9ab388ffeba5f5206446e"
+      "bytes": 7952,
+      "sha256": "0ed5f4d644784c7a14cf110f419bb805bf38233c2cb5bf9ae8b8d71d56d77d90"
     },
     {
       "path": "verification/__init__.py",
@@ -229,8 +249,8 @@
     },
     {
       "path": "verification/checks/alignment_forests.py",
-      "bytes": 15092,
-      "sha256": "b4b841d7dfad3153fd57926cb511448dc120056644114a7e812e62dc87bc47ab"
+      "bytes": 15265,
+      "sha256": "4c7bbd61e4bcf0e5bad3ef46762f0d25525b3a29490e783f07e206943f57f7ad"
     },
     {
       "path": "verification/checks/antipodal_lifts.py",
@@ -239,13 +259,13 @@
     },
     {
       "path": "verification/checks/assignment_base.py",
-      "bytes": 15021,
-      "sha256": "3c155e6648fbf3db38273d95b114c734bfa6fcaf9a387e1432ea5cd7a6404000"
+      "bytes": 15469,
+      "sha256": "0392fe5c0299d86690d883d82fb5756fd8a8fed853c2035c5e4b25550e58b6cb"
     },
     {
       "path": "verification/checks/cubic_exception.py",
-      "bytes": 4377,
-      "sha256": "24915978aafe1cbb49881a79378ffda6fcc27de04d23263ebe6c599291140c9f"
+      "bytes": 4630,
+      "sha256": "4c0b2e47f0ad136cf78d2812133910e1dd0acfa5fb02b8d5a3bb6f8b586c40ae"
     },
     {
       "path": "verification/checks/elementary_identities.py",
@@ -259,28 +279,28 @@
     },
     {
       "path": "verification/checks/multiplicity_models.py",
-      "bytes": 4059,
-      "sha256": "4695fffc9ec603bd70f4151ba54283afeb0d5d400ae8096736983db574e33d53"
+      "bytes": 4522,
+      "sha256": "c0cbe284111fff252730e3ef5d7090af9500c1eaec04626be9618bf3566880ce"
     },
     {
       "path": "verification/checks/parity_four_four.py",
-      "bytes": 7247,
-      "sha256": "e70e26a01b32bdf31cdd997e814835dd0633c9a955cdd9b81b6aba1dabccf27d"
+      "bytes": 6089,
+      "sha256": "8303dbb1f2f692d913fb22f2c481f17d5dca9401134addb38a9ea91b4c337ef6"
     },
     {
       "path": "verification/checks/parity_three_five.py",
-      "bytes": 4714,
-      "sha256": "ccee1c5d1113e44a44ba5e9f1bb0a5bcec0844b457cb780fe12584a068a47e61"
+      "bytes": 4302,
+      "sha256": "0f58fab717a766cd9a7b17f401a62f80359c3898071dfafd7ef26ce4eecca3ef"
     },
     {
       "path": "verification/checks/parity_two_six.py",
-      "bytes": 2998,
-      "sha256": "92e546bf42f70db09f4f505cc3baa78544de8c3dfd94c7ee9002f2f770f56f4c"
+      "bytes": 2363,
+      "sha256": "74a0db8287fde66d20487680697bcc684520e6ece8c80e5bedb071b6e6c8c464"
     },
     {
       "path": "verification/checks/quintic_cap.py",
-      "bytes": 14227,
-      "sha256": "607f785735a0ee8b3050099327268a71e05c63411f7543c8c223c65fbbc427d2"
+      "bytes": 14637,
+      "sha256": "688ebf54f56fec2c9ed4bbe6b783c3cc5ef6ffeace6a7c7f6ca2cb5f49986aab"
     },
     {
       "path": "verification/checks/seven_point_extensions.py",
@@ -289,18 +309,18 @@
     },
     {
       "path": "verification/checks/seven_point_survivors.py",
-      "bytes": 3005,
-      "sha256": "d063ee46f2f512cf81cf48be8d379ff89d3fe67b26feba9c14a8e6ba1e9f0a42"
+      "bytes": 2370,
+      "sha256": "eb8b990b28ffc2fec640a62416ae05f255bf2c20f4e499c9b3ed33c24e9bc933"
     },
     {
       "path": "verification/checks/split_assignment.py",
-      "bytes": 14076,
-      "sha256": "0c522b245997faa707bdbc9b6182c62d87b2c09ea31cec2b24cd3ebe98060995"
+      "bytes": 14853,
+      "sha256": "851c5f629ece1fdac475b75b9efab85ee7767d82e75b1abd8da281d63dec1615"
     },
     {
       "path": "verification/checks/split_sources.py",
-      "bytes": 13723,
-      "sha256": "726c0f65b025b95e9a473f14df9f1bb0f83daa251a028f37dca89cdd7712b6fc"
+      "bytes": 14132,
+      "sha256": "551dd8fe8959b1c20abc8565c85f8685e6cd72ad9518c988ee9375c3b14be851"
     },
     {
       "path": "verification/checks/triangle_interactions.py",
@@ -309,8 +329,8 @@
     },
     {
       "path": "verification/checks/triangle_ownership.py",
-      "bytes": 8657,
-      "sha256": "1d42e63ed713009be5e4a7c9198baa20741ee036e4f44ac2f0adb82d8681448e"
+      "bytes": 8830,
+      "sha256": "ccbac95555f3dc1d8f977a13340f45c390dc9989a4063671adbf1102e8be80c0"
     },
     {
       "path": "verification/checks/triangle_splits.py",
@@ -319,18 +339,33 @@
     },
     {
       "path": "verification/checks/two_triangle_exclusion.py",
-      "bytes": 15768,
-      "sha256": "5b9b58cc1eb95eb429462452ab7e9b87b0a4e9a6d4d1cf58573cb09c33222710"
+      "bytes": 10328,
+      "sha256": "6d44512e59931f0928f04257feb42b3259589e075399e9481361d3cc716fabab"
     },
     {
       "path": "verification/core.py",
-      "bytes": 7081,
-      "sha256": "3067702e862524d761120e24b8fe9786ecb29ee959c70c2939ec6fdefbfa3623"
+      "bytes": 7184,
+      "sha256": "1ccb979eac7d2812f88acc8ab28029b17f482492b266e6e1b888879dd3b25424"
+    },
+    {
+      "path": "verification/evidence.py",
+      "bytes": 2622,
+      "sha256": "b076ec04b8496d69bf836ff008730bc0f3bb56319fdcffc5ca4ac586ce8d54a7"
+    },
+    {
+      "path": "verification/independent.py",
+      "bytes": 6789,
+      "sha256": "3ca38eca34614911a8c89ba3004aa9e6af85276be7320571bd85e1c2b49f2518"
+    },
+    {
+      "path": "verification/parity.py",
+      "bytes": 2720,
+      "sha256": "20468034558e213c6a83b3787e5a5ba9ba374e8614a73a97d2fcf318521f5638"
     },
     {
       "path": "verification/runner.py",
-      "bytes": 12660,
-      "sha256": "3a28d5d32ca19e8852c53ac7b52c2aa3643b10afd3b59a80ebcb42cd82df20e0"
+      "bytes": 13481,
+      "sha256": "ccfe824f9d9eb79784e835fb1bd6de608545598b934cc8954bba1d0362ced121"
     },
     {
       "path": "verification/seal.py",
