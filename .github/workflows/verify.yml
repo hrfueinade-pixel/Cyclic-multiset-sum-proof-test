@@ -103,8 +103,7 @@ jobs:
             echo "Review version already exists; existing releases are never replaced."
             exit 1
           fi
-          existing_tag=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$REVIEW_VERSION" --jq .object.sha 2>/dev/null || true)
-          if test -n "$existing_tag"; then
+          if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$REVIEW_VERSION" >/dev/null 2>&1; then
             tag_commit=$(gh api "repos/$GITHUB_REPOSITORY/commits/$REVIEW_VERSION" --jq .sha)
             test "$tag_commit" = "$GITHUB_SHA"
           fi

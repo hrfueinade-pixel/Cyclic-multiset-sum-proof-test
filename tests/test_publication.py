@@ -5,14 +5,96 @@ import gzip
 import hashlib
 import io
 import json
+import os
 from pathlib import Path
 import re
+import subprocess
+import sys
 import tarfile
 import tempfile
+import textwrap
 import unittest
 from unittest.mock import patch
 
 from verification import book, regeneration, release
+
+
+class PublicationWorkflow(unittest.TestCase):
+    def test_first_release_and_existing_tag_guards_use_the_real_publish_script(self):
+        workflow = (book.ROOT / ".github/workflows/verify.yml").read_text()
+        script = textwrap.dedent(workflow.rsplit("        run: |\n", 1)[1])
+        sha = "a" * 40
+        mock_cli = textwrap.dedent(
+            r"""
+            import json, os, sys
+            from pathlib import Path
+            args = sys.argv[1:]
+            mode = os.environ['TEST_MODE']
+            sha = os.environ['GITHUB_SHA']
+            state = Path('created.json')
+            with open('events.jsonl', 'a') as log:
+                log.write(json.dumps(args) + '\n')
+            if args[:2] == ['release', 'view']:
+                sys.exit(0 if mode == 'existing-release' else 1)
+            if args[0] == 'api' and '/git/ref/tags/' in args[1]:
+                print('tag-object' if mode in ['correct-tag', 'wrong-tag'] else 'null')
+                sys.exit(0 if mode in ['correct-tag', 'wrong-tag'] else 1)
+            if args[0] == 'api' and '/commits/' in args[1]:
+                if state.exists() or mode == 'correct-tag':
+                    print(sha)
+                    sys.exit(0)
+                print('b' * 40 if mode == 'wrong-tag' else 'null')
+                sys.exit(0 if mode == 'wrong-tag' else 1)
+            if args[:2] == ['release', 'create']:
+                state.write_text(json.dumps(args))
+                print('https://example.invalid/review-release')
+                sys.exit(0)
+            raise SystemExit('Unexpected CLI call: ' + repr(args))
+        """
+        )
+        for mode in ["missing-tag", "correct-tag", "wrong-tag", "existing-release"]:
+            with self.subTest(mode=mode), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                cli = root / "gh"
+                cli.write_text("#!" + sys.executable + "\n" + mock_cli)
+                cli.chmod(0o755)
+                (root / "review-package").mkdir()
+                (root / "review-package/release.json").write_text(
+                    json.dumps(
+                        {
+                            "status": "Test fixture",
+                            "source_commit": sha,
+                            "source_manifest_sha256": "m" * 64,
+                        }
+                    )
+                )
+                env = {
+                    **os.environ,
+                    "PATH": directory + os.pathsep + os.environ["PATH"],
+                    "GITHUB_SHA": sha,
+                    "GITHUB_REF": "refs/heads/review/releases/v0.1.0-review.1",
+                    "REVIEW_VERSION": "v0.1.0-review.1",
+                    "GITHUB_REPOSITORY": "example/review",
+                    "RUNNER_TEMP": directory,
+                    "TEST_MODE": mode,
+                }
+                result = subprocess.run(
+                    ["bash", "-e"],
+                    input=script,
+                    cwd=root,
+                    env=env,
+                    text=True,
+                    capture_output=True,
+                )
+                created = root / "created.json"
+                if mode in ["missing-tag", "correct-tag"]:
+                    self.assertEqual(result.returncode, 0, result.stderr)
+                    args = json.loads(created.read_text())
+                    self.assertEqual(args[args.index("--target") + 1], sha)
+                    self.assertIn("--prerelease", args)
+                else:
+                    self.assertNotEqual(result.returncode, 0)
+                    self.assertFalse(created.exists())
 
 
 class ManuscriptLinks(unittest.TestCase):

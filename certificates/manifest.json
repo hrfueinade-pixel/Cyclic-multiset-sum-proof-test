@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 5613,
-      "sha256": "a6bbbb98d17a7139b4146e61896e21892bb06be1acb7949871a3a5c820a3c285"
+      "bytes": 5542,
+      "sha256": "117692c4731a2865a7471b9638197e50f8f19967c716937f52928889269faa49"
     },
     {
       "path": ".gitignore",
@@ -264,8 +264,8 @@
     },
     {
       "path": "tests/test_publication.py",
-      "bytes": 11061,
-      "sha256": "8d33d586d1cd5a9e2957d8f87c85a27887e33b9080c994e8e3dba0627ed637f0"
+      "bytes": 14738,
+      "sha256": "f991aba3a7c7cb971ff9760b2b501e745f9e72c8f16988048708eebfcb0c782a"
     },
     {
       "path": "tests/test_verification.py",
