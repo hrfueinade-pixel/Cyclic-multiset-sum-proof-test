@@ -11,7 +11,7 @@ point to the exact source commit.
 Install Pandoc, XeLaTeX and Poppler (`pdftotext` and `pdfinfo`). On Ubuntu:
 
 ```sh
-sudo apt-get install pandoc texlive-xetex texlive-latex-extra poppler-utils
+sudo apt-get install pandoc texlive-xetex texlive-latex-extra lmodern poppler-utils
 python -m verification.book
 ```
 

@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 5579,
-      "sha256": "15c6c317b95135f88342bc9f6e9e3f76366513d088aeee246526ace817d01f98"
+      "bytes": 5587,
+      "sha256": "0ad509dcdcee00cdc1e3e0fa357a2718b8d440cba52b3d37b791a9e7a370e63d"
     },
     {
       "path": ".gitignore",
@@ -189,8 +189,8 @@
     },
     {
       "path": "docs/publication.md",
-      "bytes": 4037,
-      "sha256": "541cee1ace28c037a0d6ffa96417adcd0a88f3f322cbc47704c205b7af11a498"
+      "bytes": 4045,
+      "sha256": "7328e2e566625021e397e2e9e81fc88be6c45a5a9d601f562ce82392294f013b"
     },
     {
       "path": "docs/references.md",
