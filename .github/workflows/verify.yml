@@ -3,7 +3,7 @@ name: Verify proof package
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, 'review/releases/**']
   workflow_dispatch:
 
 permissions:
@@ -11,17 +11,112 @@ permissions:
 
 jobs:
   proof:
-    name: Complete proof verification
+    name: Verify and build review package
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    outputs:
+      version: ${{ steps.version.outputs.version }}
     steps:
       - name: Check out the submitted proof
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           persist-credentials: false
+          fetch-depth: 0
       - name: Install Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:
           python-version: '3.12'
-      - name: Run all proof obligations with fresh enumeration
-        run: python verify.py --seconds-per-order 300
+      - name: Install PDF build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends pandoc texlive-xetex texlive-latex-extra poppler-utils
+      - name: Select the versioned review edition
+        id: version
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from verification.release import version_check
+          config = json.load(open('docs/release.json'))
+          print('version=' + version_check(config['version']))
+          PY
+      - name: Run fresh proof verification and preserve complete evidence
+        run: |
+          mkdir -p .verification/publication
+          set +e
+          python verify.py --seconds-per-order 300 > .verification/publication/console.log 2>&1
+          result=$?
+          set -e
+          python -m verification.evidence --console .verification/publication/console.log --exit-code "$result" --output .verification/publication/verification.json.gz
+          exit "$result"
+      - name: Typeset the maintained proof and linked lemmas
+        run: python -m verification.book
+      - name: Recover archived inputs and rediscover positive certificates
+        run: |
+          python -m verification.regeneration recover --programs
+          python -m verification.regeneration generate --recipe all
+      - name: Build the source-bound review bundle
+        env:
+          REVIEW_VERSION: ${{ steps.version.outputs.version }}
+        run: python -m verification.release build --version "$REVIEW_VERSION"
+      - name: Retain verification logs, including incomplete runs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: verification-${{ github.sha }}
+          path: |
+            .verification/summary.json
+            .verification/logs/
+            .verification/parity/
+            .verification/publication/console.log
+            .verification/publication/verification.json.gz
+            .verification/publication/proof.build.log
+            .verification/regenerated/
+          retention-days: 30
+      - name: Retain the downloadable review package
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: review-package-${{ github.sha }}
+          path: .verification/publication/release/*
+          if-no-files-found: error
+          retention-days: 30
+
+  publish:
+    name: Publish the explicitly versioned review prerelease
+    needs: proof
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/review/releases/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download the verified package from this run
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: review-package-${{ github.sha }}
+          path: review-package
+      - name: Publish once, at the exact verified commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REVIEW_VERSION: ${{ needs.proof.outputs.version }}
+        run: |
+          test "$GITHUB_REF" = "refs/heads/review/releases/$REVIEW_VERSION"
+          if gh release view "$REVIEW_VERSION" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Review version already exists; existing releases are never replaced."
+            exit 1
+          fi
+          existing_tag=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$REVIEW_VERSION" --jq .object.sha 2>/dev/null || true)
+          if test -n "$existing_tag"; then
+            tag_commit=$(gh api "repos/$GITHUB_REPOSITORY/commits/$REVIEW_VERSION" --jq .sha)
+            test "$tag_commit" = "$GITHUB_SHA"
+          fi
+          python - <<'PY' > "$RUNNER_TEMP/review-notes.md"
+          import json
+          r = json.load(open('review-package/release.json'))
+          print(r['status'])
+          print('\nSource commit: `' + r['source_commit'] + '`')
+          print('\nSource manifest: `' + r['source_manifest_sha256'] + '`')
+          print('\nThe PDF, source/certificates, complete fresh verification logs, and recovered generation material belong to this commit. See REVIEW.md in the bundle for reading and regeneration instructions.')
+          print('\nSeven early positive certificates can be rediscovered. Complete later-family discovery programs remain unavailable; this release does not claim independent human review or proof-assistant certification.')
+          PY
+          gh release create "$REVIEW_VERSION" review-package/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Eight-point cyclic minimum — $REVIEW_VERSION" --prerelease --notes-file "$RUNNER_TEMP/review-notes.md"
+          tag_commit=$(gh api "repos/$GITHUB_REPOSITORY/commits/$REVIEW_VERSION" --jq .sha)
+          test "$tag_commit" = "$GITHUB_SHA"

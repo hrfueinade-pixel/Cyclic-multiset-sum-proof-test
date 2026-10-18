@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "archive_commit": "83892af4a9fa3aea516eb17af01bbb8b9c8467ba",
+  "program_sha256": {
+    "stage41_case_certificate_check.py": "e18be8fe3894dc4984d89276357fca8007a139485a287488fd7a7709a86c151e",
+    "stage41_pack_certificates.py": "09057960b8f2207077d913abd566714c5d42b497bb893f57e545350c3d905f35",
+    "stage41_pre_pivot_obstructions.py": "2e17c88afb23d482aadb9c35345376eb877d2c96a91129c6308602f0efccc623",
+    "stage41_saturated_fiber_closure.py": "a3758df9d790feebbaa241e32b620a844573611f79bd1816af64215bead57d01",
+    "stage42_certificate_check.py": "0dc66364bf87ee89fbf45e97c88f5c9f805277b9d5e3ba8b5acc34c7a63f32fd",
+    "stage42_fixed_controls.py": "23f3e14d12c929fb3fc1da2220e1f5df6c2b0bb6c75cf5a76b85dea19b7c8be0",
+    "stage42_symbolic_probe.py": "c70b34e64c96115a4f037000830d59af29aa9185fa9e52a814d30ca9778f44cd",
+    "stage43_certificate_check.py": "8dab8597d03e52a8085014827b5aa9bdec1bb4c40895a41602808a0e17c5a940",
+    "stage43_fourpair_inventory.py": "ba8a1ff2c761708103b1dbac704d7b8bebcfaf8adc75a355624991e9eb61e225",
+    "stage43_joint_relations.py": "b473cd63009efc5bc132c363eb181da31104bf10373c8bc92d908d9542c7687e",
+    "stage43_pack_certificates.py": "5a326d875dda0062f5c7f2c57fbdfc9d0cbc727729ad4ad1457681f260c9ec0b",
+    "stage43_relation_growth.py": "99cc90ab61d4bc91928119cab04062a4e4f03822de033bedf740e229b712133b",
+    "stage43_three_quintics.py": "27d7c782da3c314c23f648d6f5ccb89d7267f72bc53921cb983d7526e9778a1d",
+    "stage53_certificate_check.py": "1ebcd977e20f0581a3cff3205960b9d864a29d642ebd7b1e47fb2e321352614e",
+    "stage53_certificate_pack.py": "89b18cf8354d3301217310de494a2b4edc9887ec043b6e467f1fc19185197912",
+    "stage53_connected_split_probe.py": "86e23ae6813e7b9a6830a5f1485730d46970acb8108ddff88d43b4670154637c",
+    "stage54_certificate_check.py": "055f53239855a1bc949d6d0ccbfb62977edd0d44ddba8cf7ccc306f9488d6fbc",
+    "stage54_certificate_pack.py": "d7c021b0a6cabb380fe6eafe20ee42c66c3ef33c660037f5d2e28dfb44649858",
+    "stage54_source_path_cubic_inventory.py": "24c09d984e504e05a92393897cf3cec4bbd9f511efe8bf9591702946439f40e6",
+    "stage54_source_path_second_cubic.py": "4f3d9c19bb6cafce72466ee794dda8f7fc8d8f66c53a6e54557cef90295e4767",
+    "stage54_source_triple_probe.py": "4411b67528b5b3a935515787c4dd4d089d1e0b473f96239eb16bb09d5532d4bb",
+    "stage55_certificate_check.py": "164af30517be347acdc90b28efdbb27f4480ef58a64f0d57508701da93bfba87",
+    "stage55_certificate_pack.py": "961092be9994b79210448cf774157f78d0f49301a18e333c6b519fced94162c3",
+    "stage55_split_exception_probe.py": "0aa0ceb007ebb4028ac97288effbd0f67f27acecbef86187cbc76e8c4dbc197b",
+    "stage58_certificate_check.py": "20e67a71cf773b28625957d5b4f8d4d7bb1212d8f84d87b57f93faf72213d298",
+    "stage59_certificate_check.py": "41471b3f40c3b24cd83989bcec260b062a153db0192205b73392281ee522815e",
+    "stage60_certificate_check.py": "c70a9309deb896345b2c93b4b5b00389e3dc256eab81d631eb547dcc2b13e9e1",
+    "stage61_certificate_check.py": "ac33e0bb84b325aac08072868ff73f932a8c9f8a0fbe764068e005d8232e8e17",
+    "stage62_certificate_check.py": "0fbf88eb44163f105614d6a33c63488073a41b6713a117812694d4a2ffaf9d6e"
+  },
+  "recipes": [
+    {
+      "id": "hub-quartic",
+      "certificate": "certificates/multiplicity/hub-quartic.json.gz",
+      "schema": "stage41",
+      "program": "stage41_saturated_fiber_closure.py",
+      "scripts": [
+        "stage41_saturated_fiber_closure.py",
+        "stage41_pack_certificates.py"
+      ],
+      "model": "hub22",
+      "degree": 4,
+      "required_values": 90,
+      "units": [
+        2
+      ]
+    },
+    {
+      "id": "four-ordinary-quartic",
+      "certificate": "certificates/multiplicity/four-ordinary-quartic.json.gz",
+      "schema": "stage41",
+      "program": "stage41_saturated_fiber_closure.py",
+      "scripts": [
+        "stage41_saturated_fiber_closure.py",
+        "stage41_pack_certificates.py"
+      ],
+      "model": "fourO",
+      "degree": 4,
+      "required_values": 87,
+      "units": [
+        2
+      ]
+    },
+    {
+      "id": "four-ordinary-quintic",
+      "certificate": "certificates/multiplicity/four-ordinary-quintic.json.gz",
+      "schema": "stage41",
+      "program": "stage41_saturated_fiber_closure.py",
+      "scripts": [
+        "stage41_saturated_fiber_closure.py",
+        "stage41_pack_certificates.py"
+      ],
+      "model": "fourO",
+      "degree": 5,
+      "required_values": 156,
+      "units": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "pure-hub-quartic",
+      "certificate": "certificates/multiplicity/pure-hub-quartic.json.gz",
+      "schema": "stage41",
+      "program": "stage41_saturated_fiber_closure.py",
+      "scripts": [
+        "stage41_saturated_fiber_closure.py",
+        "stage41_pack_certificates.py"
+      ],
+      "model": "purehub",
+      "degree": 4,
+      "required_values": 89,
+      "units": [
+        2
+      ]
+    },
+    {
+      "id": "cap-cubic-exception-quartic",
+      "certificate": "certificates/multiplicity/cap-cubic-exception-quartic.json.gz",
+      "schema": "stage42",
+      "program": "stage42_symbolic_probe.py",
+      "scripts": [
+        "stage41_saturated_fiber_closure.py",
+        "stage42_symbolic_probe.py"
+      ],
+      "model": "exception3",
+      "degree": 4,
+      "required_values": 94,
+      "units": [
+        2
+      ]
+    },
+    {
+      "id": "cap-four-pairs-quintic",
+      "certificate": "certificates/multiplicity/cap-four-pairs-quintic.json.gz",
+      "schema": "stage42",
+      "program": "stage42_symbolic_probe.py",
+      "scripts": [
+        "stage41_saturated_fiber_closure.py",
+        "stage42_symbolic_probe.py"
+      ],
+      "model": "doubling4",
+      "degree": 5,
+      "required_values": 135,
+      "units": [
+        2
+      ]
+    },
+    {
+      "id": "cap-single-chain-quintic",
+      "certificate": "certificates/multiplicity/cap-single-chain-quintic.json.gz",
+      "schema": "stage42",
+      "program": "stage42_symbolic_probe.py",
+      "scripts": [
+        "stage41_saturated_fiber_closure.py",
+        "stage42_symbolic_probe.py"
+      ],
+      "model": "pairchain",
+      "degree": 5,
+      "required_values": 142,
+      "units": [
+        2
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "certificate": "certificates/multiplicity/hub-quartic.json.gz",
+      "fresh_recipe": "hub-quartic",
+      "status": "fresh-discovery recipe available"
+    },
+    {
+      "certificate": "certificates/multiplicity/four-ordinary-quartic.json.gz",
+      "fresh_recipe": "four-ordinary-quartic",
+      "status": "fresh-discovery recipe available"
+    },
+    {
+      "certificate": "certificates/multiplicity/four-ordinary-quintic.json.gz",
+      "fresh_recipe": "four-ordinary-quintic",
+      "status": "fresh-discovery recipe available"
+    },
+    {
+      "certificate": "certificates/multiplicity/pure-hub-quartic.json.gz",
+      "fresh_recipe": "pure-hub-quartic",
+      "status": "fresh-discovery recipe available"
+    },
+    {
+      "certificate": "certificates/multiplicity/cap-four-pairs-quintic.json.gz",
+      "fresh_recipe": "cap-four-pairs-quintic",
+      "status": "fresh-discovery recipe available"
+    },
+    {
+      "certificate": "certificates/multiplicity/cap-cubic-exception-quartic.json.gz",
+      "fresh_recipe": "cap-cubic-exception-quartic",
+      "status": "fresh-discovery recipe available"
+    },
+    {
+      "certificate": "certificates/multiplicity/cap-single-chain-quintic.json.gz",
+      "fresh_recipe": "cap-single-chain-quintic",
+      "status": "fresh-discovery recipe available"
+    },
+    {
+      "certificate": "certificates/multiplicity/quintic-cap.json.gz",
+      "fresh_recipe": null,
+      "status": "some producer programs retained; complete packaging inputs or discovery chain absent"
+    },
+    {
+      "certificate": "certificates/multiplicity/four-pair-inventory.json",
+      "fresh_recipe": null,
+      "status": "Complete inventory producer retained as stage43_fourpair_inventory.py; not a positive-growth certificate"
+    },
+    {
+      "certificate": "certificates/multiplicity/joint-cubic-relations.json",
+      "fresh_recipe": null,
+      "status": "some producer programs retained; complete packaging inputs or discovery chain absent"
+    },
+    {
+      "certificate": "certificates/assignment/base-coverage.json.gz",
+      "fresh_recipe": null,
+      "status": "some producer programs retained; complete packaging inputs or discovery chain absent"
+    },
+    {
+      "certificate": "certificates/assignment/split-sources.json.gz",
+      "fresh_recipe": null,
+      "status": "some producer programs retained; complete packaging inputs or discovery chain absent"
+    },
+    {
+      "certificate": "certificates/assignment/general-assignment.json.gz",
+      "fresh_recipe": null,
+      "status": "some producer programs retained; complete packaging inputs or discovery chain absent"
+    },
+    {
+      "certificate": "certificates/triangles/edge-ownership.json.gz",
+      "fresh_recipe": null,
+      "status": "certificate/checker retained; complete discovery program absent from all repository history"
+    },
+    {
+      "certificate": "certificates/triangles/one-split-per-triangle.json.gz",
+      "fresh_recipe": null,
+      "status": "certificate/checker retained; complete discovery program absent from all repository history"
+    },
+    {
+      "certificate": "certificates/triangles/large-forests.json.gz",
+      "fresh_recipe": null,
+      "status": "certificate/checker retained; complete discovery program absent from all repository history"
+    },
+    {
+      "certificate": "certificates/triangles/interactions.json.gz",
+      "fresh_recipe": null,
+      "status": "certificate/checker retained; complete discovery program absent from all repository history"
+    },
+    {
+      "certificate": "certificates/triangles/two-triangle-class.json.gz",
+      "fresh_recipe": null,
+      "status": "certificate/checker retained; complete discovery program absent from all repository history"
+    },
+    {
+      "certificate": "certificates/parity/three-five-reference.json",
+      "fresh_recipe": null,
+      "status": "fresh finite enumeration is implemented in verification; historical bytes recoverable"
+    },
+    {
+      "certificate": "certificates/parity/seven-point-survivors.json",
+      "fresh_recipe": null,
+      "status": "fresh finite enumeration is implemented in verification; historical bytes recoverable"
+    },
+    {
+      "certificate": "certificates/parity/seven-point-reference.json",
+      "fresh_recipe": null,
+      "status": "fresh finite enumeration is implemented in verification; historical bytes recoverable"
+    },
+    {
+      "certificate": "certificates/parity/seven-point-extensions.json",
+      "fresh_recipe": null,
+      "status": "fresh finite enumeration is implemented in verification; historical bytes recoverable"
+    },
+    {
+      "certificate": "certificates/parity/antipodal-lifts.json",
+      "fresh_recipe": null,
+      "status": "fresh finite enumeration is implemented in verification; historical bytes recoverable"
+    },
+    {
+      "certificate": "certificates/parity/four-four-reference.json",
+      "fresh_recipe": null,
+      "status": "fresh finite enumeration is implemented in verification; historical bytes recoverable"
+    }
+  ],
+  "boundary": "Archive recovery, fresh witness discovery, and mathematical verification are distinct. No unsuccessful or timed-out discovery is an exclusion. No complete discovery recipe is claimed for the remaining families.",
+  "inventory_recipe": {
+    "program": "stage43_fourpair_inventory.py",
+    "output": "stage43_fourpair_inventory_results.json",
+    "scope": "Freshly enumerates all fixed cubic directions; the current quintic-cap checker independently verifies this inventory. No growth exclusion follows from the inventory alone."
+  }
+}

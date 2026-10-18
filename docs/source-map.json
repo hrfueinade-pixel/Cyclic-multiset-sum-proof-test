@@ -354,7 +354,8 @@
         "stage32_high_orders_results.json",
         "stage32_lower_orders_results.json"
       ],
-      "transformation": "union of completed order rows only; full 94..123 coverage checked"
+      "transformation": "union of completed order rows only; full 94..123 coverage checked",
+      "sha256": "2ce0003fdf84b936c70bf42a70cf4765e813a65a87d97bdc56516f1dea4b84b6"
     }
   ],
   "historical_discovery_needed": false,
