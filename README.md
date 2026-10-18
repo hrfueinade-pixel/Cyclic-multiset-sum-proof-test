@@ -1,5 +1,7 @@
 # Cyclic multiset sums: the eight-point minimum
 
+This is an AI-assisted, computer-assisted proof proposal that has not been independently reviewed by mathematicians or checked in a proof assistant, so treat the n=8 bound of 248 as unverified.
+
 This repository organizes an AI-assisted mathematical investigation so that
 interested readers can follow the argument and reproduce its computational
 checks. The repository owner does not claim to have personally developed the
