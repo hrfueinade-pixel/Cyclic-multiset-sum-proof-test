@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3288,
-      "sha256": "309e1761bbdbef498459669296439a1adbecac7de3addde4134e519da071b34c"
+      "bytes": 3483,
+      "sha256": "28170e3fcfa15eae90bed317daf942e16835a3895f490da9e40a3835c8674f37"
     },
     {
       "path": "certificates/assignment/base-coverage.json.gz",
